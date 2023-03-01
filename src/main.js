@@ -26,6 +26,6 @@ document.addEventListener("deviceready", () => {
 
 // If we are not in Cordova, manually trigger the deviceready event
 const isCordovaApp = (typeof window.cordova !== "undefined");
-if (!isCordovaApp){
+if (!isCordovaApp) {
   document.dispatchEvent(new CustomEvent("deviceready", {}));
 }

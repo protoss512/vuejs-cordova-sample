@@ -1,6 +1,6 @@
 <template>
-  <v-app toolbar>
-    <myToolbar />
+  <v-app toolbar style="background-color: #222;color: #eee;">
+    <!--myToolbar /-->
     <v-content>
       <v-slide-y-transition mode="out-in">
         <v-container pa-0 fluid fill-height align-content-center align-center>
