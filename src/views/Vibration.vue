@@ -1,7 +1,13 @@
-// Require Cordova plugin : cordova-plugin-vibration
 
 <template>
   <v-container text-center>
+    <div>{{ $t("question") + id }}</div>
+    <div>{{ question }}</div>
+    <div>{{ selA }}</div>
+    <div>{{ selB }}</div>
+    <div>{{ selC }}</div>
+    <div>{{ selD }}</div>
+    <div>{{ exp }}</div>
     <v-btn style="vertical-align: top;" @click="doVibrate">{{ $t("startVibration") }}</v-btn>
   </v-container>
 </template>
@@ -10,6 +16,26 @@
 import { q } from '../question.js'
 export default {
   name: 'vibration',
+  data: () => {
+    return {
+      id: '',
+      question: '',
+      selA: '',
+      selB: '',
+      selC: '',
+      selD: '',
+      exp: ''
+    }
+  },
+  mounted() {
+    this.id = '一'
+    this.question = q[0].q
+    this.selA = q[0].s[0]
+    this.selB = q[0].s[1]
+    this.selC = q[0].s[2]
+    this.selD = q[0].s[3]
+    this.exp = q[0].e
+  },
   methods: {
     doVibrate() {
       // Do vibration if available
@@ -19,7 +45,7 @@ export default {
       }else{
         this.$vuetifyMessageDialog.open("Attention", "[cordova-plugin-vibration] Is required to use this function", "Ok", "red")
       }*/
-      console.log(q[0].q,q[0].s,q[0].a,q[0].e)
+
       window.location.hash = '/';
     }
   }

@@ -3,22 +3,37 @@ const fs = require('fs')
 var i = 0
 var str = ''
 var strs = []
+
 fs.readFile('file.txt', (err, s) => {
     if (err) throw err;
+    let output = ''
     str = String(s)
     for (; i < str.length; i++) {
         start()
     }
     //console.log(strs[strs.length - 1], strs[strs.length - 1].length)
     //console.log(strs)
-    console.log(getQ(strs[strs.length - 1]))
-    console.log(getSEL(strs[strs.length - 1]))
-    /*fs.writeFile('test.txt', `{q:${strs[0]},}`, function (err) {
+    //console.log(getQ(strs[strs.length - 1]))
+    //console.log(getSEL(strs[strs.length - 1]))
+    output = 'export const q = ['
+    for (let x in strs) {
+        const [sel, ex] = getSEL(strs[x])
+        output += `{
+            id:${x},
+            q:"${getQ(strs[x])}",
+            s:["${sel[0]}","${sel[1]}","${sel[2]}","${sel[3]}"],
+            a:"",
+            e:"${ex}",
+        },`
+        console.log(x)
+    }
+    output += ']'
+    fs.writeFile('test.js', output, function (err) {
         if (err)
             console.log(err);
         else
             console.log('Write operation complete.');
-    });*/
+    });
 })
 
 
@@ -105,8 +120,11 @@ function getSEL(s) {
 
     isBegin = false
     save = []
+    let f = 0
+    let ex = []
     for (let j = 0; j < s.length; j++) {
         if (isBegin && s[j] == '\r' && s[j + 1] == '\n') {
+            f = j
             break
         }
 
@@ -118,8 +136,14 @@ function getSEL(s) {
             save.push(s[j])
         }
     }
+    for (let x = f; x < s.length; x++) {
+        ex.push(s[x])
+    }
+
     sel.push(save.join(''))
-    return sel
+    ex = ex.join('')
+    ex = ex.replace(/\r\n/g, '');
+    return [sel, ex]
 }
 
 function checkVal(str) {
