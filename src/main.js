@@ -15,6 +15,7 @@ const init = () => {
     i18n,
     render: h => h(App)
   }).$mount('#app')
+  
 };
 
 // Wait for the deviceready event to start the render

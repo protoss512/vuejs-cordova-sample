@@ -13,6 +13,7 @@
 </template>
 
 <script>
+import i18n from '../i18n';
 import { q } from '../question.js'
 export default {
   name: 'vibration',
@@ -28,8 +29,9 @@ export default {
     }
   },
   mounted() {
+    i18n.locale = 'zh'
     this.id = '一'
-    this.question = q[0].q
+    this.question = q[0].q.toString()
     this.selA = q[0].s[0]
     this.selB = q[0].s[1]
     this.selC = q[0].s[2]
