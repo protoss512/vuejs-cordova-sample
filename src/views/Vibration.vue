@@ -1,15 +1,22 @@
 
 <template>
-  <v-container text-center>
+  <div>
     <div>{{ $t("question") + id }}</div>
-    <div>{{ question }}</div>
-    <div>{{ selA }}</div>
-    <div>{{ selB }}</div>
-    <div>{{ selC }}</div>
-    <div>{{ selD }}</div>
-    <div>{{ exp }}</div>
-    <v-btn style="vertical-align: top;" @click="doVibrate">{{ $t("startVibration") }}</v-btn>
-  </v-container>
+    <v-container>
+      <div>{{ question }}</div>
+      <div v-if='isExp'>
+        <div>{{ isCorrect ? 'good' : 'bad' + ' ' + answer }}</div>
+        <div>{{ exp }}</div>
+      </div>
+      <v-list-item v-else v-for="item in sels" v-bind:key="item">
+        <v-btn style="text-transform: initial !important;" block @click="onSel(item)">
+          {{ item }}
+        </v-btn>
+      </v-list-item>
+      <v-btn v-if='isExp' block @click="goNext">{{ $t("go_next") }}</v-btn>
+      <v-btn v-else-if="selected != ''" block @click="doVibrate">{{ $t("to_answer") }}</v-btn>
+    </v-container>
+  </div>
 </template>
 
 <script>
@@ -20,25 +27,35 @@ export default {
   data: () => {
     return {
       id: '',
+      sels: [],
       question: '',
-      selA: '',
-      selB: '',
-      selC: '',
-      selD: '',
-      exp: ''
+      selected: '',
+      isCorrect: false,
+      exp: '',
+      isExp: false,
+      answer: ''
     }
   },
   mounted() {
     i18n.locale = 'zh'
     this.id = '一'
-    this.question = q[0].q.toString()
-    this.selA = q[0].s[0]
-    this.selB = q[0].s[1]
-    this.selC = q[0].s[2]
-    this.selD = q[0].s[3]
+    this.question = q[0].q
+    this.sels.push(q[0].s[0])
+    this.sels.push(q[0].s[1])
+    this.sels.push(q[0].s[2])
+    this.sels.push(q[0].s[3])
     this.exp = q[0].e
   },
   methods: {
+    goNext() {
+      window.location.hash = '/';
+    },
+    onSel(item) {
+      this.selected = item
+      let a = q[0].q
+      a = a.replace('_', item)
+      this.question = a.replace(/\_/g, '')
+    },
     doVibrate() {
       // Do vibration if available
       /*if (navigator.vibrate){
@@ -47,8 +64,14 @@ export default {
       }else{
         this.$vuetifyMessageDialog.open("Attention", "[cordova-plugin-vibration] Is required to use this function", "Ok", "red")
       }*/
-
-      window.location.hash = '/';
+      if (this.selected == q[0].a) {
+        this.isCorrect = true
+      } else {
+        this.isCorrect = false
+      }
+      this.answer = q[0].a
+      this.isExp = true
+      //window.location.hash = '/';
     }
   }
 }

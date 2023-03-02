@@ -1,5 +1,7 @@
 {
   "question": "問題",
+  "to_answer": "看解答",
+  "go_next": "下一題",
   "title": "Exemples VueJS + Cordova",
   "showSample": "Afficher les examples",
   "drawer": {
