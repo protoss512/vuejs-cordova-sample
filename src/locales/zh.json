@@ -1,7 +1,10 @@
 {
-  "question": "問題",
+  "question": "問題 .",
   "to_answer": "看解答",
   "go_next": "下一題",
+  "correct": "正確",
+  "fail": "錯誤，正確答案為: ",
+  "to_Ke_Leak": "克漏字練習",
   "title": "Exemples VueJS + Cordova",
   "showSample": "Afficher les examples",
   "drawer": {

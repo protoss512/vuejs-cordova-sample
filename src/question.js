@@ -98,7 +98,7 @@ export const q = [{
 }, {
   id: 16,
   q: 'The Internet has ___ changed the way we communicate, ___ we do business, and even ___ we shop for groceries.',
-  s: ['radially, what, how', 'radically'],
+  s: ['radially', 'what', 'how', 'radically'],
   a: 'changed',
   e: '這句話描述了互聯網對我們生活的幾個方面的影響，因此需要填入“changed”來表示過去的變化。由於“changed”是動詞過去分詞，因此需要一個助動詞，那麼應選擇“radically”，意為“根本地、徹底地”，與“changed”形成較好的搭配。接下來，需要填寫一個連詞來引導後面的兩個從句。因為第二個空格是“we do business”，而“how”是副詞，因此應選擇“what”，表示“我們做什麼樣的業務”。最後一個空格之前提到了購物，因此應填寫“how”來表示“我們如何購物”。綜上所述，正確的答案是C：radically, what, how。',
 }, {

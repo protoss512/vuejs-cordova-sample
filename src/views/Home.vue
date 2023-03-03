@@ -1,12 +1,8 @@
 <template>
   <v-container text-center>
     <div class="home">
-      
-      <img class="logo" src="cordova_256.png" />
-      <h4>{{$t("title")}}</h4>
       <v-btn @click="openMenu" class="mt-10">
-        <img class="logo" src="vuejs.png" />
-        <div style="color: #222;">{{$t("drawer.home")}}</div>
+        <div>{{$t("to_Ke_Leak")}}</div>
       </v-btn>
     </div>
   </v-container>
