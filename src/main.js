@@ -22,6 +22,7 @@ const init = () => {
 document.addEventListener("deviceready", () => {
   // eslint-disable-next-line
   console.log("Ready, Render the App");
+  StatusBar.backgroundColorByHexString('#222222');
   init();
 });
 
