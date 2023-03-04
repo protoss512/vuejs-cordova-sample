@@ -1,7 +1,7 @@
 import Vue from 'vue'
 import Router from 'vue-router'
 import Home from '@/views/Home'
-import Vibration from '@/views/Vibration'
+import Highschool_ke_leak from '@/views/Highschool_ke_leak'
 import Flash from '@/views/Flash'
 import Camera from '@/views/Camera'
 import Nfc from '@/views/Nfc'
@@ -16,9 +16,9 @@ export default new Router({
       name: 'Home',
       component: Home
     },{
-      path: '/vibration',
-      name: 'Vibration',
-      component: Vibration
+      path: '/Highschool_ke_leak',
+      name: 'Highschool_ke_leak',
+      component: Highschool_ke_leak
     },{
       path: '/flash',
       name: 'Flash',

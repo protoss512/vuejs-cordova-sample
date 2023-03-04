@@ -17,7 +17,7 @@ export default {
       // Its will trigger the drawer Open event in (componnents/Drawer.vue)
       //document.dispatchEvent(new CustomEvent("toggleDrawer", {}));
       console.log('push')
-      window.location.hash = '/vibration';
+      window.location.hash = '/Highschool_ke_leak';
     }
   }
 }

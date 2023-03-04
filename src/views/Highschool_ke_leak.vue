@@ -1,11 +1,12 @@
 
 <template>
   <div style="display:flex;flex-direction:column;height: 100vh;width: 100vw;margin: 0;padding: 0;">
-    <div style="flex:1;background-color: #222;margin: 5px;">
-      <img style="background-color: #222;" src="../../public/arrow_back.svg" @click="goHome">
+    <div style="flex:1;background-color: #222;margin: 5px;display:flex;">
+      <div style="flex:1;display: flex;justify-content: flex-start;align-items: center;"><img style="background-color: #222;" src="../../public/arrow_back.svg" @click="goHome"></div>
+      <div style="flex:1;display: flex;justify-content: center;align-items: center;">{{ $t("question") + id }}</div>
+      <div style="flex:1;display: flex;justify-content: flex-end;align-items: center;"><img style="background-color: #222;" src="../../public/report.svg" @click="goHome"></div>
     </div>
-    <div style="flex:90;margin: 5px;padding-top: 10px;">
-      <div>{{ $t("question") + id }}</div>
+    <div style="flex:90;margin: 10px;padding-top: 10px;">
       <div>{{ question }}</div>
       <div v-if='isExp'>
         <div style="padding-top: 5px;">{{ isCorrect ? $t("correct") : $t("fail") + answer }}</div>
@@ -21,14 +22,6 @@
       <v-btn v-if='isExp' block @click="goNext">{{ $t("go_next") }}</v-btn>
     </div>
   </div>
-<!--div class="d-flex flex-column mb-6 bg-surface-variant">
-    <v-sheet class="ma-1 pa-1">Flex item 1</v-sheet>
-    
-    <v-container class="ma-2 pa-2">
-      
-
-    </v-container>
-            </div-->
 </template>
 
 <script>
@@ -36,7 +29,7 @@ import i18n from '../i18n';
 import { q } from '../question.js'
 var number = 0
 export default {
-  name: 'vibration',
+  name: 'Highschool_ke_leak',
   data: () => {
     return {
       id: '',
