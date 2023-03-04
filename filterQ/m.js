@@ -3,8 +3,8 @@ const fs = require('fs')
 var i = 0
 var str = ''
 var strs = []
-
-fs.readFile('file.txt', (err, s) => {
+//重新開始，清除先前對話並使用台灣繁體中文
+fs.readFile('file2.txt', (err, s) => {
     if (err) throw err;
     let output = ''
     str = String(s)
@@ -28,7 +28,7 @@ fs.readFile('file.txt', (err, s) => {
         console.log(x)
     }
     output += ']'
-    fs.writeFile('test.js', output, function (err) {
+    fs.writeFile('test2.js', output, function (err) {
         if (err)
             console.log(err);
         else

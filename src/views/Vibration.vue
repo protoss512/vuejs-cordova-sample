@@ -1,23 +1,34 @@
 
 <template>
-  <div>
-    <div>{{ $t("question") + id }}</div>
-    <v-container>
+  <div style="display:flex;flex-direction:column;height: 100vh;width: 100vw;margin: 0;padding: 0;">
+    <div style="flex:1;background-color: #222;margin: 5px;">
+      <img style="background-color: #222;" src="../../public/arrow_back.svg" @click="goHome">
+    </div>
+    <div style="flex:90;margin: 5px;padding-top: 10px;">
+      <div>{{ $t("question") + id }}</div>
       <div>{{ question }}</div>
       <div v-if='isExp'>
-        <div>{{ isCorrect ? $t("correct") : $t("fail") + answer }}</div>
-        <div>{{ exp }}</div>
+        <div style="padding-top: 5px;">{{ isCorrect ? $t("correct") : $t("fail") + answer }}</div>
+        <div style="padding-top: 5px;">{{ exp }}</div>
       </div>
       <v-list-item v-else v-for="item in sels" v-bind:key="item">
         <v-btn style="text-transform: initial !important;" block @click="onSel(item)">
           {{ item }}
         </v-btn>
       </v-list-item>
-      <v-btn :disabled="selected == '' || answer != ''" block @click="doVibrate">{{ $t("to_answer") }}</v-btn>
+      <v-btn style="margin-top: 20px;" :disabled="selected == '' || answer != ''" block @click="doVibrate">{{
+        $t("to_answer") }}</v-btn>
       <v-btn v-if='isExp' block @click="goNext">{{ $t("go_next") }}</v-btn>
+    </div>
+  </div>
+<!--div class="d-flex flex-column mb-6 bg-surface-variant">
+    <v-sheet class="ma-1 pa-1">Flex item 1</v-sheet>
+    
+    <v-container class="ma-2 pa-2">
+      
 
     </v-container>
-  </div>
+            </div-->
 </template>
 
 <script>
@@ -51,9 +62,6 @@ export default {
   },
   methods: {
     goNext() {
-      if(this.id == 5){
-        window.location.hash = '/'
-      }
       this.id += 1
       number = Math.floor(Math.random() * q.length)
       this.question = q[number].q
@@ -67,6 +75,9 @@ export default {
       this.isExp = false
       this.selected = ''
       this.answer = ''
+    },
+    goHome() {
+      window.location.hash = '/'
     },
     onSel(item) {
       this.selected = item

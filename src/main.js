@@ -15,14 +15,18 @@ const init = () => {
     i18n,
     render: h => h(App)
   }).$mount('#app')
-  
+
 };
 
 // Wait for the deviceready event to start the render
 document.addEventListener("deviceready", () => {
   // eslint-disable-next-line
   console.log("Ready, Render the App");
-  StatusBar.backgroundColorByHexString('#222222');
+  
+  if (navigator.platformId == 'android') {
+    navigator.StatusBar.backgroundColorByHexString('#222222');
+  }
+
   init();
 });
 
