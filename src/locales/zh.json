@@ -5,6 +5,10 @@
   "correct": "正確",
   "fail": "錯誤，正確答案為: ",
   "to_Ke_Leak": "克漏字練習",
+  "total_question": "總答題數",
+  "total_correct": "答對題數",
+  "correct_rate": "答對率",
+  "analysis": "分析",
   "title": "Exemples VueJS + Cordova",
   "showSample": "Afficher les examples",
   "drawer": {

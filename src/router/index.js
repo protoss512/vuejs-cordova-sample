@@ -3,7 +3,7 @@ import Router from 'vue-router'
 import Home from '@/views/Home'
 import Highschool_ke_leak from '@/views/Highschool_ke_leak'
 import Flash from '@/views/Flash'
-import Camera from '@/views/Camera'
+import Report from '@/views/Report'
 import Nfc from '@/views/Nfc'
 import Localisation from '@/views/Localisation'
 
@@ -24,9 +24,9 @@ export default new Router({
       name: 'Flash',
       component: Flash
     },{
-      path: '/camera',
-      name: 'Camera',
-      component: Camera
+      path: '/Report',
+      name: 'Report',
+      component: Report
     },{
       path: '/nfc',
       name: 'Nfc',
