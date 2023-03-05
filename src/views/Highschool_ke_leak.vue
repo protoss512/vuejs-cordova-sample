@@ -3,11 +3,11 @@
   <div style="display:flex;flex-direction:column;height: 100vh;width: 100vw;margin: 0;padding: 0;">
     <div style="flex:1;background-color: #222;margin: 5px;display:flex;">
       <div style="flex:1;display: flex;justify-content: flex-start;align-items: center;"><img
-          style="background-color: #222;" src="../../public/arrow_back.svg" @click="goHome"></div>
+          style="background-color: #222;" src="../assets/arrow_back.svg" @click="goHome"></div>
       <div style="flex:1;display: flex;justify-content: center;align-items: center;">{{
         isReport ? $t("analysis") : $t("question") + id }}</div>
       <div style="flex:1;display: flex;justify-content: flex-end;align-items: center;"><img
-          style="background-color: #222;" src="../../public/report.svg" @click="openReport"></div>
+          style="background-color: #222;" src="../assets/report.svg" @click="openReport"></div>
     </div>
     <div v-if="isReport" style="flex:90;margin: 10px;padding-top: 10px;display: flex;flex-direction:column;">
       <div style="flex:1">{{ $t("correct_rate") }}</div>
@@ -15,9 +15,20 @@
       <div style="flex:1">{{ $t("total_correct") }}</div>
     </div>
     <div v-else style="flex:90;margin: 10px;padding-top: 10px;">
-      <div>{{ question }}</div>
+      <div v-if='!isExp'>{{ question }}</div>
+      <div v-else style="display: inline-block;" v-for="(item, index) in ques" v-bind:key="index">
+        <div style="margin: 2px;padding: 3px;" @click="onEn(item)"
+          :class="item.includes('_') ? isCorrect ? 'correct_color' : 'error_color' : 'normal_color'">
+          {{
+            item.includes('_') ? selected : item }}</div>
+      </div>
       <div v-if='isExp'>
-        <div style="padding-top: 5px;">{{ isCorrect ? $t("correct") : $t("fail") + answer }}</div>
+        <hr style="margin: 5px;" />
+        <div style="display: inline-block;" v-for="(item, index) in sels" v-bind:key="index">
+          <div style="margin: 2px;padding: 3px;" @click="onEn(item)"
+            :class="answer == item ? 'correct_color' : 'normal_color'">
+            {{ index == 0 ? 'A. ' : index == 1 ? 'B. ' : index == 2 ? 'C. ' : 'D. ' }}{{ item }}</div>
+        </div>
         <div style="padding-top: 5px;">{{ exp }}</div>
       </div>
       <v-list-item v-else v-for="item in sels" v-bind:key="item">
@@ -25,7 +36,7 @@
           {{ item }}
         </v-btn>
       </v-list-item>
-      <v-btn style="margin-top: 20px;" :disabled="selected == '' || answer != ''" block @click="doVibrate">{{
+      <v-btn style="margin-top: 20px;" :disabled="selected == '' || answer != ''" block @click="anwser">{{
         $t("to_answer") }}</v-btn>
 
       <v-btn v-if='isExp' block @click="goNext">{{ $t("go_next") }}</v-btn>
@@ -49,22 +60,26 @@ export default {
       exp: '',
       isExp: false,
       answer: '',
-      isReport: false
+      isReport: false,
+      ques: [],
     }
   },
   mounted() {
     number = Math.floor(Math.random() * q.length)
     i18n.locale = 'zh'
     this.id = 1
+
     this.question = q[number].q
     this.sels.push(q[number].s[0])
     this.sels.push(q[number].s[1])
     this.sels.push(q[number].s[2])
     this.sels.push(q[number].s[3])
     this.exp = q[number].e
-    this.isReport = false
   },
   methods: {
+    onEn(item) {
+      console.log(item)
+    },
     openReport() {
       this.isReport ^= true
     },
@@ -72,6 +87,7 @@ export default {
       this.id += 1
       number = Math.floor(Math.random() * q.length)
       this.question = q[number].q
+      this.ques = []
       this.sels = []
       this.sels.push(q[number].s[0])
       this.sels.push(q[number].s[1])
@@ -92,23 +108,34 @@ export default {
       a = a.replace('_', item)
       this.question = a.replace(/\_/g, '')
     },
-    doVibrate() {
-      // Do vibration if available
-      /*if (navigator.vibrate){
-        // S.O.S in Morse ;)
-        navigator.vibrate([100,30,100,30,100,200,200,30,200,30,200,200,100,30,100,30,100]);
-      }else{
-        this.$vuetifyMessageDialog.open("Attention", "[cordova-plugin-vibration] Is required to use this function", "Ok", "red")
-      }*/
+    anwser() {
       if (this.selected == q[number].a) {
         this.isCorrect = true
       } else {
         this.isCorrect = false
       }
+      this.ques = q[number].q.split(" ")
       this.answer = q[number].a
       this.isExp = true
-      //window.location.hash = '/';
     }
   }
 }
 </script>
+
+<style scoped>
+.correct_color {
+  background-color: green;
+}
+
+.error_color {
+  background-color: red;
+}
+
+.normal_color {
+  background-color: #444;
+}
+
+.init_color {
+  background-color: #222;
+}
+</style>
