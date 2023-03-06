@@ -29,9 +29,5 @@
     <preference name="ShowSplashScreenSpinner" value="false" />
     <preference name="StatusBarOverlaysWebView" value="false" />
     <preference name="StatusBarBackgroundColor" value="#313AA5" />
-    <preference name="HeaderColor" value="#313AA5" />
-    <plugin name="cordova-plugin-android-window-background" spec="^1.0.1">
-        <variable name="WINDOW_BACKGROUND_COLOR" value="#ffffff" />
-    </plugin>
     <plugin name="cordova-plugin-statusbar" spec="^2.2.3" />
 </widget>

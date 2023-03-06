@@ -7,10 +7,6 @@
     "files": {}
   },
   "installed_plugins": {
-    "cordova-plugin-android-window-background": {
-      "WINDOW_BACKGROUND_COLOR": "#ffffff",
-      "PACKAGE_NAME": "vuejs.cordova.sample"
-    },
     "cordova-plugin-statusbar": {
       "PACKAGE_NAME": "vuejs.cordova.sample"
     }

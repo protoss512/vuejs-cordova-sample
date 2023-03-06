@@ -7,22 +7,12 @@
     "files": {
       "app/src/main/res/values/cordova-window-background-strings.xml": {
         "parents": {
-          "/*": [
-            {
-              "xml": "<color name=\"cordova_window_background\">#ffffff</color>",
-              "count": 1
-            }
-          ]
+          "/*": []
         }
       },
       "app/src/main/res/values/cordova-window-background-styles.xml": {
         "parents": {
-          "/*": [
-            {
-              "xml": "<style name=\"CordovaWindowBackgroundTheme\" parent=\"@android:style/Theme.NoTitleBar\"><item name=\"android:windowBackground\">@color/cordova_window_background</item></style>",
-              "count": 1
-            }
-          ]
+          "/*": []
         }
       },
       "AndroidManifest.xml": {
@@ -39,7 +29,7 @@
                 "android:label": "@string/activity_name",
                 "android:launchMode": "singleTop",
                 "android:name": "MainActivity",
-                "android:theme": "@style/Theme.AppCompat.Light",
+                "android:theme": "@style/Theme.AppCompat.Light.NoActionBar",
                 "android:windowSoftInputMode": "adjustResize"
               }
             }
@@ -59,10 +49,6 @@
     }
   },
   "installed_plugins": {
-    "cordova-plugin-android-window-background": {
-      "WINDOW_BACKGROUND_COLOR": "#ffffff",
-      "PACKAGE_NAME": "vuejs.cordova.sample"
-    },
     "cordova-plugin-statusbar": {
       "PACKAGE_NAME": "vuejs.cordova.sample"
     }
@@ -79,7 +65,6 @@
     }
   ],
   "plugin_metadata": {
-    "cordova-plugin-android-window-background": "1.0.1",
     "cordova-plugin-statusbar": "2.4.1"
   }
 }

@@ -8,15 +8,11 @@
     "author": "Apache Cordova Team",
     "license": "Apache-2.0",
     "dependencies": {
-        "cordova-plugin-android-window-background": "^1.0.2",
         "cordova-plugin-statusbar": "^2.4.3"
     },
     "cordova": {
         "plugins": {
-            "cordova-plugin-statusbar": {},
-            "cordova-plugin-android-window-background": {
-                "WINDOW_BACKGROUND_COLOR": "#ffffff"
-            }
+            "cordova-plugin-statusbar": {}
         },
         "platforms": [
             "android"

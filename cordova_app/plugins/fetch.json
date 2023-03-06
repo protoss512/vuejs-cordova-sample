@@ -1,14 +1,4 @@
 {
-  "cordova-plugin-android-window-background": {
-    "source": {
-      "type": "registry",
-      "id": "cordova-plugin-android-window-background@^1.0.1"
-    },
-    "is_top_level": true,
-    "variables": {
-      "WINDOW_BACKGROUND_COLOR": "#ffffff"
-    }
-  },
   "cordova-plugin-compat": {
     "source": {
       "type": "registry",

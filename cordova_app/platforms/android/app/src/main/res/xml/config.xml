@@ -28,5 +28,4 @@
     <preference name="ShowSplashScreenSpinner" value="false" />
     <preference name="StatusBarOverlaysWebView" value="false" />
     <preference name="StatusBarBackgroundColor" value="#313AA5" />
-    <preference name="HeaderColor" value="#313AA5" />
 </widget>
