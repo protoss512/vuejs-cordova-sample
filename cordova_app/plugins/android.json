@@ -7,31 +7,11 @@
     "files": {}
   },
   "installed_plugins": {
-    "cordova-plugin-camera": {
-      "PACKAGE_NAME": "vuejs.cordova.sample"
-    },
-    "cordova-plugin-dialogs": {
-      "PACKAGE_NAME": "vuejs.cordova.sample"
-    },
-    "cordova-plugin-flashlight": {
-      "PACKAGE_NAME": "vuejs.cordova.sample"
-    },
-    "cordova-plugin-geolocation": {
-      "PACKAGE_NAME": "vuejs.cordova.sample"
-    },
-    "cordova-plugin-headercolor": {
+    "cordova-plugin-android-window-background": {
+      "WINDOW_BACKGROUND_COLOR": "#ffffff",
       "PACKAGE_NAME": "vuejs.cordova.sample"
     },
     "cordova-plugin-statusbar": {
-      "PACKAGE_NAME": "vuejs.cordova.sample"
-    },
-    "cordova-plugin-vibration": {
-      "PACKAGE_NAME": "vuejs.cordova.sample"
-    },
-    "cordova-plugin-whitelist": {
-      "PACKAGE_NAME": "vuejs.cordova.sample"
-    },
-    "phonegap-nfc": {
       "PACKAGE_NAME": "vuejs.cordova.sample"
     }
   },
