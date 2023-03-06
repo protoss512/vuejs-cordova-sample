@@ -28,6 +28,5 @@
     <preference name="DisallowOverscroll" value="true" />
     <preference name="ShowSplashScreenSpinner" value="false" />
     <preference name="StatusBarOverlaysWebView" value="false" />
-    <preference name="StatusBarBackgroundColor" value="#313AA5" />
-    <plugin name="cordova-plugin-statusbar" spec="^2.2.3" />
+    <preference name="StatusBarBackgroundColor" value="#222" />
 </widget>

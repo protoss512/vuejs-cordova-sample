@@ -22,10 +22,6 @@ const init = () => {
 document.addEventListener("deviceready", () => {
   // eslint-disable-next-line
   console.log("Ready, Render the App");
-  
-  if (navigator.platformId == 'android') {
-    navigator.StatusBar.backgroundColorByHexString('#222222');
-  }
 
   init();
 });
