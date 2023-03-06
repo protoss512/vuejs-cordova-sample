@@ -17,7 +17,7 @@
        under the License.
  */
 
-package vuejs.cordova.sample;
+package com.tony.english_app;
 
 import android.os.Bundle;
 import org.apache.cordova.*;

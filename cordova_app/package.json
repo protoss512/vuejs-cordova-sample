@@ -1,6 +1,6 @@
 {
-    "name": "vuejs_cordova_sample",
-    "displayName": "Vue Cordova Sample",
+    "name": "com.tony.english_app",
+    "displayName": "英文解析",
     "version": "1.0.0",
     "description": "A sample Apache Cordova application that responds to the deviceready event.",
     "main": "index.js",

@@ -5,37 +5,6 @@
   },
   "config_munge": {
     "files": {
-      "app/src/main/res/values/cordova-window-background-strings.xml": {
-        "parents": {
-          "/*": []
-        }
-      },
-      "app/src/main/res/values/cordova-window-background-styles.xml": {
-        "parents": {
-          "/*": []
-        }
-      },
-      "AndroidManifest.xml": {
-        "parents": {
-          "/manifest/application/activity[@android:name='MainActivity']": [
-            {
-              "xml": "<activity android:name=\"MainActivity\" android:theme=\"@style/Theme.AppCompat.Light.NoActionBar\"  />",
-              "count": 1,
-              "mode": "merge",
-              "plugin": "cordova-plugin-android-window-background",
-              "oldAttrib": {
-                "android:configChanges": "orientation|keyboardHidden|keyboard|screenSize|locale|smallestScreenSize|screenLayout|uiMode",
-                "android:exported": "true",
-                "android:label": "@string/activity_name",
-                "android:launchMode": "singleTop",
-                "android:name": "MainActivity",
-                "android:theme": "@style/Theme.AppCompat.Light.NoActionBar",
-                "android:windowSoftInputMode": "adjustResize"
-              }
-            }
-          ]
-        }
-      },
       "res/xml/config.xml": {
         "parents": {
           "/*": [
@@ -54,7 +23,7 @@
   },
   "installed_plugins": {
     "cordova-plugin-statusbar": {
-      "PACKAGE_NAME": "vuejs.cordova.sample"
+      "PACKAGE_NAME": "com.tony.english_app"
     }
   },
   "dependent_plugins": {},

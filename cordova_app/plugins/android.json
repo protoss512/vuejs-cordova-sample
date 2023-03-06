@@ -8,7 +8,7 @@
   },
   "installed_plugins": {
     "cordova-plugin-statusbar": {
-      "PACKAGE_NAME": "vuejs.cordova.sample"
+      "PACKAGE_NAME": "com.tony.english_app"
     }
   },
   "dependent_plugins": {}
