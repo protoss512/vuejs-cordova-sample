@@ -1,32 +1,29 @@
 <template>
-  <v-container text-center>
-    <div class="home">
-      <v-btn @click="openMenu" class="mt-10">
-        <div>{{$t("to_Ke_Leak")}}</div>
-      </v-btn>
-    </div>
-  </v-container>
+  <div
+    style="display: flex;flex-direction:column;height: 100vh;width: 100vw;margin: 0;padding: 0;justify-content: center;align-items: center;">
+    <div style="flex:1"></div>
+    <div style="flex:1;"><v-btn @click="to_Highschool_ke_leak">
+        {{ $t("to_Ke_Leak") }}
+      </v-btn></div>
+    <div style="flex:1;"><v-btn @click="to_vocabulary">
+        {{ $t("vocabulary") }}
+      </v-btn></div>
+    <div style="flex:1"></div>
+  </div>
 </template>
 
 <script>
 export default {
   name: 'home',
   methods: {
-    openMenu: () => {
-      // When user tap the button dispatch an event into the dom.
-      // Its will trigger the drawer Open event in (componnents/Drawer.vue)
-      //document.dispatchEvent(new CustomEvent("toggleDrawer", {}));
-      console.log('push')
+    to_Highschool_ke_leak: () => {
       window.location.hash = '/Highschool_ke_leak';
+    },
+    to_vocabulary: () => {
+      window.location.hash = '/Vocabulary';
     }
   }
 }
 </script>
 
-<style scoped>
-  img.logo{
-    display: inline-block;
-    width: 90px;
-    padding: 20px;
-  }
-</style>
+<style scoped></style>
