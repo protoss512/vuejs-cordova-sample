@@ -11,8 +11,13 @@
     </div>
     <div v-if="isReport" style="flex:90;margin: 10px;padding-top: 10px;display: flex;flex-direction:column;">
       <div style="flex:1">{{ $t("correct_rate") }}</div>
+      <div style="flex:1">{{ ((cor_num / tot_num) * 100).toFixed(2) }}</div>
       <div style="flex:1">{{ $t("total_question") }}</div>
+      <div style="flex:1">{{ tot_num }}</div>
       <div style="flex:1">{{ $t("total_correct") }}</div>
+      <div style="flex:1">{{ cor_num }}</div>
+      <div style="flex:1">{{ $t("total_error") }}</div>
+      <div style="flex:1">{{ tot_num - cor_num }}</div>
     </div>
     <div v-else style="flex:90;margin: 10px;padding-top: 10px;">
       <div v-if='!isExp'>{{ question }}</div>
@@ -62,6 +67,8 @@ export default {
       answer: '',
       isReport: false,
       ques: [],
+      cor_num: 0,
+      tot_num: 0
     }
   },
   mounted() {
@@ -75,6 +82,11 @@ export default {
     this.sels.push(q[number].s[2])
     this.sels.push(q[number].s[3])
     this.exp = q[number].e
+    if (localStorage.getItem('Total_num') == 'NaN') localStorage.setItem('Total_num', '0')
+    if (localStorage.getItem('Correct_num') == 'NaN') localStorage.setItem('Correct_num', '0')
+    this.cor_num = parseInt(localStorage.getItem('Correct_num'))
+    this.tot_num = parseInt(localStorage.getItem('Total_num'))
+    console.log(localStorage.getItem('Correct_num'), localStorage.getItem('Total_num'))
   },
   methods: {
     onEn(item) {
@@ -109,14 +121,24 @@ export default {
       this.question = a.replace(/\_/g, '')
     },
     anwser() {
+      let tnum = parseInt(localStorage.getItem('Total_num'))
+      tnum += 1
+      this.tot_num = tnum
+      localStorage.setItem('Total_num', tnum.toString())
+
       if (this.selected == q[number].a) {
         this.isCorrect = true
+        let cnum = parseInt(localStorage.getItem('Correct_num'))
+        cnum += 1
+        this.cor_num = cnum
+        localStorage.setItem('Correct_num', cnum.toString())
       } else {
         this.isCorrect = false
       }
       this.ques = q[number].q.split(" ")
       this.answer = q[number].a
       this.isExp = true
+      console.log(localStorage.getItem('Correct_num'), localStorage.getItem('Total_num'))
     }
   }
 }

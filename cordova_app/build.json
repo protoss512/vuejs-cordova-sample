@@ -1,0 +1,20 @@
+{
+    "android": {
+        "debug": {
+            "keystore": "./english_app.keystore",
+            "storePassword": "855211",
+            "alias": "english_app",
+            "password": "855211",
+            "keystoreType": "",
+            "packageType": "apk"
+        },
+        "release": {
+            "keystore": "./english_app.keystore",
+            "storePassword": "855211",
+            "alias": "english_app",
+            "password": "855211",
+            "keystoreType": "",
+            "packageType": "bundle"
+        }
+    }
+}

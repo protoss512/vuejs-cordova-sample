@@ -96,12 +96,6 @@ export const q = [{
   a: 'eat',
   e: '句子中缺少的是一個動詞，而主語是 “it” ，根據主語是單數，所以選項中只有 A 和 D 可能是正確答案。但是，因為是要講述維持健康，所以選項 A 用現在式的 “eat” 更合適。選項 B 的 “ate” 是過去式，不符合文意。選項 C 的 “eating” 是進行式，也不符合文意。選項 D 的 “eats” 是第三人稱單數現在式，文意對但主語不符。因此，正確答案是 A. eat。',
 }, {
-  id: 16,
-  q: 'The Internet has ___ changed the way we communicate, ___ we do business, and even ___ we shop for groceries.',
-  s: ['radially', 'what', 'how', 'radically'],
-  a: 'changed',
-  e: '這句話描述了互聯網對我們生活的幾個方面的影響，因此需要填入“changed”來表示過去的變化。由於“changed”是動詞過去分詞，因此需要一個助動詞，那麼應選擇“radically”，意為“根本地、徹底地”，與“changed”形成較好的搭配。接下來，需要填寫一個連詞來引導後面的兩個從句。因為第二個空格是“we do business”，而“how”是副詞，因此應選擇“what”，表示“我們做什麼樣的業務”。最後一個空格之前提到了購物，因此應填寫“how”來表示“我們如何購物”。綜上所述，正確的答案是C：radically, what, how。',
-}, {
   id: 18,
   q: 'In order to _____ for the upcoming exam, he spent hours every day reviewing his notes and practicing problems.',
   s: ['revise', 'reject', 'release', 'regulate'],
