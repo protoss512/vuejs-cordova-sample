@@ -67,8 +67,8 @@ export default {
       answer: '',
       isReport: false,
       ques: [],
-      cor_num: 0,
-      tot_num: 0
+      cor_num: 1,
+      tot_num: 1
     }
   },
   mounted() {
@@ -82,8 +82,8 @@ export default {
     this.sels.push(q[number].s[2])
     this.sels.push(q[number].s[3])
     this.exp = q[number].e
-    if (localStorage.getItem('Total_num') == 'NaN') localStorage.setItem('Total_num', '0')
-    if (localStorage.getItem('Correct_num') == 'NaN') localStorage.setItem('Correct_num', '0')
+    if (localStorage.getItem('Total_num') == 'NaN') localStorage.setItem('Total_num', '1')
+    if (localStorage.getItem('Correct_num') == 'NaN') localStorage.setItem('Correct_num', '1')
     this.cor_num = parseInt(localStorage.getItem('Correct_num'))
     this.tot_num = parseInt(localStorage.getItem('Total_num'))
     console.log(localStorage.getItem('Correct_num'), localStorage.getItem('Total_num'))
