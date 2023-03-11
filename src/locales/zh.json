@@ -11,6 +11,7 @@
   "correct_rate": "答對率",
   "analysis": "分析",
   "vocabulary": "單字練習",
+  "to_read": "閱讀練習",
   "title": "Exemples VueJS + Cordova",
   "showSample": "Afficher les examples",
   "drawer": {

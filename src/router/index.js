@@ -3,6 +3,7 @@ import Router from 'vue-router'
 import Home from '@/views/Home'
 import Highschool_ke_leak from '@/views/Highschool_ke_leak'
 import Vocabulary from '@/views/Vocabulary'
+import ReadTest from '@/views/ReadTest'
 
 Vue.use(Router);
 
@@ -20,6 +21,11 @@ export default new Router({
       path: '/Vocabulary',
       name: 'Vocabulary',
       component: Vocabulary
+    }, {
+      path: '/ReadTest',
+      name: 'ReadTest',
+      component: ReadTest
     }
+
   ]
 })

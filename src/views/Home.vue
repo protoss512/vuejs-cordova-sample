@@ -5,6 +5,9 @@
     <div style="flex:1;"><v-btn @click="to_Highschool_ke_leak">
         {{ $t("to_Ke_Leak") }}
       </v-btn></div>
+      <div style="flex:1;"><v-btn @click="to_read">
+        {{ $t("to_read") }}
+      </v-btn></div>
     <div style="flex:1;"><v-btn @click="to_vocabulary">
         {{ $t("vocabulary") }}
       </v-btn></div>
@@ -21,6 +24,9 @@ export default {
     },
     to_vocabulary: () => {
       window.location.hash = '/Vocabulary';
+    },
+    to_read:()=>{
+      window.location.hash = '/ReadTest';
     }
   }
 }

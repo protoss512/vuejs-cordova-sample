@@ -1,0 +1,748 @@
+export const a = [{
+            e:"fabric",
+            ex:" ['fæbrɪk] (n.) 織物；織品;This jacket is made of a high-quality fabric. (這件夾克是由高品質的織物製成。)"
+        },{
+            e:"fabulous",
+            ex:" ['fæbjələs] (adj.) 極好的；驚人的;The view from the top of the mountain was absolutely fabulous. (從山頂俯瞰的景色絕對是驚人的。)"
+        },{
+            e:"face",
+            ex:" ['feɪs] (n.) 臉；面孔;Her face lit up when she saw her old friend. (當她看到她的老朋友時，她的臉上露出了笑容。)"
+        },{
+            e:"facilitate",
+            ex:" [fə'sɪlɪtet] (v.) 促進；使容易;The new software will facilitate the process of data analysis. (新的軟體將有助於數據分析的過程。)"
+        },{
+            e:"facility",
+            ex:" [fə'sɪləti] (n.) 設施；設備;The gym has state-of-the-art facilities for weight training. (健身房有最先進的重訓設施。)"
+        },{
+            e:"fact",
+            ex:" [fækt] (n.) 事實；真相;It's a fact that smoking causes cancer. (事實上，吸煙會導致癌症。)"
+        },{
+            e:"factor",
+            ex:" ['fæktɚ] (n.) 因素；要素;There are many factors that contribute to climate change. (有許多因素導致氣候變化。)"
+        },{
+            e:"factory",
+            ex:" ['fæktərɪ] (n.) 工廠；製造廠;The factory produces 1000 units of the product every day. (該工廠每天生產1000個產品。)"
+        },{
+            e:"faculty",
+            ex:" ['fækəlti] (n.) 學院；學系;The faculty of medicine at this university is highly respected. (這所大學的醫學院受到高度尊重。)"
+        },{
+            e:"fade",
+            ex:" [feɪd] (v.) 褪色；消失;The color of this shirt has faded after many washes. (這件襯衫在多次洗滌後褪色了。)"
+        },{
+            e:"fail",
+            ex:" [feɪl] (v.) 失敗；不及格;I'm afraid you have failed the exam. (恐怕你這次考試不及格了。)"
+        },{
+            e:"faint",
+            ex:" [feɪnt] (adj.) 昏厥的；微弱的;She felt faint after standing in the sun for too long. (她在陽光下站了太久，感到有點昏厥。)"
+        },{
+            e:"fair",
+            ex:" [fɛr] (adj.) 公正的；美麗的;The judge made a fair decision based on the evidence presented. (法官根據呈交的證據做出了公正的判決。)"
+        },{
+            e:"fairy",
+            ex:" ['fɛri] (n.) 小精靈；仙女;The fairy granted the princess three wishes. (仙女給予公主三個願望。)"
+        },{
+            e:"faith",
+            ex:" [feθ] (n.) 信仰；信任;She had faith that everything would work out in the end. (她相信一切最終都會好轉。)"
+        },{
+            e:"fake",
+            ex:" [feɪk] (adj.) 假的；冒充的;The designer handbag was a fake and not worth the high price. (這個名牌手袋是假貨，不值得那個高價。)"
+        },{
+            e:"fall",
+            ex:" [fɔl] (v.) 跌落；下降;The leaves on the trees fall in autumn. (樹上的葉子在秋天落下。)"
+        },{
+            e:"false",
+            ex:" [fɔls] (adj.) 虛假的；不真實的;His testimony was proven to be false in court. (在法庭上證實他的證詞是虛假的。)"
+        },{
+            e:"fame",
+            ex:" [feɪm] (n.) 名聲；聲譽;The actress gained fame after starring in a popular movie. (這位女演員在一部熱門電影中演出後獲得了名聲。)"
+        },{
+            e:"familiar",
+            ex:" [fə'mɪljər] (adj.) 熟悉的；常見的;The song was familiar to her because she had heard it many times before. (這首歌對她來說很熟悉，因為她之前聽過很多次。)"
+        },{
+            e:"family",
+            ex:" ['fæməli] (n.) 家庭；家族;She comes from a large family with six siblings. (她來自一個有六個兄弟姐妹的大家庭。)"
+        },{
+            e:"famous",
+            ex:" ['feɪməs] (adj.) 著名的；出名的;The artist is famous for his unique style of painting. (這位藝術家以其獨特的繪畫風格而聞名。)"
+        },{
+            e:"fan",
+            ex:" [fæn] (n.) 迷；風扇;She's a huge fan of the band and has all their albums. (她是這個樂團的超級迷，擁有他們所有的專輯。)"
+        },{
+            e:"fancy",
+            ex:" ['fænsi] (adj.) 花俏的；奇特的;The restaurant served fancy dishes with exotic ingredients. (該餐廳提供了用異國食材製作的花俏菜餚。)"
+        },{
+            e:"fantastic",
+            ex:" [fæn'tæstɪk] (adj.) 極好的；了不起的;The party was a fantastic success with great food and entertainment. (這個派對成功得不可思議，食物和娛樂都很棒。)"
+        },{
+            e:"far",
+            ex:" [fɑr] (adv.) 遠的；遠處;The beach was too far to walk to, so they drove instead. (海灘離他們太遠，無法步行到達，因此他們開車去了。)"
+        },{
+            e:"farm",
+            ex:" [fɑrm] (n.) 農場；農莊;They bought a farm in the countryside and started growing their own vegetables. (他們在鄉村買了一個農場，開始種植自己的蔬菜。)"
+        },{
+            e:"fashion",
+            ex:" ['fæʃən] (n.) 時尚；流行款式;She's always up-to-date with the latest fashion trends. (她總是跟上最新的時尚潮流。)"
+        },{
+            e:"fast",
+            ex:" [fæst] (adj.) 快的；迅速的;The car was driving too fast and got pulled over by the police. (這輛車開得太快，被警察攔了下來。)"
+        },{
+            e:"fat",
+            ex:" [fæt] (n.) 脂肪；肥肉;He needs to lose weight because he has too much fat on his body. (他需要減肥，因為他身上的脂肪太多了。)"
+        },{
+            e:"father",
+            ex:" ['fɑðər] (n.) 父親;My father is a doctor and works at the hospital. (我的父親是一名醫生，在醫院工作。)"
+        },{
+            e:"faucet",
+            ex:" ['fɔsət] (n.) 水龍頭;The faucet in the bathroom was leaking and needed to be fixed. (浴室的水龍頭漏水，需要修理。)"
+        },{
+            e:"favor",
+            ex:" ['fevər] (n.) 恩惠；好處;He asked for a favor and she was happy to help him. (他請求幫忙，她很樂意幫助他。)"
+        },{
+            e:"fear",
+            ex:" [fɪr] (n.) 恐懼；害怕;She has a fear of spiders and can't even look at pictures of them. (她害怕蜘蛛，甚至不能看它們的照片。)"
+        },{
+            e:"feast",
+            ex:" [fist] (n.) 盛宴；宴會;The wedding feast was a grand celebration with delicious food and music. (婚宴是一場盛大的慶典，有美味的食物和音樂。)"
+        },{
+            e:"feather",
+            ex:" ['fɛðər] (n.) 羽毛;The bird's colorful feathers were a beautiful sight. (那隻鳥的彩色羽毛是一個美麗的景象。)"
+        },{
+            e:"feature",
+            ex:" ['fitʃɚ] (n.) 特徵；特色;The new car model has several advanced safety features. (新車型具有幾項先進的安全特色。)"
+        },{
+            e:"February",
+            ex:" ['fɛbjuɛri] (n.) 二月;My birthday is in February, so it's usually quite cold outside. (我的生日在二月，所以通常外面很冷。)"
+        },{
+            e:"federal",
+            ex:" ['fɛdərəl] (adj.) 聯邦的；中央的;The federal government has the power to regulate interstate commerce. (聯邦政府有權管制州際商業貿易。)"
+        },{
+            e:"fee",
+            ex:" [fi] (n.) 費用；報酬;He charged a reasonable fee for his services. (他為他的服務收取合理的費用。)"
+        },{
+            e:"feed",
+            ex:" [fid] (v.) 餵養；餵食;She likes to feed the ducks at the park with bread crumbs. (她喜歡用麵包屑餵公園裡的鴨子。)"
+        },{
+            e:"feel",
+            ex:" [fil] (v.) 感覺；摸起來;The fabric felt soft and smooth to the touch. (這種布料觸感柔軟光滑。)"
+        },{
+            e:"female",
+            ex:" ['fimel] (n.) 雌性的；女性的;The female lion is the primary hunter for her pride. (母獅是她的獅族的主要獵手。)"
+        },{
+            e:"fence",
+            ex:" [fɛns] (n.) 籬笆；柵欄;They put up a fence around their backyard to keep their dog from running away. (他們在後院周圍搭起了一道籬笆，以防狗跑走。)"
+        },{
+            e:"festival",
+            ex:" ['fɛstəvəl] (n.) 節日；慶祝活動;The Lunar New Year is a popular festival in many Asian countries. (農曆新年是許多亞洲國家的熱門節日。)"
+        },{
+            e:"fever",
+            ex:" ['fivɚ] (n.) 發燒；狂熱;She had a high fever and had to stay in bed for a few days. (她發高燒，需要在床上休息幾天。)"
+        },{
+            e:"few",
+            ex:" [fju] (adj.) 少數的；幾個;There were few people at the park on a rainy day. (下雨天公園裡沒有多少人。)"
+        },{
+            e:"fiber",
+            ex:" ['faɪbɚ] (n.) 纖維；光纖;Whole grain bread is a good source of fiber for a healthy diet. (全麥麵包是健康飲食中良好的纖維來源。)"
+        },{
+            e:"fiction",
+            ex:" ['fɪkʃən] (n.) 小說；虛構的故事;She enjoys reading science fiction novels in her spare time. (她在閒暇時間喜歡閱讀科幻小說。)"
+        },{
+            e:"field",
+            ex:" [fild] (n.) 田野；領域;The soccer field was in excellent condition for the championship game. (足球場在冠軍賽中狀態良好。)"
+        },{
+            e:"fight",
+            ex:" [faɪt] (v.) 打架；戰鬥;The two boys got into a fight over a toy at the playground. (兩個男孩在遊樂場上因一個玩具打了起來。)"
+        },{
+            e:"figure",
+            ex:" ['fɪgjɚ] (n.) 數字；人物;The teacher wrote the math figures on the board for the students to see. (老師在黑板上寫下數學數字供學生觀看。)"
+        },{
+            e:"file",
+            ex:" [faɪl] (n.) 檔案；文件;He stored all of his important documents in a file cabinet. (他把所有重要文件存放在檔案櫃中。)"
+        },{
+            e:"fill",
+            ex:" [fɪl] (v.) 裝滿；填充;She filled the bathtub with hot water for a relaxing bath. (她用熱水把浴缸裝滿，享受一次放鬆的泡澡。)"
+        },{
+            e:"film",
+            ex:" [fɪlm] (n.) 影片；電影;The new Marvel film was a box office hit over the weekend. (新上映的漫威電影在週末大受歡迎。)"
+        },{
+            e:"filter",
+            ex:" ['fɪltɚ] (n.) 過濾器；濾鏡;She used a coffee filter to strain the grounds from her morning coffee. (她使用咖啡過濾器從早晨的咖啡中過濾咖啡渣。)"
+        },{
+            e:"final",
+            ex:" ['faɪnəl] (adj.) 最終的；最後的;The final exam for the course was scheduled for next week. (這門課的期末考試安排在下周。)"
+        },{
+            e:"finance",
+            ex:" ['faɪnæns] (n.) 財務；金融;He majored in finance in college and now works for a bank. (他在大學主修金融，現在在一家銀行工作。)"
+        },{
+            e:"find",
+            ex:" [faɪnd] (v.) 找到；發現;She was thrilled to find her lost keys in the sofa cushions. (她在沙發墊裡找到遺失的鑰匙，感到非常興奮。)"
+        },{
+            e:"fine",
+            ex:" [faɪn] (adj.) 好的；細緻的;The artist used a fine brush to create delicate details in the painting. (藝術家使用細小的畫筆在畫作中創造出精細的細節。)"
+        },{
+            e:"finish",
+            ex:" ['fɪnɪʃ] (v.) 完成；結束;She worked hard to finish her project before the deadline. (她努力工作，以在截止日期之前完成她的項目。)"
+        },{
+            e:"fire",
+            ex:" ['faɪɚ] (n.) 火；火災;The fire department quickly put out the fire in the building. (消防局迅速撲滅了建築物中的火災。)"
+        },{
+            e:"firm",
+            ex:" [fɝm] (adj.) 堅定的；堅硬的;The mattress was firm, which was good for his back. (床墊很硬，對他的背部有好處。)"
+        },{
+            e:"first",
+            ex:" [fɝst] (adj.) 第一的；最初的;She was the first person in her family to graduate from college. (她是她家族中第一個大學畢業的人。)"
+        },{
+            e:"fish",
+            ex:" [fɪʃ] (n.) 魚；魚肉;He caught a big fish while fishing in the lake. (他在湖中釣魚時捕獲了一條大魚。)"
+        },{
+            e:"fit",
+            ex:" [fɪt] (v.) 適合；安裝;The dress fit her perfectly for the wedding. (這件裙子非常適合她參加婚禮。)"
+        },{
+            e:"five",
+            ex:" [faɪv] (num.) 五;He counted to five before blowing out the candles on his birthday cake. (他在生日蛋糕上吹熄蠟燭前數到五。)"
+        },{
+            e:"fix",
+            ex:" [fɪks] (v.) 修理；解決;He was able to fix the leaky faucet in the bathroom. (他成功修好了浴室裡漏水的水龍頭。)"
+        },{
+            e:"flag",
+            ex:" [flæɡ] (n.) 旗幟；標誌;The American flag represents freedom and democracy. (美國國旗代表自由和民主。)"
+        },{
+            e:"flat",
+            ex:" [flæt] (adj.) 平坦的；一平方米的房間;She lived in a small flat in the city. (她住在城市裡的一間小公寓。)"
+        },{
+            e:"flavor",
+            ex:" ['fleɪvɚ] (n.) 口味；風味;The ice cream parlor had a variety of flavors to choose from. (冰淇淋店有多種口味可供選擇。)"
+        },{
+            e:"flee",
+            ex:" [fli] (v.) 逃走；逃離;The criminal fled the scene of the crime before the police arrived. (罪犯在警方到達前逃離了犯罪現場。)"
+        },{
+            e:"flexible",
+            ex:" ['flɛksəbl] (adj.) 有彈性的；易彎曲的;The yoga teacher instructed the students to be flexible in their poses. (瑜珈老師指導學生在姿勢上要有彈性。)"
+        },{
+            e:"float",
+            ex:" [floʊt] (v.) 漂浮；漂移;The boat floated gently on the calm lake. (船輕輕地漂浮在寧靜的湖面上。)"
+        },{
+            e:"flood",
+            ex:" [flʌd] (n.) 洪水；水災;The flood caused widespread damage to homes and businesses in the area. (洪水對當地的住房和企業造成了廣泛的破壞。)"
+        },{
+            e:"floor",
+            ex:" [flɔr] (n.) 地板；樓層;She sat on the floor to play with her dog. (她坐在地上和她的狗玩。)"
+        },{
+            e:"flower",
+            ex:" ['flaʊɚ] (n.) 花；開花;The garden was full of beautiful flowers in bloom. (花園裡開滿了美麗的花朵。)"
+        },{
+            e:"fly",
+            ex:" [flaɪ] (v.) 飛行；飛;The bird flew high in the sky. (鳥兒在天空中飛翔。)"
+        },{
+            e:"fog",
+            ex:" [fɑɡ] (n.) 霧；迷霧;The fog was so thick that he could hardly see in front of him. (霧氣非常濃密，他幾乎看不到前方。)"
+        },{
+            e:"follow",
+            ex:" ['fɑlo] (v.) 跟隨；遵從;He followed the instructions carefully to complete the task. (他仔細地遵從指示完成任務。)"
+        },{
+            e:"food",
+            ex:" [fud] (n.) 食物；糧食;They enjoyed a delicious meal with plenty of food and drink. (他們享受了美味的餐點，有豐富的食物和飲料。)"
+        },{
+            e:"foot",
+            ex:" [fʊt] (n.) 腳；一英尺;She hurt her foot while hiking in the mountains. (她在山上徒步旅行時受傷了。)"
+        },{
+            e:"for",
+            ex:" [fɔr] (prep.) 為了；對於;She bought a gift for her friend's birthday. (她為她朋友的生日買了一份禮物。)"
+        },{
+            e:"force",
+            ex:" [fɔrs] (n.) 力量；武力;The police used force to apprehend the suspect. (警方使用武力逮捕嫌疑人。)"
+        },{
+            e:"forget",
+            ex:" [fɚˈɡɛt] (v.) 忘記；遺忘;She always forgets her keys and has to ask for a spare. (她總是忘記帶鑰匙，得要求一份備用的。)"
+        },{
+            e:"fork",
+            ex:" [fɔrk] (n.) 叉子；岔路口;He used a fork to eat his dinner. (他用叉子吃晚餐。)"
+        },{
+            e:"form",
+            ex:" [fɔrm] (n.) 表格；形式;Please fill out this form with your personal information. (請填寫這份表格，填上你的個人資料。)"
+        },{
+            e:"forward",
+            ex:" ['fɔrwərd] (adv.) 向前；前進;The team moved forward to the next round of the competition. (該隊伍向前進入比賽的下一輪。)"
+        },{
+            e:"foul",
+            ex:" [faʊl] (adj.) 惡臭的；汙穢的;The garbage truck gave off a foul odor as it passed by. (垃圾車路過時散發出一股惡臭氣味。)"
+        },{
+            e:"frame",
+            ex:" [frem] (n.) 框架；結構;The picture looked better in a nice frame. (照片用好的相框更加美觀。)"
+        },{
+            e:"free",
+            ex:" [fri] (adj.) 自由的；免費的;The museum offers free admission on Saturdays. (博物館週六免費入場。)"
+        },{
+            e:"freeze",
+            ex:" [friːz] (v.) 凍結；結冰;The lake froze over in the winter. (湖在冬季結冰了。)"
+        },{
+            e:"French",
+            ex:" [frɛntʃ] (adj.) 法國的；法語的;She studied French in college and is now fluent. (她在大學裡學習法語，現在能夠流利地說。)"
+        },{
+            e:"fresh",
+            ex:" [frɛʃ] (adj.) 新鮮的；清新的;The vegetables from the garden tasted very fresh. (從花園裡採來的蔬菜味道很新鮮。)"
+        },{
+            e:"Friday",
+            ex:" ['fraɪde] (n.) 星期五;They usually go out to dinner on Friday nights. (他們通常在星期五晚上出去吃飯。)"
+        },{
+            e:"friend",
+            ex:" [frɛnd] (n.) 朋友;She met her best friend in kindergarten. (她在幼稚園時認識了她最好的朋友。)"
+        },{
+            e:"frog",
+            ex:" [frɑɡ] (n.) 青蛙;The children caught frogs in the pond. (孩子們在池塘里捉青蛙。)"
+        },{
+            e:"front",
+            ex:" [frʌnt] (n.) 前面；正面;The front of the building was decorated with flowers. (建築物的正面裝飾著花朵。)"
+        },{
+            e:"fruit",
+            ex:" [frut] (n.) 水果;She loves all kinds of fruit, especially berries. (她喜歡各種水果，特別是莓果。)"
+        },{
+            e:"fuel",
+            ex:" [fjuəl] (n.) 燃料;The car needs more fuel before we can continue driving. (車子需要加燃料才能繼續行駛。)"
+        },{
+            e:"full",
+            ex:" [fʊl] (adj.) 滿的；充滿的;The cup was full to the brim with hot cocoa. (杯子裡裝滿了熱可可，直到邊緣。)"
+        },{
+            e:"function",
+            ex:" ['fʌŋkʃən] (n.) 功能；作用;The function of the heart is to pump blood throughout the body. (心臟的作用是將血液泵送到全身。)"
+        },{
+            e:"funny",
+            ex:" ['fʌni] (adj.) 滑稽的；有趣的;The comedian told a lot of funny jokes. (喜劇演員講了很多有趣的笑話。)"
+        },{
+            e:"furniture",
+            ex:" ['fɝnɪtʃɚ] (n.) 家具;She bought some new furniture for her living room. (她為她的客廳買了一些新家具。)"
+        },{
+            e:"future",
+            ex:" ['fjutʃɚ] (n.) 未來;She's excited to see what the future holds. (她很興奮地期待著未來。)"
+        },{
+            e:"gain",
+            ex:" [ɡen] (v.) 獲得；得到;He gained a lot of weight over the holidays. (他在假期期間增加了很多體重。)"
+        },{
+            e:"game",
+            ex:" [ɡem] (n.) 遊戲；比賽;They played a game of chess every Sunday afternoon. (他們每個星期天下午都會下一局棋。)"
+        },{
+            e:"garden",
+            ex:" ['ɡɑrdn] (n.) 花園；菜園;She spent the afternoon working in her garden. (她花了下午的時間在她的花園裡工作。)"
+        },{
+            e:"gas",
+            ex:" [ɡæs] (n.) 氣體；汽油;She filled up the car with gas before heading out on the road trip. (她在開車旅行之前加滿了汽油。)"
+        },{
+            e:"gather",
+            ex:" ['ɡæðɚ] (v.) 收集；聚集;They gathered around the campfire to sing songs. (他們圍著營火唱歌聊天。)"
+        },{
+            e:"gear",
+            ex:" [ɡɪr] (n.) 齒輪；裝備;He had to shift gears to climb the steep hill. (他必須換檔才能爬上陡峭的山坡。)"
+        },{
+            e:"general",
+            ex:" ['dʒɛnərəl] (adj.) 一般的；普遍的;In general, people tend to work better in a clean and organized environment. (一般來說，人們在一個乾淨整潔的環境中工作更好。)"
+        },{
+            e:"generate",
+            ex:" ['dʒɛnəret] (v.) 產生；造成;The storm generated strong winds and heavy rain. (暴風雨產生了強風和大雨。)"
+        },{
+            e:"generation",
+            ex:" [ˌdʒɛnəˈreʃən] (n.) 一代；世代;Her grandfather belonged to a different generation and had very different values. (她的祖父屬於不同的一代，有非常不同的價值觀。)"
+        },{
+            e:"gentle",
+            ex:" ['dʒɛntl] (adj.) 溫柔的；輕柔的;She spoke in a gentle voice to calm the frightened child. (她用溫柔的聲音對著驚嚇的孩子說話，讓他平靜下來。)"
+        },{
+            e:"genuine",
+            ex:" ['dʒɛnjʊɪn] (adj.) 真正的；真誠的;She has a genuine interest in helping others. (她真正關心幫助他人。)"
+        },{
+            e:"geography",
+            ex:" [dʒɪˈɑɡrəfi] (n.) 地理學;She studied geography in college and became fascinated with the natural world. (她在大學學習了地理學，對自然界產生了極大的興趣。)"
+        },{
+            e:"gesture",
+            ex:" ['dʒɛstʃɚ] (n.) 手勢；姿勢;She made a gesture of apology to the waiter for spilling her drink. (她向服務員道歉的手勢表示因濺了飲料而造成的困擾。)"
+        },{
+            e:"ghost",
+            ex:" [ɡost] (n.) 鬼；幽靈;She heard strange noises in the old house and was convinced it was haunted by a ghost. (她聽到老房子裡的奇怪聲音，並相信有鬼在作祟。)"
+        },{
+            e:"giant",
+            ex:" ['dʒaɪənt] (n.) 巨人；巨大的;The giant towered over everyone else in the room. (這個巨人比房間裡的任何人都高大。)"
+        },{
+            e:"gift",
+            ex:" [ɡɪft] (n.) 禮物；天賦;She received a beautiful necklace as a gift for her birthday. (她收到了一條漂亮的項鍊作為生日禮物。)"
+        },{
+            e:"giggle",
+            ex:" ['ɡɪɡl] (v.) 傻笑；咯咯地笑;The children couldn't stop giggling at the funny joke. (孩子們聽了這個有趣的笑話，停不下來地傻笑起來。)"
+        },{
+            e:"ginger",
+            ex:" ['dʒɪndʒɚ] (n.) 薑；薑黃色;She added some ginger to the soup to give it a spicy flavor. (她在湯裡加了一些薑，讓它變得辛辣味。)"
+        },{
+            e:"glamorous",
+            ex:" ['ɡlæmərəs] (adj.) 迷人的；富有魅力的;The actress looked glamorous in her elegant evening gown. (這位女演員穿著優雅的晚禮服，看起來十分迷人。)"
+        },{
+            e:"glance",
+            ex:" [ɡlæns] (v.) 瞥見；掃視;He glanced at his watch to check the time. (他瞥了一眼手錶，查看時間。)"
+        },{
+            e:"global",
+            ex:" ['ɡloʊbəl] (adj.) 全球的；全世界的;Climate change is a global issue that affects all countries. (氣候變化是一個影響全球所有國家的問題。)"
+        },{
+            e:"glow",
+            ex:" [ɡloʊ] (v.) 發光；發熱;The sky glowed pink as the sun began to set. (太陽開始落山時，天空泛起粉紅色的光芒。)"
+        },{
+            e:"goal",
+            ex:" [ɡol] (n.) 目標；目的;Her goal was to become a successful entrepreneur and start her own business. (她的目標是成為一名成功的企業家，開創自己的事業。)"
+        },{
+            e:"gorgeous",
+            ex:" ['ɡɔrdʒəs] (adj.) 美麗的；華麗的;She wore a gorgeous dress to the party and received many compliments. (她穿了一條華麗的洋裝去參加派對，得到了很多讚美。)"
+        },{
+            e:"govern",
+            ex:" ['ɡʌvərn] (v.) 統治；管理;The new president promised to govern the country with honesty and integrity. (新總統承諾以誠實和正直的方式統治國家。)"
+        },{
+            e:"graceful",
+            ex:" ['ɡreɪsfəl] (adj.) 優雅的；優美的;The ballet dancer moved with graceful movements across the stage. (芭蕾舞者在舞台上以優美的動作移動。)"
+        },{
+            e:"graduate",
+            ex:" ['ɡrædʒuət] (v.) 畢業；獲得學位;She graduated from college with a degree in psychology. (她以心理學學位從大學畢業。)"
+        },{
+            e:"grant",
+            ex:" [ɡrænt] (v.) 授予；同意;The government granted funding for the new research project. (政府授予新研究項目資金支持。)"
+        },{
+            e:"grasp",
+            ex:" [ɡræsp] (v.) 抓住；理解;She couldn't grasp the concept of calculus, no matter how many times it was explained to her. (無論解釋了多少次，她都無法理解微積分的概念。)"
+        },{
+            e:"grateful",
+            ex:" ['ɡreɪtfəl] (adj.) 感激的；感謝的;I am grateful for your help with the project. (我感謝你對這個項目的幫助。)"
+        },{
+            e:"gravity",
+            ex:" ['ɡrævəti] (n.) 重力；嚴重性;The gravity of the situation became clear once the full extent of the damage was known. (一旦了解到損失的全部範圍，情況的嚴重性變得顯然。)"
+        },{
+            e:"greet",
+            ex:" [ɡrit] (v.) 迎接；問候;He greeted his old friend with a hug and a smile. (他擁抱並微笑著迎接他的老朋友。)"
+        },{
+            e:"grim",
+            ex:" ['ɡrɪm] (adj.) 冷酷的；嚴肅的;The situation looked grim as the storm clouds approached. (隨著暴風雲接近，情況看起來非常嚴峻。)"
+        },{
+            e:"groan",
+            ex:" [ɡroʊn] (v.) 呻吟；抱怨;He groaned as he lifted the heavy box onto the shelf. (他抱怨著，一邊將沉重的盒子抬上架子。)"
+        },{
+            e:"gross",
+            ex:" [ɡroʊs] (adj.) 總共的；噁心的;The company had a gross revenue of over a million dollars last year. (去年該公司的總收入超過一百萬美元。)"
+        },{
+            e:"ground",
+            ex:" [ɡraʊnd] (n.) 地面；基礎;The plane touched down on the ground with a thud. (飛機猛地降落在地面上。)"
+        },{
+            e:"group",
+            ex:" [ɡrup] (n.) 團體；群體;The children formed a group to play games in the park. (孩子們組成了一個團隊在公園玩遊戲。)"
+        },{
+            e:"growl",
+            ex:" [ɡraʊl] (v.) 咆哮；低聲咆哮;The dog growled at the stranger, warning him to stay away. (狗對陌生人咆哮，警告他遠離。)"
+        },{
+            e:"guarantee",
+            ex:" [ˌɡærənˈti] (v.) 保證；擔保;The company guarantees the quality of its products. (該公司保證其產品的質量。)"
+        },{
+            e:"guess",
+            ex:" [ɡes] (v.) 猜測；推測;Can you guess what's in the box? (你能猜出盒子裡是什麼嗎？。)"
+        },{
+            e:"guide",
+            ex:" [ɡaɪd] (n.) 導遊；指南;The tour guide showed us around the ancient ruins. (導遊帶領我們參觀古代遺址。)"
+        },{
+            e:"guilty",
+            ex:" ['ɡɪlti] (adj.) 有罪的；內疚的;The defendant was found guilty of the crime and sentenced to ten years in prison. (被告被判有罪並被判十年監禁。)"
+        },{
+            e:"gum",
+            ex:" [ɡʌm] (n.) 口香糖；膠質;I always keep a pack of gum in my purse for fresh breath. (我總是在手提包裡放一包口香糖以保持口氣清新。)"
+        },{
+            e:"gust",
+            ex:" [ɡʌst] (n.) 一陣強風；突發的一陣;A gust of wind blew my hat off my head. (一陣強風吹走了我的帽子。)"
+        },{
+            e:"gym",
+            ex:" [dʒɪm] (n.) 健身房；體育館;I go to the gym three times a week to work out. (我每周去健身房三次鍛煉身體。)"
+        },{
+            e:"habit",
+            ex:" ['hæbɪt] (n.) 習慣；習性;It's important to break bad habits and develop good ones. (打破壞習慣，養成好習慣非常重要。)"
+        },{
+            e:"hair",
+            ex:" [hɛr] (n.) 頭髮；毛髮;She has long, beautiful hair that she takes good care of. (她有長長的漂亮頭髮，照顧得非常好。)"
+        },{
+            e:"half",
+            ex:" [hæf] (n.) 一半；半個;I ate half of the pizza and saved the rest for later. (我吃了一半的披薩，把剩下的留到晚上再吃。)"
+        },{
+            e:"hall",
+            ex:" [hɔl] (n.) 大廳；禮堂;The wedding reception was held in the grand hall of the hotel. (婚禮接待在飯店的大禮堂舉行。)"
+        },{
+            e:"hammer",
+            ex:" ['hæmɚ] (n.) 鎚子；錘子;He used a hammer to nail the picture to the wall. (他用錘子把畫釘在牆上。)"
+        },{
+            e:"hand",
+            ex:" [hænd] (n.) 手；手部;She shook my hand and introduced herself. (她握了我的手，自我介紹。)"
+        },{
+            e:"handle",
+            ex:" ['hændl] (v.) 處理；應對;The manager was able to handle the difficult situation with ease. (經理輕鬆應對了這個困難的情況。)"
+        },{
+            e:"hang",
+            ex:" [hæŋ] (v.) 懸掛；吊著;I hung the picture on the wall using a nail. (我用釘子將畫掛在牆上。)"
+        },{
+            e:"happen",
+            ex:" ['hæpən] (v.) 發生；出現;I don't know what will happen tomorrow. (我不知道明天會發生什麼事情。)"
+        },{
+            e:"happy",
+            ex:" ['hæpi] (adj.) 快樂的；幸福的;She was so happy when she received the good news. (她收到好消息時非常高興。)"
+        },{
+            e:"hard",
+            ex:" [hɑrd] (adj.) 困難的；堅硬的;Learning a new language can be hard, but it's worth it. (學習一門新語言可能很困難，但是很值得。)"
+        },{
+            e:"hat",
+            ex:" [hæt] (n.) 帽子;He always wears a baseball hat when he goes out. (他外出時總是戴著棒球帽。)"
+        },{
+            e:"hate",
+            ex:" [heɪt] (v.) 憎恨；厭惡;She hates the taste of mushrooms and refuses to eat them. (她討厭蘑菇的味道，拒絕吃它們。)"
+        },{
+            e:"have",
+            ex:" [hæv] (v.) 擁有；有;I have a cat and a dog as pets. (我有一隻貓和一隻狗當寵物。)"
+        },{
+            e:"he",
+            ex:" [hi] (pron.) 他;He is a doctor and works at the hospital. (他是一名醫生，在醫院工作。)"
+        },{
+            e:"head",
+            ex:" [hɛd] (n.) 頭；頭部;She hit her head on the low ceiling and had to sit down. (她撞到了低矮的天花板，不得不坐下來。)"
+        },{
+            e:"health",
+            ex:" [hɛlθ] (n.) 健康；衛生;Good health is important for a happy life. (健康對於快樂的生活很重要。)"
+        },{
+            e:"hear",
+            ex:" [hɪr] (v.) 聽到；聽見;I can't hear you very well, can you speak louder? (我聽不太清楚，你能大聲點嗎？。)"
+        },{
+            e:"heart",
+            ex:" [hɑrt] (n.) 心臟；心;The heart pumps blood throughout the body. (心臟將血液泵送到全身。)"
+        },{
+            e:"heat",
+            ex:" [hit] (n.) 熱；高溫;It's important to drink plenty of water in hot weather to avoid heat stroke. (炎熱天氣要多喝水，以免中暑。)"
+        },{
+            e:"heaven",
+            ex:" [ˈhɛvən] (n.) 天堂;Many people believe that after they die, their souls go to heaven. (許多人相信死後靈魂會到天堂。)"
+        },{
+            e:"heavy",
+            ex:" [ˈhɛvi] (adj.) 重的；沉重的;The package was too heavy for me to carry by myself. (這個包裹對我來說太重了，我自己無法扛。)"
+        },{
+            e:"height",
+            ex:" [haɪt] (n.) 高度；身高;She's of average height for a woman, about 5'5'. (她的身高對於女性來說是平均水平，大約5'5'。)"
+        },{
+            e:"hello",
+            ex:" [hɛlo] (interj.) 喂；你好;'Hello!' he said, greeting his friend with a smile. ('你好!'他說，微笑著向他的朋友問候。)"
+        },{
+            e:"help",
+            ex:" [hɛlp] (v.) 幫助；幫忙;Can you help me carry these boxes upstairs? (你能幫我把這些盒子搬到樓上嗎？。)"
+        },{
+            e:"her",
+            ex:" [hɝ] (pron.) 她的；她;Her hair is brown and curly. (她的頭髮是棕色的，卷曲的。)"
+        },{
+            e:"here",
+            ex:" [hɪr] (adv.) 這裡;Come here and sit next to me. (過來這邊，坐在我旁邊。)"
+        },{
+            e:"hero",
+            ex:" [ˈhɪro] (n.) 英雄;He was hailed as a hero for his bravery in saving the drowning child. (他因為勇敢救援落水的孩子而被稱為英雄。)"
+        },{
+            e:"hide",
+            ex:" [haɪd] (v.) 藏匿；隱藏;The rabbit tried to hide in the bushes from the approaching predator. (兔子試圖躲在叢林中，躲避靠近的掠食者。)"
+        },{
+            e:"high",
+            ex:" [haɪ] (adj.) 高的；高度的;The mountain peak was so high that it was covered in snow all year round. (山頂非常高，整年都被覆蓋著雪。)"
+        },{
+            e:"hike",
+            ex:" [haɪk] (v.) 徒步旅行；上漲;We decided to hike up the mountain trail for a better view of the valley. (我們決定徒步走上山徑，以便更好地欣賞山谷風光。)"
+        },{
+            e:"hill",
+            ex:" [hɪl] (n.) 小山；丘陵;The children loved rolling down the hill in the park. (孩子們喜歡在公園裡從小山上滾下來。)"
+        },{
+            e:"hip",
+            ex:" [hɪp] (n.) 臀部;She injured her hip in a fall and had to use crutches for a few weeks. (她在摔倒時受傷了臀部，需要使用拐杖幾周。)"
+        },{
+            e:"history",
+            ex:" [ˈhɪstəri] (n.) 歷史;Learning about history helps us understand our present and shape our future. (學習歷史有助於我們了解現在，並塑造我們的未來。)"
+        },{
+            e:"hit",
+            ex:" [hɪt] (v.) 打擊；撞擊;He hit the ball with his bat and it flew over the fence. (他用球棒擊打球，球飛越了籬笆。)"
+        },{
+            e:"hobby",
+            ex:" [ˈhɑbi] (n.) 愛好；嗜好;Reading is my favorite hobby. (閱讀是我最喜愛的嗜好。)"
+        },{
+            e:"hold",
+            ex:" [hoʊld] (v.) 握住；抓住;Please hold this bag while I tie my shoelaces. (請你拿著這個袋子，當我綁鞋帶時。)"
+        },{
+            e:"holiday",
+            ex:" [ˈhɑləˌde] (n.) 假期；節日;I'm going to Hawaii for my holiday this year. (我今年要去夏威夷度假。)"
+        },{
+            e:"home",
+            ex:" [hoʊm] (n.) 家;There's no place like home. (沒有像家一樣的地方。)"
+        },{
+            e:"hope",
+            ex:" [hoʊp] (v.) 希望；期待;I hope we can finish this project on time. (我希望我們能按時完成這個項目。)"
+        },{
+            e:"horror",
+            ex:" [ˈhɔrər] (n.) 恐怖；驚駭;The horror movie gave me nightmares for days. (這部恐怖電影讓我連日做噩夢。)"
+        },{
+            e:"horse",
+            ex:" [hɔrs] (n.) 馬;He loves to ride his horse in the countryside. (他喜歡在鄉村騎馬。)"
+        },{
+            e:"hospital",
+            ex:" [ˈhɑspətl] (n.) 醫院;He was rushed to the hospital after the accident. (事故後他被趕往醫院。)"
+        },{
+            e:"hot",
+            ex:" [hɑt] (adj.) 熱的；辣的;The soup is too hot to eat right now. (湯現在太熱了，無法食用。)"
+        },{
+            e:"hotel",
+            ex:" [hoʊˈtɛl] (n.) 旅館；飯店;We stayed in a five-star hotel during our vacation. (我們在度假期間住在一家五星級飯店裡。)"
+        },{
+            e:"hour",
+            ex:" [aʊr] (n.) 小時;The meeting is scheduled to last for two hours. (會議預計持續兩個小時。)"
+        },{
+            e:"house",
+            ex:" [haʊs] (n.) 房子；住宅;We're thinking of buying a new house next year. (我們正在考慮明年買一所新房子。)"
+        },{
+            e:"how",
+            ex:" [haʊ] (adv.) 如何；怎麼樣;How did you like the movie? (你覺得這部電影怎麼樣？。)"
+        },{
+            e:"hug",
+            ex:" [hʌɡ] (v.) 擁抱;She hugged her friend tightly when they met after a long time. (當她們久違重逢時，她緊緊地擁抱了她的朋友。)"
+        },{
+            e:"human",
+            ex:" [ˈhjumən] (adj.) 人類的；人的;We need to remember that we are all human and make mistakes. (我們需要記住，我們都是人類，會犯錯。)"
+        },{
+            e:"humor",
+            ex:" [ˈhjumər] (n.) 幽默；風趣;His jokes always bring a lot of humor to our conversations. (他的笑話總是給我們的對話帶來很多幽默感。)"
+        },{
+            e:"hundred",
+            ex:" [ˈhʌndrəd] (num.) 一百;The store sells products for less than one hundred dollars. (這家商店出售低於一百美元的產品。)"
+        },{
+            e:"hunger",
+            ex:" [ˈhʌŋɡər] (n.) 飢餓;The children in the impoverished country are suffering from hunger. (貧困國家的孩子們正在遭受飢餓之苦。)"
+        },{
+            e:"hunt",
+            ex:" [hʌnt] (v.) 狩獵；搜索;They went to hunt for deer in the forest. (他們去森林裡狩獵鹿。)"
+        },{
+            e:"hurry",
+            ex:" [ˈhɜri] (v.) 匆忙；趕快;We need to hurry if we want to catch the train. (如果我們想趕上火車，我們需要趕快。)"
+        },{
+            e:"hurt",
+            ex:" [hɜrt] (v.) 傷害；受傷;She hurt her ankle while playing basketball. (她在打籃球時扭傷了腳踝。)"
+        },{
+            e:"husband",
+            ex:" [ˈhʌzbənd] (n.) 丈夫;Her husband surprised her with a romantic dinner for their anniversary. (她的丈夫為了慶祝他們的週年紀念日，給她準備了一頓浪漫的晚餐。)"
+        },{
+            e:"hymn",
+            ex:" [hɪm] (n.) 聖歌;They sang a beautiful hymn during the church service. (他們在教堂儀式上唱了一首美麗的聖歌。)"
+        },{
+            e:"hypnotize",
+            ex:" [ˈhɪpnəˌtaɪz] (v.) 催眠;The hypnotist hypnotized the audience and made them do strange things. (催眠師催眠了觀眾，讓他們做出奇怪的事情。)"
+        },{
+            e:"hypothesis",
+            ex:" [haɪˈpɑθəsɪs] (n.) 假說;His hypothesis about the origin of the universe has not been proven yet. (他關於宇宙起源的假說尚未得到證實。)"
+        },{
+            e:"ice",
+            ex:" [aɪs] (n.) 冰;The lake was covered in ice during the winter months. (湖泊在冬季被覆蓋了冰層。)"
+        },{
+            e:"idea",
+            ex:" [aɪˈdiə] (n.) 想法；主意;She came up with the idea of starting her own business. (她想出了自己開創事業的主意。)"
+        },{
+            e:"identify",
+            ex:" [aɪˈdɛntəˌfaɪ] (v.) 確認身份；識別;The police asked the witness to identify the suspect in a lineup. (警察要求證人在陣容中確認嫌疑人。)"
+        },{
+            e:"ignorance",
+            ex:" [ˈɪɡnərəns] (n.) 無知;His ignorance of basic math concepts made it difficult for him to solve the problem. (他對基本數學概念的無知使他難以解決問題。)"
+        },{
+            e:"ignore",
+            ex:" [ɪɡˈnɔr] (v.) 忽視;He ignored her warnings and ended up getting into trouble. (他忽視了她的警告，最終陷入麻煩之中。)"
+        },{
+            e:"illegal",
+            ex:" [ɪˈligəl] (adj.) 非法的;It is illegal to sell alcohol to minors. (向未成年人出售酒精飲料是非法的。)"
+        },{
+            e:"illness",
+            ex:" [ˈɪlnəs] (n.) 疾病;He was absent from work due to illness. (他因疾病缺席了工作。)"
+        },{
+            e:"illustrate",
+            ex:" [ˈɪləˌstret] (v.) 說明；舉例;The professor used diagrams to illustrate the concept. (教授使用圖表來說明概念。)"
+        },{
+            e:"imagination",
+            ex:" [ɪˌmædʒəˈneɪʃən] (n.) 想像力;Her vivid imagination led her to become a successful author. (她豐富的想像力讓她成為了一名成功的作家。)"
+        },{
+            e:"immediate",
+            ex:" [ɪˈmidiət] (adj.) 立即的；直接的;The patient required immediate medical attention. (病人需要立即就醫。)"
+        },{
+            e:"immigrant",
+            ex:" [ˈɪməɡrənt] (n.) 移民;My grandparents were immigrants who came to this country many years ago. (我的祖父母是許多年前來到這個國家的移民。)"
+        },{
+            e:"impact",
+            ex:" [ˈɪmpækt] (n./v.) 影響；衝擊;The new policy had a significant impact on the company's profits. (新政策對公司的利潤產生了重大影響。)"
+        },{
+            e:"imply",
+            ex:" [ɪmˈplaɪ] (v.) 暗示；意味著;His tone of voice implied that he was not happy with the decision. (他的語氣暗示他對這個決定不滿。)"
+        },{
+            e:"impress",
+            ex:" [ɪmˈprɛs] (v.) 給…留下深刻印象;Her presentation impressed the audience and she received a standing ovation. (她的演講給觀眾留下了深刻的印象，她得到了起立鼓掌。)"
+        },{
+            e:"improve",
+            ex:" [ɪmˈpruv] (v.) 改善；提高;She took a course to improve her English skills. (她參加了一個課程來提高她的英語能力。)"
+        },{
+            e:"include",
+            ex:" [ɪnˈklud] (v.) 包括;The package includes a book, a DVD, and a study guide. (該套餐包括一本書、一張DVD和一份學習指南。)"
+        },{
+            e:"income",
+            ex:" [ˈɪnkʌm] (n.) 收入;His annual income was over $100,000. (他的年收入超過了10萬美元。)"
+        },{
+            e:"increase",
+            ex:" [ɪnˈkris] (v./n.) 增加;The company plans to increase production next year. (該公司計劃明年增加產量。)"
+        },{
+            e:"independent",
+            ex:" [ˌɪndɪˈpɛndənt] (adj.) 獨立的；自主的;After graduating from college, he became financially independent. (大學畢業後，他獨立了財務。)"
+        },{
+            e:"indicate",
+            ex:" [ˈɪndɪˌkeɪt] (v.) 指示；表明;The sign indicated that the restrooms were located on the left. (標誌表明洗手間在左邊。)"
+        },{
+            e:"industry",
+            ex:" [ˈɪndəstri] (n.) 工業；產業;The automobile industry is a major employer in this region. (汽車工業是這個地區的主要雇主。)"
+        },{
+            e:"influence",
+            ex:" [ˈɪnflʊəns] (n./v.) 影響力；影響;Her parents had a strong influence on her decision to study medicine. (她的父母對她選擇學醫產生了很大的影響。)"
+        },{
+            e:"inform",
+            ex:" [ɪnˈfɔrm] (v.) 通知；告知;Please inform me if you have any changes to your travel plans. (如果您的旅行計劃有任何變化，請告訴我。)"
+        },{
+            e:"initiative",
+            ex:" [ɪˈnɪʃətɪv] (n.) 主動性；倡議;The new initiative aims to reduce plastic waste in the ocean. (新倡議旨在減少海洋中的塑料垃圾。)"
+        },{
+            e:"injury",
+            ex:" [ˈɪndʒəri] (n.) 傷害；損傷;He suffered a serious injury while playing football. (他在踢足球時受了嚴重的傷。)"
+        },{
+            e:"insist",
+            ex:" [ɪnˈsɪst] (v.) 堅持；強調;She insisted that they leave early to avoid traffic. (她堅持要他們早點離開以避免塞車。)"
+        },{
+            e:"intention",
+            ex:" [ɪnˈtɛnʃən] (n.) 意圖；打算;His intention was to start his own business within five years. (他的打算是在五年內開始自己的生意。)"
+        },{
+            e:"interest",
+            ex:" [ˈɪntrəst] (n./v.) 興趣；利息;His interests include hiking, reading, and traveling. (他的興趣包括遠足、閱讀和旅行。)"
+        },{
+            e:"international",
+            ex:" [ˌɪntərˈnæʃənəl] (adj.) 國際的;The company has offices in several international locations. (該公司在多個國際地點設有辦事處。)"
+        },{
+            e:"invest",
+            ex:" [ɪnˈvɛst] (v.) 投資；投入;He decided to invest in real estate as a way to diversify his portfolio. (他決定投資房地產，以實現資產多元化。)"
+        },{
+            e:"invitation",
+            ex:" [ˌɪnvɪˈteɪʃən] (n.) 邀請；請帖;I received an invitation to my friend's wedding next month. (我收到了下個月我朋友婚禮的邀請函。)"
+        },{
+            e:"involve",
+            ex:" [ɪnˈvɑlv] (v.) 涉及；牽涉;The project will involve a lot of research and data analysis. (這個項目將涉及很多研究和數據分析。)"
+        },{
+            e:"issue",
+            ex:" [ˈɪʃu] (n./v.) 問題；發行;The company had to address several issues before launching the new product. (在推出新產品之前，公司必須解決幾個問題。)"
+        },{
+            e:"item",
+            ex:" [ˈaɪtəm] (n.) 項目；物品;We need to purchase several items for the party, such as balloons and decorations. (我們需要為派對購買幾樣物品，如氣球和裝飾品。)"
+        },{
+            e:"job",
+            ex:" [dʒɑb] (n.) 工作；職業;He has been looking for a job in his field for several months. (他已經在尋找他的領域裡的工作好幾個月了。)"
+        },{
+            e:"join",
+            ex:" [dʒɔɪn] (v.) 加入；連接;She decided to join the hiking club to meet new people and stay active. (她決定加入徒步旅行俱樂部，認識新朋友，保持活力。)"
+        },{
+            e:"judge",
+            ex:" [dʒʌdʒ] (n./v.) 法官；判斷;The judge found the defendant guilty of the crime and sentenced him to five years in prison. (法官判定被告有罪，判他五年監禁。)"
+        },{
+            e:"jump",
+            ex:" [dʒʌmp] (v./n.) 跳躍；跳躍運動;He jumped over the fence to get to the other side. (他跳過籬笆來到另一邊。)"
+        },{
+            e:"justice",
+            ex:" [ˈdʒʌstɪs] (n.) 正義；公正;The justice system is designed to protect the rights of all citizens. (司法制度旨在保護所有公民的權利。)"
+        },]

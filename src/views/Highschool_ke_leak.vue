@@ -22,8 +22,11 @@
     <div v-else style="flex:90;margin: 10px;padding-top: 10px;">
       <div v-if='!isExp'>{{ question }}</div>
       <div v-else style="display: inline-block;" v-for="(item, index) in ques" v-bind:key="index">
-        <div style="margin: 2px;padding: 3px;" @click="onEn(item)"
-          :class="item.includes('_') ? isCorrect ? 'correct_color' : 'error_color' : 'normal_color'">
+        <div style="margin: 2px;padding: 3px;" @click="onEn(item)" :id="index" :class="{
+          'correct_color': item.includes('_') && isCorrect,
+          'error_color': item.includes('_') && !isCorrect,
+          'normal_color': vocabularys.filter(e => e.e.toLowerCase() === item.toLowerCase()).length > 0,
+        }">
           {{
             item.includes('_') ? selected : item }}</div>
       </div>
@@ -52,6 +55,7 @@
 <script>
 import i18n from '../i18n';
 import { q } from '../question.js'
+import { a } from '../Vocabulary.js'
 var number = 0
 export default {
   name: 'Highschool_ke_leak',
@@ -68,14 +72,16 @@ export default {
       isReport: false,
       ques: [],
       cor_num: 1,
-      tot_num: 1
+      tot_num: 1,
+      qlist: [],
+      vocabularys: []
     }
   },
   mounted() {
     number = Math.floor(Math.random() * q.length)
     i18n.locale = 'zh'
     this.id = 1
-
+    this.vocabularys = a
     this.question = q[number].q
     this.sels.push(q[number].s[0])
     this.sels.push(q[number].s[1])
@@ -86,7 +92,7 @@ export default {
     if (localStorage.getItem('Correct_num') == 'NaN') localStorage.setItem('Correct_num', '1')
     this.cor_num = parseInt(localStorage.getItem('Correct_num'))
     this.tot_num = parseInt(localStorage.getItem('Total_num'))
-    console.log(localStorage.getItem('Correct_num'), localStorage.getItem('Total_num'))
+    console.log(a[0],a[100])
   },
   methods: {
     onEn(item) {
@@ -138,7 +144,7 @@ export default {
       this.ques = q[number].q.split(" ")
       this.answer = q[number].a
       this.isExp = true
-      console.log(localStorage.getItem('Correct_num'), localStorage.getItem('Total_num'))
+      //console.log(localStorage.getItem('Correct_num'), localStorage.getItem('Total_num'))
     }
   }
 }

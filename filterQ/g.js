@@ -99,7 +99,7 @@ fs.readFile('./t1.txt', (err, s) => {
         //console.log(x)
     }
     output += ']'
-    fs.writeFile('test3.js', output, function (err) {
+    fs.writeFile('test4.js', output, function (err) {
         if (err)
             console.log(err);
         else

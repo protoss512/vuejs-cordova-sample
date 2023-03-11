@@ -1,0 +1,218 @@
+Passage:
+
+For years, scientists have been working to find a cure for Alzheimer's disease, a progressive brain disorder that affects millions of people worldwide. The disease is caused by the buildup of abnormal proteins in the brain that damage and kill brain cells, leading to memory loss and other cognitive problems. Although there is currently no cure for Alzheimer's disease, there are medications that can help manage symptoms and improve quality of life for patients.
+
+Recently, researchers at the University of Texas at Dallas may have made a breakthrough in the search for a cure. In a study published in the journal Science Advances, the team showed that they were able to clear out the abnormal proteins that cause Alzheimer's disease from the brains of mice. They did this by using ultrasound waves to stimulate microglial cells in the brain, which are responsible for removing waste and other harmful substances. The researchers found that the ultrasound waves caused the microglial cells to consume the abnormal proteins, reducing their buildup in the brain.
+
+The study is still in its early stages, and more research is needed to determine whether the same approach could be effective in humans. However, the results are promising, and could pave the way for a future cure for Alzheimer's disease.
+
+Questions:
+
+What is Alzheimer's disease?
+A. A type of cancer
+B. A progressive brain disorder
+C. A genetic disorder
+D. A disorder caused by a virus
+Answer: B. A progressive brain disorder.
+
+解析：文章第一句就提到 Alzheimer's disease 是一種「progressive brain disorder」，因此答案為 B。
+
+What causes Alzheimer's disease?
+A. The buildup of abnormal proteins in the brain
+B. A virus
+C. Genetics
+D. Smoking
+Answer: A. The buildup of abnormal proteins in the brain.
+
+解析：文章中提到 Alzheimer's disease 是由於「the buildup of abnormal proteins in the brain」所引起，因此答案為 A。
+
+Is there currently a cure for Alzheimer's disease?
+A. Yes, there is a cure.
+B. No, there is no cure.
+C. There is a cure, but it is not effective.
+D. There used to be a cure, but it is no longer available.
+Answer: B. No, there is no cure.
+
+解析：文章中提到目前沒有針對 Alzheimer's disease 的治療方法，只有一些可以幫助緩解症狀的藥物，因此答案為 B。
+
+What did researchers at the University of Texas at Dallas do to clear out the abnormal proteins that cause Alzheimer's disease from the brains of mice?
+A. They used chemotherapy.
+B. They used ultrasound waves to stimulate microglial cells.
+C. They removed the affected parts of the brain.
+D. They gave the mice a new medication.
+Answer: B. They used ultrasound waves to stimulate microglial cells.
+
+解析：文章中提到研究人員使用「ultrasound waves to stimulate microglial cells in the brain」以清除掉引起 Alzheimer's disease 的異常蛋白質，因此答案為 B。
+
+Is the study mentioned in the passage likely to lead to a cure for Alzheimer's disease in humans?
+A. Yes, a cure is now available for humans.
+B. No, the study is unlikely to lead to a cure for humans.
+C. It is too early to tell.
+D. The study has already led to a cure for humans.
+
+Answer: C. It is too early to tell.
+
+解析：文章中提到這項研究仍處於早期階段，需要更多的研究才能確定同樣的方法是否對人類有效，因此答案為 C。文中也提到研究結果具有前途，但仍需要進一步的研究。
+
+
+
+
+
+Passage:
+
+In recent years, climate change has become an increasingly urgent issue. As global temperatures rise and extreme weather events become more frequent, it is clear that we need to take action to reduce our carbon footprint and prevent further damage to the planet. One solution that has gained popularity in recent years is renewable energy, which comes from sources that are naturally replenished and can be used without depleting finite resources.
+
+Renewable energy sources include solar, wind, and hydro power, as well as geothermal and biomass energy. These sources have many advantages over traditional fossil fuels, such as coal and oil. For example, they produce little to no emissions and are much less harmful to the environment. They also provide a sustainable and reliable source of energy, as they are not subject to the same price fluctuations and supply constraints as fossil fuels.
+
+Despite these advantages, renewable energy sources still face many challenges. For one, they are often more expensive to develop and implement than traditional energy sources. In addition, their effectiveness can be limited by factors such as weather patterns and geographic location. As a result, governments and private companies alike must invest in research and development to make renewable energy more efficient and cost-effective.
+
+Questions:
+
+What is one reason why climate change has become an increasingly urgent issue in recent years?
+A. Global temperatures are decreasing.
+B. Extreme weather events are becoming less frequent.
+C. The use of fossil fuels is declining.
+D. Global temperatures are rising.
+Answer: D. Global temperatures are rising.
+
+解析：文章開頭就提到全球氣溫上升，顯然地指出了氣候變遷成為一個越來越迫切的問題，因此答案為 D。
+
+What is renewable energy?
+A. Energy that is produced from fossil fuels.
+B. Energy that is not subject to price fluctuations.
+C. Energy that is naturally replenished and does not deplete finite resources.
+D. Energy that produces large amounts of emissions.
+Answer: C. Energy that is naturally replenished and does not deplete finite resources.
+
+解析：文章中提到 renewable energy 是指那些來源是自然再生的，可以使用而不會耗盡有限資源的能源，因此答案為 C。
+
+What are some examples of renewable energy sources?
+A. Coal and oil.
+B. Natural gas and petroleum.
+C. Solar, wind, and hydro power.
+D. Nuclear and geothermal energy.
+Answer: C. Solar, wind, and hydro power.
+
+解析：文章中列舉了太陽能、風能和水能等能源，這些都是 renewable energy sources 的例子，因此答案為 C。
+
+What is one advantage of renewable energy sources over traditional fossil fuels?
+A. Renewable energy sources are subject to price fluctuations.
+B. Renewable energy sources are harmful to the environment.
+C. Renewable energy sources are less expensive to develop and implement.
+D. Renewable energy sources produce little to no emissions.
+Answer: D. Renewable energy sources produce little to no emissions.
+
+解析：文章中提到 renewable energy sources 相較於傳統的化石燃料，例如煤炭和石油，會產生較少的排放物，因此答案為 D。
+
+What is one challenge that renewable energy sources face?
+A. They are often more expensive to develop and implement than traditional energy sources.
+B. They produce large amounts of emissions.
+C. They are subject to the same price fluctuations and supply constraints as fossil fuels.
+D. They are not effective sources of energy.
+Answer: A. They are often more expensive to develop and implement than traditional energy sources.
+
+解析：文章中提到 renewable energy sources 通常比傳統能源更昂貴，因此需要更多的研究和發展來使其更有效率和具有成本效益，因此答案為 A。
+
+
+
+
+
+Passage:
+
+In recent years, there has been growing concern about the impact of social media on mental health. While social media platforms have the potential to connect people from all over the world, they also have some negative effects. One study found that people who spend more than two hours a day on social media are more likely to experience feelings of social isolation and depression.
+
+One way that social media can contribute to mental health problems is through the comparison of oneself to others. Social media platforms often present idealized versions of people's lives, and users may feel pressure to conform to these unrealistic standards. This can lead to feelings of inadequacy and low self-esteem.
+
+Another way that social media can affect mental health is through the spread of misinformation. False information and rumors can spread rapidly on social media, leading to anxiety and confusion. In some cases, this can even lead to dangerous behavior or beliefs.
+
+Despite these negative effects, social media can also be a source of support and community for some people. It is important to use social media in a balanced and responsible way, and to be aware of the potential risks.
+
+Questions:
+
+What is one concern about the impact of social media on mental health?
+A. Social media platforms can only connect people from certain parts of the world.
+B. Social media platforms have no negative effects on mental health.
+C. People who use social media are less likely to experience feelings of social isolation and depression.
+D. People who spend more than two hours a day on social media are more likely to experience feelings of social isolation and depression.
+Answer: D. People who spend more than two hours a day on social media are more likely to experience feelings of social isolation and depression.
+
+解析：文章中提到花費超過每天兩個小時在社交媒體上的人，更有可能出現社交孤立和抑鬱的感覺，因此答案為 D。
+
+How can social media contribute to mental health problems?
+A. By presenting realistic versions of people's lives.
+B. By providing users with accurate information.
+C. By spreading rumors and misinformation.
+D. By connecting people from all over the world.
+Answer: C. By spreading rumors and misinformation.
+
+解析：文章中提到社交媒體可以通過傳播不實信息和謠言對心理健康造成影響，因此答案為 C。
+
+What is one way that social media can lead to feelings of inadequacy and low self-esteem?
+A. By providing users with support and community.
+B. By presenting idealized versions of people's lives.
+C. By spreading accurate information.
+D. By connecting people from all over the world.
+Answer: B. By presenting idealized versions of people's lives.
+
+解析：文章中提到社交媒體平台經常呈現人們生活的理想化版本，使用者可能感到需要符合這些不現實的標準，這可能導致自卑和低自尊心，因此答案為 B。
+
+
+
+Passage:
+
+In recent years, there has been growing concern about the impact of social media on mental health. While social media platforms have the potential to connect people from all over the world, they also have some negative effects. One study found that people who spend more than two hours a day on social media are more likely to experience feelings of social isolation and depression.
+
+One way that social media can contribute to mental health problems is through the comparison of oneself to others. Social media platforms often present idealized versions of people's lives, and users may feel pressure to conform to these unrealistic standards. This can lead to feelings of inadequacy and low self-esteem.
+
+Another way that social media can affect mental health is through the spread of misinformation. False information and rumors can spread rapidly on social media, leading to anxiety and confusion. In some cases, this can even lead to dangerous behavior or beliefs.
+
+Despite these negative effects, social media can also be a source of support and community for some people. It is important to use social media in a balanced and responsible way, and to be aware of the potential risks.
+
+Questions:
+
+What is one concern about the impact of social media on mental health?
+A. Social media platforms can only connect people from certain parts of the world.
+B. Social media platforms have no negative effects on mental health.
+C. People who use social media are less likely to experience feelings of social isolation and depression.
+D. People who spend more than two hours a day on social media are more likely to experience feelings of social isolation and depression.
+Answer: D. People who spend more than two hours a day on social media are more likely to experience feelings of social isolation and depression.
+
+解析: 文章指出，每天在社交媒體上花費超過兩個小時的人更有可能體驗到社交孤立和抑鬱的感覺，所以答案是 D。
+
+How can social media contribute to mental health problems?
+A. By presenting realistic versions of people's lives.
+B. By providing users with accurate information.
+C. By spreading rumors and misinformation.
+D. By connecting people from all over the world.
+Answer: C. By spreading rumors and misinformation.
+
+解析: 文章指出，社交媒體可以通過傳播錯誤信息和謠言來影響心理健康，這會導致焦慮和困惑，所以答案是 C。
+
+What is one way that social media can lead to feelings of inadequacy and low self-esteem?
+A. By providing users with support and community.
+B. By presenting idealized versions of people's lives.
+C. By spreading accurate information.
+D. By connecting people from all over the world.
+Answer: B. By presenting idealized versions of people's lives.
+
+解析: 文章指出，社交媒體平台經常呈現人們生活的理想化版本，用戶可能會因為遵守這些不切實際的標準而感到壓力，這會導致自卑感和自卑感，所以答案是 B。
+
+How can social media be a source of support and community?
+A. By presenting idealized versions of people's lives.
+B. By spreading rumors and misinformation.
+C. By connecting people from all over the world.
+D. By limiting users' exposure to other people's posts.
+Answer: C. By connecting people from all over the world.
+
+解析: 文章指出社交媒體可以成為某些人的支持和社區來源，所以答案是 C。
+
+
+What is one way to use social media in a responsible way?
+A. By spending more than two hours a day on social media.
+B. By conforming to unrealistic standards presented on social media platforms.
+C. By being aware of the potential risks and using social media in a balanced way.
+D. By spreading rumors and misinformation.
+
+Answer: C. By being aware of the potential risks and using social media in a balanced way.
+
+解析: 文章指出以平衡和負責任的方式使用社交媒體並意識到潛在風險很重要，所以答案是 C。
