@@ -92,11 +92,14 @@ export default {
     if (localStorage.getItem('Correct_num') == 'NaN') localStorage.setItem('Correct_num', '1')
     this.cor_num = parseInt(localStorage.getItem('Correct_num'))
     this.tot_num = parseInt(localStorage.getItem('Total_num'))
-    console.log(a[0],a[100])
+    console.log(a[0], a[100])
   },
   methods: {
     onEn(item) {
-      console.log(item)
+      if (a.filter(e => e.e.toLowerCase() === item.toLowerCase()).length > 0) {
+        let index = a.findIndex(x => x.e.toLowerCase() === item.toLowerCase())
+        console.log(a[index].ex)
+      }
     },
     openReport() {
       this.isReport ^= true
