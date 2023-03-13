@@ -1,0 +1,466 @@
+
+object [ˈɑbdʒɛkt] (n.) 物體；(v.) 反對
+The object on the table is a vase. (這張桌子上的物品是一個花瓶。)
+
+observation [ˌɑbzərˈveɪʃən] (n.) 觀察；觀測
+The scientist made many observations during his research. (這位科學家在研究期間做了許多觀察。)
+
+obtain [əbˈteɪn] (v.) 獲得；得到
+I hope to obtain my driver's license soon. (我希望能很快拿到駕照。)
+
+obvious [ˈɑbvijəs] (adj.) 明顯的；顯而易見的
+It's obvious that she's upset. (她很明顯地感到不悅。)
+
+occasion [əˈkeɪʒən] (n.) 場合；時機；(v.) 引起
+This is a special occasion, so let's celebrate! (這是一個特別的場合，讓我們來慶祝吧！。)
+
+occupy [ˈɑkjəpaɪ] (v.) 佔據；占用；從事於
+The hotel is occupied by many tourists. (這家旅館被很多遊客佔據了。)
+
+ocean [ˈoʊʃən] (n.) 海洋
+The Pacific Ocean is the largest ocean in the world. (太平洋是世界上最大的海洋。)
+
+offer [ˈɔfər] (n.) 提供；(v.) 提供；出價
+Can I offer you a cup of coffee? (我能給您一杯咖啡嗎？。)
+
+official [əˈfɪʃl] (adj.) 官方的；正式的；(n.) 官員
+The official website of the government provides a lot of information. (政府官方網站提供了很多信息。)
+
+operation [ˌɑpəˈreɪʃən] (n.) 操作；手術；行動
+The doctors performed a complicated operation on the patient. (醫生對病人進行了一個複雜的手術。)
+
+oppose [əˈpoʊz] (v.) 反對；抵制
+Many people oppose the death penalty. (很多人反對死刑。)
+
+option [ˈɑpʃən] (n.) 選擇；選項
+You have the option of taking the bus or driving. (你可以選擇坐公車或開車。)
+
+optimistic [ˌɑptəˈmɪstɪk] (adj.) 樂觀的
+She is optimistic about her chances of getting the job. (她對於自己獲得這份工作的機會很樂觀。)
+
+ordinary [ˈɔrdnˌɛri] (adj.) 普通的；平凡的
+He was just an ordinary guy, nothing special. (他只是個普通人，沒有什麼特別的。)
+
+organize [ˈɔrgəˌnaɪz] (v.) 組織；安排
+We need to organize a meeting to discuss the project. (我們需要組織一個會議來討論這個項目。)
+
+original [əˈrɪdʒənl] (adj.) 原始的；最初的；(n.) 原作；原件
+The original version of the movie was much better. (這部電影的原始版本更好。)
+
+otherwise [ˈʌðərˌwaɪz] (adv.) 否則；不然；(adj.) 別的
+We need to finish this project by Friday; otherwise, we won't meet the deadline. (我們需要在星期五之前完成這個項目，否則我們就無法按期交付。)
+
+outcome [ˈaʊtˌkʌm] (n.) 結果；成果
+The outcome of the election was surprising. (選舉的結果令人驚訝。)
+
+observe [əbˈzɜrv] (v.) 觀察；遵守
+It is important to observe traffic laws to avoid accidents. (遵守交通法規是避免事故的重要措施。)
+
+obvious [ˈɑbvɪəs] (adj.) 明顯的；顯然的
+It was obvious that he was lying. (很明顯他在說謊。)
+
+occasion [əˈkeʒən] (n.) 場合；時機；(v.) 引起；造成
+We dress up for special occasions like weddings and parties. (我們會為像婚禮和派對這樣的特殊場合打扮。)
+
+occupy [ˈɑkjəˌpaɪ] (v.) 占據；佔領；使忙碌
+He occupies himself with reading and writing in his free time. (他利用空閒時間讀書寫作自娛。)
+
+occur [əˈkɝ] (v.) 發生；出現
+The accident occurred on the highway last night. (昨晚事故發生在高速公路上。)
+
+ocean [ˈoʊʃən] (n.) 海洋
+The Pacific Ocean is the largest ocean in the world. (太平洋是世界上最大的海洋。)
+
+octopus [ˈɑktəˌpəs] (n.) 章魚
+The octopus is a very intelligent creature. (章魚是一種非常聰明的生物。)
+
+offer [ˈɔfər] (v.) 提供；提議；(n.) 優惠；提議
+The company offered him a higher salary to stay. (公司提供他更高的薪水留下來。)
+
+office [ˈɔfɪs] (n.) 辦公室；公職；職務
+She works in an office downtown. (她在市中心的一家辦公室工作。)
+
+often [ˈɔfn] (adv.) 經常；常常
+I often go to the gym after work. (我經常下班後去健身房。)
+
+oil [ɔɪl] (n.) 油；石油；(v.) 給…上油
+The car needs an oil change. (這輛車需要換機油。)
+
+old [oʊld] (adj.) 老的；年老的
+My grandfather is old, but he is still very active. (我的祖父已經老了，但他仍然非常活躍。)
+
+once [wʌns] (adv.) 一次；曾經；(conj.) 一旦；當…時
+I have only been to Europe once. (我只去過歐洲一次。)
+
+one [wʌn] (num.) 一個；(pron.) 一個人；某人
+Can I have one more piece of cake? (我可以再要一塊蛋糕嗎？。)
+
+onion [ˈʌnjən] (n.) 洋蔥
+I don't like raw onions, but I love them cooked. (我不喜歡生洋蔥，但我喜歡煮熟的。)
+
+only [ˈoʊnli] (adv.) 只有；僅僅；(adj.) 唯一的
+I am the only person in my family who can drive. (我是家裡唯一會開車的人。)
+
+open [ˈoʊpən] (adj.) 開放的；(v.) 打開；開始
+The store is open from 9 to 5. (商店從早上9點到下午5點開門。)
+
+operate [ˈɑpəˌret] (v.) 操作；開刀；運轉
+She knows how to operate the new computer system. (她知道如何操作新的電腦系統。)
+
+opinion [əˈpɪnjən] (n.) 意見；看法
+What's your opinion on the matter? (你對此事有何看法？。)
+
+
+opportunity [ˌɑpərˈtu:nəti] (n.) 機會；時機
+This is a great opportunity for us to learn something new. (這是一個很好的機會讓我們學習新的東西。)
+
+option [ˈɑpʃən] (n.) 選擇；選項
+You have the option of taking the train or the bus. (你可以選擇坐火車還是公車。)
+
+orange [ˈɔrɪndʒ] (n.) 橙子；橙色
+I like to eat oranges in the morning. (我喜歡早上吃橙子。)
+
+order [ˈɔrdər] (n.) 秩序；訂單；(v.) 點餐；下令
+The captain ordered his troops to advance. (上將下令讓部隊前進。)
+
+ordinary [ˈɔrdəˌnɛri] (adj.) 普通的；平凡的
+This is just an ordinary day. (這只是個普通的日子。)
+
+organize [ˈɔrɡəˌnaɪz] (v.) 組織；安排
+She is helping to organize the school's charity event. (她正在幫助組織學校的慈善活動。)
+
+origin [ˈɔrədʒən] (n.) 起源；由來
+The origin of the universe is still a mystery. (宇宙的起源仍然是一個謎。)
+
+other [ˈʌðər] (adj.) 其他的；另外的；(pron.) 別的
+We need to buy some other things too. (我們還需要買一些其他的東西。)
+
+our [aʊr] (pron.) 我們的
+Our house is located near the park. (我們的房子位於公園附近。)
+
+out [aʊt] (adv.) 出去；(prep.) 在…外面
+He went out for a walk. (他出去散步了。)
+
+over [ˈoʊvər] (prep.) 在…之上；(adv.) 結束了；(adj.) 完成的
+The plane flew over the mountains. (飛機飛越了山脈。)
+
+own [oʊn] (adj.) 自己的；(v.) 擁有
+She has her own business. (她有自己的生意。)
+
+oxygen [ˈɑksədʒən] (n.) 氧氣
+Humans need oxygen to breathe. (人類需要氧氣來呼吸。)
+
+pace [peɪs] (n.) 步伐；速度
+He walked at a slow pace. (他以緩慢的步伐行走。)
+
+pack [pæk] (v.) 打包；(n.) 包裹；一群
+A pack of wolves appeared in the forest. (一群狼出現在森林裡。)
+
+page [peɪdʒ] (n.) 頁；(v.) 翻閱
+Can you please page Dr. Smith? (你可以請求呼叫史密斯醫生嗎？。)
+
+pain [peɪn] (n.) 疼痛；苦惱
+Losing her job was a real pain for her. (失去工作對她來說是真正的痛苦。)
+
+paint [peɪnt] (v.) 油漆；(n.) 顏料
+I need some red paint for this project. (我需要一些紅色的顏料來完成這個項目。)
+
+pair [pɛr] (n.) 一對；一雙；(v.) 配對
+He paired the students up for the project. (他把學生們分配成對進行項目。)
+
+paper [ˈpeɪpər] (n.) 紙；報紙
+He reads the paper every morning. (他每天早上看報紙。)
+
+parent [ˈpɛrənt] (n.) 父母親；雙親
+His parents are from China. (他的父母來自中國。)
+
+park [pɑrk] (n.) 公園；(v.) 停車
+He parked his car in the garage. (他把車停在車庫裡。)
+
+part [pɑrt] (n.) 部分；(v.) 分開
+Please part your hair in the middle. (請在頭髮中央分開。)
+
+party [ˈpɑrti] (n.) 派對；政黨
+They threw a big party for their anniversary. (他們為他們的週年紀念日舉辦了一個大派對。)
+
+pass [pæs] (v.) 通過；(n.) 通行證
+You need to show your pass to enter the building. (你需要出示通行證才能進入建築物。)
+
+past [pæst] (adj.) 過去的；(n.) 過去
+The past cannot be changed. (過去無法改變。)
+
+patient [ˈpeɪʃənt] (adj.) 有耐心的；(n.) 病人
+You need to be patient when learning a new skill. (學習新技能時需要有耐心。)
+
+pattern [ˈpætərn] (n.) 圖案；樣式
+The fabric has a floral pattern. (這種布料有花卉圖案。)
+
+pay [pe] (v.) 付款；支付；(n.) 工資
+She pays her bills online. (她在線上支付她的帳單。)
+
+peace [pis] (n.) 和平；安寧
+We need to work together to achieve peace. (我們需要共同努力實現和平。)
+
+pen [pɛn] (n.) 筆；圍欄
+He wrote the letter with a pen. (他用筆寫信。)
+
+pencil [ˈpɛnsəl] (n.) 鉛筆
+Can I borrow a pencil? (我可以借一支鉛筆嗎？。)
+
+people [ˈpipəl] (n.) 人們
+She scares people away by being so brash. (她狂妄自大把別人都嚇跑了。)
+
+perfect [ˈpɜrfɪkt] (adj.) 完美的；完善的；(v.) 使完美
+The weather was perfect for a day at the beach. (天氣非常適合去海灘度過一天。)
+
+perform [pərˈfɔrm] (v.) 執行；表演
+The singer will perform at the concert tonight. (這位歌手今晚將在音樂會上表演。)
+
+period [ˈpɪriəd] (n.) 期間；時期
+The dinosaur lived during the Jurassic period. (這隻恐龍生活在侏羅紀時期。)
+
+person [ˈpɜrsn] (n.) 人；個人
+The person next to me is my sister. (我旁邊的人是我的妹妹。)
+
+persuade [pərˈsweɪd] (v.) 說服；勸說
+The advertisement persuaded many people to buy the product. (這個廣告說服了許多人購買這個產品。)
+
+pet [pɛt] (n.) 寵物；(v.) 撫摸
+She likes to pet her dog when she's feeling stressed. (她在感到壓力時喜歡撫摸她的狗。)
+
+phone [foʊn] (n.) 電話；(v.) 打電話
+I'll phone you later. (我稍後會打電話給你。)
+
+photograph [ˈfoʊtəgræf] (n.) 照片；(v.) 拍照
+He likes to photograph birds in his free time. (他喜歡在空閒時間拍攝鳥類照片。)
+
+piano [piˈænoʊ] (n.) 鋼琴
+She played a beautiful melody on the piano. (她用鋼琴彈奏出優美的旋律。)
+
+picture [ˈpɪktʃər] (n.) 圖片；照片；畫；(v.) 描述；想象
+Can you picture yourself living in a foreign country? (你能想象自己生活在外國嗎？。)
+
+piece [pis] (n.) 一塊；一件；一片
+She cut the paper into small pieces. (她把紙切成小塊。)
+
+pilot [ˈpaɪlət] (n.) 飛行員；(v.) 駕駛
+He learned to pilot a small plane when he was young. (他年輕時學會了駕駛小型飛機。)
+
+pink [pɪŋk] (adj.) 粉紅色的；(n.) 粉紅色
+I like the color pink. (我喜歡粉紅色。)
+
+place [pleɪs] (n.) 地方；位置；(v.) 放置；安排
+Can you place the book on the table? (你可以把書放在桌子上嗎？。)
+
+plan [plæn] (n.) 計劃；(v.) 計劃；打算
+I'm planning to study abroad next year. (我打算明年去留學。)
+
+plant [plænt] (n.) 植物；(v.) 栽種；種植
+This plant needs plenty of sunlight to grow. (這種植物需要充足的陽光才能生長。)
+
+plastic [ˈplæstɪk] (adj.) 塑膠的；(n.) 塑料
+We should reduce our use of plastic to protect the environment. (為了保護環境，我們應該減少使用塑料。)
+
+plate [pleɪt] (n.) 盤子；餐具
+She likes to collect antique plates. (她喜歡收藏古董盤子。)
+
+play [pleɪ] (n.) 遊戲；(v.) 玩耍；演出
+She played the lead role in the school play. (她在學校的劇目中扮演女主角。)
+
+please [pliːz] (v.) 請；使高興
+Your cooperation would be greatly appreciated, please. (請您給予合作，非常感謝。)
+
+pleasure [ˈplɛʒər] (n.) 愉快；樂趣
+She takes great pleasure in playing the piano. (她很享受彈鋼琴的樂趣。)
+
+plenty [ˈplɛnti] (adj.) 豐富的；(adv.) 充足地；很多
+She has plenty of time to finish her work. (她有足夠的時間完成工作。)
+
+plot [plɑt] (n.) 情節；(v.) 策劃；密謀
+They were plotting to overthrow the government. (他們正在密謀推翻政府。)
+
+pocket [ˈpɑkɪt] (n.) 口袋
+She put her phone in her pocket. (她把手機放進口袋裡。)
+
+poem [ˈpoʊəm] (n.) 詩
+We studied the poem in our literature class. (我們在文學課上學習了這首詩。)
+
+point [pɔɪnt] (n.) 點；要點；(v.) 指出；指向
+made a good point about the importance of education. (演講者提出了關於教育重要性的好觀點。)
+
+police [pəˈlis] (n.) 警察
+The officer called for backup from other police units. (那位警官向其他警察單位請求支援。)
+
+policy [ˈpɑləsi] (n.) 政策
+The government is reviewing its immigration policy. (政府正在審查移民政策。)
+
+politics [ˈpɑlətɪks] (n.) 政治
+I try to avoid discussing politics with my friends. (我嘗試避免和朋友討論政治。)
+
+popular [ˈpɑpjələr] (adj.) 受歡迎的；流行的
+This restaurant is popular for its delicious food. (這家餐廳以美食而聞名。)
+
+population [ˌpɑpjəˈleɪʃən] (n.) 人口
+The government is concerned about the aging population. (政府關注人口老化問題。)
+
+position [pəˈzɪʃən] (n.) 位置；職位
+He applied for a management position at the company. (他申請了公司的管理職位。)
+
+possible [ˈpɑsəbl] (adj.) 可能的
+Is it possible to finish the project by the end of the month? (能否在月底前完成這個項目？。)
+
+post [poʊst] (n./v.) 郵件；張貼
+Can you post this notice on the bulletin board? (你能把這個通知張貼在公告欄上嗎？。)
+
+potential [pəˈtɛnʃəl] (adj.) 潛在的；可能的
+He has the potential to be a great athlete. (他有成為一名優秀運動員的潛力。)
+
+power [ˈpaʊər] (n.) 力量；權力
+The government has the power to regulate businesses. (政府有權管理企業。)
+
+practical [ˈpræktɪkl] (adj.) 實用的；實際的
+She has a very practical approach to problem-solving. (她對解決問題有非常實際的方法。)
+
+practice [ˈpræktɪs] (n./v.) 練習；實踐
+Our company follows sustainable business practices. (我們公司遵循可持續的商業實踐方式。)
+
+prefer [prəˈfɝ] (v.) 更喜歡；寧願
+She prefers to work alone rather than in a group. (她寧願一個人工作，也不想在團隊中工作。)
+
+prepare [prɪˈpɛr] (v.) 準備
+She spent all day preparing dinner for her guests. (她花了一整天的時間為客人準備晚餐。)
+
+present [ˈprɛznt] (adj./n./v.) 目前的；禮物；呈現
+The report was presented to the board of directors. (報告呈現給董事會。)
+
+president [ˈprɛzədənt] (n.) 總統
+The president of the United States is the head of state and government. (美國總統是國家和政府的最高領導人。)
+
+press [prɛs] (n./v.) 新聞界；壓力；按；壓
+You need to press the button to start the machine. (你需要按下按鈕啟動機器。)
+
+pressure [ˈprɛʃɚ] (n.) 壓力；壓力感
+High blood pressure can be a serious health problem. (高血壓可能是一個嚴重的健康問題。)
+
+prevent [prɪˈvɛnt] (v.) 預防；防止
+She locked the doors to prevent anyone from entering the room. (她鎖上門，以防止任何人進入房間。)
+
+price [praɪs] (n.) 價格
+He offered to sell his car at a reasonable price. (他提出以合理的價格出售他的車。)
+
+pride [praɪd] (n.) 自豪；驕傲
+He has too much pride to ask for help. (他太驕傲了，不肯求助。)
+
+primary [ˈpraɪˌmɛri] (adj.) 主要的；初級的
+She is in her primary school years. (她正在上小學。)
+
+prince [prɪns] (n.) 王子
+The prince will inherit the throne when his father dies. (國王去世時，王子將繼承王位。)
+
+princess [ˈprɪnsɛs] (n.) 公主
+The princess is known for her beauty and kindness. (公主以其美貌和善良而著稱。)
+
+print [prɪnt] (v.) 印刷；（用字母、符號）印出
+She printed the document for me. (她替我印了這份文件。)
+
+prison [ˈprɪzn] (n.) 監獄；囚禁
+The prisoner was released after serving his sentence. (這名囚犯在服完刑期後獲釋。)
+
+private [ˈpraɪvət] (adj.) 私人的；私下的；不公開的
+She prefers to keep her private life separate from her work. (她喜歡將私人生活和工作分開。)
+
+prize [praɪz] (n.) 獎品；獎金；贏得
+The prize for guessing the correct answer is a free trip. (猜對答案的獎品是一次免費旅行。)
+
+problem [ˈprɑbləm] (n.) 問題；難題
+Solving this math problem is difficult. (解決這道數學問題很難。)
+
+process [ˈprɑsɛs] (n.) 過程；進程；程序
+We are in the process of moving to a new office. (我們正在搬遷到新辦公室的過程中。)
+
+produce [prəˈdus] (v.) 生產；製造；產生
+The chemical reaction produced a lot of heat. (化學反應產生了很多熱量。)
+
+product [ˈprɑdəkt] (n.) 產品；產物
+The company's latest product is a smartwatch. (該公司最新的產品是一款智能手表。)
+
+professional [prəˈfɛʃənəl] (adj.) 職業的；專業的；熟練的
+The team was coached by a professional. (這支隊伍由一名專業教練指導。)
+
+program [ˈproʊgræm] (n.) 程序；計畫；節目
+The school has a program to encourage reading. (學校有一個鼓勵閱讀的計畫。)
+
+project [ˈprɑdʒɛkt] (n.) 計畫；項目；工程
+I have a school project due next week. (我下週要交一個學校的作業。)
+
+promote [prəˈmoʊt] (v.) 促進；宣傳；晉升
+He was promoted to manager after only a year with the company. (他在這家公司工作一年後就被晉升為經理。)
+
+proof [pruf] (n.) 證明；證據；校對
+Can you give this document a final proof before we send it out? (在我們發送這份文件之前，你能最後校對一下嗎？。)
+
+property [ˈprɑpərti] (n.) 財產；房產；特性
+The physical properties of the substance were carefully studied. (這種物質的物理特性被仔細研究了。)
+
+proportion [prəˈpɔrʃən] (n.) 比例；部分；份額
+The cake was cut into equal proportions for everyone to share. (蛋糕被平均切成部分讓每個人分享。)
+
+prospect [ˈprɑspɛkt] (n.) 前景；展望；可能性
+There is a prospect of rain this weekend. (這個週末有可能會下雨。)
+
+protect [prəˈtɛkt] (v.) 保護；防衛；維護
+It's important to protect your skin from the sun. (保護皮膚不受陽光的傷害很重要。)
+
+provide [prəˈvaɪd] (v.) 提供；供應；準備
+Please provide your name and address on the form. (請在表格上提供你的姓名和地址。)
+
+psychological [ˌsaɪkəˈlɑdʒɪkl] (adj.) 心理的；心理學的
+She studied psychology in college and is now a practicing psychologist. (她在大學學習心理學，現在是一名執業心理學家。)
+
+publish [ˈpʌblɪʃ] (v.) 出版；發表；公布
+The government has not yet published the results of the investigation. (政府尚未公佈調查結果。)
+
+punch [pʌntʃ] (v.) 拳擊；用拳猛擊；打洞
+She punched a hole in the paper with her pencil. (她用鉛筆在紙上打了一個洞。)
+
+punish [ˈpʌnɪʃ] (v.) 懲罰；處罰
+The law punishes those who break it. (法律對那些違法者進行懲罰。)
+
+purchase [ˈpɝtʃəs] (v.) 購買；採購；獲得
+The company purchased a new computer system. (公司採購了一套新的電腦系統。)
+
+pure [pjʊr] (adj.) 純的；清淨的；純淨的
+The child's smile was a pure expression of joy. (孩子的微笑是純粹的快樂表達。)
+
+pursue [pɚˈsu] (v.) 追求；追捕；繼續進行
+The police pursued the suspect through the city streets. (警察在城市街道上追捕嫌疑犯。)
+
+puzzle [ˈpʌzl] (n.) 謎；難題；困惑 (v.) 使困惑；解謎
+Can you help me puzzle out this riddle? (你能幫我解開這個謎語嗎？。)
+
+qualification [ˌkwɑləfɪˈkeʃən] (n.) 資格；條件；限制
+There are some qualifications to the company's refund policy. (公司的退款政策有一些限制。)
+
+quality [ˈkwɑləti] (n.) 品質；素質；特性
+The quality of her work is excellent. (她的工作質量非常優秀。)
+
+quantity [ˈkwɑntəti] (n.) 數量；量；分量
+The quantity of work she completed was impressive. (她完成的工作量令人印象深刻。)
+
+quarrel [ˈkwɔrəl] (n.) 爭吵；爭端 (v.) 爭吵；吵架
+Don't quarrel with your brother over such a small matter. (別為這樣的小事和你的兄弟吵架。)
+
+quarter [ˈkwɔrtər] (n.) 四分之一；季度；住處；部隊區域
+He lives in the old quarter of the city. (他住在城市的老城區。)
+
+queen [kwin] (n.) 女王；王后；蜂王
+The queen bee is the leader of the hive. (蜂王是蜂群的領袖。)
+
+question [ˈkwɛstʃən] (n.) 問題；疑問 (v.) 詢問；質問；對...提出問題
+The scientists are questioning the validity of the study. (科學家們在質疑這個研究的有效性。)
+
+quick [kwɪk] (adj.) 快的；迅速的；敏捷的
+He has a quick mind and can solve problems easily. (他反應敏捷，可以輕鬆地解決問題。)
+
+quiet [ˈkwaɪət] (adj.) 安靜的；
+David was always a quiet orderly boy. (大衛始終是一個文靜規矩的孩子。)

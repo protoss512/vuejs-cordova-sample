@@ -1,0 +1,442 @@
+
+nail [neɪl] (n.) 釘子；指甲；(v.) 釘住；打造句子
+He hammered the nail into the wall. (他把釘子釘進牆上。)
+name [neɪm] (n.) 名字；(v.) 命名；稱呼
+What's your name? (你叫什麼名字？。)
+nap [næp] (n.) 小睡；(v.) 打盹；偷懶
+I'm going to take a nap. (我要小睡一下。)
+narrow ['nærəʊ] (adj.) 狹窄的；有限的；心胸狹窄的
+The path was too narrow for two people to walk side by side. (這條路太窄了，兩個人無法並排行走。)
+nation ['neɪʃən] (n.) 國家；民族
+China is a nation with a long history. (中國是一個歷史悠久的國家。)
+natural ['nætʃərəl] (adj.) 自然的；天然的；天賦的
+Swimming is a natural ability for dolphins. (游泳對海豚來說是一種天賦的能力。)
+nature ['neɪtʃər] (n.) 自然；大自然；性質
+I love spending time in nature. (我喜歡在大自然中度過時間。)
+navy ['neɪvɪ] (n.) 海軍
+The navy protects our country's waters. (海軍保護我們國家的海域。)
+near [nɪr] (adj.) 近的；接近的；(adv.) 接近地；將近；(prep.) 靠近
+The store is near the train station. (商店靠近火車站。)
+neat [niːt] (adj.) 整潔的；巧妙的；醒目的
+She has a neat handwriting. (她的字寫得很整齊。)
+necessary ['nesəsərɪ] (adj.) 必要的；必需的；必然的；(n.) 必需品
+It's necessary to wear a helmet while riding a motorcycle. (騎摩托車時必須戴頭盔。)
+neck [nek] (n.) 頸；脖子
+She wears a necklace around her neck. (她戴了一條項鍊在脖子上。)
+need [niːd] (n.) 需要；必要；(v.) 需要；必需；需要做某事
+I need to buy some groceries for dinner. (我需要買一些食品來準備晚餐。)
+14. negative ['nɛɡətɪv] (adj.) 否定的；負面的；消極的；(n.) 否定；負數；(v.) 否定
+He had a negative attitude toward the project. (他對這個項目持否定態度。)
+15. negotiate [nə'ɡoʃɪet] (v.) 談判；協商；處理
+We need to negotiate the terms of the contract. (我們需要協商合同條款。)
+16. neighbor ['neɪbər] (n.) 鄰居；鄰人；(v.) 鄰近
+My neighbor is very friendly. (我的鄰居非常友善。)
+17. neither ['naɪðər] (pron.) 兩者都不；既非...也非...
+Neither of them wanted to go to the party. (他們兩個都不想去參加派對。)
+18. nephew ['nɛfjuː] (n.) 侄子；外甥
+My nephew is five years old. (我的侄子五歲了。)
+19. nerve [nɜːv] (n.) 神經；勇氣；膽量
+He lost his nerve and couldn't jump off the diving board. (他失去了勇氣，無法從跳水板上跳下去。)
+20. nest [nɛst] (n.) 巢；窩；(v.) 筑巢；(vi.) 安居
+The bird built its nest in the tree. (鳥兒在樹上築巢。)
+21. net [nɛt] (n.) 網；凈利；(v.) 網住；淨得
+The fish got caught in the net. (魚被網住了。)
+22. network ['nɛtwɜːk] (n.) 網路；網絡；(v.) 聯繫
+The company has a large network of suppliers. (這家公司有一個龐大的供應商網絡。)
+23. never ['nɛvər] (adv.) 從不；永不；決不
+I never want to see that movie again. (我再也不想看那部電影了。)
+24. new [njuː] (adj.) 新的；嶄新的；未知的
+I just bought a new car. (我剛買了一輛新車。)
+25. news [njuːz] (n.) 新聞；消息；報導
+Did you hear the news about the earthquake? (你聽到地震的消息了嗎？。)
+newspaper ['njuːzˌpeɪpər] (n.) 報紙；報章
+I read the newspaper every morning. (我每天早上都看報紙。)
+next [nɛkst] (adj.) 下一個；接下來的；隔壁的；(adv.) 接下來；然後
+Who's next in line? (輪到誰了？。)
+nice [naɪs] (adj.) 好的；友善的；愉快的；漂亮的
+That was a very nice thing to do. (這是一件非常友善的事情。)
+night [naɪt] (n.) 夜晚；晚上；(adj.) 夜間的
+I like to go for a walk at night. (我喜歡在晚上散步。)
+nine [naɪn] (num.) 九
+She is turning nine years old next week. (她下周就要九歲了。)
+no [noʊ] (adv.) 不；毫不；(n.) 否定；不同意；(adj.) 沒有的；不允許的
+No, I don't want to go to the party. (不，我不想去參加派對。)
+noble ['noʊbəl] (adj.) 高貴的；貴族的；崇高的；(n.) 貴族；貴族成員
+He is from a noble family. (他來自一個貴族家庭。)
+nobody ['noʊbɑdi] (pron.) 沒有人；無名小卒；無足輕重的人
+Nobody wants to be friends with him. (沒有人想和他做朋友。)
+nod [nɑd] (v.) 點頭；點頷；打盹
+He nodded in agreement. (他點頭表示同意。)
+noise [nɔɪz] (n.) 噪音；吵鬧聲；聲音
+The noise from the construction site was very loud. (建築工地的噪音非常大。)
+none [nʌn] (pron.) 沒有；一點也不；沒有任何一個
+None of the students knew the answer. (沒有學生知道答案。)
+noon [nuːn] (n.) 中午；正午
+Let's meet for lunch at noon. (讓我們中午見面吃午餐。)
+nor [nɔr] (conj.) 也不；也沒有；不...也不...
+He neither drinks nor smokes. (他既不喝酒也不抽煙。)
+north [nɔrθ] (n.) 北；北方；(adj.) 北的；朝
+Tom strolled north to a point. (湯姆大步朝北面一個地方走去。)
+nose [noʊz] (n.) 鼻子
+She has a cute little nose. (她有一個可愛的小鼻子。)
+not [nɑt] (adv.) 不；沒有；不是
+I'm not hungry. (我不餓。)
+note [noʊt] (n.) 筆記；便條；音符；(v.) 注意到；記下
+I wrote a note to remind myself to buy milk. (我寫了一張便條提醒自己買牛奶。)
+nothing ['nʌθɪŋ] (pron.) 沒有什麼；沒有任何東西；無關緊要的事
+There is nothing in the fridge. (冰箱裡什麼都沒有。)
+notice ['noʊtɪs] (n.) 注意；通知；布告；(v.) 注意到；察覺到；發現
+Did you notice the new painting on the wall? (你注意到牆上的新畫了嗎？。)
+now [naʊ] (adv.) 現在；當下；目前；(conj.) 現在；既然；然後
+I'm busy now, can I call you back later? (我現在很忙，我能晚點再打給你嗎？。)
+nowhere ['noʊhwer] (adv.) 沒有地方；任何地方都不
+We searched everywhere, but we could find him nowhere. (我們到處搜尋，但卻找不到他的蹤影。)
+nuclear ['nukliər] (adj.) 原子能的；核能的；核子的；核心的
+Nuclear power plants generate electricity by using nuclear reactions. (核能電廠通過使用核反應發電。)
+number ['nʌmbər] (n.) 數字；號碼；數量；(v.) 編號；計算
+What is your phone number? (你的電話號碼是多少？。)
+nurse [nɜrs] (n.) 護士；看護；(v.) 照料；看護
+She worked as a nurse in a hospital for many years. (她在醫院當了很多年的護士。)
+nut [nʌt] (n.) 堅果；螺帽；瘋子；(v.) 用螺帽固定
+I love to eat almonds, they're my favorite nut. (我喜歡吃杏仁，它們是我最喜歡的堅果之一。)
+nylon ['naɪlɑn] (n.) 尼龍；合成纖維
+Her stockings were made of nylon. (她的長襪是尼龍做的。)
+near [nɪr] (adj.) 近的；接近的；(adv.) 靠近；接近地；(prep.) 靠近
+The store is near my house. (商店在我家附近。)
+necessary ['nɛsəsɛri] (adj.) 必需的；必要的；(n.) 必需品；必需品
+It is necessary to wear a helmet when riding a bike. (騎自行車時戴頭盔是必要的。)
+neck [nɛk] (n.) 頸部；脖子
+The necklace is too tight around my neck. (這條項鍊繫得太緊了，勒得我脖子痛。)
+need [nid] (v.) 需要；必須；(n.) 需要；需求
+I need to buy some groceries at the store. (我需要到商店買些食品雜貨。)
+needle ['nidl] (n.) 針；織針；指針；(v.) 用針縫
+She used a needle and thread to mend the rip in her shirt. (她用針線把衣服上的破洞縫好了。)
+negative ['nɛɡətɪv] (adj.) 否定的；負面的；消極的；(n.) 否定；負數；(v.) 否定
+She always has a negative attitude towards everything. (她對所有事情都持負面的態度。)
+negotiate [nɪ'ɡoʃɪet] (v.) 談判；協商；磋商
+The two countries are currently negotiating a trade agreement. (兩國目前正在談判一份貿易協定。)
+neighbor ['nebɚ] (n.) 鄰居；鄰近的人或事物；(v.) 毗鄰
+Our neighbors are very friendly and always offer to help. (我們的鄰居非常友好，總是主動提供幫助。)
+nest [nɛst] (n.) 巢；窩；家；(v.) 筑巢；安家
+The birds built a nest in the tree outside my window. (鳥兒在我窗外的樹上築了一個巢。)
+net [nɛt] (n.) 網；網狀物；(adj.) 淨值的；純的；(v.) 用網捕
+The fisherman caught a lot of fish in his net. (漁夫用網捕了很多魚。)
+network ['nɛtwɝk] (n.) 網絡；網狀系統；網路；(v.) 使成網狀
+The company has a large network of distributors around the world. (這家公司在全球有一個龐大的經銷商網絡。)
+never ['nɛvɚ] (adv.) 從未；永不
+I have never been to Europe before. (我從未去過歐洲。)
+new [nu] (adj.) 新的；崭新的
+She bought a new car last week. (上週她買了一輛新車。)
+news [nuz] (n.) 新聞；消息；報道
+I read the news every morning to stay informed about current events. (我每天早上看新聞，以了解當前事件。)
+next [nɛkst] (adj.) 下一個；接下來的；(adv.) 接下來；然後
+What are your plans for next weekend? (你下週末有什麼計劃？。)
+nice [naɪs] (adj.) 美好的；友善的；悅耳的；好的
+She is a very nice person and always willing to help. (她是一個非常友善的人，總是願意幫助別人。)
+night [naɪt] (n.) 夜晚；晚上
+I like to read a book before going to bed at night. (我喜歡在晚上睡覺前看書。)
+nine [naɪn] (num.) 九
+She has nine cats living with her. (她和九隻貓一起生活。)
+no [no] (adv.) 不；沒有；(n.) 拒絕；不同意；(adj.) 沒有的
+No, I cannot go to the party with you tonight. (不，今晚我不能和你一起去參加派對。)
+nobody ['noˌbɑdi] (pron.) 沒有人；無名小卒
+Nobody is perfect, so it's okay to make mistakes. (沒有人是完美的，所以犯錯是可以的。)
+nod [nɑd] (v.) 點頭；點頷；(n.) 點頭
+She nodded her head to indicate that she understood. (她點頭示意她理解了。)
+noise [noɪz] (n.) 噪音；聲音；喧鬧聲
+The noise from the construction site was very loud. (工地上的噪音很大。)
+none [nʌn] (pron.) 沒有任何人；沒有任何事
+None of the students were able to answer the difficult question. (沒有一個學生能夠回答這個難題。)
+noon [nun] (n.) 中午；正午
+Let's meet for lunch at noon. (讓我們在中午見面吃午餐。)
+nor [nɔr] (conj.) 也不；也沒有；和...不一樣
+He neither confirmed nor denied the accusations. (他既沒有證實也沒有否認指控。)
+normal ['nɔrml] (adj.) 正常的；通常的；正規的
+It's normal to feel nervous before a big test. (在大型測試前感到緊張是正常的。)
+north [nɔrθ] (n.) 北；(adj.) 北的；向北的
+Canada is located north of the United States. (加拿大位於美國的北方。)
+nose [noz] (n.) 鼻子；嗅覺；(v.) 嗅
+The dog's nose is very sensitive and can detect even the faintest smells. (狗的嗅覺非常靈敏，可以偵測到最微弱的氣味。)
+not [nɑt] (adv.) 不；沒有
+I'm not sure if I can make it to the meeting tomorrow. (我不確定明天能否參加會議。)
+note [noʊt] (n.) 記錄；便條；筆記；(v.) 記錄；注意到
+Please make a note of the important dates in your calendar. (請在你的日曆上記下重要日期。)
+nothing ['nʌθɪŋ] (pron.) 沒有什麼；沒有東西；沒有事情
+There's nothing to be afraid of. (沒有什麼可害怕的。)
+notice ['noʊtɪs] (n.) 注意；通知；(v.) 注意到；通知
+Please give us notice if you won't be able to attend the meeting. (如果你不能參加會議，請提前通知我們。)
+now [naʊ] (adv.) 現在；此時此刻；目前
+I'm not ready to leave yet, but we can go now if you want to. (我還沒有準備好離開，但如果你想要的話我們可以現在走。)
+nowhere ['noʊhwɛr] (adv.) 無處；任何地方都不；沒有哪裡
+He looked everywhere but could find his lost keys nowhere. (他到處尋找，但找不到丟失的鑰匙。)
+nuclear ['nukliɚ] (adj.) 核子的；核能的；核武器的
+The nuclear power plant is a major source of electricity for the region. (核電廠是該地區的主要電力來源。)
+number ['nʌmbɚ] (n.) 數字；號碼；編號；(v.) 編號；給...編號
+Please write your phone number on this form. (請在這份表格上寫下你的電話號碼。)
+nurse [nɝs] (n.) 護士；看護人；(v.) 照顧；看護
+The nurse checked the patient's vital signs and gave her medication. (護士檢查了病人的生命徵象，並給她藥物。)
+nut [nʌt] (n.) 堅果；螺帽；瘋子
+I like to snack on almonds and cashews, which are both types of nuts. (我喜歡吃杏仁和腰果，它們都是堅果類型。)
+nylon ['naɪlɑn] (n.) 尼龍；耐磨纖維
+Many types of clothing and accessories are made from nylon, which is a durable and lightweight material. (許多類型的服裝和配飾都是由尼龍製成的，這是一種耐用且輕便的材料。)
+necessity [nə'sɛsəti] (n.) 必要；必需品；必然性
+Water is a necessity for life. (水是生命必需品。)
+necklace ['nɛklɪs] (n.) 項鍊；項圈
+She wore a beautiful pearl necklace to the party. (她戴了一條漂亮的珍珠項鍊參加派對。)
+needle ['nidl] (n.) 針；織針；(v.) 用針縫補；戳
+She sewed the patch onto the shirt using a needle and thread. (她用針和線將補丁縫在襯衫上。)
+negative ['nɛgətɪv] (adj.) 負面的；否定的；消極的；(n.) 否定；負面
+He had a negative attitude towards the project from the beginning. (他從一開始就對這個項目持有消極的態度。)
+negotiate [nə'ɡoʃɪet] (v.) 談判；協商；磋商
+The two sides are negotiating a peace treaty to end the war. (雙方正在談判一份結束戰爭的和平條約。)
+neighborhood ['nɛbɚhʊd] (n.) 鄰近地區；社區；附近
+We moved to a new neighborhood last month and are still getting to know our neighbors. (我們上個月搬到了一個新的社區，仍在努力認識我們的鄰居。)
+nest [nɛst] (n.) 巢；窩；(v.) 筑巢；居住
+The mother bird built a nest out of twigs and leaves for her eggs. (母鳥用枝條和葉子為她的蛋筑了一個巢。)
+net [nɛt] (n.) 網；網狀物；(v.) 捕捉；淨賺
+The fisherman used a net to catch the fish. (漁夫用網捕魚。)
+network ['nɛtwɝk] (n.) 網絡；網路；聯網系統
+The company has a large network of offices and distributors around the world. (該公司在世界各地擁有大量的辦事處和經銷商網絡。)
+newspaper ['nuz,per] (n.) 報紙；新聞紙
+I like to read the newspaper with my morning coffee. (我喜歡在早晨喝咖啡時閱讀報紙。
+nice [naɪs] (adj.) 好的；友善的；漂亮的
+She has a nice smile. (她有一個漂亮的微笑。)
+night [naɪt] (n.) 夜晚；晚上
+We stayed up all night talking. (我們整晚都在聊天。)
+nine [naɪn] (num.) 九
+There are nine players on a baseball team. (棒球隊有九名球員。)
+noble ['nobəl] (adj.) 高貴的；崇高的；貴族的；(n.) 貴族
+The king and queen were of noble birth. (國王和女王出身貴族。)
+nobody ['no,bɑdi] (pron.) 沒有人；無名小卒
+Nobody knows the answer to that question. (沒有人知道那個問題的答案。)
+nod [nɑd] (v.) 點頭；打盹；(n.) 點頭
+She nodded her head in agreement. (她點頭表示同意。)
+noise [noɪz] (n.) 噪音；聲音；喧鬧聲
+The noise from the construction site was very loud. (建築工地的噪音非常大。)
+nonstop ['nɑnstɑp] (adj./adv.) 不停的；直達的；(n.) 直達航班
+The flight from New York to Tokyo is nonstop. (從紐約到東京的航班是直達的。)
+noon [nun] (n.) 中午；正午
+Let's meet for lunch at noon. (讓我們在中午見面吃午餐。)
+north [nɔrθ] (n./adj.) 北；北方的
+Canada is north of the United States. (加拿大在美國的北面。)
+nose [noz] (n.) 鼻子
+She has a cold and her nose is running. (她感冒了，流鼻涕。)
+not [nɑt] (adv.) 不；沒有
+I do not like spicy food. (我不喜歡辣食物。)
+note [noʊt] (n./v.) 筆記；便條；音符；(v.) 注意到；記下
+He left a note on my desk. (他在我的桌子上留了一張便條。)
+nothing ['nʌθɪŋ] (pron.) 沒有事情；沒有東西
+I have nothing to do this weekend. (這個周末我沒有事情做。)
+notice ['noʊtɪs] (n./v.) 注意；通知；(v.) 注意到；發現
+I noticed that she was wearing a new dress. (我注意到她穿了一件新裙子。)
+now [naʊ] (adv.) 現在
+I am busy right now, can I call you back later? (我現在很忙，我能晚點打給你嗎？。)
+nowhere ['noʊhwɛr] (adv.) 任何地方都不；無處
+We looked for the keys everywhere, but they were nowhere to be found. (我們到處找鑰匙，但是找不到。)
+nuclear ['nukliər] (adj.) 核的；核心的；原子能的
+The government is investing in nuclear power. (政府正在投資核能。)
+number ['nʌmbər] (n./v.) 數字；數量；號碼；(v.) 數量達到
+I forgot my phone number. (我忘了我的電話號碼。)
+nurse [nɜrs] (n./v.) 護士；看護；(v.) 照顧
+My sister is a nurse at the hospital. (我妹妹是一名醫院的護士。)
+nut [nʌt] (n.) 堅果；螺母；瘋子
+She has a nut allergy, so she can't eat any nuts. (她對堅果過敏，所以不能吃任何堅果。)
+nylon ['naɪlɑn] (n.) 尼龍
+Her stockings were made of nylon. (她的長襪是尼龍製成的。)
+name [neɪm] (n./v.) 名字；稱呼；(v.) 給...命名；稱呼
+What's your name? (你叫什麼名字？。)
+nation ['neʃən] (n.) 國家；民族
+Taiwan is a democratic nation. (台灣是一個民主國家。)
+nature ['neɪtʃər] (n.) 自然；性質；本質
+She loves hiking and being close to nature. (她喜歡徒步旅行，接近大自然。)
+navy ['nevi] (n.) 海軍；藍色
+My grandfather was in the navy during World War II. (我的祖父在第二次世界大戰期間在海軍服役。)
+near [nɪr] (adj./adv./prep.) 近的；接近；在...附近
+The grocery store is near my apartment. (雜貨店就在我公寓附近。)
+neat [nit] (adj.) 整潔的；整齊的；精緻的
+His apartment is always neat and clean. (他的公寓總是整潔乾淨。)
+necessary ['nɛsəsɛri] (adj.) 必要的；必需的；不可缺少的
+It is necessary to study hard if you want to pass the exam. (如果你想通過考試，就需要努力學習。)
+neck [nɛk] (n.) 頸部；脖子
+She wore a beautiful necklace around her neck. (她戴了一條漂亮的項鍊在脖子上。)
+needle ['nidəl] (n.) 針；織針；指針
+She used a needle to mend the hole in her shirt. (她用針來修補她襯衫上的洞。)
+negative ['nɛgətɪv] (adj./n.) 否定的；負面的；消極的；(n.) 否定；負號
+He has a negative attitude towards everything. (他對所有事情都持否定態度。)
+neighbor ['nebɚ] (n.) 鄰居；鄰人
+My neighbor is always playing loud music. (我的鄰居總是放很大聲的音樂。)
+neither ['niðɚ] (conj./pron.) 兩者都不；既不...也不；兩者皆非
+Neither option is good for me. (對我來說，兩種選擇都不好。)
+nephew ['nɛfju] (n.) 侄子
+My nephew is coming to visit me this weekend. (我侄子這個週末來看我。)
+nerve [nɝv] (n.) 神經；勇氣；膽量
+She has the nerve to ask for a raise after only working for a week. (她居然在只工作了一周後就敢要求加薪。)
+nest [nɛst] (n./v.) 巢；窩；築巢；安頓
+The bird built its nest in the tree outside my window. (那隻鳥在我窗外的樹上築了它的巢。)
+net [nɛt] (n./adj./v.) 網；網狀的；捕捉；獲得
+He caught a fish in his net. (他用網捕到了一條魚。)
+network ['nɛtwɝk] (n./v.) 網絡；網路；網狀系統；建立網絡
+The company has a large network of suppliers. (這家公司有一個龐大的供應商網絡。)
+never ['nɛvɚ] (adv.) 從不；永不；絕不
+I never want to see him again. (我永遠不想再見到他了。)
+nevertheless ['nɛvɚðəlɛs] (adv.) 然而；儘管如此；仍然
+He was exhausted, nevertheless, he kept working. (他筋疲力盡，然而他還是繼續工作。)
+new [nu] (adj.) 新的；剛剛的
+I bought a new car yesterday. (我昨天買了一輛新車。)
+news [nuz] (n.) 新聞；消息
+Did you hear the news about the earthquake? (你聽說過有關地震的消息嗎？。)
+newspaper ['njuzˌpɛpɚ] (n.) 報紙
+I read the newspaper every morning. (我每天早上都看報紙。)
+next [nɛkst] (adj./adv.) 下一個；接下來；然後
+I have a meeting next Monday. (我下週一有一個會議。)
+nice [naɪs] (adj.) 好的；友善的；愉快的
+She has a nice personality. (她性格友善。)
+night [naɪt] (n.) 夜晚；晚上
+I usually go to bed early at night. (我通常晚上早早就睡覺了。)
+nine [naɪn] (num.) 九
+There are nine planets in our solar system. (我們的太陽系有九大行星。)
+no [no] (adv./adj./n.) 不；不是；沒有；拒絕
+No, I don't want to go to the party. (不，我不想去參加派對。)
+noble ['nobəl] (adj.) 高貴的；崇高的； noble ['nobəl] (n.) 貴族
+He acted with noble intentions. (他的行為充滿高貴的意圖。)
+nobody ['noˌbɑdi] (pron.) 沒有人；無名小卒
+Nobody wants to be alone. (沒有人想要獨自一人。)
+nod [nɑd] (v.) 點頭；點頭示意
+She nodded in agreement. (她點頭表示同意。)
+noise [nɔɪz] (n.) 噪音；吵雜聲
+I can't work with all this noise. (我無法在這麼吵的環境下工作。)
+none [nʌn] (pron.) 沒有任何的；一點都不
+There is none left. (一點都沒有剩下。)
+noon [nun] (n.) 中午；正午
+Let's have lunch at noon. (讓我們在中午吃午餐吧。)
+nor [nɔr] (conj.) 也不；也沒有
+I don't like tea, nor do I like coffee. (我不喜歡喝茶，也不喜歡喝咖啡。)
+north [nɔrθ] (n./adj.) 北方；北部的
+It's colder in the north than in the south. (北方比南方更冷。)
+nose [noz] (n.) 鼻子
+She has a cute nose. (她的鼻子很可愛。)
+not [nɑt] (adv.) 不是；不；沒有
+I am not going to the party. (我不去參加派對。)
+note [not] (n./v.) 筆記；註解；紙條；注意；留意
+Can you take a note for me? (你能幫我記一下嗎？。)
+nothing ['nʌθɪŋ] (pron.) 沒有任何東西；什麼也不是
+There is nothing to be afraid of. (沒有什麼可害怕的。)
+notice ['noʊtɪs] (n./v.) 注意；公告；通知；注意到；察覺到
+Please take notice of the sign. (請注意這個標誌。)
+now [naʊ] (adv.) 現在；現時
+I'm busy now. (我現在很忙。)
+nowhere ['noʊˌhwɛr] (adv.) 無處；任何地方都不
+He's nowhere to be found. (他到處都找不到。)
+nuclear ['nukliər] (adj.) 核能的；核子的
+Nuclear power is a controversial issue. (核能是一個有爭議的問題。)
+number ['nʌmbər] (n./v.) 數字；號碼；數量；編號；給…編號
+What's your phone number? (你的電話號碼是多少？。)
+nurse [nɝs] (n./v.) 護士；看護；照顧；擁護
+My sister is a nurse. (我姐姐是一名護士。)
+nut [nʌt] (n.) 堅果；螺帽
+I love eating nuts. (我喜歡吃堅果。)
+nylon ['naɪlɑn] (n.) 尼龍
+Her new stockings are made of nylon. (她的新絲襪是用尼龍製成的。)
+nowise ['noʊˌwaɪz] (adv.) 絕不；決不
+I will nowise give up. (我絕不會放棄。)
+notebook ['noʊtbʊk] (n.) 筆記本；記事本
+I always carry a notebook with me. (我總是帶著一個筆記本。)
+notion ['noʊʃən] (n.) 概念；想法；意見
+I have no notion what you're talking about. (我不知道你在說什麼。)
+notorious [noʊˈtɔriəs] (adj.) 惡名昭彰的；聲名狼藉的
+Al Capone was a notorious gangster. (艾爾·卡彭是個聲名狼藉的黑幫老大。)
+novel ['nɑvəl] (n./adj.) 小說；新奇的；新穎的
+This novel is very interesting. (這本小說非常有趣。)
+nowhere [ˈnoʊweər] (adv.) 無處；任何地方都不
+He's nowhere to be found. (他到處都找不到。)
+novice ['nɑvɪs] (n.) 新手；初學者
+He's a novice at cooking. (他是個烹飪新手。)
+nowaday ['naʊədeɪ] (adv.) 如今；現今
+Nowadays, more and more people are using smartphones. (現在，越來越多的人在使用智能手機。)
+nourish ['nɝɪʃ] (v.) 滋養；養育
+Eating fruits and vegetables can nourish your body. (吃水果和蔬菜可以滋養身體。)
+nostalgia [nɑˈstældʒə] (n.) 懷舊之情；鄉愁
+Looking at old photos always gives me a sense of nostalgia. (看舊照片總是讓我感到懷舊。)
+notable ['noʊtəbl] (adj.) 值得注意的；著名的；重要的
+This year's notable events include the Olympics and the World Cup. (今年值得注意的事件包括奧運會和世界杯。)
+notify ['noʊtəfaɪ] (v.) 通知；告知
+Please notify me if there are any changes to the schedule. (如果行程有任何變更，請通知我。)
+notorious [noʊˈtɔriəs] (adj.) 惡名昭彰的；聲名狼藉的
+Al Capone was a notorious gangster. (艾爾·卡彭是個聲名狼藉的黑幫老大。)
+nourishment ['nɝɪʃmənt] (n.) 營養品；食物
+The body needs nourishment to stay healthy. (身體需要營養才能保持健康。)
+novice ['nɑvɪs] (n.) 新手；初學者
+He's a novice at cooking. (他是個烹飪新手。)
+nowise ['noʊwaɪz] (adv.) 無論如何；決不
+I am nowise interested in that proposal. (我對那個提議毫不感興趣。)
+nozzle ['nɑzəl] (n.) 噴嘴；噴管
+The nozzle of the hose was broken. (水管的噴嘴壞了。)
+numerical [njuːˈmɛrɪkl] (adj.) 數字的；數量的
+The numerical values on the chart show the growth of the company. (圖表上的數值顯示了公司的增長。)
+nucleus ['nukliəs] (n.) 核心；核；原子核
+The nucleus is the center of an atom. (核心是原子的中心。)
+nuisance ['nuːsns] (n.) 討厭的人或事物；麻煩事
+The construction noise is a nuisance to the residents. (建築噪音對居民來說是個麻煩事。)
+nullify ['nʌlɪfaɪ] (v.) 使無效；取消
+The judge nullified the contract because it was signed under duress. (法官因為該合同是在脅迫下簽署，所以取消了它。)
+numismatics ['nuːmɪzˈmætɪks] (n.) 錢幣學
+He's an expert in numismatics, the study of coins and currency. (他是錢幣學專家，研究貨幣和貨幣制度。)
+nurture ['nɝtʃər] (v.) 培育；撫養；養育
+The mother nurtured her child with love and care. (母親以愛心和關懷撫養孩子。)
+nutriment ['nutrɪmənt] (n.) 營養；食物
+Fresh fruits and vegetables are an excellent source of nutriment. (新鮮的水果和蔬菜是優秀的營養來源。)
+nutty ['nʌti] (adj.) 像堅果的；瘋狂的；愚蠢的
+The pie had a delicious nutty flavor. (這個派有著美味的堅果味。)
+He's a nutty professor who is always coming up with crazy ideas. (他是個總是提出瘋狂想法的瘋狂教授。)
+nuzzle ['nʌzl] (v.) 用鼻子摩擦；依偎
+The dog nuzzled against its owner's leg. (狗依偎在主人的腿上。)
+nylon ['naɪlɑn] (n.) 尼龍
+Her stockings were made of nylon. (她的襪子是尼龍做的。)
+nymph [nɪmf] (n.) 仙女；幼蟲；少女
+The forest nymphs were said to be beautiful and enchanting. (據說森林仙女們美麗迷人。)
+nystagmus ['nɪstæɡməs] (n.) 眼球震盪；眼球跳動
+Nystagmus is a condition that causes rapid eye movements. (眼球震盪是一種引起眼部快速移動的疾病。)
+nectar ['nɛktɚ] (n.) 花蜜；甜美的飲料
+The hummingbird drank the nectar from the flower. (蜂鳥從花中吸食花蜜。)
+negotiable [nɪˈɡoʊʃiəbl] (adj.) 可議的；可商量的；可轉讓的
+The terms of the contract are negotiable. (合同條款是可以商量的。)
+neophyte ['niəˌfaɪt] (n.) 新手；初學者
+As a neophyte in the business world, she had a lot to learn. (作為商業界的新手，她還有很多要學習的。)
+nestle ['nɛsl] (v.) 舒適地安頓；依偎
+The cat nestled in the cozy bed. (貓蜷縮在舒適的床上。)
+nettle ['nɛtl] (v.) 激怒；煩擾
+His constant criticisms nettled her. (他不斷的批評使她感到煩擾。)
+neural ['njʊrəl] (adj.) 神經的；神經系統的
+The neural pathways in the brain control our thoughts and movements. (腦中的神經通路控制著我們的思想和動作。)
+neutrality [nuˈtræləti] (n.) 中立；中立性
+Switzerland is known for its longstanding neutrality in international affairs. (瑞士以其長期的國際中立聞名。)
+nevermore ['nɛvərˌmɔr] (adv.) 不再；永不
+The raven perched on the bust of Pallas, and never flitted, nevermore. (烏鴉停在帕拉斯女神的胸像上，再也不飛動，永不再來。)
+nevertheless ['nɛvərðəˌlɛs] (adv.) 然而；不過；儘管如此
+The weather was bad; nevertheless, they decided to go camping. (天氣很糟，但他們還是決定去露營。)
+newfangled ['nuːˈfæŋɡld] (adj.) 新奇的；時髦的
+She didn't like the newfangled gadgets that everyone was talking about. (她不喜歡每個人都在談論的新奇小玩意兒。)
+newsworthy ['nuːzˌwɜrði] (adj.) 有新聞價值的；值得報導的
+The scandal was considered newsworthy enough to make headlines. (這個醜聞被認為足以成為頭條新聞。)
+nicety ['naɪsəti] (n.) 精密；細節；精確
+The artist paid attention to every nicety in his painting. (藝術家在畫作中注重每一個細節。)
+niggardly ['nɪɡərdli] (adj.) 吝嗇的；小氣的
+His niggardly behavior annoyed his coworkers. (他吝嗇的行為讓同事感到厭煩。)
+nimble ['nɪmbəl] (adj.) 敏捷的；靈活的
+The gymnast was incredibly nimble, performing difficult routines with ease. (體操選手非常靈活，輕鬆地完成了困難的動作。)
+nocturnal [nɑkˈtɜrnəl] (adj.) 夜間的；夜行性的
+Owls are nocturnal birds, hunting their prey at night. (貓頭鷹是夜行性鳥類，夜間捕食獵物。)
+nonchalant [nɑnʃə'lɑnt] (adj.) 無憂無慮的；冷靜的
+She appeared nonchalant about the situation, but inside she was panicking. (她表現得毫不在意，但內心其實非常緊張。)
+nonplussed [nɑnˈplʌst] (adj.) 困惑的；不知所措的
+He was completely nonplussed by the unexpected turn of events. (意料之外的事情讓他完全不知所措。)
+nostalgia [nɑ'stældʒə] (n.) 思鄉病；懷舊之情
+Looking at old photos always fills me with nostalgia for my childhood. (看著舊照片總是讓我懷念童年。)
+notable ['noʊtəbl] (adj.) 著名的；值得注意的
+The city's skyline is dominated by notable landmarks like the Empire State Building. (這座城市的天際線以著名的地標建築物，如帝國大廈為主。)
+notorious [noʊ'tɔrɪəs] (adj.) 惡名昭彰的；聲名狼藉的
+Al Capone was a notorious gangster during the Prohibition era. (艾爾·卡彭是禁酒時期的臭名昭彰的黑幫份子。)
+novel ['nɑvəl] (adj.) 新穎的；新奇的
+The author's novel approach to the problem was refreshing. (作者對問題的新穎處理方式讓人耳目一新。)
+novice ['nɑvɪs] (n.) 新手；初學者
+She was a novice when it came to playing the guitar, but she was eager to learn. (她在彈吉他方面是個新手，但她很渴望學習。)

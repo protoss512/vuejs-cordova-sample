@@ -2,10 +2,14 @@
   <div
     style="display: flex;flex-direction:column;height: 100vh;width: 100vw;margin: 0;padding: 0;justify-content: center;align-items: center;">
     <div style="flex:1"></div>
-    <div style="flex:1;"><v-btn @click="to_Highschool_ke_leak">
-        {{ $t("to_Ke_Leak") }}
-      </v-btn></div>
-      <div style="flex:1;"><v-btn @click="to_read">
+    <div style="flex:1;">
+      <div
+        style="background-color: #252525 !important;border-radius: 15px;height: 60px;width: 300px;border: 1px groove #777;display: flex;justify-content: center;align-items: center;color: #ccc;"
+        @click="to_Highschool_ke_leak">
+        <div>{{ $t("to_Ke_Leak") }}</div>
+      </div>
+    </div>
+    <div style="flex:1;"><v-btn @click="to_read">
         {{ $t("to_read") }}
       </v-btn></div>
     <div style="flex:1;"><v-btn @click="to_vocabulary">
@@ -25,7 +29,7 @@ export default {
     to_vocabulary: () => {
       window.location.hash = '/Vocabulary';
     },
-    to_read:()=>{
+    to_read: () => {
       window.location.hash = '/ReadTest';
     }
   }

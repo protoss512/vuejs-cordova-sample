@@ -243,7 +243,7 @@ export const q = [{
   id: 23,
   q: "The new school policy regarding dress code has been ____________ by many students.",
   s: ["adapted", "adopted", "adept", "adapt"],
-  a: "school policy",
+  a: "adopted",
   e: "這個句子的主詞是 “school policy”（學校規定），動詞是 “has been”（被），缺少的克漏字應該是一個形容詞或過去分詞，用來描述 “school policy”（學校規定）被什麼樣的動作所影響。選項 (A) 的 “adapted” 表示「改編、改寫」，但是在這個句子中並不適當，因為這裡的學校規定是被影響，而不是被改編或改寫。選項 (C) 的 “adept” 表示「熟練、擅長」，在這個句子中也不合適，因為這個形容詞無法描述 “school policy”（學校規定）被影響的情況。選項 (D) 的 “adapt” 表示「適應、適合」，雖然用字形式正確，但是缺少動詞過去分詞的形式，因此不適用於這個句子中。選項 (B) 的 “adopted” 表示「採用、領養、接受」，符合這個句子的語境，表示「新的校規被許多學生所接受（adopted）」，因此是正確答案。因此，答案是 (B) adopted。",
 }, {
   id: 24,

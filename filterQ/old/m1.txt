@@ -1,0 +1,621 @@
+
+kale [keɪl] n. 甘藍；羽衣甘藍
+Eating kale is good for your health.（吃甘藍對健康有益。）
+
+keen [kin] adj. 熱切的；敏銳的；激烈的
+She was keen to start the project.（她渴望開始這個項目。）
+
+kernel [ˈkɜːrnl] n. 核心；仁；內核
+The kernel of an idea is the essence.（一個想法的核心是本質。）
+
+keyboard [ˈkiːbɔːrd] n. 鍵盤
+He typed quickly on the keyboard.（他在鍵盤上快速打字。）
+
+king [kɪŋ] n. 國王；王者
+The king ruled the country for 50 years.（國王統治了這個國家50年。）
+
+kitchen [ˈkɪtʃən] n. 廚房
+She is cooking in the kitchen.（她正在廚房裡做飯。）
+
+kite [kaɪt] n. 風箏
+The children flew a kite in the park.（孩子們在公園裡放風箏。）
+
+knot [nɑːt] n. 結；結節
+She tied a knot in the string.（她在繩子上打了個結。）
+
+know [noʊ] v. 知道；了解
+I know the answer to the question.（我知道問題的答案。）
+
+knee [niː] n. 膝蓋
+She fell and hurt her knee.（她跌倒並撞傷了膝蓋。）
+
+knit [nɪt] v. 編織；針織
+She is knitting a sweater for her son.（她正在為兒子編織一件毛衣。）
+
+kiss [kɪs] v. 親吻
+He kissed her on the cheek.（他在她臉頰上親了一下。）
+
+keep [kiːp] v. 保持；維持
+She keeps her room clean.（她保持她的房間清潔。）
+
+key [kiː] n. 鑰匙；關鍵
+She couldn't find her key.（她找不到她的鑰匙。）
+
+kind [kaɪnd] adj. 仁慈的；友好的
+She is a kind and generous.（她是一個善良大方的人。）
+
+knowledge [ˈnɑːlɪdʒ] n. 知識；學問
+He has a lot of knowledge about history.（他對歷史有很多了解。）
+
+kick [kɪk] v. 踢
+He kicked the ball into the goal.（他把球踢進了球門。）
+
+kid [kɪd] n. 小孩；孩子
+The kids are playing in the park.（孩子們在公園裡玩耍。）
+
+kill [kɪl] v. 殺死
+The hunter killed a deer in the forest.（獵人在森林裡殺死了一隻鹿。）
+
+kindle [ˈkɪndl] v. 點燃；激起
+The teacher kindled their interest in science.（老師激起了他們對科學的興趣。）
+
+knock [nɑːk] v. 敲；打
+She knocked on the door but no one answered.（她敲了敲門，但沒有人回答。）
+
+keep on [kiːp ɑːn] phr. 繼續；持續
+She kept on studying until late at night.（她一直學習到深夜。）
+
+keyhole [ˈkiːhoʊl] n. 鑰匙孔
+He looked through the keyhole to see if anyone was in the room.（他透過鑰匙孔看看房間裡有沒有人。）
+
+kernel density [ˈkɜːrnl ˈdensəti] n. 核密度；核概率密度
+Kernel density estimation is a non-parametric way to estimate probability density function.（核密度估計是一種非參數方法，用於估計概率密度函數。）
+
+kayak [ˈkaɪæk] n. 皮艇；獨木舟
+They went kayaking on the river.（他們在河上划獨木舟。）
+
+kiteboarding [ˈkaɪtbɔːrdɪŋ] n. 飛翔衝浪運動
+Kiteboarding is a popular water sport that combines aspects of surfing and sailing.（飛翔衝浪是一種流行的水上運動，結合了衝浪和帆船運動的特點。）
+
+kebab [kəˈbɑːb] n. 烤肉串
+We had kebab for dinner.（我們晚餐吃了烤肉串。）
+
+kaleidoscope [kəˈlaɪdəskoʊp] n. 萬花筒
+She looked through the kaleidoscope and saw a beautiful pattern.（她透過萬花筒，看到了美麗的圖案。）
+
+kindergarten [ˈkɪndərˌɡɑːrtn] n. 幼稚園
+My nephew started going to kindergarten this year.（我的侄子今年開始上幼稚園了。）
+
+kiss [kɪs] v. 親吻
+They kissed each other goodbye.（他們互相親吻道別。）
+
+kit [kɪt] n. 成套工具；用品
+She bought a kit to make her own candles.（她買了一套工具，用來製作自己的蠟燭。）
+
+knead [niːd] v. 揉；捏
+She kneaded the dough to make bread.（她揉面團做麵包。）
+
+knight [naɪt] n. 騎士
+The knight rode his horse into battle.（騎士騎著他的馬進入戰場。）
+
+knit [nɪt] v. 編織
+She knitted a sweater for her grandson.（她編織了一件毛衣給她的孫子。）
+
+knee [niː] n. 膝蓋
+He injured his knee while playing basketball.（他在打籃球時受傷了膝蓋。）
+
+knockdown [ˈnɑːkdaʊn] adj. 擊倒的；擊毀的
+The hurricane caused many knockdown trees and power lines.（颶風造成了許多被擊倒的樹和電纜。）
+
+knowledge-based [ˈnɑːlɪdʒbeɪst] adj. 基於知識的
+The company's success is based on its knowledge-based approach to business.（這家公司的成功基於其基於知識的商業方法。）
+
+know-how [ˈnoʊhaʊ] n. 專業技能；專門知識
+The company's success is due to the employees' know-how and hard work.（公司的成功歸功於員工的專業技能和努力工作。）
+
+knob [nɑːb] n. 把手；旋鈕
+She turned the knob to open the door.（她轉動把手打開門。）
+
+knowledgeable [ˈnɑːlɪdʒəbl] adj. 博學的；有知識的
+She is very knowledgeable about art history.（她對藝術史非常有見識。）
+
+knitwear [ˈnɪtˌwɛr] n. 針織衣物
+The store sells a wide variety of knitwear, including sweaters and scarves.（這家商店銷售各種針織衣物，包括毛衣和圍巾。）
+
+knack [næk] n. 技巧；窍門
+She has a knack for solving puzzles.（她擅長解決謎題。）
+
+knapsack [ˈnæpsæk] n. 背包；行囊
+He packed his knapsack for the camping trip.（他為露營旅行打包他的行囊。）
+
+knee-deep [ˈniːˌdip] adj. 深達膝蓋的
+The water was knee-deep after the heavy rain.（大雨過後，水深達膝蓋。）
+
+kernel [ˈkɜːrnl] n. 核心；核仁
+The kernel of the argument was that they had different priorities.（爭論的核心是他們有不同的優先事項。）
+
+kerosene [ˈkerəˌsiːn] n. 煤油
+They used kerosene lamps for light in the old days.（舊時代他們用煤油燈照明。）
+
+keen [kiːn] adj. 敏銳的；熱衷的
+She has a keen interest in photography.（她對攝影非常熱衷。）
+
+kettle [ˈketl] n. 水壺；茶壺
+She put the kettle on the stove to boil water for tea.（她把水壺放在爐子上煮水泡茶。）
+
+key [kiː] n. 鑰匙；關鍵
+She couldn't find the key to the front door.（她找不到前門的鑰匙。）
+
+keyboard [ˈkiːˌbɔːrd] n. 鍵盤
+She typed the report on her computer keyboard.（她用電腦鍵盤打印了報告。）
+
+kick [kɪk] v. 踢；踢球
+He kicked the ball into the goal.（他把球踢進了球門。）
+
+kid [kɪd] n. 小孩；年輕人
+The park was filled with kids playing on the swings and slides.（公園裡滿是在鞦韆和滑梯上玩耍的小孩。）
+
+kidney [ˈkɪdni] n. 腎臟
+She has a kidney problem and needs to see a specialist.（她有腎臟問題，需要看專家。）
+
+kill [kɪl] v. 殺死
+The hunter killed a deer in the woods.（獵人在樹林中殺了一隻鹿。）
+
+kind [kaɪnd] adj. 友好的；仁慈的
+She was very kind to the stray cat and took it in.（她對那隻流浪貓很友善，收養了它。）
+
+kindness [ˈkaɪndnɪs] n. 友善；仁慈
+She showed great kindness to the homeless person and gave him food and shelter.（她對無家可歸的人表現出極大的友善，提供給他食物和住所。）
+
+king [kɪŋ] n. 國王
+The king ruled over the kingdom with an iron fist.（國王用鐵腕統治著王國。）
+
+kingdom [ˈkɪŋdəm] n. 王國
+The ancient kingdom was known for its rich culture and traditions.（古代王國以其豐富的文化和傳統而聞名。）
+
+kiss [kɪs] v. 親吻
+They kissed each other goodbye before he left.（他離開前他們互相吻別。）
+
+kitchen [ˈkɪtʃən] n. 廚房
+She cooked dinner in the kitchen and set the table.（她在廚房裡煮晚餐並擺好桌子。）
+
+kite [kaɪt] n. 風箏
+The children ran along the beach, flying their kites in the sky.（孩子們沿著海灘奔跑，讓他們的風箏在天空中飛翔。）
+
+knee [ni] n. 膝蓋
+She fell and scraped her knee while playing soccer.（她在踢足球時跌倒並擦傷了膝蓋。）
+
+kneel [niːl] v. 跪下
+He knelt down and proposed to her with a ring.（他跪下來，拿著戒指向她求婚。）
+
+knife [naɪf] n. 刀子
+She used a sharp knife to cut the vegetables.（她用一把鋒利的刀子切菜。）
+
+knit [nɪt] v. 編織
+She learned to knit from her grandmother and made a sweater for her cat.（她從奶奶那裡學會了編織，為她的貓編了一件毛衣。）
+
+knock [nɑk] v. 敲；碰撞
+He knocked on the door but there was no answer.（他敲了敲門，但沒有回應。）
+
+knot [nɑt] n. 結；結瘤
+She tied a knot in the rope to hold it in place.（她在繩子上打了一個結，使它固定在原地。）
+
+know [noʊ] v. 知道
+I don't know the answer to that question.（我不知道那個問題的答案。）
+
+knowledge [ˈnɑlɪdʒ] n. 知識
+He had a wealth of knowledge about history and culture.（他對歷史和文化有豐富的知識。）
+
+known [noʊn] adj. 已知的；有名的
+The author is well known for her best-selling novels.（這位作家以她的暢銷小說而聞名。）
+
+label [ˈleɪbl] n. 標籤；v. 貼標籤
+Please label your luggage with your name and address.（請在你的行李上貼上你的名字和地址標籤。）
+
+laboratory [læbərəˌtɔri] n. 實驗室
+The scientists conducted experiments in the laboratory to test their hypotheses.（科學家們在實驗室進行實驗，以測試他們的假設。）
+
+lack [læk] v. 缺乏；n. 不足
+The company lacks the resources to expand into new markets.（這家公司缺乏進入新市場所需的資源。）
+
+ladder [ˈlædər] n. 梯子
+He climbed up the ladder to clean the gutters on the roof.（他爬上梯子清理屋頂的排水溝。）
+
+lady [ˈleɪdi] n. 女士；貴婦
+The lady in the red dress greeted us at the door.（穿著紅色連衣裙的女士在門口向我們打招呼。）
+
+lake [leɪk] n. 湖泊
+The lake was surrounded by mountains and covered with mist.（湖泊四周是山脈，被薄霧籠罩。）
+
+lamp [læmp] n. 燈
+She turned on the lamp and continued reading her book.（她打開燈繼續看書。）
+
+land [lænd] n. 土地；v. 登陸
+The airplane will land at the airport in two hours.（飛機將在兩個小時後降落在機場。）
+
+language [ˈlæŋɡwɪdʒ] n. 語言
+She is fluent in five different languages.（她能夠流利地使用五種不同的語言。）
+
+large [lɑrdʒ] adj. 大的；巨大的
+The elephant was too large to fit through the door.（象太大了，無法穿過門口。）
+
+last [læst] adj. 最後的；v. 持續；n. 上一次
+This is the last piece of cake.（這是最後一塊蛋糕。）
+
+laugh [læf] v. 笑；n. 笑聲
+The comedian made the audience laugh with his jokes.（喜劇演員用他的笑話使觀眾開心。）
+
+laundry [ˈlɔndri] n. 洗衣房；要洗的衣服
+She put the dirty clothes in the laundry basket.（她把髒衣服放在洗衣籃裡。）
+
+law [lɔ] n. 法律；規定
+It is against the law to drink and drive.（飲酒駕車是違法的。）
+
+lawn [lɔn] n. 草坪
+The children played soccer on the lawn.（孩子們在草坪上踢足球。）
+
+lawyer [ˈlɔjər] n. 律師
+The lawyer provided legal advice to his client.（律師為他的客戶提供法律建議。）
+
+lay [le] v. 放置；擺放
+He laid the book on the table.（他把書放在桌子上。）
+
+lazy [ˈleɪzi] adj. 懶惰的
+He didn't want to do anything because he was feeling lazy.（因為感覺懶惰，他不想做任何事情。）
+
+lead [lid] v. 帶領；領先；n. 鉛
+The company is in the lead in the race for market share.（這家公司在爭奪市場份額的競賽中領先。）
+
+leaf [lif] n. 葉子
+The tree's leaves turned red in the autumn.（樹葉在秋天變紅了。）
+
+leak [lik] v. 洩漏；n. 洩漏
+The company suffered a leak of confidential information.（公司遭遇了機密信息的洩露。）
+
+lean [lin] v. 傾斜；adj. 瘦的
+She is very lean because she exercises every day.（她非常瘦，因為她每天都運動。）
+
+learn [lɜrn] v. 學習
+She is learning to play the piano.（她正在學習彈鋼琴。）
+
+leather [ˈlɛðər] n. 皮革；adj. 皮革的
+He bought a leather jacket for the winter.（他買了一件皮夾克來應對冬天。）
+
+leave [liv] v. 離開；n. 假期
+He took a week's leave from work.（他請了一週的假。）
+
+lecture [ˈlɛktʃər] n. 講座；v. 講授
+She was lectured by her parents about the importance of studying.（她被父母教訓了一頓，講述了學習的重要性。）
+
+left [lɛft] adj. 左邊的；n. 左邊；adv. 向左
+Turn left at the next intersection.（在下一個十字路口向左轉。）
+
+leg [lɛg] n. 腿
+She hurt her leg while playing soccer.（她在踢足球時傷到了腿。）
+
+lemon [ˈlɛmən] n. 檸檬
+She squeezed a lemon into her tea.（她擠了一個檸檬進她的茶裡。）
+
+lend [lɛnd] v. 借出
+Can you lend me your pen?（你能借給我你的筆嗎？）
+
+length [lɛŋkθ] n. 長度
+The length of the room is 5 meters.（這個房間的長度是5米。）
+
+less [lɛs] adj. 較少的；adv. 較少地
+She has less experience than her colleagues.（她比她的同事經驗較少。）
+
+lesson [ˈlɛsən] n. 課程；教訓
+He learned a lesson about the importance of punctuality.（他從學習遲到的教訓中得到了啟示。）
+
+let [lɛt] v. 讓；出租
+They are letting their apartment for the summer.（他們在夏季出租他們的公寓。）
+
+letter [ˈlɛtər] n. 信件
+She received a letter from her friend.（她收到了一封朋友寄來的信。）
+
+level [ˈlɛvəl] n. 水平；v. 使平等
+The company is working to level the playing field for all employees.（公司正努力為所有員工打造公平的競爭環境。）
+
+library [ˈlaɪˌbrɛri] n. 圖書館
+She spent the afternoon studying at the library.（她在圖書館度過了下午學習。）
+
+license [ˈlaɪsəns] n. 許可證；v. 批准
+The government will only license companies that meet certain safety standards.（政府只會批准符合特定安全標準的公司。）
+
+lie [laɪ] v. 躺；說謊
+It is not right to lie to your parents.（對父母撒謊是不對的。）
+
+life [laɪf] n. 生命；一生
+She has lived a long and fulfilling life.（她度過了一個漫長而豐盛的一生。）
+
+lift [lɪft] v. 舉起；n. 電梯
+He helped me lift the heavy box.（他幫我舉起了沉重的盒子。）
+
+light [laɪt] n. 光；adj. 輕的；v. 點燃
+She lights a candle to create a romantic atmosphere.（她點燃了蠟燭，營造出浪漫的氛圍。）
+
+like [laɪk] v. 喜歡；adj. 相似的；prep. 像
+He eats breakfast like a king.（他吃早餐像個國王。）
+
+likely [ˈlaɪkli] adj. 可能的；adv. 可能地
+He will likely be late for the meeting.（他可能會遲到會議。）
+
+limit [ˈlɪmɪt] n. 限制；v. 限制
+The company is limiting the number of employees in the office.（公司正在限制辦公室的員工數量。）
+
+line [laɪn] n. 線；排；v. 排隊
+The people were lined up outside the store.（人們在商店外排隊。）
+
+link [lɪŋk] n. 連接；v. 連接
+The link between smoking and cancer is well established.（吸煙和癌症之間的聯繫已得到充分證實。）
+
+list [lɪst] n. 清單；v. 列出
+She listed her qualifications on her resume.（她在履歷表上列出了她的資格。）
+
+listen [ˈlɪsən] v. 聽
+He likes to listen to classical music.（他喜歡聽古典音樂。）
+
+literature [ˈlɪtərətʃər] n. 文學
+Shakespeare is a great name in English literature.（莎士比亞是英國文學的一個偉大的名字。）
+
+little [ˈlɪtl] adj. 小的；adv. 一點；n. 一點
+He has little knowledge of history.（他對歷史知識很少。）
+
+live [lɪv] v. 居住；adj. 活的；adv. 直播
+The concert will be broadcasted live on TV.（音樂會將在電視上實況轉播。）
+
+load [loʊd] n. 負載；v. 裝載
+He loaded the boxes onto the truck.（他把箱子裝上了卡車。）
+
+loan [loʊn] n. 貸款；v. 借出
+He got a loan from the bank to buy a house.（他從銀行貸款買了一間房子。）
+
+local [ˈloʊkl] adj. 當地的；n. 當地人
+The local police station is just around the corner.（當地的警察局就在轉角處。）
+
+locate [loʊˈkeɪt] v. 找到；位於
+We need to locate the source of the problem.（我們需要找到問題的來源。）
+
+lock [lɑk] n. 鎖；v. 鎖上
+She keeps her jewelry in a locked box.（她把珠寶放在鎖起來的盒子裡。）
+
+long [lɔŋ] adj. 長的；adv. 長時間地；v. 渴望
+The Great Wall of China is very long.（中國的長城非常長。）
+
+look [lʊk] v. 看；n. 外表
+She has a very serious look on her face.（她臉上帶著一種非常嚴肅的表情。）
+
+loose [luːs] adj. 鬆的；v. 放開
+The shirt is too loose for me.（這件襯衫對我來說太鬆了。）
+
+lose [luːz] v. 失去；輸掉
+I don't want to lose my keys again.（我不想再丟失我的鑰匙了。）
+
+loud [laʊd] adj. 大聲的
+The music is too loud.（音樂聲太大了。）
+
+love [lʌv] n. 愛；v. 愛
+I love to read books.（我喜歡閱讀書籍。）
+
+low [loʊ] adj. 低的；adv. 低聲地；n. 低點
+The temperature is very low today.（今天的氣溫非常低。）
+
+loyal [ˈlɔɪəl] adj. 忠誠的
+He is a loyal friend.（他是一位忠誠的朋友。）
+
+luck [lʌk] n. 運氣
+Good luck on your exam!（考試順利！）
+
+luggage [ˈlʌɡɪdʒ] n. 行李
+He carried his luggage to the hotel.（他把行李拿到旅館去了。）
+
+lunch [lʌntʃ] n. 午餐
+Let's have lunch together.（我們一起吃午餐吧。）
+
+machine [məˈʃin] n. 機器
+The machine is broken.（機器壞了。）
+
+magazine [ˌmæɡəˈzin] n. 雜誌
+She subscribes to several fashion magazines.（她訂閱了幾本時尚雜誌。）
+
+magic [ˈmædʒɪk] n. 魔法；adj. 神奇的
+The view from the top of the mountain was magical.（從山頂俯瞰的風景非常神奇。）
+
+mail [meɪl] n. 郵件；v. 寄送
+I need to mail this package to my friend.（我需要把這個包裹郵寄給我的朋友。）
+
+main [meɪn] adj. 主要的
+The main reason for the traffic jam is the accident.（造成交通堵塞的主要原因是事故。）
+
+major [ˈmeɪdʒər] adj. 主要的；n. 主修
+English is my major in college.（我在大學主修英語。）
+
+make [meɪk] v. 製作；做
+Let's make a plan for the weekend.（讓我們為週末做個計劃。）
+
+male [meɪl] adj. 男性的；n. 男性
+The male peacock has beautiful feathers.（公孔雀有美麗的羽毛。）
+
+mall [mɔːl] n. 購物中心
+They went to the mall to do some shopping.（他們去購物中心購物。）
+
+man [mæn] n. 男人；人類
+Man has always been fascinated by the stars.（人類一直對星星充滿著著迷。）
+
+manage [ˈmænɪdʒ] v. 管理；處理
+I don't know how she manages to juggle so many tasks.（我不知道她是如何處理這麼多的任務的。）
+
+manner [ˈmænər] n. 方式；舉止
+She spoke to me in a very rude manner.（她以非常粗魯的方式對我說話。）
+
+manufacture [ˌmænjəˈfækʧər] v. 製造；n. 製造業
+The manufacturing sector is a key part of the economy.（製造業是經濟的關鍵部門。）
+
+many [ˈmɛni] adj. 許多的
+There are many people in the park.（公園裡有很多人。）
+
+map [mæp] n. 地圖；v. 繪製地圖
+He studied the map to find the best route.（他研究地圖以找到最佳路線。）
+
+march [mɑːrtʃ] v. 行軍；n. 三月
+March is the third month of the year.（三月是一年中的第三個月份。）
+
+mark [mɑːrk] n. 標記；v. 標記；記號
+He put a mark on the page to show where he left off.（他在頁面上打了個標記，顯示他停止的地方。）
+
+market [ˈmɑːrkɪt] n. 市場；v. 銷售
+The farmer goes to the market every week to sell his produce.（農夫每週都去市場銷售農產品。）
+
+marriage [ˈmærɪdʒ] n. 婚姻
+They had a big wedding ceremony to celebrate their marriage.（他們舉行了盛大的婚禮慶祝他們的婚姻。）
+
+marry [ˈmæri] v. 結婚
+They plan to marry in the summer.（他們計劃在夏天結婚。）
+
+mask [mæsk] n. 面具；v. 掩蓋
+She wore a mask to the costume party.（她戴著面具參加化裝舞會。）
+
+mass [mæs] n. 大量；adj. 大量的
+The company produced mass quantities of the product.（該公司生產了大量的產品。）
+
+massive [ˈmæsɪv] adj. 巨大的；大規模的
+The earthquake caused massive damage to the city.（地震對城市造成了大規模的破壞。）
+
+master [ˈmæstər] n. 主人；v. 精通
+She mastered the piano at a young age.（她很年輕就精通了鋼琴。）
+
+match [mætʃ] n. 比賽；v. 相配
+The colors of her dress and shoes match perfectly.（她的裙子和鞋子的顏色完美地相配。）
+
+mate [meɪt] n. 伴侶；v. 交配
+He found his soul mate when he least expected it.（他在最不期望的時候找到了自己的心靈伴侶。）
+
+material [məˈtɪriəl] n. 材料；adj. 物質的
+The scientist analyzed the material properties of the substance.（科學家分析了該物質的物質特性。）
+
+math [mæθ] n. 數學
+She excels in math and science.（她在數學和科學方面表現出色。）
+
+matter [ˈmætər] n. 物質；v. 有重要性
+The matter of the dispute was resolved in court.（爭端的問題在法庭上得到了解決。）
+
+maximum [ˈmæksəməm] n. 最大值；adj. 最大的
+The car can reach a maximum speed of 200 miles per hour.（這輛車的最高速度可以達到每小時200英里。）
+
+may [meɪ] v. 可以；可能
+You may use the restroom if you need to.（如果需要，您可以使用洗手間。）
+
+maybe [ˈmeɪbi] adv. 或許；可能
+Maybe we should consider other options before making a decision.（在做出決定之前，也許我們應該考慮其他選擇。）
+
+meal [mil] n. 餐；一餐的食物
+He skipped breakfast but had a big meal for lunch.（他沒有吃早餐，但午餐吃了很多。）
+
+mean [min] v. 意味著；adj. 卑鄙的
+He was mean to his younger brother and often teased him.（他對弟弟很卑鄙，經常戲弄他。）
+
+measure [ˈmɛʒər] v. 測量；n. 措施
+The government implemented measures to reduce pollution.（政府實施了減少污染的措施。）
+
+meat [mit] n. 肉
+She doesn't eat meat because she is a vegetarian.（她不吃肉因為她是素食主義者。）
+
+mechanic [məˈkænɪk] n. 技工；修車工
+She hired a mechanic to repair her bicycle.（她聘請了一名技工來修理自行車。）
+
+media [ˈmidiə] n. 媒體
+The company used social media to promote its new product.（公司使用社交媒體宣傳它的新產品。）
+
+medical [ˈmɛdɪkəl] adj. 醫學的；醫療的
+The doctor prescribed a medical treatment for his patient's condition.（醫生為他的病人的病情開了一個醫學治療方案。）
+
+medicine [ˈmɛdəsɪn] n. 藥；醫學
+The study of medicine requires many years of training.（醫學研究需要多年的培訓。）
+
+meet [mit] v. 遇見；會面
+She was excited to finally meet her favorite actor in person.（她終於與她最喜愛的演員見面了，非常興奮。）
+
+member [ˈmɛmbər] n. 成員；會員
+The company has over 500,000 members worldwide.（該公司在全球擁有超過50萬會員。）
+
+memory [ˈmɛməri] n. 記憶；記憶力
+She has a great memory and can remember details from years ago.（她有很好的記憶力，能夠記得多年前的細節。）
+
+mental [ˈmɛntl] adj. 心理的；精神的
+She sought help from a mental health professional for her anxiety.（她為了她的焦慮症尋求了心理健康專業人士的幫助。）
+
+mention [ˈmɛnʃən] v. 提到；說起
+She didn't want to mention the subject again because it made her uncomfortable.（她不想再提到這個話題，因為它讓她感到不舒服。）
+
+menu [ˈmɛnju] n. 菜單
+She looked at the menu but couldn't decide what to order.（她看了菜單但決定不了要點什麼。）
+
+mere [mɪr] adj. 僅僅的；只不過的
+The problem is not a mere inconvenience but a serious issue.（問題不僅僅是一個小麻煩，而是一個嚴重的問題。）
+
+message [ˈmɛsɪdʒ] n. 訊息；消息
+She sent me a message to let me know that she arrived safely.（她發了一條訊息告訴我她安全抵達了。）
+
+metal [ˈmɛtl] n. 金屬
+The construction workers were welding metal beams together.（建築工人正在把金屬梁焊接在一起。）
+
+method [ˈmɛθəd] n. 方法；方式
+Her method for studying involved reading and taking detailed notes.（她的學習方法包括閱讀和做詳細的筆記。）
+
+middle [ˈmɪdl] adj. 中間的；中央的
+The book was divided into three parts: the beginning, the middle, and the end.（這本書分為三個部分：開頭、中間和結尾。）
+
+might [maɪt] v. 可能；會
+I might go to the movies tonight if I finish my work early.（如果我早點完成工作，我今晚可能會去看電影。）
+
+mile [maɪl] n. 英里
+We drove for miles without seeing any gas stations.（我們開了好幾英里都沒有看到加油站。）
+
+military [ˈmɪləˌtɛri] adj. 軍事的；軍隊的
+The country is facing a military threat from its neighboring countries.（這個國家面臨來自鄰國的軍事威脅。）
+
+milk [mɪlk] n. 牛奶
+She drinks a glass of milk every morning for breakfast.（她每天早餐都喝一杯牛奶。）
+
+mind [maɪnd] n. 心智；思想；v. 介意；注意
+He has a sharp mind and is able to solve complex problems easily.（他有敏銳的思維能力，能夠輕易解決複雜的問題。）
+
+mine [maɪn] pron. 我的；n. 礦井；礦物
+The miners worked deep underground in the mine.（礦工們在礦井深處工作。）
+
+minute [ˈmɪnɪt] n. 分鐘；adj. 微小的；詳細的
+The details of the plan were discussed in minute detail.（計劃的細節被詳細地討論了。）
+
+mirror [ˈmɪrər] n. 鏡子；v. 反映；映射
+The tall buildings were mirrored in the calm waters of the lake.（高樓大廈在湖水的平靜表面上映射出來。）
+
+mistake [mɪsˈteɪk] n. 錯誤；v. 犯錯誤
+She made a mistake in her calculations and had to start over.（她在計算中犯了一個錯誤，不得不重新開始。）
+
+mix [mɪks] v. 混合；攪拌；n. 混合物
+The DJ played a mix of different songs at the party.（DJ在派對上播放了不同歌曲的混音。）
+
+mobile [ˈmoʊbəl] adj. 可移動的；流動的；n. 行動電話
+The furniture in the room was all mobile and could be rearranged easily.（房間裡的家具都是可移動的，可以輕易重新排列。）
+
+model [ˈmɑːdəl] n. 模型；模範；v. 模仿；塑造
+The architect created a model of the building to show his design.（建築師創建了建築物的模型來展示他的設計。）
+
+modern [ˈmɑːdərn] adj. 現代的；時髦的
+The house had a modern design with clean lines and lots of natural light.（這所房子設計現代，線條簡潔，自然光線充足。）
+
+moment [ˈmoʊmənt] n. 片刻；時刻；瞬間
+That moment when they first met was etched in their memories forever.（他們第一次見面的那一刻永遠刻在他們的記憶中。）
+
+money [ˈmʌni] n. 錢；貨幣
+The currency exchange rate determines how much money you get when you convert one currency into another.（貨幣匯率決定了你在把一種貨幣換成另一種貨幣時能得到多少錢。）
+
+monitor [ˈmɑːnətər] n. 監視器；顯示器；v. 監視；監控
+The computer system is constantly monitoring for any errors or problems.（計算機系統不斷監控是否有任何錯誤或問題。）
+
+month [mʌnθ] n. 月份；一個月的時間
+She'll be away for a month on her trip to Europe.（她的歐洲之旅將使她離開一個月。）
+
+moon [muːn] n. 月亮
+The full moon was shining brightly in the night sky.（滿月在夜空中熠熠生輝。）

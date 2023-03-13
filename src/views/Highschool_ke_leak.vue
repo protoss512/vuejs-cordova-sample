@@ -1,26 +1,16 @@
 
 <template>
   <div style="display:flex;flex-direction:column;height: 100vh;width: 100vw;margin: 0;padding: 0;">
-    <div style="flex:1;background-color: #222;margin: 5px;display:flex;">
+    <div style="flex:1;background-color: #222;margin: 10px;display:flex;">
       <div style="flex:1;display: flex;justify-content: flex-start;align-items: center;"><img
           style="background-color: #222;" src="../assets/arrow_back.svg" @click="goHome"></div>
-      <div style="flex:1;display: flex;justify-content: center;align-items: center;">{{
-        isReport ? $t("analysis") : $t("question") + id }}</div>
-      <div style="flex:1;display: flex;justify-content: flex-end;align-items: center;"><img
-          style="background-color: #222;" src="../assets/report.svg" @click="openReport"></div>
+      <div style="flex:1;display: flex;justify-content: center;align-items: center;color: #ccc;">{{
+        $t("to_Ke_Leak") }}</div>
+      <div style="flex:1;display: flex;justify-content: flex-end;align-items: center;"></div>
     </div>
-    <div v-if="isReport" style="flex:90;margin: 10px;padding-top: 10px;display: flex;flex-direction:column;">
-      <div style="flex:1">{{ $t("correct_rate") }}</div>
-      <div style="flex:1">{{ ((cor_num / tot_num) * 100).toFixed(2) }}</div>
-      <div style="flex:1">{{ $t("total_question") }}</div>
-      <div style="flex:1">{{ tot_num }}</div>
-      <div style="flex:1">{{ $t("total_correct") }}</div>
-      <div style="flex:1">{{ cor_num }}</div>
-      <div style="flex:1">{{ $t("total_error") }}</div>
-      <div style="flex:1">{{ tot_num - cor_num }}</div>
-    </div>
-    <div v-else style="flex:90;margin: 10px;padding-top: 10px;">
-      <div v-if='!isExp'>{{ question }}</div>
+    <hr style="margin-left: 10px;margin-right: 10px;margin-bottom: 10px;border: 1px groove #666;">
+    <div style="flex:100;margin-left: 10px;margin-right: 10px;">
+      <div v-if='!isExp' style="color: #ddd;">{{ question }}</div>
       <div v-else style="display: inline-block;" v-for="(item, index) in ques" v-bind:key="index">
         <div style="margin: 2px;padding: 3px;" @click="onEn(item)" :id="index" :class="{
           'correct_color': item.includes('_') && isCorrect,
@@ -30,15 +20,16 @@
           {{
             item.includes('_') ? selected : item }}</div>
       </div>
+      <hr style="margin-top: 10px;border: 1px groove #666;margin-bottom: 10px;">
       <div v-if='isExp'>
-        <hr style="margin: 5px;" />
         <div style="display: inline-block;" v-for="(item, index) in sels" v-bind:key="index">
           <div style="margin: 2px;padding: 3px;" @click="onEn(item)"
-            :class="answer == item ? 'correct_color' : 'normal_color'">
+            :class="answer.toLowerCase() == item.toLowerCase() ? 'correct_color' : 'normal_color'">
             {{ index == 0 ? 'A. ' : index == 1 ? 'B. ' : index == 2 ? 'C. ' : 'D. ' }}{{ item }}</div>
         </div>
         <div style="padding-top: 5px;">{{ exp }}</div>
       </div>
+      
       <v-list-item v-else v-for="item in sels" v-bind:key="item">
         <v-btn style="text-transform: initial !important;" block @click="onSel(item)">
           {{ item }}
@@ -99,7 +90,10 @@ export default {
       if (a.filter(e => e.e.toLowerCase() === item.toLowerCase()).length > 0) {
         let index = a.findIndex(x => x.e.toLowerCase() === item.toLowerCase())
         console.log(a[index].ex)
+      } else {
+        console.log(item)
       }
+
     },
     openReport() {
       this.isReport ^= true
@@ -135,7 +129,7 @@ export default {
       this.tot_num = tnum
       localStorage.setItem('Total_num', tnum.toString())
 
-      if (this.selected == q[number].a) {
+      if (this.selected.toLowerCase() == q[number].a.toLowerCase()) {
         this.isCorrect = true
         let cnum = parseInt(localStorage.getItem('Correct_num'))
         cnum += 1

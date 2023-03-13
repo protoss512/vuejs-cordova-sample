@@ -1,0 +1,900 @@
+
+rabbit [ˈræbɪt] (n.) 兔子
+I saw a rabbit hopping around in the garden. (我看到一隻兔子在花園裡跳來跳去。)
+
+race [reɪs] (n.) 競賽；種族
+The Olympic Games are a global sports race. (奧運會是全球運動競賽。)
+
+radio [ˈreɪdioʊ] (n.) 收音機
+I like to listen to music on the radio while driving. (我喜歡在開車時收聽收音機上的音樂。)
+
+rain [reɪn] (n.) 雨
+We had heavy rain last night. (昨晚下了大雨。)
+
+raise [reɪz] (v.) 舉起；養育
+He raised his son to be a responsible adult. (他養育他的兒子成為一個負責任的成年人。)
+
+random [ˈrændəm] (adj.) 隨機的；任意的
+The selection process is random and fair. (選拔過程是隨機和公正的。)
+
+range [reɪndʒ] (n.) 範圍；山脈
+The Himalayan range is the highest mountain range in the world. (喜馬拉雅山脈是世界上最高的山脈。)
+
+rank [ræŋk] (n.) 等級；地位
+He achieved the rank of captain in the army. (他在軍隊中達到了上尉的軍銜。)
+
+rapid [ˈræpɪd] (adj.) 迅速的；急促的
+The rapid growth of the company surprised everyone. (公司的快速增長讓每個人都感到驚訝。)
+
+rare [rɛr] (adj.) 稀有的；罕見的
+The diamond is very rare and expensive. (這顆鑽石非常稀有且昂貴。)
+
+rather [ˈræðər] (adv.) 寧願；相當
+I would rather stay home than go out tonight. (今晚我寧願待在家裡而不是出去。)
+
+rating [ˈreɪtɪŋ] (n.) 評級；等級
+The hotel has a five-star rating. (酒店擁有五星級評級。)
+
+ratio [ˈreɪʃioʊ] (n.) 比率；比例
+The ratio of men to women in the company is 2:1. (公司男女比例是2:1。)
+
+raw [rɔ] (adj.) 生的；未加工的
+The sushi is made with raw fish. (壽司用生魚製成。)
+
+reach [ritʃ] (v.) 到達；伸手拿取
+I couldn't reach the top shelf without a ladder. (沒有梯子我夠不到頂層櫃子。)
+
+react [riˈækt] (v.) 反應；回應
+How did she react to the news? (她對這個消息有什麼反應？。)
+
+read [rɛd] (v.) 閱讀；讀取
+I like to read novels in my spare time. (我喜歡在空閒時間閱讀小說。)
+
+ready [ˈrɛdi] (adj.) 準備好的；就緒的
+Is the meal ready yet? (餐點準備好了嗎？。)
+
+real [riəl] (adj.) 真實的；真正的
+The story is based on a real-life event. (這個故事是基於一個真實的事件。)
+
+reality [riˈæləti] (n.) 現實；真實性
+The reality of the situation is that we need more money. (情況的現實是我們需要更多的錢。)
+
+realize [ˈriəˌlaɪz] (v.) 實現；意識到
+He realized his dream of becoming a doctor. (他實現了成為醫生的夢想。)
+
+really [ˈrɛli] (adv.) 真正地；非常
+I'm really tired today. (我今天真的很累。)
+
+reason [ˈrizən] (n.) 理由；原因
+What was the reason for your absence yesterday? (昨天你缺席的原因是什麼？。)
+
+reasonable [ˈrizənəbl] (adj.) 合理的；公道的
+The price is reasonable for the quality of the product. (這個產品的質量和價格相符。)
+
+recall [rɪˈkɔl] (v.) 回想起；召回
+I can't recall the name of the restaurant we went to last night. (我不記得我們昨晚去的餐廳的名字。)
+
+receive [rɪˈsiv] (v.) 收到；接收
+I received a gift from my friend on my birthday. (我在生日時收到了朋友的禮物。)
+
+recent [ˈrisənt] (adj.) 最近的；近來的
+I read a recent article about climate change. (我讀了一篇最近關於氣候變化的文章。)
+
+recognize [ˈrɛkəɡˌnaɪz] (v.) 認出；承認
+I didn't recognize him at first because he had grown a beard. (一開始我沒有認出他來，因為他留了鬍子。)
+
+recommend [ˌrɛkəˈmɛnd] (v.) 推薦；建議
+Can you recommend a good restaurant in this area? (你可以推薦這個區域內的好餐廳嗎？。)
+
+record [rɪˈkɔrd] (n.) 記錄；唱片
+The athlete broke the world record in the 100-meter race. (那位運動員在100米比賽中打破了世界紀錄。)
+
+recover [rɪˈkʌvər] (v.) 恢復；重新獲得
+It took her several months to recover from the surgery. (她花了幾個月的時間才從手術中恢復過來。)
+
+reduce [rɪˈdus] (v.) 減少；縮小
+We need to reduce our energy consumption to protect the environment. (為了保護環境，我們需要減少能源消耗。)
+
+refer [rɪˈfɜr] (v.) 參考；提及
+He referred to his notes during the presentation. (他在演講期間參考了他的筆記。)
+
+reflect [rɪˈflɛkt] (v.) 反映；反射
+The mirror reflected my image back to me. (鏡子把我的影像反射回來。)
+
+refresh [rɪˈfrɛʃ] (v.) 使恢復；更新
+A cold drink will refresh you on a hot day. (大熱天來杯冷飲提神。)
+
+refuse [rɪˈfjuz] (v.) 拒絕；婉拒
+He refused to lend me any money. (他拒絕借錢給我。)
+
+regard [rɪˈɡɑrd] (v.) 考慮；關心；尊重
+We should regard the safety of our employees as our top priority. (我們應該把員工的安全視為最重要的事情。)
+
+region [ˈridʒən] (n.) 地區；區域
+This region is known for its scenic beauty. (這個地區以其美麗的風景而聞名。)
+
+regular [ˈrɛɡjələr] (adj.) 規律的；正常的
+He has a regular exercise routine. (他有規律的運動習慣。)
+
+relate [rɪˈleɪt] (v.) 有關聯；講述
+She related her experience of traveling around the world. (她講述了自己環遊世界的經歷。)
+
+relax [rɪˈlæks] (v.) 放鬆；使輕鬆
+I like to relax with a good book after a long day. (經過漫長的一天後，我喜歡用好書放鬆自己。)
+
+release [rɪˈlis] (v.) 釋放；發行
+The police released the suspect due to lack of evidence. (警方因缺乏證據而釋放了嫌疑人。)
+
+relevant [ˈrɛləvənt] (adj.) 有關的；相關的
+Please only provide relevant information. (請提供有關的信息。)
+
+rely [rɪˈlaɪ] (v.) 依賴；信任
+I rely on public transportation to get to work. (我依賴公共交通工具上班。)
+
+remain [rɪˈmeɪn] (v.) 保持；留下
+He remained silent during the entire meeting. (他在整個會議期間保持沉默。)
+
+remark [rɪˈmɑrk] (v.) 評論；說話
+She remarked that the food was delicious. (她評論這道菜非常美味。)
+
+remember [rɪˈmɛmbər] (v.) 記得；回憶起
+I can't remember where I put my keys. (我不記得我把鑰匙放在哪裡了。)
+
+remove [rɪˈmuv] (v.) 移除；除去
+Please remove your shoes before entering the temple. (請在進入寺廟前脫掉鞋子。)
+
+repeat [rɪˈpit] (v.) 重複；再說一遍
+Can you repeat that, please? (你能再說一遍嗎？。)
+
+report [rɪˈpɔrt] (n.) 報告；新聞報導
+The news report said that the storm caused severe damage. (新聞報導說風暴造成了嚴重的破壞。)
+
+represent [ˌrɛprɪˈzɛnt] (v.) 代表；象徵
+The blue circle on the flag represents the earth. (旗幟上的藍色圓圈代表地球。)
+
+request [rɪˈkwɛst] (v.) 要求；請求
+She requested a day off from work. (她請求在工作日休息一天。)
+
+require [rɪˈkwaɪr] (v.) 需要；要求
+This job requires previous experience. (這份工作需要具有先前的經驗。)
+
+research [rɪˈsɜrtʃ] (n.) 研究；調查
+The research showed that a healthy diet can reduce the risk of heart disease. (研究表明，健康的飲食可以減少心臟病的風險。)
+
+reserve [rɪˈzɜrv] (v.) 預定；保留
+I reserved a table at the restaurant for 7 pm. (我預定了晚上7點的餐桌。)
+
+respect [rɪˈspɛkt] (n.) 尊敬；敬意
+We should treat each other with respect. (我們應該彼此尊重。)
+
+responsible [rɪˈspɑnsəbl] (adj.) 負責的；有責任感的
+The CEO is responsible for making all major decisions. (CEO有責任做出所有重大決定。)
+
+rest [rɛst] (n.) 休息；剩餘部分
+After a long day of work, I like to rest on the couch. (經過漫長的一天工作後，我喜歡在沙發上休息。)
+
+result [rɪˋzʌlt] (n.) 結果 ; (v.) 發生；導致
+She has to be pleased with the results. (她不得不對這些成績感到滿意。)
+
+return [rɪˈtɜrn] (v.) 返回；歸還
+I will return the book to the library tomorrow. (我明天會把這本書還給圖書館。)
+
+reveal [rɪˈvil] (v.) 揭示；透露
+The detective revealed the identity of the murderer. (偵探揭示了兇手的身份。)
+
+rich [rɪtʃ] (adj.) 富有的；豐富的
+He became rich after he started his own business. (他在開始自己的事業後變得富有。)
+
+right [raɪt] (adj.) 正確的；合適的
+It's important to make the right decision. (做出正確的決定很重要。)
+
+risk [rɪsk] (n.) 風險；危險
+Smoking poses a serious risk to your health. (吸煙對健康構成嚴重的風險。)
+
+river [ˈrɪvər] (n.) 河流
+The Yangtze River is the longest river in Asia. (長江是亞洲最長的河流。)
+
+road [roʊd] (n.) 道路；馬路
+There was heavy traffic on the road this morning. (今天早上道路上塞車嚴重。)
+
+rock [rɑk] (n.) 岩石；搖滾音樂
+The climbers had to climb over a steep rock face to reach the summit. (攀登者們必須攀爬一個陡峭的岩石面才能到達山頂。)
+
+role [roʊl] (n.) 角色；職責
+His role in the company is to oversee the marketing department. (他在公司的角色是監督市場部門。)
+
+room [rum] (n.) 房間；空間
+The hotel room was spacious and comfortable. (旅館的房間寬敞舒適。)
+
+round [raʊnd] (adj.) 圓形的；完整的
+The moon is a round shape in the sky. (月亮是天空中的圓形形狀。)
+
+route [rut] (n.) 路線；路徑
+The fastest route to the airport is through the expressway. (到機場最快的路線是通過高速公路。)
+
+routine [ruˈtin] (n.) 常規；例行公事
+My morning routine consists of exercising and having breakfast. (我的早晨常規包括運動和吃早餐。)
+
+row [roʊ] (n.) 划船；排
+They went for a row on the lake. (他們在湖上划船。)
+
+rub [rʌb] (v.) 摩擦；擦拭
+She rubbed her eyes to get rid of the sleepiness. (她揉了揉眼睛，消除睡意。)
+
+rude [rud] (adj.) 無禮的；粗魯的
+It's rude to talk with your mouth full. (嘴巴塞滿食物講話是不禮貌的。)
+
+ruin [ruˈɪn] (v.) 毀壞；破壞
+The storm ruined the roof of the house. (風暴毀壞了房子的屋頂。)
+
+rule [ruːl] (n.) 規則；規定
+The school has a strict rule against bullying. (學校有一條嚴格的反欺凌規定。)
+
+run [rʌn] (v.) 跑；經營
+She runs three miles every day before work. (她每天上班前跑三英里。)
+
+rush [rʌʃ] (v.) 匆忙；催促
+We need to rush if we want to catch the train. (如果我們想趕上火車，就得趕快。)
+
+rust [rʌst] (n.) 鏽；生銹
+The metal gate had rusted due to the rain. (由於雨水，金屬大門生鏽了。)
+
+ruthless [ˈruθ.ləs] (adj.) 無情的；冷酷的
+The ruthless dictator oppressed his people with no mercy. (冷酷的獨裁者毫不留情地壓迫著自己的人民。)
+
+sack [sæk] (n.) 麻袋；解雇
+He was given the sack after being caught stealing from the company. (他在被發現從公司偷竊後被解雇了。)
+
+sacred [ˈseɪ.kɚd] (adj.) 神聖的；不可侵犯的
+The temple is a sacred place for worship. (寺廟是一個神聖的崇拜場所。)
+
+sacrifice [ˈsæk.rə.faɪs] (v.) 犧牲；獻祭
+She sacrificed her own happiness to take care of her sick mother. (她犧牲了自己的幸福來照顧生病的母親。)
+
+sad [sæd] (adj.) 悲傷的；憂鬱的
+She felt sad after her pet dog died. (她的寵物狗死後感到悲傷。)
+
+safe [seɪf] (adj.) 安全的；可靠的
+The bank vault is a safe place to keep your valuable possessions. (銀行保險庫是保存貴重物品的安全場所。)
+
+sail [seɪl] (v.) 航行；啟航
+They sailed around the world on a yacht. (他們乘著遊艇環遊世界。)
+
+sake [seɪk] (n.) 緣故；為了
+She did it for the sake of her family. (她為了家人而這麼做。)
+
+salary [ˈsæl.ər.i] (n.) 薪水；工資
+He received a raise in his salary after working for the company for five years. (他在該公司工作五年後，薪水加薪了。)
+
+sale [seɪl] (n.) 銷售；出售
+The store is having a big sale on all their products. (商店正在對所有產品進行大促銷。)
+
+salute [səˈluːt] (v.) 敬禮；致敬
+The soldiers saluted the flag during the national anthem. (士兵在國歌播放期間向旗幟致敬。)
+
+same [seɪm] (adj.) 相同的；一樣的
+We have the same taste in music. (我們對音樂的品味相同。)
+
+sample [ˈsæm.pəl] (n.) 樣品；樣本
+The company provided a free sample of their new product. (公司提供了他們新產品的免費樣品。)
+
+sand [sænd] (n.) 沙子；沙灘
+The children loved to play in the sand at the beach. (孩子們喜歡在沙灘上玩沙子。)
+
+satisfaction [ˌsæt̬.ɪsˈfæk.ʃən] (n.) 滿意；滿足
+The customer expressed his satisfaction with the quality of the product. (顧客對產品的質量表示滿意。)
+
+satisfy [ˈsæt̬.ɪs.faɪ] (v.) 使滿足；滿意
+The meal satisfied his hunger. (這頓餐飯讓他滿足飢餓感。)
+
+save [seɪv] (v.) 拯救；節省
+The lifeguard saved the drowning swimmer. (救生員拯救了溺水的游泳者。)
+
+say [seɪ] (v.) 說；講
+She said hello to her friend. (她向朋友打招呼說了聲你好。)
+
+scale [skeɪl] (n.) 刻度；規模
+The map had a scale of one inch to ten miles. (該地圖的比例尺為1英寸對10英里。)
+
+scan [skæn] (v.) 掃描；細看
+He scanned the document for any errors. (他細心檢查文件是否有錯誤。)
+
+scar [skɑːr] (n.) 疤痕；傷痕
+The scar on her face was from a childhood accident. (她臉上的疤痕是童年時的一次意外造成的。)
+
+scare [sker] (v.) 嚇唬；驚嚇
+The loud noise scared the cat. (大聲的噪音嚇到了貓。)
+
+scatter [ˈskæt̬.ɚ] (v.) 散佈；分散
+The wind scattered the leaves all over the yard. (風把樹葉吹散到整個院子裡。)
+
+scene [siːn] (n.) 場景；現場
+The movie had a dramatic scene at the end. (電影在結尾處有一個戲劇性的場景。)
+
+schedule [ˈʃedʒ.uːl] (n.) 計畫表；時刻表
+The flight schedule was delayed due to bad weather. (由於惡劣天氣，航班時刻表被推遲了。)
+
+scheme [skiːm] (n.) 計畫；策劃
+The company had a scheme to increase profits. (該公司有一個計畫來增加利潤。)
+
+scholar [ˈskɑː.lɚ] (n.) 學者；學術家
+The scholar was awarded a prize for his research. (這位學者因他的研究而獲得了獎勵。)
+
+school [skuːl] (n.) 學校
+She teaches at a high school. (她在一所高中任教。)
+
+science [ˈsaɪ.əns] (n.) 科學
+The science behind climate change is complex. (氣候變化背後的科學是復雜的。)
+
+scientist [ˈsaɪən.tɪst] (n.) 科學家
+The scientist won a Nobel Prize for his groundbreaking work in physics. (這位科學家因他在物理學上的開創性工作而獲得了諾貝爾獎。)
+
+scope [skoʊp] (n.) 範圍；領域
+The scope of the project was too broad. (這個項目的範圍太廣了。)
+
+score [skɔːr] (n.) 分數；得分
+The final score of the game was 3-2. (這場比賽的最終得分是3-2。)
+
+scream [skriːm] (v.) 尖叫；驚叫
+The child screamed when he saw the spider. (孩子看到蜘蛛時尖叫了起來。)
+
+screen [skriːn] (n.) 螢幕；屏幕
+The movie was projected on a big screen. (電影在大螢幕上放映。)
+
+script [skrɪpt] (n.) 劇本；手稿
+The script for the play was written by a famous playwright. (這部戲劇的劇本是由一位著名的劇作家所寫的。)
+
+sculpture [ˈskʌlp.tʃɚ] (n.) 雕刻品；雕塑品
+The museum has a collection of ancient sculptures. (博物館收藏有古代雕塑品。)
+
+sea [siː] (n.) 海洋；海
+The sea was calm and peaceful. (大海平靜而寧靜。)
+
+search [sɜːrtʃ] (v.) 搜尋；尋找
+The police are searching for the missing person. (警方正在尋找失蹤者。)
+
+season [ˈsiː.zən] (n.) 季節
+Fall is my favorite season. (秋天是我最喜歡的季節。)
+
+seat [siːt] (n.) 座位；位子
+Please take a seat and wait for the doctor. (請坐下等待醫生。)
+
+second [ˈsek.ənd] (n.) 秒
+The race was won by a fraction of a second. (比賽以一秒的微差贏得。)
+
+secret [ˈsiː.krət] (adj.) 秘密的；隱蔽的
+The spy gave the secret information to the enemy. (間諜將秘密情報提供給敵人。)
+
+section [ˈsek.ʃən] (n.) 部分；章節
+The book has five sections. (這本書有五個章節。)
+
+security [səˈkjʊr.ə.t̬i] (n.) 安全；保安
+The company installed security cameras to prevent theft. (公司安裝了監視器以防止盜竊。)
+
+seed [siːd] (n.) 種子；籽粒
+The farmer planted seeds in the spring. (農民在春季種下了種子。)
+
+seek [siːk] (v.) 尋找；追求
+She seeks advice from her mentor. (她向導師尋求建議。)
+
+seem [siːm] (v.) 似乎；好像
+It seems that the weather will be nice today. (天氣今天看起來會不錯。)
+
+segment [ˈseɡ.mənt] (n.) 段落；部分
+The television show was divided into segments. (這個電視節目被劃分為幾個部分。)
+
+select [səˈlekt] (v.) 選擇；挑選
+She selected a dress for the wedding. (她挑選了一件婚禮上的裙子。)
+
+self [self] (pron.) 自己；自我
+He needs to work on improving his self-confidence. (他需要努力提高自信心。)
+
+sell [sel] (v.) 賣；出售
+He sold his car to pay off his debts. (他賣了他的車來還債。)
+
+seminar [ˈsem.ə.nɑːr] (n.) 研討會；研究班
+The university is offering a seminar on modern art. (這所大學正在開設一個現代藝術的研討會。)
+
+senior [ˈsiː.njɚ] (adj.) 年長的；資深的
+The senior employee has worked for the company for 20 years. (這位資深員工在公司工作了20年。)
+
+sense [sens] (n.) 感覺；意義
+I have a sense of déjà vu. (我有種似曾相識的感覺。)
+
+sensitive [ˈsen.sə.t̬ɪv] (adj.) 敏感的；易受傷害的
+The child is very sensitive to criticism. (這個孩子對批評非常敏感。)
+
+sentence [ˈsen.təns] (n.) 句子；判決
+He received a 10-year sentence for his crime. (他因犯罪被判處十年徒刑。)
+
+separate [ˈsep.ər.ət] (adj.) 分開的；獨立的
+The twins were placed in separate classes. (雙胞胎被分到不同的班級。)
+
+sequence [ˈsiː.kwəns] (n.) 順序；序列
+The sequence of events was unclear. (事件的順序不清楚。)
+
+series [ˈsɪr.iːz] (n.) 系列；一連串
+The company is releasing a new series of products. (公司正在推出一系列新產品。)
+
+serious [ˈsɪr.i.əs] (adj.) 嚴重的；認真的
+The patient's condition is quite serious. (病人的狀況相當嚴重。)
+
+serve [sɝv] (v.) 服務；供應
+The waiter came to serve us our food. (服務員來給我們上飯了。)
+
+session [ˈsɛʃ.ən] (n.) 會議；一段時間
+The meeting was scheduled to last for a two-hour session. (這個會議預計要持續兩個小時。)
+
+set [sɛt] (v.) 放置；設置
+She set the vase on the table. (她將花瓶放在桌子上。)
+
+settle [ˈsɛt̬.əl] (v.) 解決；安頓
+We need to settle this dispute peacefully. (我們需要和平解決這個爭端。)
+
+several [ˈsɛv.rəl] (adj.) 幾個；數個
+Several people have already arrived at the party. (已經有幾個人到了派對上。)
+
+severe [səˈvɪr] (adj.) 嚴重的；嚴厲的
+The storm caused severe damage to the town. (風暴對這個城鎮造成了嚴重的破壞。)
+
+share [ʃer] (v.) 分享；分擔
+Let's share the cost of the meal. (我們來分攤這餐的費用吧。)
+
+sheet [ʃit] (n.) 床單；紙張
+The bed needs clean sheets. (床需要換乾淨的床單。)
+
+shift [ʃɪft] (v.) 轉移；改變
+The company is shifting its focus to renewable energy. (這家公司正在轉向可再生能源。)
+
+shine [ʃaɪn] (v.) 發光；照耀
+The sun was shining brightly in the sky. (太陽在天空中明亮地照耀著。)
+
+ship [ʃɪp] (n.) 船；船隻
+The cargo ship arrived at the port this morning. (貨船今天早上抵達了港口。)
+
+shirt [ʃɝt] (n.) 襯衫
+He always wears a white shirt to work. (他上班總是穿著一件白襯衫。)
+
+shock [ʃɑk] (n.) 震驚；打擊
+The news of the accident was a shock to everyone. (事故的消息對每個人來說都是一個打擊。)
+
+shoot [ʃut] (v.) 射擊；拍攝
+The hunters went to shoot some deer in the woods. (獵人們去森林裡射擊一些鹿。)
+
+shop [ʃɑp] (n.) 商店
+I'm going to the shop to buy some milk. (我要去商店買些牛奶。)
+
+short [ʃɔrt] (adj.) 短的；不足的
+He is too short to reach the top shelf. (他太矮了，夠不著上面的架子。)
+
+should [ʃʊd] (aux. v.) 應該
+You should wear a coat, it's cold outside. (你應該穿上外套，外面很冷。)
+
+shoulder [ˈʃoʊl.dɚ] (n.) 肩膀
+He carried the heavy bag on his shoulder. (他用肩膀背著沉重的包袋。)
+
+shout [ʃaʊt] (v.) 喊叫；大聲說
+She shouted at him to stop the car. (她對他大聲喊叫，要他停車。)
+
+show [ʃo] (v.) 展示；顯示
+The teacher showed the students how to solve the math problem. (老師向學生展示了如何解決這個數學問題。)
+
+shower [ˈʃaʊ.ɚ] (n.) 淋浴；陣雨
+I'm going to take a shower before bed. (我要睡前洗個澡。)
+
+shut [ʃʌt] (v.) 關閉
+Can you shut the window? It's too cold. (你能關上窗戶嗎？太冷了。)
+
+shy [ʃaɪ] (adj.) 害羞的；膽小的
+She's too shy to talk to strangers. (她太害羞了，不敢和陌生人說話。)
+
+sick [sɪk] (adj.) 生病的
+He's been sick for a week and hasn't been to work. (他已經生病一個星期了，沒有去上班。)
+
+side [saɪd] (n.) 邊；側面
+I like to sit on the sunny side of the room. (我喜歡坐在房間的陽光邊。)
+
+sight [saɪt] (n.) 視力；視野
+His sight has been getting worse, and he needs glasses now. (他的視力越來越差，現在需要戴眼鏡。)
+
+sign [saɪn] (n.) 標誌；符號
+The sign on the door said "Do not disturb." (門上的標誌上寫著「請勿打擾」。)
+
+silence [ˈsaɪ.ləns] (n.) 沉默；寂靜
+The silence in the library was broken by a loud sneeze. (圖書館的寂靜被一聲大噴嚏打破了。)
+
+silly [ˈsɪl.i] (adj.) 愚蠢的；傻的
+He made a silly mistake on the test and got a low grade. (他在考試中犯了一個愚蠢的錯誤，得了低分。)
+
+silver [ˈsɪl.vɚ] (n.) 銀；銀色
+She wore a silver necklace with a matching bracelet. (她戴了一條配有手鐲的銀項鍊。)
+
+simple [ˈsɪm.pl̩] (adj.) 簡單的；單純的
+The recipe was so simple that even I could make it. (這個食譜非常簡單，我都能做。)
+
+sing [sɪŋ] (v.) 唱歌
+She loves to sing in the shower. (她喜歡在淋浴時唱歌。)
+
+sister [ˈsɪs.tɚ] (n.) 姐妹；妹妹
+My sister is three years younger than me. (我的妹妹比我小三歲。)
+
+sit [sɪt] (v.) 坐
+Please sit down and make yourself comfortable. (請坐下，自在些。)
+
+size [saɪz] (n.) 大小；尺寸
+The shirt is too small for me, I need a bigger size. (這件襯衫對我來說太小了，我需要大一號的。)
+
+skill [skɪl] (n.) 技能；技巧
+He has great skill when it comes to playing the guitar. (在彈吉他方面，他有很高的技巧。)
+
+skin [skɪn] (n.) 皮膚
+She has sensitive skin and needs to use special soap. (她的皮膚很敏感，需要用特殊的肥皂。)
+
+sky [skaɪ] (n.) 天空
+The sky was blue and clear on the day of the picnic. (野餐的那一天，天空藍藍的，很清澈。)
+
+sleep [sliːp] (v.) 睡覺
+I need to sleep for at least eight hours a night to feel rested. (我需要每晚睡覺至少八個小時才能感到休息好。)
+
+slow [sloʊ] (adj.) 緩慢的
+The traffic was slow on the way to work this morning. (今天早上去上班路上交通緩慢。)
+
+small [smɔːl] (adj.) 小的；少量的
+She prefers to buy small portions of food instead of large ones. (她喜歡買小份的食物，而不是大份的。)
+
+smile [smaɪl] (v.) 微笑
+She smiled at me and I felt instantly better. (她對我微笑，我感覺馬上好了起來。)
+
+smoke [smoʊk] (n.) 煙；抽煙
+Smoking is bad for your health. (抽煙對健康有害。)
+
+snow [snoʊ] (n.) 雪
+The snow was so deep that we couldn't drive our car. (雪太深了，我們開不了車。)
+
+so [soʊ] (adv.) 如此；這麼
+I'm so happy that you could come to my party. (你能來參加我的派對，我很高興。)
+
+soap [soʊp] (n.) 肥皂
+Please pass me the soap so I can wash my hands. (請把肥皂遞給我，我要洗手。)
+
+social [ˈsoʊ.ʃəl] (adj.) 社交的；社會的
+She is a very social person and enjoys meeting new people. (她是個很愛社交的人，喜歡認識新朋友。)
+
+soft [sɔːft] (adj.) 柔軟的；軟的
+The pillow is soft and comfortable. (這個枕頭很柔軟舒適。)
+
+solid [ˈsɑː.lɪd] (adj.) 堅固的；固體的
+The table is made of solid wood and will last a long time. (這張桌子是用實木製成的，會持久很長時間。)
+
+some [sʌm] (pron.) 一些；有些
+Can you give me some water, please? (你可以給我一些水嗎？。)
+
+son [sʌn] (n.) 兒子
+My son is studying abroad and I miss him very much. (我的兒子在國外念書，我很想他。)
+
+song [sɔːŋ] (n.) 歌曲
+I love this song, it always makes me feel happy. (我喜歡這首歌，它總能讓我感到快樂。)
+
+soon [suːn] (adv.) 不久；很快
+The party will start soon, so we need to hurry. (派對快要開始了，所以我們要趕快。)
+
+sorry [ˈsɑːr.i] (adj.) 很抱歉的
+I'm sorry that I can't come to your party. (很抱歉我不能來參加你的派對。)
+
+sound [saʊnd] (n.) 聲音；聲響
+The sound of the ocean is very relaxing. (海浪的聲音很令人放鬆。)
+
+soup [suːp] (n.) 湯
+I like to have soup for lunch on a cold day. (在寒冷的日子裡，我喜歡吃湯作為午餐。)
+
+south [saʊθ] (n.) 南方
+My grandparents live in the south of the country. (我的祖父母住在這個國家的南部。)
+
+space [speɪs] (n.) 空間；太空
+There is not enough space in this room for all of us. (這個房間放不下我們所有人。)
+
+speak [spiːk] (v.) 說話；講話
+I can speak three languages fluently. (我會說三種語言，而且很流利。)
+
+special [ˈspeʃ.əl] (adj.) 特別的；特殊的
+Today is a special day because it's my birthday. (今天是特別的日子，因為是我的生日。)
+
+speed [spiːd] (n.) 速度
+The speed limit on this road is 50 kilometers per hour. (這條路的限速是每小時50公里。)
+
+spell [spel] (v.) 拼寫
+Can you spell your name for me? (你能為我拼寫你的名字嗎？。)
+
+spend [spend] (v.) 花費（時間、金錢等）
+I spent all weekend cleaning the house. (我花了整個週末打掃房子。)
+
+spoon [spuːn] (n.) 湯匙
+Can you pass me a spoon, please? (你能給我一個湯匙嗎？。)
+
+sport [spɔːrt] (n.) 運動
+My favorite sport is basketball. (我最喜歡的運動是籃球。)
+
+spring [sprɪŋ] (n.) 春天
+I love the flowers that bloom in spring. (我喜歡春天開花的花朵。)
+
+square [skweər] (adj.) 正方形的；平方的
+The room is square-shaped and has four windows. (這個房間是正方形的，有四個窗戶。)
+
+stand [stænd] (v.) 站立
+Please stand up and introduce yourself. (請站起來並介紹你自己。)
+
+star [stɑːr] (n.) 星星
+I love looking at the stars on a clear night. (在晴朗的夜晚，我喜歡看星星。)
+
+start [stɑːrt] (v.) 開始
+Let's start the meeting now. (現在開始開會吧。)
+
+station [ˈsteɪʃn] (n.) 車站；站
+I need to go to the train station to catch my train. (我需要去車站趕火車。)
+
+stay [steɪ] (v.) 停留；逗留
+I'm planning to stay in Paris for a week. (我打算在巴黎逗留一個星期。)
+
+steak [steɪk] (n.) 牛排
+I ordered a steak for dinner. (我點了牛排當晚餐。)
+
+steal [stiːl] (v.) 偷竊
+It's wrong to steal from other people. (從別人那裡偷東西是錯的。)
+
+step [step] (n.) 步驟；步伐
+The first step to success is hard work. (成功的第一步是努力工作。)
+
+stick [stɪk] (n.) 棍子；條棒
+She used a stick to stir the soup. (她用一根棍子攪拌湯。)
+
+still [stɪl] (adv.) 仍然；還是
+I'm still waiting for my friend to arrive. (我仍在等待我的朋友到來。)
+
+stomach [ˈstʌmək] (n.) 胃
+My stomach hurts after eating too much. (吃太多之後，我的胃痛。)
+
+stone [stoʊn] (n.) 石頭
+The path was covered with stones. (路上鋪滿了石頭。)
+
+stop [stɑːp] (v.) 停止
+The bus stopped at the corner to pick up passengers. (公車在轉角處停下來接乘客。)
+
+store [stɔːr] (n.) 商店；店鋪
+I need to go to the store to buy some milk. (我需要去商店買些牛奶。)
+
+storm [stɔːrm] (n.) 暴風雨
+The storm caused a lot of damage to the city. (暴風雨給城市帶來了很多破壞。)
+
+story [ˈstɔːri] (n.) 故事
+She told us a funny story about her trip to Europe. (她給我們講了一個關於她歐洲之旅的有趣故事。)
+
+strange [streɪndʒ] (adj.) 奇怪的；陌生的
+It's strange that she didn't show up for the meeting. (她沒有出現在會議上是很奇怪的。)
+
+street [striːt] (n.) 街道
+The street was full of people and cars. (街上滿是人和車。)
+
+strong [strɔːŋ] (adj.) 強壯的；堅固的
+He has a strong body from working out every day. (他每天鍛煉身體，擁有一個強壯的體魄。)
+
+student [ˈstuːdnt] (n.) 學生
+There are many students in the library studying for exams. (圖書館裡有很多學生正在準備考試。)
+
+study [ˈstʌdi] (v.) 學習；研究
+I need to study for my English test tomorrow. (我需要為明天的英語考試做準備。)
+
+stupid [ˈstuːpɪd] (adj.) 愚蠢的
+It was stupid of him to try to climb that tree. (他試圖爬那棵樹是很愚蠢的。)
+
+subject [ˈsʌbdʒɪkt] (n.) 主題；科目
+The subject of the book is about a girl who travels the world. (這本書的主題是關於一個旅遊世界的女孩。)
+
+success [səkˈses] (n.) 成功
+She worked hard for years to achieve her success as a musician. (她努力工作多年，最終成為了一名成功的音樂家。)
+
+such [sʌtʃ] (adj./pron.) 這樣的；如此的
+I have never seen such a beautiful sunset before. (我從未見過這麼美麗的日落。)
+
+sudden [ˈsʌdn] (adj.) 突然的
+The sudden noise scared me. (突然的聲音嚇到了我。)
+
+suggest [səˈdʒest] (v.) 建議；暗示
+I suggest we go to the park instead of staying inside all day. (我建議我們去公園，而不是整天待在室內。)
+
+summer [ˈsʌmər] (n.) 夏天
+I love going to the beach in the summer. (我喜歡在夏天去海灘。)
+
+sun [sʌn] (n.) 太陽
+The sun is shining bright today. (今天太陽很明亮。)
+
+Sunday [ˈsʌndeɪ] (n.) 星期日
+I usually go to church on Sunday. (我通常在星期日去教堂。)
+
+supermarket [ˈsuːpərmɑːrkɪt] (n.) 超市
+I need to go to the supermarket to buy groceries. (我需要去超市買食品杂货。)
+
+supply [səˈplaɪ] (v./n.) 供應；供應品
+The company supplies products to stores all over the world. (這家公司向全世界各地的商店提供產品。)
+
+support [səˈpɔːrt] (v./n.) 支持；支援
+I always support my friends in their dreams and goals. (我總是支持我的朋友們的夢想和目標。)
+
+sure [ʃʊr] (adj.) 確信的；肯定的
+I am sure that I locked the door when I left the house. (我確信我離開房子時已經把門鎖上了。)
+
+surprise [səˈpraɪz] (v./n.) 使驚訝；驚喜
+He surprised his girlfriend with a romantic dinner. (他用一頓浪漫的晚餐給女友一個驚喜。)
+
+sweet [swiːt] (adj.) 甜的；可愛的
+I love eating sweet desserts like ice cream and cake. (我喜歡吃像冰淇淋和蛋糕這樣甜的甜點。)
+
+swim [swɪm] (v.) 游泳
+She swims every morning to stay in shape. (她每天早上游泳保持身材。)
+
+system [ˈsɪstəm] (n.) 系統
+The computer system crashed and we lost all our data. (電腦系統崩潰了，我們失去了所有的數據。)
+
+table [ˈteɪbl] (n.) 桌子
+We sat around the table and had dinner together. (我們圍著桌子一起吃晚餐。)
+
+take [teɪk] (v.) 拿；取
+Can you take this book to the library for me? (你能幫我把這本書帶到圖書館嗎？。)
+
+talk [tɔːk] (v./n.) 說話；交談
+We had a long talk about our future plans. (我們談了很長時間關於我們的未來計劃。)
+
+taste [teɪst] (v./n.) 品嚐；口感
+This soup tastes delicious! (這湯的口味很美味！。)
+
+tax [tæks] (n./v.) 稅；徵稅
+I need to file my tax returns before the deadline. (我需要在截止日期前申報我的稅務。)
+
+teach [tiːtʃ] (v.) 教
+My mother taught me how to cook when I was young. (我年輕時，我的母親教我如何烹飪。)
+
+team [tiːm] (n.) 團隊
+The basketball team practiced every day to prepare for the tournament. (籃球隊每天練習，準備參加比賽。)
+
+technology [tɛkˈnɑːlədʒi] (n.) 技術
+Advances in technology have changed the way we live and work. (技術的進步改變了我們的生活和工作方式。)
+
+telephone [ˈtɛləfon] (n.) 電話
+I need to make a telephone call to my boss. (我需要給我的老板打電話。)
+
+television [ˈtɛlɪvɪʒən] (n.) 電視
+I love watching movies and TV shows on television. (我喜歡在電視上觀看電影和電視節目。)
+
+tell [tɛl] (v.) 告訴
+Can you tell me where the nearest post office is? (你能告訴我最近的郵局在哪裡嗎？。)
+
+tennis [ˈtɛnɪs] (n.) 網球
+I used to play tennis when I was in high school. (我高中時打過網球。)
+
+term [tɜːrm] (n.) 學期；術語
+The fall term at the university starts in September. (大學的秋季學期從9月份開始。)
+
+test [tɛst] (n./v.) 測驗；考試
+I have a test in math next week. (我下週有一個數學測驗。)
+
+thank [θæŋk] (v.) 感謝
+I want to thank you for helping me with my project. (我想感謝你幫我完成我的項目。)
+
+theater [ˈθiːətər] (n.) 劇場
+I'm going to see a play at the theater tonight. (我今晚要去劇院看戲。)
+
+theme [θim] (n.) 主題
+The theme of the party is "beach party." (派對的主題是「海灘派對」。)
+
+theory [ˈθiːəri] (n.) 理論
+The professor explained the theory behind the experiment. (教授解釋了實驗背後的理論。)
+
+there [ðɛr] (adv.) 在那裡
+Is there a restroom near here? (這附近有洗手間嗎？。)
+
+they [ðeɪ] (pron.) 他們；她們；它們
+They are my coworkers at the office. (他們是我在辦公室的同事。)
+
+thing [θɪŋ] (n.) 東西；事情
+I forgot to bring my things to the meeting. (我忘了把我的東西帶到會議上。)
+
+think [θɪŋk] (v.) 想
+I need some time to think about it before I make a decision. (在做出決定之前，我需要一些時間來考慮一下。)
+
+third [θɜːrd] (adj./n.) 第三的；三分之一；三等獎
+She won the third prize in the art competition. (她在藝術比賽中獲得了三等獎。)
+
+this [ðɪs] (pron./adj.) 這個
+This is my favorite book. (這是我最喜歡的書。)
+
+those [ðoʊz] (pron.) 那些
+Those are my parents over there. (那邊是我的父母。)
+
+though [ðoʊ] (conj./adv.) 雖然
+Though it's raining, I still want to go for a walk. (雖然下雨，我仍想去散步。)
+
+thought [θɔːt] (n.) 想法；思考
+I need to give some more thought to this problem. (我需要再仔細考慮一下這個問題。)
+
+thousand [ˈθaʊzənd] (n.) 千
+There were thousands of people at the concert. (音樂會上有成千上萬的人。)
+
+thread [θrɛd] (n.) 線
+The needle and thread are in the sewing kit. (針和線在縫紉工具包中。)
+
+three [θriː] (adj./n.) 三
+She has three cats and two dogs. (她有三隻貓和兩隻狗。)
+
+through [θruː] (prep./adv.) 穿過；經過
+We walked through the park to get to the other side. (我們穿過公園到達另一邊。)
+
+throw [θroʊ] (v.) 拋；扔
+He threw the ball to his teammate. (他把球扔給了隊友。)
+
+thus [ðʌs] (adv.) 因此；這樣
+He failed the test and thus had to retake it. (他考試不及格，因此不得不重考。)
+
+ticket [ˈtɪkɪt] (n.) 票；罰單
+I need to buy a ticket for the train ride. (我需要買一張火車票。)
+
+tidy [ˈtaɪdi] (adj./v.) 整潔的；整理
+She likes to keep her room tidy and clean. (她喜歡保持她的房間整潔和清潔。)
+
+tie [taɪ] (v./n.) 綁；打結；領帶
+He needs to tie his shoes before he can go outside. (他需要系好鞋帶才能出門。)
+
+tiger [ˈtaɪɡər] (n.) 老虎
+The tiger is a powerful predator in the animal kingdom. (老虎是動物界中的強大掠食者。)
+
+tight [taɪt] (adj.) 緊的；擠迫的
+The jeans were too tight, so she had to get a larger size. (牛仔褲太緊了，所以她得買一個更大的號碼。)
+
+time [taɪm] (n.) 時間
+I don't have much time to finish this project. (我沒有太多時間完成這個項目。)
+
+tire [taɪr] (n./v.) 輪胎；疲勞
+I need to replace the tires on my car. (我需要更換我的汽車輪胎。)
+
+today [təˈdeɪ] (adv./n.) 今天
+Today is Monday. (今天是星期一。)
+
+toe [toʊ] (n.) 腳趾
+He stubbed his toe on the table leg. (他的腳趾撞到了桌腳。)
+
+tomato [təˈmeɪtoʊ] (n.) 番茄
+I like to add tomatoes to my salad. (我喜歡在我的沙拉中加入番茄。)
+
+tomorrow [təˈmɑːroʊ] (adv./n.) 明天
+I have a meeting with the boss tomorrow. (我明天要和老板開會。)
+
+tongue [tʌŋ] (n.) 舌頭
+She burned her tongue on the hot soup. (她在熱湯上燙傷了舌頭。)
+
+tool [tuːl] (n.) 工具
+He needs to buy some new tools for his woodworking project. (他需要為他的木工項目買一些新工具。)
+
+tooth [tuːθ] (n.) 牙齒
+She needs to brush her teeth before she goes to bed. (她需要在睡覺前刷牙。)
+
+top [tɑːp] (n./adj./v.) 頂部；最高的；高峰
+The top of the mountain is covered in snow. (山頂被雪覆蓋著。)
+
+total [ˈtoʊtl] (adj./n./v.) 總的；總計；總共
+The total cost of the project was over budget. (該項目的總成本超出了預算。)
+
+touch [tʌtʃ] (v./n.) 觸摸；感觸
+The baby giggled when I touched his toes. (當我碰他的腳趾時，嬰兒笑了。)
+
+tour [tʊr] (n./v.) 旅行；參觀
+The band is on tour and will be playing in cities all over the country. (這支樂隊正在巡迴演出，將在全國各地的城市演出。)
+
+towel [ˈtaʊəl] (n.) 毛巾
+She dried her hands with a towel after washing them. (她洗手後用毛巾擦乾了手。)
+
+town [taʊn] (n.) 城鎮
+I grew up in a small town in the countryside. (我在鄉村的一個小鎮長大。)
+
+toy [tɔɪ] (n.) 玩具
+He bought a toy car for his son's birthday. (他為兒子的生日買了一輛玩具車。)
+
+track [træk] (n./v.) 軌道；追蹤
+The train runs on a track that stretches for miles. (火車行駛在數英里長的軌道上。)
