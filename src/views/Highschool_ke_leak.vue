@@ -1,6 +1,7 @@
 
 <template>
-  <div style="display:flex;flex-direction:column;height: 100vh;width: 100vw;margin: 0;padding: 0;">
+  <div
+    style="display:flex;flex-direction:column;height: 100vh;width: 100vw;margin: 0;padding: 0;margin-left: 10px;margin-right: 10px;">
     <div style="flex:1;background-color: #222;margin: 10px;display:flex;">
       <div style="flex:1;display: flex;justify-content: flex-start;align-items: center;"><img
           style="background-color: #222;" src="../assets/arrow_back.svg" @click="goHome"></div>
@@ -8,11 +9,28 @@
         $t("to_Ke_Leak") }}</div>
       <div style="flex:1;display: flex;justify-content: flex-end;align-items: center;"></div>
     </div>
-    <hr style="margin-left: 10px;margin-right: 10px;margin-bottom: 10px;border: 1px groove #666;">
-    <div style="flex:100;margin-left: 10px;margin-right: 10px;">
-      <div v-if='!isExp' style="color: #ddd;">{{ question }}</div>
+    <hr style="margin-bottom: 10px;border: 1px groove #666;">
+    <div style="flex:100;">
+      <div v-if="isDetail"
+        style="position: fixed;top:0;left:0;width:100vw;height:100vh;z-index:3;background-color:rgba(0,0,0,0.3);color:black;display:flex">
+        <div
+          style="background-color:#222;flex:1;display:flex;flex-direction:column;margin-top: 24vh;margin-bottom:24vh;margin-left: 2vw;margin-right: 2vw;border-radius: 3vw;">
+          <div style="flex:1;background-color: #222;margin: 5px;display:flex;">
+            <div style="flex:1;display: flex;justify-content: flex-start;align-items: center;"></div>
+            <div style="flex:5;display: flex;justify-content: center;align-items: center;color: #ccc;">{{
+              onDetail }}</div>
+            <div style="flex:1;display: flex;justify-content: flex-end;align-items: center;"><img style=""
+                src="../assets/close.svg" @click="closeDetail"></div>
+          </div>
+          <hr style="margin-bottom: 10px;border: 1px groove #666;margin-left: 10px;margin-right: 10px;">
+          <div style="flex:10;color: #ccc;margin: 10px;">
+            {{ onExp }}
+          </div>
+        </div>
+      </div>
+      <div v-if='!isExp' style="color: #ccc;">{{ question }}</div>
       <div v-else style="display: inline-block;" v-for="(item, index) in ques" v-bind:key="index">
-        <div style="margin: 2px;padding: 3px;" @click="onEn(item)" :id="index" :class="{
+        <div style="margin: 2px;padding: 3px;color: #ccc;" @click="onEn(item)" :id="index" :class="{
           'correct_color': item.includes('_') && isCorrect,
           'error_color': item.includes('_') && !isCorrect,
           'normal_color': vocabularys.filter(e => e.e.toLowerCase() === item.toLowerCase()).length > 0,
@@ -22,23 +40,32 @@
       </div>
       <hr style="margin-top: 10px;border: 1px groove #666;margin-bottom: 10px;">
       <div v-if='isExp'>
-        <div style="display: inline-block;" v-for="(item, index) in sels" v-bind:key="index">
-          <div style="margin: 2px;padding: 3px;" @click="onEn(item)"
-            :class="answer.toLowerCase() == item.toLowerCase() ? 'correct_color' : 'normal_color'">
-            {{ index == 0 ? 'A. ' : index == 1 ? 'B. ' : index == 2 ? 'C. ' : 'D. ' }}{{ item }}</div>
-        </div>
-        <div style="padding-top: 5px;">{{ exp }}</div>
+        <div style="margin: 10px;color: #ccc;">
+          {{ $t("fail") }} {{ sel }}</div>
+        <hr style="margin-top: 10px;border: 1px groove #666;margin-bottom: 10px;">
+        <div style="margin: 10px;color: #ccc;">{{ exp }}</div>
       </div>
-      
-      <v-list-item v-else v-for="item in sels" v-bind:key="item">
-        <v-btn style="text-transform: initial !important;" block @click="onSel(item)">
-          {{ item }}
-        </v-btn>
-      </v-list-item>
-      <v-btn style="margin-top: 20px;" :disabled="selected == '' || answer != ''" block @click="anwser">{{
-        $t("to_answer") }}</v-btn>
+      <div v-else v-for="(item, index) in sels" v-bind:key="item">
+        <div style="margin: 15px;display: flex;justify-content: center;align-items: center;color: #ccc;"
+          @click="onSel(item)">
+          <div style="flex:1;display: flex;justify-content: flex-start;align-items: center;">{{ index == 0 ? 'A. ' : index
+            == 1 ? 'B. ' : index == 2 ? 'C. ' : 'D. ' }}</div>
+          <div style="flex:100;display: flex;justify-content: center;align-items: center;color: #ccc;">{{
+            item }}</div>
+          <div style="flex:1;display: flex;justify-content: flex-end;align-items: center;"></div>
+        </div>
+        <hr style="margin: 10px;border: 1px groove #666;">
+      </div>
+      <div v-if='isExp' @click="goNext"
+        style="margin-top: 20px;background-color: #252525 !important;border-radius: 5px;height: 40px;border: 1px groove #777;display: flex;justify-content: center;align-items: center;color: #ccc;">
+        <div>{{ $t("go_next") }}</div>
+      </div>
+      <div v-else-if="selected != ''" @click="anwser"
+        style="margin-top: 20px;background-color: #252525 !important;border-radius: 5px;height: 40px;border: 1px groove #777;display: flex;justify-content: center;align-items: center;color: #ccc;">
+        <div>{{
+          $t("to_answer") }}</div>
+      </div>
 
-      <v-btn v-if='isExp' block @click="goNext">{{ $t("go_next") }}</v-btn>
     </div>
   </div>
 </template>
@@ -52,7 +79,6 @@ export default {
   name: 'Highschool_ke_leak',
   data: () => {
     return {
-      id: '',
       sels: [],
       question: '',
       selected: '',
@@ -60,18 +86,19 @@ export default {
       exp: '',
       isExp: false,
       answer: '',
-      isReport: false,
+      sel: '',
       ques: [],
       cor_num: 1,
       tot_num: 1,
-      qlist: [],
-      vocabularys: []
+      vocabularys: [],
+      isDetail: false,
+      onDetail: '',
+      onExp: ''
     }
   },
   mounted() {
     number = Math.floor(Math.random() * q.length)
     i18n.locale = 'zh'
-    this.id = 1
     this.vocabularys = a
     this.question = q[number].q
     this.sels.push(q[number].s[0])
@@ -89,17 +116,15 @@ export default {
     onEn(item) {
       if (a.filter(e => e.e.toLowerCase() === item.toLowerCase()).length > 0) {
         let index = a.findIndex(x => x.e.toLowerCase() === item.toLowerCase())
-        console.log(a[index].ex)
-      } else {
-        console.log(item)
+        this.onExp = a[index].ex
+        this.onDetail = item
+        this.isDetail = true
       }
-
     },
-    openReport() {
-      this.isReport ^= true
+    closeDetail() {
+      this.isDetail = false
     },
     goNext() {
-      this.id += 1
       number = Math.floor(Math.random() * q.length)
       this.question = q[number].q
       this.ques = []
@@ -140,6 +165,26 @@ export default {
       }
       this.ques = q[number].q.split(" ")
       this.answer = q[number].a
+      for (let i = 0; i < this.sels.length; i++) {
+        if (this.sels[i] == this.answer) {
+          switch (i) {
+            case 0:
+              this.sel = 'A. ' + this.answer
+              break
+            case 1:
+              this.sel = 'B. ' + this.answer
+              break
+            case 2:
+              this.sel = 'C. ' + this.answer
+              break
+            case 3:
+              this.sel = 'D. ' + this.answer
+              break
+          }
+
+        }
+      }
+
       this.isExp = true
       //console.log(localStorage.getItem('Correct_num'), localStorage.getItem('Total_num'))
     }
