@@ -16,151 +16,84 @@ fs.readFile('./r1.txt', (err, s) => {
     let css = []
     let exs = []
 
-
-    let isStart = false
-    let i = 1;
     const myArray = str.split("Passage:");
+    const qs = []
 
-    //for (let i = 0; i < myArray.length; i++) {
+    for (let i = 1; i < myArray.length; i++) {
 
-    const index = myArray[i].indexOf('Questions:', 0)
-    const [article, t] = [myArray[i].slice(0, index), myArray[i].slice(index)];
-    const an = t.split("Answer:")
-    const q = []
-    const q_ex = []
-    for (let x = 1; x < an.length; x++) {
-        let ex = an[x].split("解析：")[1]
-        if (x > 0) ex = ex.split("\r\n")[0]
-        if (x > 1) ex = ex.split("\r\n")[0]
-        if (x > 2) ex = ex.split("\r\n")[0]
-        if (x > 3) ex = ex.split("\r\n")[0]
-        if (x > 4) ex = ex.split("\r\n")[0]
-        if (x > 5) ex = ex.split("\r\n")[0]
-        if (x > 6) ex = ex.split("\r\n")[0]
-        if (x > 7) ex = ex.split("\r\n")[0]
-        if (x > 8) ex = ex.split("\r\n")[0]
-        q_ex.push(ex)
-        console.log(x - 1)
-        //console.log(an[x - 1].split("A.")[1].split("B.")[0])//A
-        console.log(an[x - 1]) //B
-        //console.log(an[x - 1].split("A.")[1].split("B.")[1].split("C.")[0]) //B
-        //console.log(an[1].split("A.")[1].split("B.")[1].split("C.")[1].split("D.")[0]) //C
-        //console.log(an[1].split("A.")[1].split("B.")[1].split("C.")[1].split("D.")[1]) //D
+        const index = myArray[i].indexOf('Questions:', 0)
+        const [article, t] = [myArray[i].slice(0, index), myArray[i].slice(index)];
+        const an = t.split("Answer:")
+        const q = []
+        const q_ex = []
+        const q_sel = []
+        const q_a = []
+        for (let x = 1; x < an.length; x++) {
+            //console.log(i, x - 1)
+            let ex = an[x].split("解析：")[1]
+            if (x > 0) ex = ex.split("\r\n")[0]
+            if (x > 1) ex = ex.split("\r\n")[0]
+            if (x > 2) ex = ex.split("\r\n")[0]
+            if (x > 3) ex = ex.split("\r\n")[0]
+            if (x > 4) ex = ex.split("\r\n")[0]
+            if (x > 5) ex = ex.split("\r\n")[0]
+            if (x > 6) ex = ex.split("\r\n")[0]
+            if (x > 7) ex = ex.split("\r\n")[0]
+            if (x > 8) ex = ex.split("\r\n")[0]
+            q_ex.push(ex)
+
+            let lines = an[x - 1].split('\r\n');
+            lines.splice(0, 3);
+            const s = lines.join('\r\n');
+
+            let sel = []
+            const A = s.split("A.")[1].split("B.")[0]
+            const B = s.split("A.")[1].split("B.")[1].split("C.")[0]
+            const C = s.split("A.")[1].split("B.")[1].split("C.")[1].split("D.")[0]
+            const D = s.split("A.")[1].split("B.")[1].split("C.")[1].split("D.")[1]
+            sel.push(A.replace(/\r\n/g, ''))
+            sel.push(B.replace(/\r\n/g, ''))
+            sel.push(C.replace(/\r\n/g, ''))
+            sel.push(D.replace(/\r\n/g, ''))
+            q_sel.push(sel)
+
+            q.push(s.split("A.")[0].replace(/\r\n/g, ''))
+
+            q_a.push(an[x].split("Answer:")[0].split("解析：")[0].replace(/\r\n/g, ''))
+        }
+        //console.log(article, q, q_sel, q_ex, q_a)
+        qs.push({
+            ar: article.replace(/\r\n/g, ''),
+            q: q,
+            q_sel: q_sel,
+            q_ex: q_ex,
+            q_a: q_a
+        })
     }
+    console.log(qs)
 
-
-
-    //console.log(an[x].split("解析：")[1].split("\r\n")[0]) //ex1
-    //console.log(an[2].split("解析：")[1].split("\r\n")[0].split("\r\n")[0]) //ex2
-    //console.log(an[3].split("解析：")[1].split("\r\n")[0].split("\r\n")[0].split("\r\n")[0]) //ex3
-    //console.log(an[4].split("解析：")[1].split("\r\n")[0].split("\r\n")[0].split("\r\n")[0].split("\r\n")[0]) //ex4
-    //console.log(an[5].split("解析：")[1].split("\r\n")[0].split("\r\n")[0].split("\r\n")[0].split("\r\n")[0].split("\r\n")[0])//ex5
-    //}
-
-
-
-    let q1 = an[0].split("A.")[0].replace('Questions:', '').replace('\r\n', '')
-    //let q1_s = [an[0].split("A.")[1].split("B.")[0], an[0].split("A.")[1].split("B.")[1].split("C.")[0], an[0].split("A.")[1].split("B.")[1].split("C.")[1].split("D.")[0], an[0].split("A.")[1].split("B.")[1].split("C.")[1].split("D.")[1]]
-    //console.log(an[0].split("A.")[1].split("B.")[0])//A
-    //console.log(an[0].split("A.")[1].split("B.")[1].split("C.")[0]) //B
-    //console.log(an[0].split("A.")[1].split("B.")[1].split("C.")[1].split("D.")[0]) //C
-    //console.log(an[0].split("A.")[1].split("B.")[1].split("C.")[1].split("D.")[1]) //D
-
-    //console.log(an[1].split(an[1].split("解析：")[1].split("\r\n")[0])[1].split("A.")[0])//q2
-    //console.log(an[2].split(an[2].split("解析：")[1].split("\r\n")[0].split("\r\n")[0])[1].split("A.")[0])//q3
-    //console.log(an[3].split(an[3].split("解析：")[1].split("\r\n")[0].split("\r\n")[0].split("\r\n")[0])[1].split("A.")[0])//q4
-    //console.log(an[4].split(an[4].split("解析：")[1].split("\r\n")[0].split("\r\n")[0].split("\r\n")[0].split("\r\n")[0])[1].split("A.")[0])//q5
-
-    //console.log(an[1].split("解析：")[1].split("\r\n")[0]) //ex1
-    //console.log(an[2].split("解析：")[1].split("\r\n")[0].split("\r\n")[0]) //ex2
-    //console.log(an[3].split("解析：")[1].split("\r\n")[0].split("\r\n")[0].split("\r\n")[0]) //ex3
-    //console.log(an[4].split("解析：")[1].split("\r\n")[0].split("\r\n")[0].split("\r\n")[0].split("\r\n")[0]) //ex4
-    //console.log(an[5].split("解析：")[1].split("\r\n")[0].split("\r\n")[0].split("\r\n")[0].split("\r\n")[0].split("\r\n")[0])//ex5
-
-    /*while (str[i] == '\r' && str[i + 1] == '\n') {
-        i += 2
-        let save = []
-        let ipa = []
-        let form = []
-        let cs = []
-        let ex = []
-        for (; i < str.length; i++) {
-            if (str[i + 1] == '[') break
-            if (isStart) {
-                save.push(str[i])
-            }
-            if (str[i] == '\n') {
-                isStart = true
-            }
+    output = 'export const r = ['
+    for (let i = 0; i < qs.length; i++) {
+        let q = '['
+        let q_l = '['
+        for (let x = 0; x < qs[i].q.length; x++) {
+            q += `"${qs[i].q[x]}",`
+            q_l += `"${qs[i].q_sel[0]}","${qs[i].q_sel[1]}","${qs[i].q_sel[2]}","${qs[i].q_sel[3]}",`
         }
-        isStart = false
-        for (; i < str.length; i++) {
-            if (str[i + 1] == ']') break
-            if (isStart) {
-                ipa.push(str[i])
-            }
-            if (str[i] == '[') {
-                isStart = true
-            }
-        }
-        isStart = false
-        for (; i < str.length; i++) {
-            if (str[i] == '.') break
-            if (isStart) {
-                form.push(str[i])
-            }
-            if (str[i] == '-') {
-                isStart = true
-            }
-        }
-        isStart = false
-        for (; i < str.length; i++) {
-            if (str[i] == '-') break
-            if (isStart) {
-                cs.push(str[i])
-            }
-            if (str[i] == '.') {
-                isStart = true
-            }
-        }
-        isStart = false
-        for (; i < str.length; i++) {
-            if (str[i] == '）') {
-                i += 1
-                saves.push(save)
-                ipas.push(ipa)
-                forms.push(form)
-                css.push(cs.join(''))
-                exs.push(ex.join(''))
-                break
-            }
-            if (isStart) {
-                ex.push(str[i])
-            }
-            if (str[i] == '-') {
-                isStart = true
-            }
-        }
-    }*/
-
-
-    //console.log(saves, ipas, forms, css, exs)
-    output = 'export const a = ['
-    for (let x = 0; x < saves.length; x++) {
+        q += ']'
+        q_l += ']'
         output += `{
-            e:"${saves[x]}",
-            p:"${ipas[x]}",
-            f:"${forms[x]}",
-            c:"${css[x]}",
-            ex:"${exs[x]}"
+            ar:"${qs[i].ar}",
+            q:${q},
+            q_sel:${q_l},
         },`
         //console.log(x)
     }
     output += ']'
-    /*fs.writeFile('test4.js', output, function (err) {
+    fs.writeFile('test1.js', output, function (err) {
         if (err)
             console.log(err);
         else
             console.log('Write operation complete.');
-    });*/
+    });
 })

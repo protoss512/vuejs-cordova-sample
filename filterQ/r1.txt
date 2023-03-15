@@ -8,6 +8,7 @@ The study is still in its early stages, and more research is needed to determine
 
 Questions:
 
+
 What is Alzheimer's disease?
 A. A type of cancer
 B. A progressive brain disorder
@@ -66,6 +67,7 @@ Renewable energy sources include solar, wind, and hydro power, as well as geothe
 Despite these advantages, renewable energy sources still face many challenges. For one, they are often more expensive to develop and implement than traditional energy sources. In addition, their effectiveness can be limited by factors such as weather patterns and geographic location. As a result, governments and private companies alike must invest in research and development to make renewable energy more efficient and cost-effective.
 
 Questions:
+
 
 What is one reason why climate change has become an increasingly urgent issue in recent years?
 A. Global temperatures are decreasing.
@@ -128,6 +130,7 @@ Despite these negative effects, social media can also be a source of support and
 
 Questions:
 
+
 What is one concern about the impact of social media on mental health?
 A. Social media platforms can only connect people from certain parts of the world.
 B. Social media platforms have no negative effects on mental health.
@@ -169,6 +172,7 @@ Despite these negative effects, social media can also be a source of support and
 
 Questions:
 
+
 What is one concern about the impact of social media on mental health?
 A. Social media platforms can only connect people from certain parts of the world.
 B. Social media platforms have no negative effects on mental health.
@@ -176,7 +180,7 @@ C. People who use social media are less likely to experience feelings of social 
 D. People who spend more than two hours a day on social media are more likely to experience feelings of social isolation and depression.
 Answer: D. People who spend more than two hours a day on social media are more likely to experience feelings of social isolation and depression.
 
-解析: 文章指出，每天在社交媒體上花費超過兩個小時的人更有可能體驗到社交孤立和抑鬱的感覺，所以答案是 D。
+解析：文章指出，每天在社交媒體上花費超過兩個小時的人更有可能體驗到社交孤立和抑鬱的感覺，所以答案是 D。
 
 How can social media contribute to mental health problems?
 A. By presenting realistic versions of people's lives.
@@ -185,7 +189,7 @@ C. By spreading rumors and misinformation.
 D. By connecting people from all over the world.
 Answer: C. By spreading rumors and misinformation.
 
-解析: 文章指出，社交媒體可以通過傳播錯誤信息和謠言來影響心理健康，這會導致焦慮和困惑，所以答案是 C。
+解析：文章指出，社交媒體可以通過傳播錯誤信息和謠言來影響心理健康，這會導致焦慮和困惑，所以答案是 C。
 
 What is one way that social media can lead to feelings of inadequacy and low self-esteem?
 A. By providing users with support and community.
@@ -194,7 +198,7 @@ C. By spreading accurate information.
 D. By connecting people from all over the world.
 Answer: B. By presenting idealized versions of people's lives.
 
-解析: 文章指出，社交媒體平台經常呈現人們生活的理想化版本，用戶可能會因為遵守這些不切實際的標準而感到壓力，這會導致自卑感和自卑感，所以答案是 B。
+解析：文章指出，社交媒體平台經常呈現人們生活的理想化版本，用戶可能會因為遵守這些不切實際的標準而感到壓力，這會導致自卑感和自卑感，所以答案是 B。
 
 How can social media be a source of support and community?
 A. By presenting idealized versions of people's lives.
@@ -203,15 +207,13 @@ C. By connecting people from all over the world.
 D. By limiting users' exposure to other people's posts.
 Answer: C. By connecting people from all over the world.
 
-解析: 文章指出社交媒體可以成為某些人的支持和社區來源，所以答案是 C。
-
+解析：文章指出社交媒體可以成為某些人的支持和社區來源，所以答案是 C。
 
 What is one way to use social media in a responsible way?
 A. By spending more than two hours a day on social media.
 B. By conforming to unrealistic standards presented on social media platforms.
 C. By being aware of the potential risks and using social media in a balanced way.
 D. By spreading rumors and misinformation.
-
 Answer: C. By being aware of the potential risks and using social media in a balanced way.
 
-解析: 文章指出以平衡和負責任的方式使用社交媒體並意識到潛在風險很重要，所以答案是 C。
+解析：文章指出以平衡和負責任的方式使用社交媒體並意識到潛在風險很重要，所以答案是 C。
