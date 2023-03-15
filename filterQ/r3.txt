@@ -45,7 +45,9 @@ C. Electronic devices have both benefits and downsides
 D. Electronic devices will eventually disappear
 Answer: C
 
-解析：文章提到了電子產品的缺點，但也指出了電子產品的優點，並強調了個人需要認識到這些設備的潛在負面影響，並採取措施來緩解它們帶來的影響，因此答案為C。
+解析：文章提到了電子產品的缺點，但也指出了電子產品的優點，並強調了個人需要認識到這些設備的潛在負面影響，並採取
+
+措施來緩解它們帶來的影響，因此答案為C。
 
 What is one step individuals can take to mitigate the negative effects of electronic devices?
 A. Increase screen time before bed
@@ -55,8 +57,6 @@ D. Limit screen time before bed
 Answer: D
 
 解析：文章最後一段建議個人應該認識到電子產品的潛在負面影響，並採取措施來緩解它們帶來的影響，其中一個建議就是在睡前限制使用電子產品的時間，因此答案為D。
-
-
 
 
 Passage:
@@ -106,6 +106,7 @@ D. Only engage in physical exercise
 Answer: C
 
 解析：文章中提到，進行腦力刺激的活動（例如閱讀或解決問題）是促進神經可塑性的一種方式，因此答案為C。
+
 
 
 Passage:
@@ -165,6 +166,7 @@ Answer: D
 
 解析：文章作者沒有表達對氣候變化本身的觀點，而是強調需要全球個人、政府和企業之間的協調努力才能應對氣候變化。因此答案為D。
 
+
 Passage:
 
 In recent years, social media has become an integral part of many people's lives. Social media platforms such as Facebook, Twitter, and Instagram allow individuals to connect with others, share information and opinions, and stay up-to-date with the latest news and trends.
@@ -222,8 +224,6 @@ Answer: D
 
 解析：作者在文章中提到社交媒體的好處和擔憂，並強調了社交媒體使用的責任。因此，作者的態度是矛盾的（ambivalent），既有正面的看法，也有擔憂。因此答案為D。
 
-
-
 Passage:
 
 The concept of climate change has become an increasingly pressing issue in recent years. Climate change refers to the long-term changes in Earth's climate, including changes in temperature, precipitation, and wind patterns, among others. While natural factors such as volcanic activity and solar radiation can contribute to climate change, the overwhelming scientific consensus is that human activities, particularly the burning of fossil fuels, are the primary cause of the current trend.
@@ -263,7 +263,7 @@ Answer: C
 
 What are some ways countries have responded to the threat of climate change?
 A. Increasing the burning of fossil fuels
-B. Investingin renewable energy sources
+B. Investing in renewable energy sources
 C. Encouraging the use of single-use plastics
 D. Decreasing public transportation options
 
@@ -280,6 +280,8 @@ Answer: B
 
 解析：文章中提到，雖然應對氣候變化的挑戰仍然存在，但是由於各國和個人正致力於實現更可持續的未來，因此有希望。這表明作者對應對氣候變化的未來持樂觀態度。因此，答案為B。
 
+
+Passage:
 
 The Importance of Sleep
 
@@ -306,6 +308,7 @@ A. Lack of sleep can have negative effects on physical health.
 B. Lack of sleep can have negative effects on mental health.
 C. Lack of sleep is a problem for many Americans.
 D. Getting a good night's sleep is important.
+
 Answer: D
 
 解析：文章一開始就提到了睡眠的重要性，後面的內容也在強調睡眠的好處以及如何改善睡眠習慣。因此，答案為D。
@@ -403,7 +406,6 @@ D. To criticize the medical establishment for failing to promote plant-based die
 Answer: C
 
 解析：通過本文，作者的主要目的是提醒讀者植物性飲食可能存在潛在風險和缺點，並強調重要性以保持均衡的飲食並向醫療保健專業人員諮詢。因此，答案為C。
-
 
 Passage:
 

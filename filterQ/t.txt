@@ -1,0 +1,54 @@
+Passage:
+
+In recent years, climate change has become an increasingly urgent issue. As global temperatures rise and extreme weather events become more frequent, it is clear that we need to take action to reduce our carbon footprint and prevent further damage to the planet. One solution that has gained popularity in recent years is renewable energy, which comes from sources that are naturally replenished and can be used without depleting finite resources.
+
+Renewable energy sources include solar, wind, and hydro power, as well as geothermal and biomass energy. These sources have many advantages over traditional fossil fuels, such as coal and oil. For example, they produce little to no emissions and are much less harmful to the environment. They also provide a sustainable and reliable source of energy, as they are not subject to the same price fluctuations and supply constraints as fossil fuels.
+
+Despite these advantages, renewable energy sources still face many challenges. For one, they are often more expensive to develop and implement than traditional energy sources. In addition, their effectiveness can be limited by factors such as weather patterns and geographic location. As a result, governments and private companies alike must invest in research and development to make renewable energy more efficient and cost-effective.
+
+Questions:
+
+What is one reason why climate change has become an increasingly urgent issue in recent years?
+A. Global temperatures are decreasing.
+B. Extreme weather events are becoming less frequent.
+C. The use of fossil fuels is declining.
+D. Global temperatures are rising.
+Answer: D. Global temperatures are rising.
+
+解析：文章開頭就提到全球氣溫上升，顯然地指出了氣候變遷成為一個越來越迫切的問題，因此答案為 D。
+
+What is renewable energy?
+A. Energy that is produced from fossil fuels.
+B. Energy that is not subject to price fluctuations.
+C. Energy that is naturally replenished and does not deplete finite resources.
+D. Energy that produces large amounts of emissions.
+Answer: C. Energy that is naturally replenished and does not deplete finite resources.
+
+解析：文章中提到 renewable energy 是指那些來源是自然再生的，可以使用而不會耗盡有限資源的能源，因此答案為 C。
+
+What are some examples of renewable energy sources?
+A. Coal and oil.
+B. Natural gas and petroleum.
+C. Solar, wind, and hydro power.
+D. Nuclear and geothermal energy.
+Answer: C. Solar, wind, and hydro power.
+
+解析：文章中列舉了太陽能、風能和水能等能源，這些都是 renewable energy sources 的例子，因此答案為 C。
+
+What is one advantage of renewable energy sources over traditional fossil fuels?
+A. Renewable energy sources are subject to price fluctuations.
+B. Renewable energy sources are harmful to the environment.
+C. Renewable energy sources are less expensive to develop and implement.
+D. Renewable energy sources produce little to no emissions.
+Answer: D. Renewable energy sources produce little to no emissions.
+
+解析：文章中提到 renewable energy sources 相較於傳統的化石燃料，例如煤炭和石油，會產生較少的排放物，因此答案為 D。
+
+What is one challenge that renewable energy sources face?
+A. They are often more expensive to develop and implement than traditional energy sources.
+B. They produce large amounts of emissions.
+C. They are subject to the same price fluctuations and supply constraints as fossil fuels.
+D. They are not effective sources of energy.
+Answer: A. They are often more expensive to develop and implement than traditional energy sources.
+
+解析：文章中提到 renewable energy sources 通常比傳統能源更昂貴，因此需要更多的研究和發展來使其更有效率和具有成本效益，因此答案為 A。

@@ -1,0 +1,163 @@
+
+Passage:
+
+As the world becomes more technologically advanced, people are becoming more and more reliant on electronic devices. While these devices can make life easier and more convenient in many ways, there are also downsides to this dependence.
+
+One issue is the effect of electronic devices on sleep. Studies have shown that the blue light emitted by screens can interfere with the production of melatonin, a hormone that helps regulate sleep. This can lead to difficulty falling asleep, as well as poor-quality sleep.
+
+Another issue is the impact of electronic devices on social interaction. Many people now spend a significant amount of time interacting with others through social media and messaging apps, rather than in-person communication. This can lead to feelings of loneliness and isolation, as well as a lack of important social skills.
+
+Despite these downsides, electronic devices are not going anywhere. It is important for individuals to recognize the potential negative effects of these devices and take steps to mitigate them, such as limiting screen time before bed and making an effort to engage in face-to-face communication with others.
+
+Questions:
+
+What is the main topic of the passage?
+A. The benefits of electronic devices
+B. The downsides of electronic devices
+C. The future of electronic devices
+D. The evolution of electronic devices
+Answer: B
+
+解析：文章第一段提到了電子產品的優點，但是整篇文章都是在探討電子產品的缺點，因此答案為B。
+
+What is one negative impact of electronic devices on sleep?
+A. Increased production of melatonin
+B. Improved sleep quality
+C. Interference with melatonin production
+D. Increased likelihood of dreaming
+Answer: C
+
+解析：根據文章第二段的描述，電子產品發出的藍光會干擾褪黑激素的產生，進而影響睡眠，因此答案為C。
+
+How can overuse of electronic devices affect social skills?
+A. It can improve social interaction
+B. It can lead to feelings of loneliness and isolation
+C. It can increase face-to-face communication
+D. It can enhance the ability to read social cues
+Answer: B
+
+解析：文章第三段提到，人們現在花大量的時間透過社交媒體和消息應用程式與他人互動，而不是進行面對面的交流，這會導致孤獨感和孤立感，以及缺乏重要的社交技能，因此答案為B。
+
+What is the author's main message?
+A. Electronic devices are all bad
+B. Electronic devices are all good
+C. Electronic devices have both benefits and downsides
+D. Electronic devices will eventually disappear
+Answer: C
+
+解析：文章提到了電子產品的缺點，但也指出了電子產品的優點，並強調了個人需要認識到這些設備的潛在負面影響，並採取措施來緩解它們帶來的影響，因此答案為C。
+
+What is one step individuals can take to mitigate the negative effects of electronic devices?
+A. Increase screen time before bed
+B. Avoid face-to-face communication
+C. Use electronic devices more frequently
+D. Limit screen time before bed
+Answer: D
+
+解析：文章最後一段建議個人應該認識到電子產品的潛在負面影響，並採取措施來緩解它們帶來的影響，其中一個建議就是在睡前限制使用電子產品的時間，因此答案為D。
+
+Passage:
+
+The human brain is incredibly complex, and there is still much that researchers do not understand about how it works. However, one thing that is clear is that the brain is highly adaptable and capable of change.
+
+Neuroplasticity is the term used to describe the brain's ability to reorganize itself in response to new experiences. This can involve creating new neural connections or strengthening existing ones. Neuroplasticity is thought to be a key factor in learning and memory, as well as in recovery from brain injuries.
+
+While the brain is capable of neuroplasticity throughout life, the extent to which it can change decreases with age. This means that young children are particularly adept at learning and adapting, while older adults may have more difficulty in these areas.
+
+However, there are things that individuals can do to promote neuroplasticity and enhance their brain's ability to adapt. Engaging in activities that are mentally stimulating, such as reading or solving puzzles, is one way to promote neuroplasticity. Physical exercise has also been shown to have a positive impact on brain function and neuroplasticity.
+
+Questions:
+
+What is the main topic of the passage?
+A. The complexity of the human brain
+B. The role of neuroplasticity in brain function
+C. The effects of aging on the brain
+D. The benefits of mental stimulation
+Answer: B
+
+解析：文章主要在談論神經可塑性對於大腦功能的影響，因此答案為B。
+
+What is neuroplasticity?
+A. The brain's ability to change in response to new experiences
+B. The brain's ability to maintain the status quo
+C. The brain's inability to change with age
+D. The brain's resistance to new experiences
+Answer: A
+
+解析：文章第二段中提到，神經可塑性是大腦對新體驗做出反應時重新組織自己的能力，包括建立新的神經連接或加強現有的連接，因此答案為A。
+
+How does neuroplasticity impact learning and memory?
+A. It has no effect on learning and memory
+B. It makes learning and memory more difficult
+C. It is a key factor in learning and memory
+D. It only impacts memory, not learning
+Answer: C
+
+解析：文章中提到神經可塑性是學習和記憶的關鍵因素之一，因此答案為C。
+
+What is one way to promote neuroplasticity?
+A. Avoid mental stimulation
+B. Limit physical exercise
+C. Engage in mentally stimulating activities
+D. Only engage in physical exercise
+Answer: C
+
+解析：文章中提到，進行腦力刺激的活動（例如閱讀或解決問題）是促進神經可塑性的一種方式，因此答案為C。
+
+
+Passage:
+
+Climate change is a pressing issue that has garnered significant attention in recent years. While there is still debate about the causes and extent of climate change, most scientists agree that it is largely driven by human activities, such as the burning of fossil fuels and deforestation.
+
+One of the consequences of climate change is rising sea levels. As temperatures continue to rise, glaciers and ice sheets are melting, causing water to flow into the oceans and contributing to sea level rise. This can have a devastating impact on coastal cities and communities, as well as on wildlife and ecosystems.
+
+Another consequence of climate change is extreme weather events, such as heat waves, droughts, and hurricanes. These events can lead to crop failures, water shortages, and infrastructure damage, among other things. They also pose a significant threat to human health and well-being.
+
+Addressing climate change requires a coordinated effort from individuals, governments, and businesses around the world. This may involve reducing greenhouse gas emissions, transitioning to renewable energy sources, and investing in technologies that can help mitigate the impacts of climate change.
+
+Questions:
+
+What is the main topic of the passage?
+A. The causes of climate change
+B. The impacts of climate change
+C. The debate about climate change
+D. The role of individuals in addressing climate change
+Answer: B
+
+解析：文章主要在談論氣候變化對於環境、野生動物和人類社區帶來的影響，因此答案為B。
+
+What are some human activities that are contributing to climate change?
+A. Eating meat and dairy products
+B. Planting trees and other vegetation
+C. Burning fossil fuels and deforestation
+D. Recycling and composting
+Answer: C
+
+解析：文章中提到，氣候變化很大程度上是由人類活動引起的，例如燃燒化石燃料和森林砍伐，因此答案為C。
+
+What is one consequence of rising temperatures?
+A. Decreasing sea levels
+B. Reduced crop yields
+C. Increased forest cover
+D. Improved wildlife habitats
+Answer: B
+
+解析：文章中提到，隨著溫度持續上升，冰川和冰原融化，導致水流入海洋並促成海平面上升，這對沿海城市和社區以及野生動物和生態系統都會產生毀滅性的影響。因此答案為B。
+
+What is one way to address climate change?
+A. Increase greenhouse gas emissions
+B. Continue to rely on fossil fuels
+C. Transition to renewable energy sources
+D. Build more infrastructure in coastal areas
+Answer: C
+
+解析：文章中提到，應對氣候變化需要全球個人、政府和企業之間的協調努力，這可能包括減少溫室氣體排放，轉向可再生能源來源以及投資於能減緩氣候變化影響的技術等。因此答案為C。
+
+What is the author's opinion on climate change?
+A. It is not a significant issue
+B. It is entirely caused by human activities
+C. It is a topic of debate among scientists
+D. It requires a coordinated effort to address
+Answer: D
+
+解析：文章作者沒有表達對氣候變化本身的觀點，而是強調需要全球個人、政府和企業之間的協調努力才能應對氣候變化。因此答案為D。

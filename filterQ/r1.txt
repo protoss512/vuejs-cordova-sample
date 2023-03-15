@@ -49,7 +49,6 @@ A. Yes, a cure is now available for humans.
 B. No, the study is unlikely to lead to a cure for humans.
 C. It is too early to tell.
 D. The study has already led to a cure for humans.
-
 Answer: C. It is too early to tell.
 
 解析：文章中提到這項研究仍處於早期階段，需要更多的研究才能確定同樣的方法是否對人類有效，因此答案為 C。文中也提到研究結果具有前途，但仍需要進一步的研究。

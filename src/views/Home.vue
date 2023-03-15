@@ -9,9 +9,14 @@
         <div>{{ $t("to_Ke_Leak") }}</div>
       </div>
     </div>
-    <div style="flex:1;"><v-btn @click="to_read">
-        {{ $t("to_read") }}
-      </v-btn></div>
+
+    <div style="flex:1;">
+      <div
+        style="background-color: #252525 !important;border-radius: 15px;height: 60px;width: 300px;border: 1px groove #777;display: flex;justify-content: center;align-items: center;color: #ccc;"
+        @click="to_read">
+        <div>{{ $t("to_read") }}</div>
+      </div>
+    </div>
     <div style="flex:1;"><v-btn @click="to_vocabulary">
         {{ $t("vocabulary") }}
       </v-btn></div>
