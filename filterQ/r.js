@@ -76,16 +76,24 @@ fs.readFile('./r1.txt', (err, s) => {
     for (let i = 0; i < qs.length; i++) {
         let q = '['
         let q_l = '['
+        let q_e = '['
+        let q_a = '['
         for (let x = 0; x < qs[i].q.length; x++) {
             q += `"${qs[i].q[x]}",`
-            q_l += `"${qs[i].q_sel[0]}","${qs[i].q_sel[1]}","${qs[i].q_sel[2]}","${qs[i].q_sel[3]}",`
+            q_l += `["${qs[i].q_sel[x][0]}","${qs[i].q_sel[x][1]}","${qs[i].q_sel[x][2]}","${qs[i].q_sel[x][3]}"],`
+            q_e += `"${qs[i].q_ex[x]}",`
+            q_a += `"${qs[i].q_a[x]}",`
         }
         q += ']'
         q_l += ']'
+        q_e += ']'
+        q_a += ']'
         output += `{
             ar:"${qs[i].ar}",
             q:${q},
             q_sel:${q_l},
+            q_ex:${q_e},
+            q_a:${q_a},
         },`
         //console.log(x)
     }
