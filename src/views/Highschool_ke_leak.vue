@@ -1,7 +1,7 @@
 
 <template>
   <div
-    style="display:flex;flex-direction:column;height: 100vh;width: 100vw;margin: 0;padding: 0;margin-left: 10px;margin-right: 10px;">
+    style="overflow:hidden;display:flex;flex-direction:column;height: 100vh;width: 100vw;margin: 0;padding: 0;margin-left: 10px;margin-right: 10px;">
     <div style="flex:1;background-color: #222;margin: 10px;display:flex;">
       <div style="flex:1;display: flex;justify-content: flex-start;align-items: center;"><img
           style="background-color: #222;" src="../assets/arrow_back.svg" @click="goHome"></div>
@@ -10,7 +10,7 @@
       <div style="flex:1;display: flex;justify-content: flex-end;align-items: center;"></div>
     </div>
     <hr style="margin-bottom: 10px;border: 1px groove #666;">
-    <div style="flex:100;">
+    <div style="flex:100;" >
       <div v-if="isDetail"
         style="position: fixed;top:0;left:0;width:100vw;height:100vh;z-index:3;background-color:rgba(0,0,0,0.3);color:black;display:flex">
         <div
@@ -122,7 +122,7 @@ export default {
       }
     },
     closeDetail() {
-      this.isDetail = false
+      if(this.isDetail) this.isDetail = false
     },
     goNext() {
       number = Math.floor(Math.random() * q.length)
