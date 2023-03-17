@@ -13,6 +13,8 @@
   "vocabulary": "單字練習",
   "to_read": "閱讀練習",
   "explanation":"解析",
+  "read_answer":"回答問題",
+  "look_read":"閱讀文章",
   "title": "Exemples VueJS + Cordova",
   "showSample": "Afficher les examples",
   "drawer": {

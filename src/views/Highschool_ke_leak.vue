@@ -17,7 +17,7 @@
           style="background-color:#222;flex:1;display:flex;flex-direction:column;margin-top: 24vh;margin-bottom:24vh;margin-left: 2vw;margin-right: 2vw;border-radius: 3vw;">
           <div style="flex:1;background-color: #222;margin: 5px;display:flex;">
             <div style="flex:1;display: flex;justify-content: flex-start;align-items: center;"></div>
-            <div style="flex:5;display: flex;justify-content: center;align-items: center;color: #ccc;">{{
+            <div style="flex:5;display: flex;justify-content: center;align-items: center;color: #ccc;font-size: 25px;">{{
               onDetail }}</div>
             <div style="flex:1;display: flex;justify-content: flex-end;align-items: center;"><img style=""
                 src="../assets/close.svg" @click="closeDetail"></div>

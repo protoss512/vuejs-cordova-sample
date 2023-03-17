@@ -1,4 +1,15 @@
 const fs = require('fs')
+const translate = require('@iamtraction/google-translate');
+
+function trans(text) {
+    translate(text, { to: 'zh-tw' }).then(res => {
+        //console.log(res.text); // OUTPUT: You are amazing!
+        return res.text
+    }).catch(err => {
+        return ''
+    });
+}
+
 
 var i = 0
 var str = ''
@@ -29,7 +40,7 @@ fs.readFile('./r1.txt', (err, s) => {
         const q_sel = []
         const q_a = []
         for (let x = 1; x < an.length; x++) {
-            //console.log(i, x - 1)
+            
             let ex = an[x].split("解析：")[1]
             if (x > 0) ex = ex.split("\r\n")[0]
             if (x > 1) ex = ex.split("\r\n")[0]
@@ -41,12 +52,13 @@ fs.readFile('./r1.txt', (err, s) => {
             if (x > 7) ex = ex.split("\r\n")[0]
             if (x > 8) ex = ex.split("\r\n")[0]
             q_ex.push(ex)
-
+            
             let lines = an[x - 1].split('\r\n');
             lines.splice(0, 3);
             const s = lines.join('\r\n');
 
             let sel = []
+            console.log(i, x - 1,lines)
             const A = s.split("A.")[1].split("B.")[0]
             const B = s.split("A.")[1].split("B.")[1].split("C.")[0]
             const C = s.split("A.")[1].split("B.")[1].split("C.")[1].split("D.")[0]
@@ -67,7 +79,8 @@ fs.readFile('./r1.txt', (err, s) => {
             q: q,
             q_sel: q_sel,
             q_ex: q_ex,
-            q_a: q_a
+            q_a: q_a,
+            zh: trans(article.replace(/\r\n/g, ''))
         })
     }
     console.log(qs)
@@ -94,6 +107,7 @@ fs.readFile('./r1.txt', (err, s) => {
             q_sel:${q_l},
             q_ex:${q_e},
             q_a:${q_a},
+            zh:${qs[i].zh}
         },`
         //console.log(x)
     }

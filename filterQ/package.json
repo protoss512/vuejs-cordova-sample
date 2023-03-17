@@ -9,6 +9,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@iamtraction/google-translate": "^2.0.1",
     "textract": "^2.5.0"
   }
 }

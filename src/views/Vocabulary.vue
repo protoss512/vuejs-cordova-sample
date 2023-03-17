@@ -1,48 +1,41 @@
 <template>
     <div style="display:flex;flex-direction:column;height: 100vh;width: 100vw;margin: 0;padding: 0;">
-        <div style="flex:1;background-color: #222;margin: 5px;display:flex;">
+        <div style="flex:1;background-color: #222;margin: 10px;display:flex;">
             <div style="flex:1;display: flex;justify-content: flex-start;align-items: center;"><img
                     style="background-color: #222;" src="../assets/arrow_back.svg" @click="goHome"></div>
-            <div style="flex:1;display: flex;justify-content: center;align-items: center;">{{
-                isReport ? $t("analysis") : $t("question") + id }}</div>
-            <div style="flex:1;display: flex;justify-content: flex-end;align-items: center;"><img
-                    style="background-color: #222;" src="../assets/report.svg" @click="openReport"></div>
+            <div style="flex:1;display: flex;justify-content: center;align-items: center;color: #ccc;">{{
+                $t("vocabulary") }}</div>
+            <div style="flex:1;display: flex;justify-content: flex-end;align-items: center;"></div>
         </div>
-        <div v-if="isReport" style="flex:90;margin: 10px;padding-top: 10px;display: flex;flex-direction:column;">
-            <div style="flex:1">{{ $t("correct_rate") }}</div>
-            <div style="flex:1">{{ $t("total_question") }}</div>
-            <div style="flex:1">{{ $t("total_correct") }}</div>
-        </div>
-        <div v-else
+        <hr style="border: 1px groove #666;margin-left: 10px;margin-right: 10px;">
+        <div 
             style="flex:90;margin: 10px;padding-top: 10px;display: flex;flex-direction:column;justify-content: center;align-items: center;">
-            <div style="flex:1;">
-                <div>{{ question }}</div>
-                <div>{{ anwser }}</div>
-                <v-btn @click="goNext">{{ $t("go_next") }}</v-btn>
-                <div></div>
-            </div>
+                <div style="font-size: 25px;color:#ccc">{{ question }}</div>
+                <div style="color: #ccc;">{{ anwser }}</div>
+                <div style="margin-top: 20px;background-color: #252525 !important;border-radius: 15px;height: 60px;width: 300px;border: 1px groove #777;display: flex;justify-content: center;align-items: center;color: #ccc;"
+                    @click="goNext">
+                    <div>{{ $t("go_next") }}</div>
+                </div>
         </div>
     </div>
 </template>
 
 <script>
-import { QA } from '../assets/QA_TABLE'
+import { a } from '../Vocabulary'
 var number = 0
 export default {
     name: 'Vocabulary',
     data: () => {
         return {
-            id: '1',
             isReport: false,
             question: '',
             anwser: ''
         }
     },
     mounted() {
-        this.id = 1
-        number = Math.floor(Math.random() * QA.length)
-        this.question = QA[number].en
-        this.anwser = QA[number].ch
+        number = Math.floor(Math.random() * a.length)
+        this.question = a[number].e
+        this.anwser = a[number].ex
     },
     methods: {
         goHome() {
@@ -52,10 +45,9 @@ export default {
             this.isReport ^= true
         },
         goNext() {
-            this.id += 1
-            number = Math.floor(Math.random() * QA.length)
-            this.question = QA[number].en
-            this.anwser = QA[number].ch
+            number = Math.floor(Math.random() * a.length)
+            this.question = a[number].e
+            this.anwser = a[number].ex
         }
     }
 }

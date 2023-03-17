@@ -2624,304 +2624,118 @@ export const a = [{
     e: "moon",
     ex: " [muːn] n. 月亮;The full moon was shining brightly in the night sky.（滿月在夜空中熠熠生輝。）"
 }, {
-    e: "",
-    ex: " [neɪl] (n.) 釘子；指甲；(v.) 釘住；打造句子;He hammered the nail into the wall. (他把釘子釘進牆上。)"
-}, {
-    e: "",
-    ex: " [neɪm] (n.) 名字；(v.) 命名；稱呼;What's your name? (你叫什麼名字？。)"
-}, {
-    e: "",
-    ex: " [næp] (n.) 小睡；(v.) 打盹；偷懶;I'm going to take a nap. (我要小睡一下。)"
-}, {
-    e: "",
-    ex: " ['nærəʊ] (adj.) 狹窄的；有限的；心胸狹窄的;The path was too narrow for two people to walk side by side. (這條路太窄了，兩個人無法並排行走。)"
-}, {
-    e: "",
-    ex: " ['neɪʃən] (n.) 國家；民族;China is a nation with a long history. (中國是一個歷史悠久的國家。)"
-}, {
-    e: "",
-    ex: " ['nætʃərəl] (adj.) 自然的；天然的；天賦的;Swimming is a natural ability for dolphins. (游泳對海豚來說是一種天賦的能力。)"
-}, {
-    e: "",
-    ex: " ['neɪtʃər] (n.) 自然；大自然；性質;I love spending time in nature. (我喜歡在大自然中度過時間。)"
-}, {
-    e: "",
-    ex: " ['neɪvɪ] (n.) 海軍;The navy protects our country's waters. (海軍保護我們國家的海域。)"
-}, {
-    e: "",
-    ex: " [nɪr] (adj.) 近的；接近的；(adv.) 接近地；將近；(prep.) 靠近;The store is near the train station. (商店靠近火車站。)"
-}, {
-    e: "",
-    ex: " [niːt] (adj.) 整潔的；巧妙的；醒目的;She has a neat handwriting. (她的字寫得很整齊。)"
-}, {
-    e: "",
-    ex: " ['nesəsərɪ] (adj.) 必要的；必需的；必然的；(n.) 必需品;It's necessary to wear a helmet while riding a motorcycle. (騎摩托車時必須戴頭盔。)"
-}, {
-    e: "",
-    ex: " [nek] (n.) 頸；脖子;She wears a necklace around her neck. (她戴了一條項鍊在脖子上。)"
-}, {
-    e: "",
-    ex: " [niːd] (n.) 需要；必要；(v.) 需要；必需；需要做某事;I need to buy some groceries for dinner. (我需要買一些食品來準備晚餐。)"
-}, {
-    e: "",
-    ex: " ['nɛɡətɪv] (adj.) 否定的；負面的；消極的；(n.) 否定；負數；(v.) 否定;He had a negative attitude toward the project. (他對這個項目持否定態度。)"
-}, {
-    e: "",
-    ex: " [nə'ɡoʃɪet] (v.) 談判；協商；處理;We need to negotiate the terms of the contract. (我們需要協商合同條款。)"
-}, {
-    e: "",
-    ex: " ['neɪbər] (n.) 鄰居；鄰人；(v.) 鄰近;My neighbor is very friendly. (我的鄰居非常友善。)"
-}, {
-    e: "",
-    ex: " ['naɪðər] (pron.) 兩者都不；既非...也非...;Neither of them wanted to go to the party. (他們兩個都不想去參加派對。)"
-}, {
-    e: "",
-    ex: " ['nɛfjuː] (n.) 侄子；外甥;My nephew is five years old. (我的侄子五歲了。)"
-}, {
-    e: "",
-    ex: " [nɜːv] (n.) 神經；勇氣；膽量;He lost his nerve and couldn't jump off the diving board. (他失去了勇氣，無法從跳水板上跳下去。)"
-}, {
-    e: "",
-    ex: " [nɛst] (n.) 巢；窩；(v.) 筑巢；(vi.) 安居;The bird built its nest in the tree. (鳥兒在樹上築巢。)"
-}, {
-    e: "",
-    ex: " [nɛt] (n.) 網；凈利；(v.) 網住；淨得;The fish got caught in the net. (魚被網住了。)"
-}, {
-    e: "",
-    ex: " ['nɛtwɜːk] (n.) 網路；網絡；(v.) 聯繫;The company has a large network of suppliers. (這家公司有一個龐大的供應商網絡。)"
-}, {
-    e: "",
-    ex: " ['nɛvər] (adv.) 從不；永不；決不;I never want to see that movie again. (我再也不想看那部電影了。)"
-}, {
-    e: "",
-    ex: " [njuː] (adj.) 新的；嶄新的；未知的;I just bought a new car. (我剛買了一輛新車。)"
-}, {
-    e: "",
-    ex: " [njuːz] (n.) 新聞；消息；報導;Did you hear the news about the earthquake? (你聽到地震的消息了嗎？。)"
-}, {
-    e: "",
-    ex: " ['njuːzˌpeɪpər] (n.) 報紙；報章;I read the newspaper every morning. (我每天早上都看報紙。)"
-}, {
-    e: "",
-    ex: " [nɛkst] (adj.) 下一個；接下來的；隔壁的；(adv.) 接下來；然後;Who's next in line? (輪到誰了？。)"
-}, {
-    e: "",
-    ex: " [naɪs] (adj.) 好的；友善的；愉快的；漂亮的;That was a very nice thing to do. (這是一件非常友善的事情。)"
-}, {
-    e: "",
-    ex: " [naɪt] (n.) 夜晚；晚上；(adj.) 夜間的;I like to go for a walk at night. (我喜歡在晚上散步。)"
-}, {
-    e: "",
-    ex: " [naɪn] (num.) 九;She is turning nine years old next week. (她下周就要九歲了。)"
-}, {
-    e: "",
-    ex: " [noʊ] (adv.) 不；毫不；(n.) 否定；不同意；(adj.) 沒有的；不允許的;No, I don't want to go to the party. (不，我不想去參加派對。)"
-}, {
-    e: "",
-    ex: " ['noʊbəl] (adj.) 高貴的；貴族的；崇高的；(n.) 貴族；貴族成員;He is from a noble family. (他來自一個貴族家庭。)"
-}, {
-    e: "",
-    ex: " ['noʊbɑdi] (pron.) 沒有人；無名小卒；無足輕重的人;Nobody wants to be friends with him. (沒有人想和他做朋友。)"
-}, {
-    e: "",
-    ex: " [nɑd] (v.) 點頭；點頷；打盹;He nodded in agreement. (他點頭表示同意。)"
-}, {
-    e: "",
-    ex: " [nɔɪz] (n.) 噪音；吵鬧聲；聲音;The noise from the construction site was very loud. (建築工地的噪音非常大。)"
-}, {
-    e: "",
-    ex: " [nʌn] (pron.) 沒有；一點也不；沒有任何一個;None of the students knew the answer. (沒有學生知道答案。)"
-}, {
-    e: "",
-    ex: " [nuːn] (n.) 中午；正午;Let's meet for lunch at noon. (讓我們中午見面吃午餐。)"
-}, {
-    e: "",
-    ex: " [nɔr] (conj.) 也不；也沒有；不...也不...;He neither drinks nor smokes. (他既不喝酒也不抽煙。)"
-}, {
-    e: "",
-    ex: " [nɔrθ] (n.) 北；北方；(adj.) 北的；朝;Tom strolled north to a point. (湯姆大步朝北面一個地方走去。)"
-}, {
-    e: "",
-    ex: " [noʊz] (n.) 鼻子;She has a cute little nose. (她有一個可愛的小鼻子。)"
-}, {
-    e: "",
-    ex: " [nɑt] (adv.) 不；沒有；不是;I'm not hungry. (我不餓。)"
-}, {
-    e: "",
-    ex: " [noʊt] (n.) 筆記；便條；音符；(v.) 注意到；記下;I wrote a note to remind myself to buy milk. (我寫了一張便條提醒自己買牛奶。)"
-}, {
-    e: "",
-    ex: " ['nʌθɪŋ] (pron.) 沒有什麼；沒有任何東西；無關緊要的事;There is nothing in the fridge. (冰箱裡什麼都沒有。)"
-}, {
-    e: "",
-    ex: " ['noʊtɪs] (n.) 注意；通知；布告；(v.) 注意到；察覺到；發現;Did you notice the new painting on the wall? (你注意到牆上的新畫了嗎？。)"
-}, {
-    e: "",
-    ex: " [naʊ] (adv.) 現在；當下；目前；(conj.) 現在；既然；然後;I'm busy now, can I call you back later? (我現在很忙，我能晚點再打給你嗎？。)"
-}, {
-    e: "",
-    ex: " ['noʊhwer] (adv.) 沒有地方；任何地方都不;We searched everywhere, but we could find him nowhere. (我們到處搜尋，但卻找不到他的蹤影。)"
-}, {
-    e: "",
-    ex: " ['nukliər] (adj.) 原子能的；核能的；核子的；核心的;Nuclear power plants generate electricity by using nuclear reactions. (核能電廠通過使用核反應發電。)"
-}, {
-    e: "",
-    ex: " ['nʌmbər] (n.) 數字；號碼；數量；(v.) 編號；計算;What is your phone number? (你的電話號碼是多少？。)"
-}, {
-    e: "",
-    ex: " [nɜrs] (n.) 護士；看護；(v.) 照料；看護;She worked as a nurse in a hospital for many years. (她在醫院當了很多年的護士。)"
-}, {
-    e: "",
-    ex: " [nʌt] (n.) 堅果；螺帽；瘋子；(v.) 用螺帽固定;I love to eat almonds, they're my favorite nut. (我喜歡吃杏仁，它們是我最喜歡的堅果之一。)"
-}, {
-    e: "",
-    ex: " ['naɪlɑn] (n.) 尼龍；合成纖維;Her stockings were made of nylon. (她的長襪是尼龍做的。)"
-}, {
-    e: "",
-    ex: " [nɪr] (adj.) 近的；接近的；(adv.) 靠近；接近地；(prep.) 靠近;The store is near my house. (商店在我家附近。)"
-}, {
-    e: "",
-    ex: " ['nɛsəsɛri] (adj.) 必需的；必要的；(n.) 必需品；必需品;It is necessary to wear a helmet when riding a bike. (騎自行車時戴頭盔是必要的。)"
-}, {
-    e: "",
-    ex: " [nɛk] (n.) 頸部；脖子;The necklace is too tight around my neck. (這條項鍊繫得太緊了，勒得我脖子痛。)"
-}, {
-    e: "",
-    ex: " [nid] (v.) 需要；必須；(n.) 需要；需求;I need to buy some groceries at the store. (我需要到商店買些食品雜貨。)"
-}, {
-    e: "",
-    ex: " ['nidl] (n.) 針；織針；指針；(v.) 用針縫;She used a needle and thread to mend the rip in her shirt. (她用針線把衣服上的破洞縫好了。)"
-}, {
-    e: "",
-    ex: " ['nɛɡətɪv] (adj.) 否定的；負面的；消極的；(n.) 否定；負數；(v.) 否定;She always has a negative attitude towards everything. (她對所有事情都持負面的態度。)"
-}, {
-    e: "",
-    ex: " [nɪ'ɡoʃɪet] (v.) 談判；協商；磋商;The two countries are currently negotiating a trade agreement. (兩國目前正在談判一份貿易協定。)"
-}, {
-    e: "",
-    ex: " ['nebɚ] (n.) 鄰居；鄰近的人或事物；(v.) 毗鄰;Our neighbors are very friendly and always offer to help. (我們的鄰居非常友好，總是主動提供幫助。)"
-}, {
-    e: "",
-    ex: " [nɛst] (n.) 巢；窩；家；(v.) 筑巢；安家;The birds built a nest in the tree outside my window. (鳥兒在我窗外的樹上築了一個巢。)"
-}, {
-    e: "",
-    ex: " [nɛt] (n.) 網；網狀物；(adj.) 淨值的；純的；(v.) 用網捕;The fisherman caught a lot of fish in his net. (漁夫用網捕了很多魚。)"
-}, {
-    e: "",
-    ex: " ['nɛtwɝk] (n.) 網絡；網狀系統；網路；(v.) 使成網狀;The company has a large network of distributors around the world. (這家公司在全球有一個龐大的經銷商網絡。)"
-}, {
-    e: "",
+    e: "never",
     ex: " ['nɛvɚ] (adv.) 從未；永不;I have never been to Europe before. (我從未去過歐洲。)"
 }, {
-    e: "",
+    e: "new",
     ex: " [nu] (adj.) 新的；崭新的;She bought a new car last week. (上週她買了一輛新車。)"
 }, {
-    e: "",
+    e: "news",
     ex: " [nuz] (n.) 新聞；消息；報道;I read the news every morning to stay informed about current events. (我每天早上看新聞，以了解當前事件。)"
 }, {
-    e: "",
+    e: "next",
     ex: " [nɛkst] (adj.) 下一個；接下來的；(adv.) 接下來；然後;What are your plans for next weekend? (你下週末有什麼計劃？。)"
 }, {
-    e: "",
+    e: "nice",
     ex: " [naɪs] (adj.) 美好的；友善的；悅耳的；好的;She is a very nice person and always willing to help. (她是一個非常友善的人，總是願意幫助別人。)"
 }, {
-    e: "",
+    e: "night",
     ex: " [naɪt] (n.) 夜晚；晚上;I like to read a book before going to bed at night. (我喜歡在晚上睡覺前看書。)"
 }, {
-    e: "",
+    e: "nine",
     ex: " [naɪn] (num.) 九;She has nine cats living with her. (她和九隻貓一起生活。)"
 }, {
-    e: "",
+    e: "no",
     ex: " [no] (adv.) 不；沒有；(n.) 拒絕；不同意；(adj.) 沒有的;No, I cannot go to the party with you tonight. (不，今晚我不能和你一起去參加派對。)"
 }, {
-    e: "",
+    e: "nobody",
     ex: " ['noˌbɑdi] (pron.) 沒有人；無名小卒;Nobody is perfect, so it's okay to make mistakes. (沒有人是完美的，所以犯錯是可以的。)"
 }, {
-    e: "",
+    e: "nodded",
     ex: " [nɑd] (v.) 點頭；點頷；(n.) 點頭;She nodded her head to indicate that she understood. (她點頭示意她理解了。)"
 }, {
-    e: "",
+    e: "noise",
     ex: " [noɪz] (n.) 噪音；聲音；喧鬧聲;The noise from the construction site was very loud. (工地上的噪音很大。)"
 }, {
-    e: "",
+    e: "none",
     ex: " [nʌn] (pron.) 沒有任何人；沒有任何事;None of the students were able to answer the difficult question. (沒有一個學生能夠回答這個難題。)"
 }, {
-    e: "",
+    e: "noon",
     ex: " [nun] (n.) 中午；正午;Let's meet for lunch at noon. (讓我們在中午見面吃午餐。)"
 }, {
-    e: "",
+    e: "nor",
     ex: " [nɔr] (conj.) 也不；也沒有；和...不一樣;He neither confirmed nor denied the accusations. (他既沒有證實也沒有否認指控。)"
 }, {
-    e: "",
+    e: "normal",
     ex: " ['nɔrml] (adj.) 正常的；通常的；正規的;It's normal to feel nervous before a big test. (在大型測試前感到緊張是正常的。)"
 }, {
-    e: "",
+    e: "north",
     ex: " [nɔrθ] (n.) 北；(adj.) 北的；向北的;Canada is located north of the United States. (加拿大位於美國的北方。)"
 }, {
-    e: "",
+    e: "nose",
     ex: " [noz] (n.) 鼻子；嗅覺；(v.) 嗅;The dog's nose is very sensitive and can detect even the faintest smells. (狗的嗅覺非常靈敏，可以偵測到最微弱的氣味。)"
 }, {
-    e: "",
+    e: "not",
     ex: " [nɑt] (adv.) 不；沒有;I'm not sure if I can make it to the meeting tomorrow. (我不確定明天能否參加會議。)"
 }, {
-    e: "",
+    e: "note",
     ex: " [noʊt] (n.) 記錄；便條；筆記；(v.) 記錄；注意到;Please make a note of the important dates in your calendar. (請在你的日曆上記下重要日期。)"
 }, {
-    e: "",
+    e: "nothing",
     ex: " ['nʌθɪŋ] (pron.) 沒有什麼；沒有東西；沒有事情;There's nothing to be afraid of. (沒有什麼可害怕的。)"
 }, {
-    e: "",
+    e: "notice",
     ex: " ['noʊtɪs] (n.) 注意；通知；(v.) 注意到；通知;Please give us notice if you won't be able to attend the meeting. (如果你不能參加會議，請提前通知我們。)"
 }, {
-    e: "",
+    e: "now",
     ex: " [naʊ] (adv.) 現在；此時此刻；目前;I'm not ready to leave yet, but we can go now if you want to. (我還沒有準備好離開，但如果你想要的話我們可以現在走。)"
 }, {
-    e: "",
+    e: "nowhere",
     ex: " ['noʊhwɛr] (adv.) 無處；任何地方都不；沒有哪裡;He looked everywhere but could find his lost keys nowhere. (他到處尋找，但找不到丟失的鑰匙。)"
 }, {
-    e: "",
+    e: "nuclear",
     ex: " ['nukliɚ] (adj.) 核子的；核能的；核武器的;The nuclear power plant is a major source of electricity for the region. (核電廠是該地區的主要電力來源。)"
 }, {
-    e: "",
+    e: "number",
     ex: " ['nʌmbɚ] (n.) 數字；號碼；編號；(v.) 編號；給...編號;Please write your phone number on this form. (請在這份表格上寫下你的電話號碼。)"
 }, {
-    e: "",
+    e: "nurse",
     ex: " [nɝs] (n.) 護士；看護人；(v.) 照顧；看護;The nurse checked the patient's vital signs and gave her medication. (護士檢查了病人的生命徵象，並給她藥物。)"
 }, {
-    e: "",
+    e: "nut",
     ex: " [nʌt] (n.) 堅果；螺帽；瘋子;I like to snack on almonds and cashews, which are both types of nuts. (我喜歡吃杏仁和腰果，它們都是堅果類型。)"
 }, {
-    e: "",
+    e: "nylon",
     ex: " ['naɪlɑn] (n.) 尼龍；耐磨纖維;Many types of clothing and accessories are made from nylon, which is a durable and lightweight material. (許多類型的服裝和配飾都是由尼龍製成的，這是一種耐用且輕便的材料。)"
 }, {
-    e: "",
+    e: "necessity",
     ex: " [nə'sɛsəti] (n.) 必要；必需品；必然性;Water is a necessity for life. (水是生命必需品。)"
 }, {
-    e: "",
+    e: "necklace",
     ex: " ['nɛklɪs] (n.) 項鍊；項圈;She wore a beautiful pearl necklace to the party. (她戴了一條漂亮的珍珠項鍊參加派對。)"
 }, {
-    e: "",
+    e: "needle",
     ex: " ['nidl] (n.) 針；織針；(v.) 用針縫補；戳;She sewed the patch onto the shirt using a needle and thread. (她用針和線將補丁縫在襯衫上。)"
 }, {
-    e: "",
+    e: "negative",
     ex: " ['nɛgətɪv] (adj.) 負面的；否定的；消極的；(n.) 否定；負面;He had a negative attitude towards the project from the beginning. (他從一開始就對這個項目持有消極的態度。)"
 }, {
-    e: "",
+    e: "negotiating",
     ex: " [nə'ɡoʃɪet] (v.) 談判；協商；磋商;The two sides are negotiating a peace treaty to end the war. (雙方正在談判一份結束戰爭的和平條約。)"
 }, {
-    e: "",
+    e: "neighborhood",
     ex: " ['nɛbɚhʊd] (n.) 鄰近地區；社區；附近;We moved to a new neighborhood last month and are still getting to know our neighbors. (我們上個月搬到了一個新的社區，仍在努力認識我們的鄰居。)"
 }, {
-    e: "",
+    e: "nest",
     ex: " [nɛst] (n.) 巢；窩；(v.) 筑巢；居住;The mother bird built a nest out of twigs and leaves for her eggs. (母鳥用枝條和葉子為她的蛋筑了一個巢。)"
 }, {
-    e: "",
+    e: "net",
     ex: " [nɛt] (n.) 網；網狀物；(v.) 捕捉；淨賺;The fisherman used a net to catch the fish. (漁夫用網捕魚。)"
 }, {
-    e: "",
+    e: "network",
     ex: " ['nɛtwɝk] (n.) 網絡；網路；聯網系統;The company has a large network of offices and distributors around the world. (該公司在世界各地擁有大量的辦事處和經銷商網絡。)"
 }, {
-    e: "",
+    e: "newspaper",
     ex: " ['nuz,per] (n.) 報紙；新聞紙;I like to read the newspaper with my morning coffee. (我喜歡在早晨喝咖啡時閱讀報紙。)"
 }, {
     e: "object",
@@ -3986,7 +3800,7 @@ export const a = [{
     e: "Quarry",
     ex: " [ˈkwɒri] (n.) 採石場；被獵物追趕的動物;The cats soon flushed the quarry. (不久，狗驚起獵物。)"
 }, {
-    e: "",
+    e: "rabbit",
     ex: " [ˈræbɪt] (n.) 兔子;I saw a rabbit hopping around in the garden. (我看到一隻兔子在花園裡跳來跳去。)"
 }, {
     e: "race",

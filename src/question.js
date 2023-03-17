@@ -252,12 +252,6 @@ export const q = [{
   a: "opportunity",
   e: "此題考察的是選擇詞彙的能力，考生需要通讀全句，將空格所在句子的意思理解清楚，並在選項中選出最符合句意的一個。根據句子意思，本句表達離家留學的困難，由此可知選項 A. convenience 不符合句意；選項 C. competition 更不合適，所以可以排除。選項 D. obligation 是指義務、責任，明顯不符合語境。而選項 B. opportunity 則為「機會」之意，符合句意，為正確答案。因此，答案為 B. opportunity，表示「儘管留學有機會，但是要離開家人和朋友還是很難的。」",
 }, {
-  id: 25,
-  q: "Choose the correct word to fill in the blank.",
-  s: ["boring", "bored", "interest", "interesting"],
-  a: "interesting",
-  e: "本題考察形容詞和名詞的用法。根據句意，教授的演講很無聊，導致大多數學生都睡著了，因此需要使用形容詞來描述教授的演講。選項 A 「boring」 和 B 「bored」 都是形容詞，但是「boring」表示「無聊的」，符合句意；而「bored」表示「感到無聊的」，不符合句意。選項 C 「interest」 是名詞，不能用來形容教授的演講，不符合句意。因此，選項 D 「interesting」 是正確的答案，表示「有趣的」，和教授的演講形成對比，強調了演講的無聊。因此，本題答案為 D，解析如上所述。",
-}, {
   id: 26,
   q: "The new rule requires that all employees ________ their work schedules at least one week in advance.",
   s: ["submit", "will submit", "submitting", "to submit"],

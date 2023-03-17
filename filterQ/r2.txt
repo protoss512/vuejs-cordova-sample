@@ -11,6 +11,7 @@ Despite these downsides, electronic devices are not going anywhere. It is import
 
 Questions:
 
+
 What is the main topic of the passage?
 A. The benefits of electronic devices
 B. The downsides of electronic devices
@@ -71,6 +72,7 @@ However, there are things that individuals can do to promote neuroplasticity and
 
 Questions:
 
+
 What is the main topic of the passage?
 A. The complexity of the human brain
 B. The role of neuroplasticity in brain function
@@ -119,6 +121,7 @@ Another consequence of climate change is extreme weather events, such as heat wa
 Addressing climate change requires a coordinated effort from individuals, governments, and businesses around the world. This may involve reducing greenhouse gas emissions, transitioning to renewable energy sources, and investing in technologies that can help mitigate the impacts of climate change.
 
 Questions:
+
 
 What is the main topic of the passage?
 A. The causes of climate change
@@ -177,6 +180,7 @@ Despite these concerns, social media remains a popular and influential medium. A
 
 Questions:
 
+
 What is the main topic of the passage?
 A. The benefits of social media
 B. The impact of social media on mental health
@@ -234,6 +238,7 @@ In response to the threat of climate change, many countries have taken action to
 
 Questions:
 
+
 What is climate change?
 A. Changes in temperature only
 B. Changes in temperature and precipitation only
@@ -281,6 +286,8 @@ Answer: B
 解析：文章中提到，雖然應對氣候變化的挑戰仍然存在，但是由於各國和個人正致力於實現更可持續的未來，因此有希望。這表明作者對應對氣候變化的未來持樂觀態度。因此，答案為B。
 
 
+Passage:
+
 The Importance of Sleep
 
 We all know that getting a good night's sleep is important, but many of us still don't get enough sleep on a regular basis. In fact, studies have shown that more than one-third of American adults do not get the recommended seven hours of sleep each night.
@@ -300,6 +307,9 @@ Avoid caffeine, nicotine, and alcohol before bedtime, as they can disrupt your s
 Get regular exercise, but avoid exercising too close to bedtime.
 
 If you have trouble sleeping, try relaxation techniques such as deep breathing or meditation, or consider talking to a healthcare professional about sleep aids.
+
+Questions:
+
 
 What is the main idea of the passage?
 A. Lack of sleep can have negative effects on physical health.
@@ -347,7 +357,7 @@ Answer: C
 解析：文章提到了改善睡眠習慣的建議，其中包括保持規律的睡眠時間表，晚上睡前避免飲用咖啡因、尼古丁和酒精，以及避免在睡前使用電子設備。因此，答案為C。
 
 
-題目：
+Passage:
 
 In recent years, there has been a growing interest in plant-based diets. Advocates of these diets argue that they are healthier for both people and the planet. But are plant-based diets really better? Let's take a closer look.
 
@@ -358,6 +368,9 @@ However, some people worry that plant-based diets might not provide all of the n
 Another concern is that some plant-based foods, such as soy and nuts, can be allergenic and cause reactions in some people. Additionally, some plant-based diets may not be sustainable in the long-term due to the large amounts of water and other resources needed to produce certain crops.
 
 Overall, plant-based diets can be a healthy and sustainable choice for many people. However, it's important to ensure that you are getting all of the necessary nutrients, and to speak with a healthcare professional before making any major dietary changes.
+
+Questions:
+
 
 What is the main benefit of plant-based diets according to the passage?
 A. They are lower in fiber and higher in saturated fats.
