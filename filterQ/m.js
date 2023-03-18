@@ -4,7 +4,7 @@ var i = 0
 var str = ''
 var strs = []
 //重新開始，清除先前對話並使用台灣繁體中文
-fs.readFile('file2.txt', (err, s) => {
+fs.readFile('file4.txt', (err, s) => {
     if (err) throw err;
     let output = ''
     str = String(s)
@@ -28,7 +28,7 @@ fs.readFile('file2.txt', (err, s) => {
         console.log(x)
     }
     output += ']'
-    fs.writeFile('test2.js', output, function (err) {
+    fs.writeFile('test3.js', output, function (err) {
         if (err)
             console.log(err);
         else

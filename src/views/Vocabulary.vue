@@ -8,14 +8,17 @@
             <div style="flex:1;display: flex;justify-content: flex-end;align-items: center;"></div>
         </div>
         <hr style="border: 1px groove #666;margin-left: 10px;margin-right: 10px;">
-        <div 
+        <div
             style="flex:90;margin: 10px;padding-top: 10px;display: flex;flex-direction:column;justify-content: center;align-items: center;">
-                <div style="font-size: 25px;color:#ccc">{{ question }}</div>
+            <div style="flex:1;display: flex;flex-direction:column;justify-content: center;align-items: center;">
+                <div style="font-size: 30px;color:#ccc;margin-bottom: 10px;">{{ question }}</div>
                 <div style="color: #ccc;">{{ anwser }}</div>
                 <div style="margin-top: 20px;background-color: #252525 !important;border-radius: 15px;height: 60px;width: 300px;border: 1px groove #777;display: flex;justify-content: center;align-items: center;color: #ccc;"
                     @click="goNext">
                     <div>{{ $t("go_next") }}</div>
                 </div>
+            </div>
+            <div style="flex:1"></div>
         </div>
     </div>
 </template>

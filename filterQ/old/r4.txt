@@ -11,6 +11,7 @@ Despite these downsides, electronic devices are not going anywhere. It is import
 
 Questions:
 
+
 What is the main topic of the passage?
 A. The benefits of electronic devices
 B. The downsides of electronic devices
@@ -56,6 +57,7 @@ Answer: D
 
 解析：文章最後一段建議個人應該認識到電子產品的潛在負面影響，並採取措施來緩解它們帶來的影響，其中一個建議就是在睡前限制使用電子產品的時間，因此答案為D。
 
+
 Passage:
 
 The human brain is incredibly complex, and there is still much that researchers do not understand about how it works. However, one thing that is clear is that the brain is highly adaptable and capable of change.
@@ -67,6 +69,7 @@ While the brain is capable of neuroplasticity throughout life, the extent to whi
 However, there are things that individuals can do to promote neuroplasticity and enhance their brain's ability to adapt. Engaging in activities that are mentally stimulating, such as reading or solving puzzles, is one way to promote neuroplasticity. Physical exercise has also been shown to have a positive impact on brain function and neuroplasticity.
 
 Questions:
+
 
 What is the main topic of the passage?
 A. The complexity of the human brain
@@ -105,6 +108,7 @@ Answer: C
 解析：文章中提到，進行腦力刺激的活動（例如閱讀或解決問題）是促進神經可塑性的一種方式，因此答案為C。
 
 
+
 Passage:
 
 Climate change is a pressing issue that has garnered significant attention in recent years. While there is still debate about the causes and extent of climate change, most scientists agree that it is largely driven by human activities, such as the burning of fossil fuels and deforestation.
@@ -116,6 +120,7 @@ Another consequence of climate change is extreme weather events, such as heat wa
 Addressing climate change requires a coordinated effort from individuals, governments, and businesses around the world. This may involve reducing greenhouse gas emissions, transitioning to renewable energy sources, and investing in technologies that can help mitigate the impacts of climate change.
 
 Questions:
+
 
 What is the main topic of the passage?
 A. The causes of climate change

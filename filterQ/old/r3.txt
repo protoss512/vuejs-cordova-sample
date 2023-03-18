@@ -11,6 +11,7 @@ Despite these downsides, electronic devices are not going anywhere. It is import
 
 Questions:
 
+
 What is the main topic of the passage?
 A. The benefits of electronic devices
 B. The downsides of electronic devices
@@ -45,9 +46,7 @@ C. Electronic devices have both benefits and downsides
 D. Electronic devices will eventually disappear
 Answer: C
 
-解析：文章提到了電子產品的缺點，但也指出了電子產品的優點，並強調了個人需要認識到這些設備的潛在負面影響，並採取
-
-措施來緩解它們帶來的影響，因此答案為C。
+解析：文章提到了電子產品的缺點，但也指出了電子產品的優點，並強調了個人需要認識到這些設備的潛在負面影響，並採取措施來緩解它們帶來的影響，因此答案為C。
 
 What is one step individuals can take to mitigate the negative effects of electronic devices?
 A. Increase screen time before bed
@@ -70,6 +69,7 @@ While the brain is capable of neuroplasticity throughout life, the extent to whi
 However, there are things that individuals can do to promote neuroplasticity and enhance their brain's ability to adapt. Engaging in activities that are mentally stimulating, such as reading or solving puzzles, is one way to promote neuroplasticity. Physical exercise has also been shown to have a positive impact on brain function and neuroplasticity.
 
 Questions:
+
 
 What is the main topic of the passage?
 A. The complexity of the human brain
@@ -120,6 +120,7 @@ Another consequence of climate change is extreme weather events, such as heat wa
 Addressing climate change requires a coordinated effort from individuals, governments, and businesses around the world. This may involve reducing greenhouse gas emissions, transitioning to renewable energy sources, and investing in technologies that can help mitigate the impacts of climate change.
 
 Questions:
+
 
 What is the main topic of the passage?
 A. The causes of climate change
@@ -179,6 +180,7 @@ Despite these concerns, social media remains a popular and influential medium. A
 
 Questions:
 
+
 What is the main topic of the passage?
 A. The benefits of social media
 B. The impact of social media on mental health
@@ -224,6 +226,8 @@ Answer: D
 
 解析：作者在文章中提到社交媒體的好處和擔憂，並強調了社交媒體使用的責任。因此，作者的態度是矛盾的（ambivalent），既有正面的看法，也有擔憂。因此答案為D。
 
+
+
 Passage:
 
 The concept of climate change has become an increasingly pressing issue in recent years. Climate change refers to the long-term changes in Earth's climate, including changes in temperature, precipitation, and wind patterns, among others. While natural factors such as volcanic activity and solar radiation can contribute to climate change, the overwhelming scientific consensus is that human activities, particularly the burning of fossil fuels, are the primary cause of the current trend.
@@ -233,6 +237,7 @@ The consequences of climate change are vast and far-reaching. Rising temperature
 In response to the threat of climate change, many countries have taken action to reduce their greenhouse gas emissions and transition to more sustainable forms of energy. These efforts include investing in renewable energy sources such as wind and solar power, improving energy efficiency, and promoting public transportation and electric vehicles. While much remains to be done to address the challenges of climate change, there is reason for hope as countries and individuals work towards a more sustainable future.
 
 Questions:
+
 
 What is climate change?
 A. Changes in temperature only
@@ -303,12 +308,14 @@ Get regular exercise, but avoid exercising too close to bedtime.
 
 If you have trouble sleeping, try relaxation techniques such as deep breathing or meditation, or consider talking to a healthcare professional about sleep aids.
 
+Questions:
+
+
 What is the main idea of the passage?
 A. Lack of sleep can have negative effects on physical health.
 B. Lack of sleep can have negative effects on mental health.
 C. Lack of sleep is a problem for many Americans.
 D. Getting a good night's sleep is important.
-
 Answer: D
 
 解析：文章一開始就提到了睡眠的重要性，後面的內容也在強調睡眠的好處以及如何改善睡眠習慣。因此，答案為D。
@@ -350,7 +357,7 @@ Answer: C
 解析：文章提到了改善睡眠習慣的建議，其中包括保持規律的睡眠時間表，晚上睡前避免飲用咖啡因、尼古丁和酒精，以及避免在睡前使用電子設備。因此，答案為C。
 
 
-題目：
+Passage:
 
 In recent years, there has been a growing interest in plant-based diets. Advocates of these diets argue that they are healthier for both people and the planet. But are plant-based diets really better? Let's take a closer look.
 
@@ -361,6 +368,9 @@ However, some people worry that plant-based diets might not provide all of the n
 Another concern is that some plant-based foods, such as soy and nuts, can be allergenic and cause reactions in some people. Additionally, some plant-based diets may not be sustainable in the long-term due to the large amounts of water and other resources needed to produce certain crops.
 
 Overall, plant-based diets can be a healthy and sustainable choice for many people. However, it's important to ensure that you are getting all of the necessary nutrients, and to speak with a healthcare professional before making any major dietary changes.
+
+Questions:
+
 
 What is the main benefit of plant-based diets according to the passage?
 A. They are lower in fiber and higher in saturated fats.
@@ -407,6 +417,8 @@ Answer: C
 
 解析：通過本文，作者的主要目的是提醒讀者植物性飲食可能存在潛在風險和缺點，並強調重要性以保持均衡的飲食並向醫療保健專業人員諮詢。因此，答案為C。
 
+
+
 Passage:
 
 It’s a common misconception that introverts are shy, antisocial individuals who don’t enjoy socializing. While introverts may not seek out constant social stimulation like their extroverted counterparts, they do enjoy social interaction, albeit in smaller doses.
@@ -420,6 +432,7 @@ Despite the common misconception that introverts are at a disadvantage in social
 Overall, introversion is simply a personality trait that reflects a preference for solitude and introspection, rather than a social deficit or inability to communicate effectively.
 
 Questions:
+
 
 According to the passage, what is a common misconception about introverts?
 A. They are more easily overwhelmed by external stimuli.
