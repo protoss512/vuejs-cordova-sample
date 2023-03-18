@@ -4,6 +4,7 @@ import Home from '@/views/Home'
 import Highschool_ke_leak from '@/views/Highschool_ke_leak'
 import Vocabulary from '@/views/Vocabulary'
 import ReadTest from '@/views/ReadTest'
+import Main from '@/views/Main'
 
 Vue.use(Router);
 
@@ -25,6 +26,10 @@ export default new Router({
       path: '/ReadTest',
       name: 'ReadTest',
       component: ReadTest
+    }, {
+      path: '/Main',
+      name: 'Main',
+      component: Main
     }
 
   ]
