@@ -12,11 +12,25 @@
   "analysis": "分析",
   "vocabulary": "單字練習",
   "to_read": "閱讀練習",
-  "explanation":"解析",
-  "read_answer":"回答問題",
-  "look_read":"閱讀文章",
-  "title": "Exemples VueJS + Cordova",
-  "showSample": "Afficher les examples",
+  "explanation": "解析",
+  "read_answer": "回答問題",
+  "look_read": "閱讀文章",
+  "english": "英文",
+  "explation": "解析",
+  "easy": "簡潔",
+  "useful": "易學易用",
+  "feel": "改善學習體驗",
+  "start": "開始使用",
+  "setting": "設定",
+  "font_rate": "文字大小",
+  "small": "小",
+  "middle": "中",
+  "large": "大",
+  "getPosition": "Localisation en cours",
+  "positionNotAvailable": "Localisation impossible",
+  "startVibration": "Démarrer la vibration",
+  "takePhoto": "Prendre une photo",
+  "error": "Non disponible",
   "drawer": {
     "home": "Accueil",
     "vibration": "Vibreur",
@@ -25,10 +39,6 @@
     "localisation": "Localisation",
     "nfc": "Nfc"
   },
-  "see_on_github": "Voir sur Github",
-  "getPosition": "Localisation en cours",
-  "positionNotAvailable": "Localisation impossible",
-  "startVibration": "Démarrer la vibration",
   "flashlight": {
     "start": "Allumer la lampe torche",
     "stop": "Éteindre la lampe torche",
@@ -41,7 +51,5 @@
     "showSettings": "Activer le NFC",
     "history": "Historique",
     "noHistory": "Aucun historique"
-  },
-  "takePhoto": "Prendre une photo",
-  "error": "Non disponible"
+  }
 }

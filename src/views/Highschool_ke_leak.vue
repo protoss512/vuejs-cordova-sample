@@ -10,15 +10,20 @@
       <div style="flex:1;display: flex;justify-content: flex-end;align-items: center;"></div>
     </div>
     <hr style="margin-bottom: 10px;border: 1px groove #666;">
-    <div style="flex:100;" >
+    <div style="flex:100;">
       <div v-if="isDetail"
         style="position: fixed;top:0;left:0;width:100vw;height:100vh;z-index:3;background-color:rgba(0,0,0,0.3);color:black;display:flex">
         <div
-          style="background-color:#222;flex:1;display:flex;flex-direction:column;margin-top: 24vh;margin-bottom:24vh;margin-left: 2vw;margin-right: 2vw;border-radius: 3vw;">
+          style="background-color:#222;flex:1;display:flex;flex-direction:column;margin-top: 24vh;margin-bottom:24vh;margin-left: 2vw;margin-right: 2vw;border-radius: 3vw;"
+          :style="mystyle">
           <div style="flex:1;background-color: #222;margin: 5px;display:flex;">
             <div style="flex:1;display: flex;justify-content: flex-start;align-items: center;"></div>
-            <div style="flex:5;display: flex;justify-content: center;align-items: center;color: #ccc;font-size: 25px;">{{
-              onDetail }}</div>
+            <div
+              style="flex:5;display: flex;justify-content: center;align-items: center;color: #ccc;font-weight: bold;font-style: oblique;">
+              <div style="margin-right: 10px;">{{
+                onDetail }}</div>
+              <div><img style="" src="../assets/speech.svg" @click="speech(onDetail)"></div>
+            </div>
             <div style="flex:1;display: flex;justify-content: flex-end;align-items: center;"><img style=""
                 src="../assets/close.svg" @click="closeDetail"></div>
           </div>
@@ -28,8 +33,8 @@
           </div>
         </div>
       </div>
-      <div v-if='!isExp' style="color: #ccc;">{{ question }}</div>
-      <div v-else style="display: inline-block;" v-for="(item, index) in ques" v-bind:key="index">
+      <div v-if='!isExp' style="color: #ccc;" :style="mystyle">{{ question }}</div>
+      <div v-else style="display: inline-block;" v-for="(item, index) in ques" v-bind:key="index" :style="mystyle">
         <div style="margin: 2px;padding: 3px;color: #ccc;" @click="onEn(item)" :id="index" :class="{
           'correct_color': item.includes('_') && isCorrect,
           'error_color': item.includes('_') && !isCorrect,
@@ -38,14 +43,16 @@
           {{
             item.includes('_') ? selected : item }}</div>
       </div>
+      <div v-if='isExp' style="margin-left: 10px;display: inline-block;"><img style="" src="../assets/speech.svg"
+          @click="speech(real)"></div>
       <hr style="margin-top: 10px;border: 1px groove #666;margin-bottom: 10px;">
-      <div v-if='isExp'>
+      <div v-if='isExp' :style="mystyle">
         <div style="margin: 10px;color: #ccc;">
           {{ $t("fail") }} {{ sel }}</div>
         <hr style="margin-top: 10px;border: 1px groove #666;margin-bottom: 10px;">
         <div style="margin: 10px;color: #ccc;">{{ exp }}</div>
       </div>
-      <div v-else v-for="(item, index) in sels" v-bind:key="item">
+      <div v-else v-for="(item, index) in sels" v-bind:key="item" :style="mystyle">
         <div style="margin: 15px;display: flex;justify-content: center;align-items: center;color: #ccc;"
           @click="onSel(item)">
           <div style="flex:1;display: flex;justify-content: flex-start;align-items: center;">{{ index == 0 ? 'A. ' : index
@@ -57,21 +64,20 @@
         <hr style="margin: 10px;border: 1px groove #666;">
       </div>
       <div v-if='isExp' @click="goNext"
-        style="margin-top: 20px;background-color: #252525 !important;border-radius: 5px;height: 40px;border: 1px groove #777;display: flex;justify-content: center;align-items: center;color: #ccc;">
+        style="margin-top: 20px;background-color: #252525;border-radius: 5px;height: 40px;border: 1px groove #777;display: flex;justify-content: center;align-items: center;color: #ccc;">
         <div>{{ $t("go_next") }}</div>
       </div>
       <div v-else-if="selected != ''" @click="anwser"
-        style="margin-top: 20px;background-color: #252525 !important;border-radius: 5px;height: 40px;border: 1px groove #777;display: flex;justify-content: center;align-items: center;color: #ccc;">
+        style="margin-top: 20px;background-color: #252525;border-radius: 5px;height: 40px;border: 1px groove #777;display: flex;justify-content: center;align-items: center;color: #ccc;">
         <div>{{
           $t("to_answer") }}</div>
       </div>
-
     </div>
   </div>
 </template>
 
 <script>
-import i18n from '../i18n';
+import * as tool from '../tool';
 import { q } from '../question.js'
 import { a } from '../Vocabulary.js'
 var number = 0
@@ -93,12 +99,14 @@ export default {
       vocabularys: [],
       isDetail: false,
       onDetail: '',
-      onExp: ''
+      onExp: '',
+      mystyle: '',
+      real: ''
     }
   },
   mounted() {
     number = Math.floor(Math.random() * q.length)
-    i18n.locale = 'zh'
+
     this.vocabularys = a
     this.question = q[number].q
     this.sels.push(q[number].s[0])
@@ -110,8 +118,45 @@ export default {
     if (localStorage.getItem('Correct_num') == 'NaN') localStorage.setItem('Correct_num', '1')
     this.cor_num = parseInt(localStorage.getItem('Correct_num'))
     this.tot_num = parseInt(localStorage.getItem('Total_num'))
+
+    const [s, t] = tool.getLang()
+
+    this.mystyle = s
+    this.font_size = t
   },
   methods: {
+    speech(t) {
+      const synth = window.speechSynthesis;
+      if (synth.speaking) {
+        console.error("speechSynthesis.speaking");
+        return;
+      }
+
+
+      const utterThis = new SpeechSynthesisUtterance(t);
+
+      utterThis.onend = function (event) {
+        console.log("SpeechSynthesisUtterance.onend");
+      };
+
+      utterThis.onerror = function (event) {
+        console.error("SpeechSynthesisUtterance.onerror");
+      };
+
+      /*const selectedOption =
+        voiceSelect.selectedOptions[0].getAttribute("data-name");
+ 
+      for (let i = 0; i < voices.length; i++) {
+        if (voices[i].name === selectedOption) {
+          utterThis.voice = voices[i];
+          break;
+        }
+      }
+      utterThis.pitch = pitch.value;
+      utterThis.rate = rate.value;*/
+      synth.speak(utterThis);
+
+    },
     onEn(item) {
       if (a.filter(e => e.e.toLowerCase() === item.toLowerCase()).length > 0) {
         let index = a.findIndex(x => x.e.toLowerCase() === item.toLowerCase())
@@ -121,7 +166,7 @@ export default {
       }
     },
     closeDetail() {
-      if(this.isDetail) this.isDetail = false
+      if (this.isDetail) this.isDetail = false
     },
     goNext() {
       number = Math.floor(Math.random() * q.length)
@@ -139,7 +184,7 @@ export default {
       this.answer = ''
     },
     goHome() {
-      window.location.hash = '/'
+      window.location.hash = '/Main'
     },
     onSel(item) {
       this.selected = item
@@ -148,6 +193,11 @@ export default {
       this.question = a.replace(/\_/g, '')
     },
     anwser() {
+
+      let a = q[number].q
+      a = a.replace('_', q[number].a)
+      this.real = a.replace(/\_/g, '')
+
       let tnum = parseInt(localStorage.getItem('Total_num'))
       tnum += 1
       this.tot_num = tnum

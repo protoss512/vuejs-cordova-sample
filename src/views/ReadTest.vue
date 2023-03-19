@@ -10,13 +10,18 @@
         <hr style="margin-bottom: 10px;border: 1px groove #666;margin-left: 10px;margin-right: 10px;">
         <div style="flex:100;display: flex;flex-direction:column;height: 100vh;width: 100vw;">
             <div v-show="!isStep" v-if="!isReset" style="flex:100;overflow-y: auto;margin-left: 10px;margin-right: 10px;">
-                <div style="color: #ccc;">{{ article }}</div>
+                <div style="color: #ccc;" :style="mystyle">{{ article }}</div>
+                <div v-if="isExp">
+                    <hr
+                        style="margin-bottom: 10px;margin-top:10px;border: 1px groove #666;">
+                    <div style="color: #ccc;" :style="mystyle">{{ article_zh }}</div>
+                </div>
                 <div style="height: 20px;"></div>
                 <div style="flex:1"></div>
             </div>
             <div v-show="isStep" style="flex:100;overflow-y: auto;margin-left: 10px;margin-right: 10px;color: #ccc;">
-                <div v-if="!isReset" v-for="(item, index) in question" v-bind:key="index">
-                    <div style="font-weight: bold;font-size: 18px;margin-bottom: 5px;"> {{ 'Q ' + (parseInt(index) +
+                <div v-if="!isReset" v-for="(item, index) in question" v-bind:key="index" :style="mystyle">
+                    <div style="font-weight: bold;margin-bottom: 5px;"> {{ 'Q ' + (parseInt(index) +
                         1).toString() + '. ' + item }}</div>
                     <input style="margin-bottom: 15px;margin-left: 10px;" type="radio" :disabled="isExp" :id="index + 'A'"
                         value="A" v-model="picked[index]">
@@ -47,21 +52,21 @@
             <hr style="margin-bottom: 20px;margin-top:20px;border: 1px groove #666;margin-left: 10px;margin-right: 10px;">
             <div v-if="!isExp && isAnswer || isNext"
                 style="height: 150px;display: flex;justify-content: center;margin-left: 10px;margin-right: 10px;">
-                <div style="flex:1;background-color: #252525 !important;border-radius: 15px;height: 60px;width: 100%;border: 1px groove #777;display: flex;justify-content: center;align-items: center;color: #ccc;"
+                <div style="flex:1;background-color: #252525;border-radius: 15px;height: 60px;width: 100%;border: 1px groove #777;display: flex;justify-content: center;align-items: center;color: #ccc;"
                     @click="toStep">
                     {{ isStep ? $t("look_read") : $t("read_answer") }}
                 </div>
                 <div v-if="isNext" @click="goNext"
-                    style="margin-left: 10px;flex:1;background-color: #252525 !important;border-radius: 15px;height: 60px;border: 1px groove #777;display: flex;justify-content: center;align-items: center;color: #ccc;">
+                    style="margin-left: 10px;flex:1;background-color: #252525;border-radius: 15px;height: 60px;border: 1px groove #777;display: flex;justify-content: center;align-items: center;color: #ccc;">
                     {{ $t("go_next") }}
                 </div>
                 <div v-if="!isExp && isAnswer" @click="toAnswer"
-                    style="flex:1;margin-left: 10px;background-color: #252525 !important;border-radius: 15px;height: 60px;border: 1px groove #777;display: flex;justify-content: center;align-items: center;color: #ccc;">
+                    style="flex:1;margin-left: 10px;background-color: #252525;border-radius: 15px;height: 60px;border: 1px groove #777;display: flex;justify-content: center;align-items: center;color: #ccc;">
                     {{ $t("to_answer") }}
                 </div>
             </div>
             <div v-else style="height: 150px;display: flex;justify-content: center;margin-left: 10px;margin-right: 10px;">
-                <div style="flex:1;background-color: #252525 !important;border-radius: 15px;height: 60px;width: 100%;border: 1px groove #777;display: flex;justify-content: center;align-items: center;color: #ccc;"
+                <div style="flex:1;background-color: #252525;border-radius: 15px;height: 60px;width: 100%;border: 1px groove #777;display: flex;justify-content: center;align-items: center;color: #ccc;"
                     @click="toStep">
                     {{ isStep ? $t("look_read") : $t("read_answer") }}
                 </div>
@@ -72,6 +77,7 @@
 
 <script>
 import i18n from '../i18n';
+import tool from '../tool';
 import { r } from '../read_question.js'
 var number = 0
 export default {
@@ -88,11 +94,12 @@ export default {
             picked: [],
             isStep: false,
             isReset: false,
-            isNext: false
+            isNext: false,
+            mystyle: '',
+            article_zh: ''
         }
     },
     computed: {
-        // a computed getter
         isAnswer() {
             let h = 0
             for (let i = 0; i < this.picked.length; i++) {
@@ -104,14 +111,26 @@ export default {
         }
     },
     mounted() {
-        i18n.locale = 'zh'
+        
         number = Math.floor(Math.random() * r.length)
         let rs = r[number]
         this.article = rs.ar
+        this.article_zh = rs.zh
         this.question = rs.q
         this.sel = rs.q_sel
         this.answer = rs.q_a
         this.exp = rs.q_ex
+        let f = localStorage.getItem('Font_size')
+        if (f == i18n.t("small")) {
+            this.mystyle = "font-size: 100%;"
+            this.font_size = i18n.t("small")
+        } else if (f == i18n.t("middle")) {
+            this.mystyle = "font-size: 125%;"
+            this.font_size = i18n.t("middle")
+        } else if (f == i18n.t("large")) {
+            this.mystyle = "font-size: 150%;"
+            this.font_size = i18n.t("large")
+        }
     },
     methods: {
         toStep() {
@@ -140,12 +159,13 @@ export default {
 
         },
         goHome() {
-            window.location.hash = '/'
+            window.location.hash = '/Main'
         },
         goNext() {
             number = Math.floor(Math.random() * r.length)
 
             this.article = ''
+            this.article_zh = ''
             this.answer = []
             this.exp = []
             this.sel = []
@@ -157,6 +177,7 @@ export default {
             setTimeout(() => {
                 let rs = r[number]
                 this.article = rs.ar
+                this.article_zh = rs.zh
                 this.question = rs.q
                 this.answer = rs.q_a
                 this.exp = rs.q_ex

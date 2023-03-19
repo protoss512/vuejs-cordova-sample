@@ -11,8 +11,8 @@
         <div
             style="flex:90;margin: 10px;padding-top: 10px;display: flex;flex-direction:column;justify-content: center;align-items: center;">
             <div style="flex:1;display: flex;flex-direction:column;justify-content: center;align-items: center;">
-                <div style="font-size: 30px;color:#ccc;margin-bottom: 10px;">{{ question }}</div>
-                <div style="color: #ccc;">{{ anwser }}</div>
+                <div style="font-weight: bold;font-style: oblique;color:#ccc;margin-bottom: 10px;" :style="mystyle">{{ question }}</div>
+                <div style="color: #ccc;" :style="mystyle">{{ anwser }}</div>
                 <div style="margin-top: 20px;background-color: #252525 !important;border-radius: 15px;height: 60px;width: 300px;border: 1px groove #777;display: flex;justify-content: center;align-items: center;color: #ccc;"
                     @click="goNext">
                     <div>{{ $t("go_next") }}</div>
@@ -24,6 +24,7 @@
 </template>
 
 <script>
+import i18n from '../i18n';
 import { a } from '../Vocabulary'
 var number = 0
 export default {
@@ -32,17 +33,29 @@ export default {
         return {
             isReport: false,
             question: '',
-            anwser: ''
+            anwser: '',
+            mystyle: ''
         }
     },
     mounted() {
         number = Math.floor(Math.random() * a.length)
         this.question = a[number].e
         this.anwser = a[number].ex
+        let f = localStorage.getItem('Font_size')
+        if (f == i18n.t("small")) {
+            this.mystyle = "font-size: 100%;"
+            this.font_size = i18n.t("small")
+        } else if (f == i18n.t("middle")) {
+            this.mystyle = "font-size: 125%;"
+            this.font_size = i18n.t("middle")
+        } else if (f == i18n.t("large")) {
+            this.mystyle = "font-size: 150%;"
+            this.font_size = i18n.t("large")
+        }
     },
     methods: {
         goHome() {
-            window.location.hash = '/'
+            window.location.hash = '/Main'
         },
         openReport() {
             this.isReport ^= true
