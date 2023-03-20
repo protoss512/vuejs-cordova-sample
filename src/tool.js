@@ -22,6 +22,5 @@ export function getLang() {
         mystyle = "font-size: 150%;"
         font_size = i18n.t("large")
     }
-    console.log('get', mystyle, font_size)
     return [mystyle, font_size]
 }

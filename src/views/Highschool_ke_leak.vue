@@ -10,7 +10,7 @@
       <div style="flex:1;display: flex;justify-content: flex-end;align-items: center;"></div>
     </div>
     <hr style="margin-bottom: 10px;border: 1px groove #666;">
-    <div style="flex:100;">
+    <div style="flex:100;overflow-y: auto;">
       <div v-if="isDetail"
         style="position: fixed;top:0;left:0;width:100vw;height:100vh;z-index:3;background-color:rgba(0,0,0,0.3);color:black;display:flex">
         <div
@@ -53,25 +53,27 @@
         <div style="margin: 10px;color: #ccc;">{{ exp }}</div>
       </div>
       <div v-else v-for="(item, index) in sels" v-bind:key="item" :style="mystyle">
-        <div style="margin: 15px;display: flex;justify-content: center;align-items: center;color: #ccc;"
-          @click="onSel(item)">
+        <div :style="styles[index]" style="padding: 15px;display: flex;justify-content: center;align-items: center;color: #ccc;"
+          @click="onSel(item,index)">
           <div style="flex:1;display: flex;justify-content: flex-start;align-items: center;">{{ index == 0 ? 'A. ' : index
             == 1 ? 'B. ' : index == 2 ? 'C. ' : 'D. ' }}</div>
           <div style="flex:100;display: flex;justify-content: center;align-items: center;color: #ccc;">{{
             item }}</div>
           <div style="flex:1;display: flex;justify-content: flex-end;align-items: center;"></div>
         </div>
+
         <hr style="margin: 10px;border: 1px groove #666;">
       </div>
       <div v-if='isExp' @click="goNext"
-        style="margin-top: 20px;background-color: #252525;border-radius: 5px;height: 40px;border: 1px groove #777;display: flex;justify-content: center;align-items: center;color: #ccc;">
+        style="margin-top: 20px;background-color: #252525;border-radius: 5px;height: 60px;border: 1px groove #777;display: flex;justify-content: center;align-items: center;color: #ccc;">
         <div>{{ $t("go_next") }}</div>
       </div>
       <div v-else-if="selected != ''" @click="anwser"
-        style="margin-top: 20px;background-color: #252525;border-radius: 5px;height: 40px;border: 1px groove #777;display: flex;justify-content: center;align-items: center;color: #ccc;">
+        style="margin-top: 20px;background-color: #252525;border-radius: 5px;height: 60px;border: 1px groove #777;display: flex;justify-content: center;align-items: center;color: #ccc;">
         <div>{{
           $t("to_answer") }}</div>
       </div>
+      <div style="height: 20px;"></div>
     </div>
   </div>
 </template>
@@ -101,7 +103,8 @@ export default {
       onDetail: '',
       onExp: '',
       mystyle: '',
-      real: ''
+      real: '',
+      styles: ['background-color: #222;', 'background-color: #222;', 'background-color: #222;', 'background-color: #222;']
     }
   },
   mounted() {
@@ -181,6 +184,7 @@ export default {
       if (this.isDetail) this.isDetail = false
     },
     goNext() {
+      this.styles = ['background-color: #222;', 'background-color: #222;', 'background-color: #222;', 'background-color: #222;']
       number = Math.floor(Math.random() * q.length)
       this.question = q[number].q
       this.ques = []
@@ -198,11 +202,13 @@ export default {
     goHome() {
       window.location.hash = '/Main'
     },
-    onSel(item) {
+    onSel(item,index) {
       this.selected = item
       let a = q[number].q
       a = a.replace('_', item)
       this.question = a.replace(/\_/g, '')
+      this.styles = ['background-color: #222;', 'background-color: #222;', 'background-color: #222;', 'background-color: #222;']
+      this.styles[index] = 'background-color: #333;'
     },
     anwser() {
 

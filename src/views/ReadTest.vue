@@ -1,6 +1,6 @@
 <template>
-    <div style="overflow: hidden;display:flex;flex-direction:column;height: 100vh;width: 100vw;margin:0;padding: 0;">
-        <div style="flex:1;background-color: #222;margin: 10px;display:flex;">
+    <div style="display:flex;flex-direction:column;height: 100vh;width: 100vw;margin:0;padding: 0;">
+        <div style="background-color: #222;margin: 10px;display:flex;">
             <div style="flex:1;display: flex;justify-content: flex-start;align-items: center;"><img
                     style="background-color: #222;" src="../assets/arrow_back.svg" @click="goHome"></div>
             <div style="flex:1;display: flex;justify-content: center;align-items: center;color: #ccc;">{{
@@ -8,50 +8,42 @@
             <div style="flex:1;display: flex;justify-content: flex-end;align-items: center;"></div>
         </div>
         <hr style="margin-bottom: 10px;border: 1px groove #666;margin-left: 10px;margin-right: 10px;">
-        <div style="flex:100;display: flex;flex-direction:column;height: 100vh;width: 100vw;">
-            <div v-show="!isStep" v-if="!isReset" style="flex:100;overflow-y: auto;margin-left: 10px;margin-right: 10px;">
+        <div style="overflow-y: auto;flex:1;display: flex;flex-direction:column;">
+            <div v-if="!isStep" style="height: 100vh;width: 100vw;margin-left: 10px;margin-right: 10px;">
                 <div style="color: #ccc;" :style="mystyle">{{ article }}</div>
                 <div v-if="isExp">
-                    <hr
-                        style="margin-bottom: 10px;margin-top:10px;border: 1px groove #666;">
+                    <hr style="margin-bottom: 10px;margin-top:10px;border: 1px groove #666;">
                     <div style="color: #ccc;" :style="mystyle">{{ article_zh }}</div>
                 </div>
                 <div style="height: 20px;"></div>
-                <div style="flex:1"></div>
             </div>
-            <div v-show="isStep" style="flex:100;overflow-y: auto;margin-left: 10px;margin-right: 10px;color: #ccc;">
-                <div v-if="!isReset" v-for="(item, index) in question" v-bind:key="index" :style="mystyle">
+            <div v-if="isStep" style="height: 100vh;width: 100vw;margin-left: 10px;margin-right: 10px;color: #ccc;">
+                <div style="margin-bottom: 20px;" v-for="(item, index) in question" v-bind:key="index" :style="mystyle">
                     <div style="font-weight: bold;margin-bottom: 5px;"> {{ 'Q ' + (parseInt(index) +
                         1).toString() + '. ' + item }}</div>
-                    <input style="margin-bottom: 15px;margin-left: 10px;" type="radio" :disabled="isExp" :id="index + 'A'"
-                        value="A" v-model="picked[index]">
-                    <label style="" :for="index + 'A'">{{ ' A. ' + sel[index][0] }}</label>
-                    <br>
-                    <input style="margin-bottom: 15px;margin-left: 10px;" type="radio" :disabled="isExp" :id="index + 'B'"
-                        value="B" v-model="picked[index]">
-                    <label :for="index + 'B'">{{ ' B. ' + sel[index][1] }}</label>
-                    <br>
-                    <input style="margin-bottom: 15px;margin-left: 10px;" type="radio" :disabled="isExp" :id="index + 'C'"
-                        value="C" v-model="picked[index]">
-                    <label :for="index + 'C'">{{ ' C. ' + sel[index][2] }}</label>
-                    <br style="height: 10px;">
-                    <input style="margin-left: 10px;" type="radio" :disabled="isExp" :id="index + 'D'" value="D"
-                        v-model="picked[index]">
-                    <label :for="index + 'D'">{{ ' D. ' + sel[index][3] }}</label>
-                    <br style="height: 10px;">
+                    <hr style="margin-bottom: 10px;border: 1px groove #666;">
+                    <div v-for="(it, x) in sel[index]" v-bind:key="x" @click="onSel(it, index, x)">
+                        <div :style="styles[index][x]" style="display: flex;justify-content:
+                                                        center;align-items: center;">
+                            <div style="flex:1;display: flex;justify-content: flex-start;align-items: center;">{{ x == 0 ?
+                                'A. ' : x
+                                    == 1 ? 'B. ' : x == 2 ? 'C. ' : 'D. ' }}{{ it }}</div>
+                        </div>
+                        <hr style="border: 1px groove #666;margin-left: 10px;margin-right: 10px;">
+                    </div>
                     <div style="margin-top: 5px;" v-show="isExp" :class="{
                         'correct_color': answer[index][1] == picked[index],
                         'init_color': answer[index][1] != picked[index]
                     }">{{ $t("fail") + ' ' + answer[index] }}</div>
                     <div style="margin-top: 5px;" v-show="isExp">{{ $t("explanation") + ' : ' + exp[index] }}</div>
-                    <hr v-show="(index + 1) != question.length"
-                        style="margin-top: 10px;margin-bottom: 10px;border: 1px groove #666;">
                 </div>
-                <div style="flex:1"></div>
+                <div style="height: 20px;"></div>
             </div>
-            <hr style="margin-bottom: 20px;margin-top:20px;border: 1px groove #666;margin-left: 10px;margin-right: 10px;">
+        </div>
+        <hr style="margin-bottom: 20px;margin-top:20px;border: 1px groove #666;margin-left: 10px;margin-right: 10px;">
+        <div>
             <div v-if="!isExp && isAnswer || isNext"
-                style="height: 150px;display: flex;justify-content: center;margin-left: 10px;margin-right: 10px;">
+                style="display: flex;justify-content: center;margin-left: 10px;margin-right: 10px;">
                 <div style="flex:1;background-color: #252525;border-radius: 15px;height: 60px;width: 100%;border: 1px groove #777;display: flex;justify-content: center;align-items: center;color: #ccc;"
                     @click="toStep">
                     {{ isStep ? $t("look_read") : $t("read_answer") }}
@@ -65,7 +57,7 @@
                     {{ $t("to_answer") }}
                 </div>
             </div>
-            <div v-else style="height: 150px;display: flex;justify-content: center;margin-left: 10px;margin-right: 10px;">
+            <div v-else style="display: flex;justify-content: center;margin-left: 10px;margin-right: 10px;">
                 <div style="flex:1;background-color: #252525;border-radius: 15px;height: 60px;width: 100%;border: 1px groove #777;display: flex;justify-content: center;align-items: center;color: #ccc;"
                     @click="toStep">
                     {{ isStep ? $t("look_read") : $t("read_answer") }}
@@ -76,8 +68,7 @@
 </template>
 
 <script>
-import i18n from '../i18n';
-import tool from '../tool';
+import * as tool from '../tool';
 import { r } from '../read_question.js'
 var number = 0
 export default {
@@ -96,7 +87,8 @@ export default {
             isReset: false,
             isNext: false,
             mystyle: '',
-            article_zh: ''
+            article_zh: '',
+            styles: []
         }
     },
     computed: {
@@ -111,7 +103,7 @@ export default {
         }
     },
     mounted() {
-        
+
         number = Math.floor(Math.random() * r.length)
         let rs = r[number]
         this.article = rs.ar
@@ -120,16 +112,12 @@ export default {
         this.sel = rs.q_sel
         this.answer = rs.q_a
         this.exp = rs.q_ex
-        let f = localStorage.getItem('Font_size')
-        if (f == i18n.t("small")) {
-            this.mystyle = "font-size: 100%;"
-            this.font_size = i18n.t("small")
-        } else if (f == i18n.t("middle")) {
-            this.mystyle = "font-size: 125%;"
-            this.font_size = i18n.t("middle")
-        } else if (f == i18n.t("large")) {
-            this.mystyle = "font-size: 150%;"
-            this.font_size = i18n.t("large")
+        const [s, t] = tool.getLang()
+        this.mystyle = s
+        this.font_size = t
+        this.styles = []
+        for (let i = 0; i < this.sel.length; i++) {
+            this.styles.push([{ background: '#222' }, { background: '#222' }, { background: '#222' }, { background: '#222' }])
         }
     },
     methods: {
@@ -150,13 +138,21 @@ export default {
                 this.isReset = false
                 this.isExp = true
                 this.isNext = true
-            }, 5)
+                this.isStep = true
+                window.scrollTo(0, 0)
+            }, 10)
         },
         onEn(item) {
 
         },
-        onSel(item) {
-
+        onSel(item, index, x) {
+            console.log(item, index, x)
+            for (let i = 0; i < this.sel.length; i++) {
+                if (i == index) {
+                    this.styles[i] = [{ background: '#222' }, { background: '#222' }, { background: '#222' }, { background: '#222' }]
+                    this.styles[i][x] = { background: '#333' }
+                }
+            }
         },
         goHome() {
             window.location.hash = '/Main'
@@ -186,7 +182,11 @@ export default {
                 this.isStep = false
                 this.isExp = false
                 this.isNext = false
-            }, 5)
+                this.styles = []
+                for (let i = 0; i < this.sel.length; i++) {
+                    this.styles.push([{ background: '#222' }, { background: '#222' }, { background: '#222' }, { background: '#222' }])
+                }
+            }, 10)
         }
     }
 }
