@@ -18,11 +18,24 @@
             }
           ]
         }
+      },
+      "config.xml": {
+        "parents": {
+          "/*": [
+            {
+              "xml": "<feature name=\"TTS\"><param name=\"android-package\" value=\"com.wordsbaking.cordova.tts.TTS\" /><param name=\"onload\" value=\"true\" /></feature>",
+              "count": 1
+            }
+          ]
+        }
       }
     }
   },
   "installed_plugins": {
     "cordova-plugin-statusbar": {
+      "PACKAGE_NAME": "com.tony.english_app"
+    },
+    "cordova-plugin-tts": {
       "PACKAGE_NAME": "com.tony.english_app"
     }
   },
@@ -35,9 +48,18 @@
       "clobbers": [
         "window.StatusBar"
       ]
+    },
+    {
+      "id": "cordova-plugin-tts.tts",
+      "file": "plugins/cordova-plugin-tts/www/tts.js",
+      "pluginId": "cordova-plugin-tts",
+      "clobbers": [
+        "TTS"
+      ]
     }
   ],
   "plugin_metadata": {
-    "cordova-plugin-statusbar": "3.0.0"
+    "cordova-plugin-statusbar": "3.0.0",
+    "cordova-plugin-tts": "0.2.3"
   }
 }

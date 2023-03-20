@@ -9,6 +9,9 @@
   "installed_plugins": {
     "cordova-plugin-statusbar": {
       "PACKAGE_NAME": "com.tony.english_app"
+    },
+    "cordova-plugin-tts": {
+      "PACKAGE_NAME": "com.tony.english_app"
     }
   },
   "dependent_plugins": {}

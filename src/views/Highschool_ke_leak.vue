@@ -126,36 +126,48 @@ export default {
   },
   methods: {
     speech(t) {
-      const synth = window.speechSynthesis;
-      if (synth.speaking) {
-        console.error("speechSynthesis.speaking");
-        return;
-      }
-
-
-      const utterThis = new SpeechSynthesisUtterance(t);
-
-      utterThis.onend = function (event) {
-        console.log("SpeechSynthesisUtterance.onend");
-      };
-
-      utterThis.onerror = function (event) {
-        console.error("SpeechSynthesisUtterance.onerror");
-      };
-
-      /*const selectedOption =
-        voiceSelect.selectedOptions[0].getAttribute("data-name");
- 
-      for (let i = 0; i < voices.length; i++) {
-        if (voices[i].name === selectedOption) {
-          utterThis.voice = voices[i];
-          break;
+      if (tool.checkVersion() == 'web') {
+        const synth = window.speechSynthesis;
+        if (synth.speaking) {
+          console.error("speechSynthesis.speaking");
+          return;
         }
-      }
-      utterThis.pitch = pitch.value;
-      utterThis.rate = rate.value;*/
-      synth.speak(utterThis);
 
+
+        const utterThis = new SpeechSynthesisUtterance(t);
+
+        utterThis.onend = function (event) {
+          console.log("SpeechSynthesisUtterance.onend");
+        };
+
+        utterThis.onerror = function (event) {
+          console.error("SpeechSynthesisUtterance.onerror");
+        };
+
+        /*const selectedOption =
+          voiceSelect.selectedOptions[0].getAttribute("data-name");
+   
+        for (let i = 0; i < voices.length; i++) {
+          if (voices[i].name === selectedOption) {
+            utterThis.voice = voices[i];
+            break;
+          }
+        }
+        utterThis.pitch = pitch.value;
+        utterThis.rate = rate.value;*/
+        synth.speak(utterThis);
+      } else {
+        TTS
+          .speak({
+            text: t,
+            locale: 'en-US',//en-US en-GB
+            rate: 0.75
+          }).then(function () {
+            alert('success');
+          }, function (reason) {
+            alert(reason);
+          });
+      }
     },
     onEn(item) {
       if (a.filter(e => e.e.toLowerCase() === item.toLowerCase()).length > 0) {
