@@ -24,7 +24,7 @@
                     <hr style="margin-bottom: 10px;border: 1px groove #666;">
                     <div v-for="(it, x) in sel[index]" v-bind:key="x" @click="onSel(it, index, x)">
                         <div :style="styles[index][x]"
-                            style="margin-left: 10px;margin-right: 10px;display: flex;justify-content:center;align-items: center;">
+                            style="margin: 10px;display: flex;justify-content:center;align-items: center;">
                             <div style="flex:1;display: flex;justify-content: flex-start;align-items: center;">
                                 {{ x == 0 ?
                                     'A. ' : x

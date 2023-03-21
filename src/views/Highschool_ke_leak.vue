@@ -2,7 +2,7 @@
 <template>
   <div
     style="overflow:hidden;display:flex;flex-direction:column;height: 100vh;width: 100vw;margin: 0;padding: 0;margin-left: 10px;margin-right: 10px;">
-    <div style="flex:1;background-color: #222;margin: 10px;display:flex;">
+    <div style="background-color: #222;margin: 10px;display:flex;">
       <div style="flex:1;display: flex;justify-content: flex-start;align-items: center;"><img
           style="background-color: #222;" src="../assets/arrow_back.svg" @click="goHome"></div>
       <div style="flex:1;display: flex;justify-content: center;align-items: center;color: #ccc;">{{
@@ -10,7 +10,7 @@
       <div style="flex:1;display: flex;justify-content: flex-end;align-items: center;"></div>
     </div>
     <hr style="margin-bottom: 10px;border: 1px groove #666;">
-    <div style="flex:100;overflow-y: auto;">
+    <div style="flex:1;overflow-y: auto;height: 100vh;">
       <div v-if="isDetail"
         style="position: fixed;top:0;left:0;width:100vw;height:100vh;z-index:3;background-color:rgba(0,0,0,0.3);color:black;display:flex">
         <div
@@ -18,11 +18,9 @@
           :style="mystyle">
           <div style="flex:1;background-color: #222;margin: 5px;display:flex;">
             <div style="flex:1;display: flex;justify-content: flex-start;align-items: center;"></div>
-            <div
-              style="flex:5;display: flex;justify-content: center;align-items: center;color: #ccc;font-weight: bold;font-style: oblique;">
+            <div style="flex:5;display: flex;justify-content: center;align-items: center;color: #ccc;font-weight: bold;">
               <div style="margin-right: 10px;">{{
-                onDetail }}</div>
-              <div><img style="" src="../assets/speech.svg" @click="speech(onDetail)"></div>
+                $t("translation") }}</div>
             </div>
             <div style="flex:1;display: flex;justify-content: flex-end;align-items: center;"><img style=""
                 src="../assets/close.svg" @click="closeDetail"></div>
@@ -33,47 +31,42 @@
           </div>
         </div>
       </div>
-      <div v-if='!isExp' style="color: #ccc;" :style="mystyle">{{ question }}</div>
-      <div v-else style="display: inline-block;" v-for="(item, index) in ques" v-bind:key="index" :style="mystyle">
-        <div style="margin: 2px;padding: 3px;color: #ccc;" @click="onEn(item)" :id="index" :class="{
-          'correct_color': item.includes('_') && isCorrect,
-          'error_color': item.includes('_') && !isCorrect,
-          'normal_color': vocabularys.filter(e => e.e.toLowerCase() === item.toLowerCase()).length > 0,
-        }">
-          {{
-            item.includes('_') ? selected : item }}</div>
-      </div>
-      <div v-if='isExp' style="margin-left: 10px;display: inline-block;"><img style="" src="../assets/speech.svg"
+      <div style="color: #ccc;" :style="mystyle">{{ isExp ? real : question }}</div>
+      <div v-if='isExp' style="margin-left: 20px;display: inline-block;"><img style="" src="../assets/speech.svg"
           @click="speech(real)"></div>
+      <div v-if='isExp' style="margin-left: 20px;display: inline-block;"><img style="" src="../assets/text.svg"
+          @click="onEn"></div>
       <hr style="margin-top: 10px;border: 1px groove #666;margin-bottom: 10px;">
       <div v-if='isExp' :style="mystyle">
         <div style="margin: 10px;color: #ccc;">
-          {{ $t("fail") }} {{ sel }}</div>
+          {{ isCorrect ? $t("correct") : $t("fail") + sel }}</div>
         <hr style="margin-top: 10px;border: 1px groove #666;margin-bottom: 10px;">
         <div style="margin: 10px;color: #ccc;">{{ exp }}</div>
       </div>
       <div v-else v-for="(item, index) in sels" v-bind:key="item" :style="mystyle">
-        <div :style="styles[index]" style="padding: 15px;display: flex;justify-content: center;align-items: center;color: #ccc;"
-          @click="onSel(item,index)">
+        <div :style="styles[index]"
+          style="padding: 15px;display: flex;justify-content: center;align-items: center;color: #ccc;"
+          @click="onSel(item, index)">
           <div style="flex:1;display: flex;justify-content: flex-start;align-items: center;">{{ index == 0 ? 'A. ' : index
             == 1 ? 'B. ' : index == 2 ? 'C. ' : 'D. ' }}</div>
           <div style="flex:100;display: flex;justify-content: center;align-items: center;color: #ccc;">{{
             item }}</div>
           <div style="flex:1;display: flex;justify-content: flex-end;align-items: center;"></div>
         </div>
-
         <hr style="margin: 10px;border: 1px groove #666;">
       </div>
+    </div>
+    <div>
       <div v-if='isExp' @click="goNext"
-        style="margin-top: 20px;background-color: #252525;border-radius: 5px;height: 60px;border: 1px groove #777;display: flex;justify-content: center;align-items: center;color: #ccc;">
+        style="margin-top: 10px;background-color: #252525;border-radius: 5px;height: 60px;border: 1px groove #777;display: flex;justify-content: center;align-items: center;color: #ccc;">
         <div>{{ $t("go_next") }}</div>
       </div>
       <div v-else-if="selected != ''" @click="anwser"
-        style="margin-top: 20px;background-color: #252525;border-radius: 5px;height: 60px;border: 1px groove #777;display: flex;justify-content: center;align-items: center;color: #ccc;">
+        style="margin-top: 10px;background-color: #252525;border-radius: 5px;height: 60px;border: 1px groove #777;display: flex;justify-content: center;align-items: center;color: #ccc;">
         <div>{{
           $t("to_answer") }}</div>
       </div>
-      <div style="height: 20px;"></div>
+      <div style="height: 10px;"></div>
     </div>
   </div>
 </template>
@@ -81,7 +74,6 @@
 <script>
 import * as tool from '../tool';
 import { q } from '../question.js'
-import { a } from '../Vocabulary.js'
 var number = 0
 export default {
   name: 'Highschool_ke_leak',
@@ -95,22 +87,18 @@ export default {
       isExp: false,
       answer: '',
       sel: '',
-      ques: [],
       cor_num: 1,
       tot_num: 1,
-      vocabularys: [],
       isDetail: false,
-      onDetail: '',
       onExp: '',
       mystyle: '',
       real: '',
+      speech_rate: 0.6,
       styles: ['background-color: #222;', 'background-color: #222;', 'background-color: #222;', 'background-color: #222;']
     }
   },
   mounted() {
     number = Math.floor(Math.random() * q.length)
-
-    this.vocabularys = a
     this.question = q[number].q
     this.sels.push(q[number].s[0])
     this.sels.push(q[number].s[1])
@@ -123,9 +111,9 @@ export default {
     this.tot_num = parseInt(localStorage.getItem('Total_num'))
 
     const [s, t] = tool.getLang()
-
     this.mystyle = s
-    this.font_size = t
+
+    this.speech_rate = tool.getSpeechRate()
   },
   methods: {
     speech(t) {
@@ -146,25 +134,16 @@ export default {
         utterThis.onerror = function (event) {
           console.error("SpeechSynthesisUtterance.onerror");
         };
-
-        /*const selectedOption =
-          voiceSelect.selectedOptions[0].getAttribute("data-name");
-   
-        for (let i = 0; i < voices.length; i++) {
-          if (voices[i].name === selectedOption) {
-            utterThis.voice = voices[i];
-            break;
-          }
-        }
-        utterThis.pitch = pitch.value;
-        utterThis.rate = rate.value;*/
+        console.log(this.speech_rate)
+        utterThis.pitch = 0.8;
+        utterThis.rate = this.speech_rate
         synth.speak(utterThis);
       } else {
         TTS
           .speak({
             text: t,
             locale: 'en-US',//en-US en-GB
-            rate: 0.75
+            rate: this.speech_rate
           }).then(function () {
             alert('success');
           }, function (reason) {
@@ -172,13 +151,9 @@ export default {
           });
       }
     },
-    onEn(item) {
-      if (a.filter(e => e.e.toLowerCase() === item.toLowerCase()).length > 0) {
-        let index = a.findIndex(x => x.e.toLowerCase() === item.toLowerCase())
-        this.onExp = a[index].ex
-        this.onDetail = item
-        this.isDetail = true
-      }
+    onEn() {
+      this.onExp = q[number].z
+      this.isDetail = true
     },
     closeDetail() {
       if (this.isDetail) this.isDetail = false
@@ -187,7 +162,6 @@ export default {
       this.styles = ['background-color: #222;', 'background-color: #222;', 'background-color: #222;', 'background-color: #222;']
       number = Math.floor(Math.random() * q.length)
       this.question = q[number].q
-      this.ques = []
       this.sels = []
       this.sels.push(q[number].s[0])
       this.sels.push(q[number].s[1])
@@ -202,7 +176,7 @@ export default {
     goHome() {
       window.location.hash = '/Main'
     },
-    onSel(item,index) {
+    onSel(item, index) {
       this.selected = item
       let a = q[number].q
       a = a.replace('_', item)
@@ -230,7 +204,6 @@ export default {
       } else {
         this.isCorrect = false
       }
-      this.ques = q[number].q.split(" ")
       this.answer = q[number].a
       for (let i = 0; i < this.sels.length; i++) {
         if (this.sels[i] == this.answer) {

@@ -8,6 +8,19 @@ export function checkVersion() {
     }
 }
 
+export function getSpeechRate() {
+    let rate = 0.7
+    let s = localStorage.getItem('Speech_rate')
+    if (s == i18n.t("low")) {
+        rate = 0.7
+    } else if (s == i18n.t("normal")) {
+        rate = 0.8
+    } else if (s == i18n.t("high")) {
+        rate = 0.9
+    }
+    return rate
+}
+
 export function getLang() {
     let mystyle = "font-size: 100%;"
     let font_size = i18n.t("small")

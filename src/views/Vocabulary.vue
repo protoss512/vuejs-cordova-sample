@@ -45,7 +45,6 @@ export default {
         const [s, t] = tool.getLang()
 
         this.mystyle = s
-        this.font_size = t
     },
     methods: {
         goHome() {
