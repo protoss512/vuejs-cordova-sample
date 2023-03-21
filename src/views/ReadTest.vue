@@ -8,7 +8,7 @@
             <div style="flex:1;display: flex;justify-content: flex-end;align-items: center;"></div>
         </div>
         <hr style="margin-bottom: 10px;border: 1px groove #666;margin-left: 10px;margin-right: 10px;">
-        <div style="overflow-y: auto;flex:1;display: flex;flex-direction:column;">
+        <div id="ELEMENT_ID" style="overflow-y: auto;flex:1;display: flex;flex-direction:column;">
             <div v-if="!isStep" style="height: 100vh;margin-left: 10px;margin-right: 10px;">
                 <div style="color: #ccc;" :style="mystyle">{{ article }}</div>
                 <div v-if="isExp">
@@ -105,6 +105,11 @@ export default {
         }
     },
     mounted() {
+        var scrollInterval = setInterval(function () {
+            document.getElementById('ELEMENT_ID').scrollIntoView();
+            document.body.scrollTop = 0;
+            console.log('scroll')
+        }, 100);
         number = Math.floor(Math.random() * r.length)
         let rs = r[number]
         this.article = rs.ar
