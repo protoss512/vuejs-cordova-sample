@@ -31,7 +31,8 @@
         <div>{{ $t("setting") }}</div>
       </div>
     </div>
-    <div style="flex:1"></div>
+    <div style="flex:1">
+    </div>
   </div>
 </template>
 
@@ -39,7 +40,7 @@
 export default {
   name: 'Main',
   mounted() {
-    
+
   },
   methods: {
     to_Highschool_ke_leak: () => {

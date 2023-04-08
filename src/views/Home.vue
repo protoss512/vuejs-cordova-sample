@@ -14,11 +14,15 @@
       <div style="color:deeppink;">{{ $t("feel") }}</div>
     </div>
     <div style="flex:1;">
-      <div
+      <button style="width: 200px;height: 40px;" @click="to_main"
+        class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--colored">
+        {{ $t("start") }}
+      </button>
+      <!--div
         style="background-color:lightskyblue;border-radius: 15px;height: 60px;width: 300px;display: flex;justify-content: center;align-items: center;"
-        @click="to_main">
+        @click="to_main" >
         <div style="color: #222;font-size: 25px;font-weight: bold;">{{ $t("start") }}</div>
-      </div>
+      </div-->
     </div>
     <div style="flex:1"></div>
   </div>
