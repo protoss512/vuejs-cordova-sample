@@ -1,15 +1,8 @@
 
 <template>
-  <div
+  <!--div
     style="overflow:hidden;display:flex;flex-direction:column;height: 100vh;width: 100vw;margin: 0;padding: 0;margin-left: 10px;margin-right: 10px;">
-    <div style="background-color: #222;margin: 10px;display:flex;">
-      <div style="flex:1;display: flex;justify-content: flex-start;align-items: center;"><img
-          style="background-color: #222;" src="../assets/arrow_back.svg" @click="goHome"></div>
-      <div style="flex:1;display: flex;justify-content: center;align-items: center;color: #ccc;">{{
-        $t("to_Ke_Leak") }}</div>
-      <div style="flex:1;display: flex;justify-content: flex-end;align-items: center;"></div>
-    </div>
-    <hr style="margin-bottom: 10px;border: 1px groove #666;">
+    
     <div style="flex:1;overflow-y: auto;height: 100vh;">
       <div v-if="isDetail"
         style="position: fixed;top:0;left:0;width:100vw;height:100vh;z-index:3;background-color:rgba(0,0,0,0.3);color:black;display:flex">
@@ -31,12 +24,10 @@
           </div>
         </div>
       </div>
-      <div style="color: #ccc;" :style="mystyle">{{ isExp ? real : question }}</div>
       <div v-if='isExp' style="margin-left: 20px;display: inline-block;"><img style="" src="../assets/speech.svg"
           @click="speech(real)"></div>
       <div v-if='isExp' style="margin-left: 20px;display: inline-block;"><img style="" src="../assets/text.svg"
           @click="onEn"></div>
-      <hr style="margin-top: 10px;border: 1px groove #666;margin-bottom: 10px;">
       <div v-if='isExp' :style="mystyle">
         <div style="margin: 10px;color: #ccc;">
           {{ isCorrect ? $t("correct") : $t("fail") + sel }}</div>
@@ -68,12 +59,38 @@
       </div>
       <div style="height: 10px;"></div>
     </div>
+                                                                      </div-->
+
+  <div style="margin: 10px;">
+    <div class="demo-card-square mdl-card mdl-shadow--2dp" style="width:100%;">
+      <div class="mdl-card__supporting-text" :style="mystyle">
+        {{ isExp ? real : question }}
+      </div>
+
+      <div v-if='isExp' :style="mystyle">
+        <div style="margin: 10px;">
+          {{ isCorrect ? $t("correct") : $t("fail") + sel }}</div>
+        <hr style="margin-top: 10px;margin-bottom: 10px;">
+        <div style="margin: 10px;">{{ exp }}</div>
+      </div>
+      <div v-else v-for="(item, index) in sels" v-bind:key="index" :style="mystyle">
+        <button class="mdl-button mdl-js-button mdl-js-ripple-effect" @click="onSel(item, index)"
+          style="padding: 15px;display: flex;justify-content: center;align-items: center;width: 100%;">
+          <div style="flex:1;display: flex;justify-content: flex-start;align-items: center;">{{ index == 0 ? 'A. ' : index
+            == 1 ? 'B. ' : index == 2 ? 'C. ' : 'D. ' }}</div>
+          <div style="flex:100;display: flex;justify-content: center;align-items: center;">{{
+            item }}</div>
+        </button>
+        <hr style="margin: 0;padding: 0;">
+      </div>
+    </div>
   </div>
 </template>
 
 <script>
 import * as tool from '../tool';
 import { q } from '../question.js'
+import i18n from '../i18n';
 var number = 0
 export default {
   name: 'Highschool_ke_leak',
@@ -98,6 +115,8 @@ export default {
     }
   },
   mounted() {
+    this.$parent.title = i18n.t("to_Ke_Leak")
+
     number = Math.floor(Math.random() * q.length)
     this.question = q[number].q
     this.sels.push(q[number].s[0])
@@ -174,7 +193,8 @@ export default {
       this.answer = ''
     },
     goHome() {
-      window.location.hash = '/Main'
+      //window.location.hash = '/Main'
+
     },
     onSel(item, index) {
       this.selected = item

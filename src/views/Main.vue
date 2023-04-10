@@ -1,5 +1,5 @@
 <template>
-  <div
+  <!--div
     style="display: flex;flex-direction:column;height: 100vh;width: 100vw;margin: 0;padding: 0;justify-content: center;align-items: center;">
     <div style="flex:1"></div>
     <div style="flex:1;">
@@ -33,6 +33,68 @@
     </div>
     <div style="flex:1">
     </div>
+  </div-->
+  <!-- Always shows a header, even in smaller screens. -->
+  <div>
+    <div class="demo-card-square mdl-card mdl-shadow--2dp" style="margin-top: 10px;">
+      <div class="mdl-card__title mdl-card--expand">
+        <h2 class="mdl-card__title-text">Update</h2>
+      </div>
+      <div class="mdl-card__supporting-text">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+        Aenan convallis.
+      </div>
+      <div class="mdl-card__actions mdl-card--border">
+        <div class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect" @click="to_Highschool_ke_leak">
+          View Updates
+        </div>
+      </div>
+    </div>
+
+    <div class="demo-card-square mdl-card mdl-shadow--2dp" style="margin-top: 10px;">
+      <div class="mdl-card__title mdl-card--expand">
+        <h2 class="mdl-card__title-text">Update</h2>
+      </div>
+      <div class="mdl-card__supporting-text">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+        Aenan convallis.
+      </div>
+      <div class="mdl-card__actions mdl-card--border">
+        <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect">
+          View Updates
+        </a>
+      </div>
+    </div>
+
+    <div class="demo-card-square mdl-card mdl-shadow--2dp" style="margin-top: 10px;">
+      <div class="mdl-card__title mdl-card--expand">
+        <h2 class="mdl-card__title-text">Update</h2>
+      </div>
+      <div class="mdl-card__supporting-text">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+        Aenan convallis.
+      </div>
+      <div class="mdl-card__actions mdl-card--border">
+        <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect">
+          View Updates
+        </a>
+      </div>
+    </div>
+
+    <div class="demo-card-square mdl-card mdl-shadow--2dp" style="margin-top: 10px;">
+      <div class="mdl-card__title mdl-card--expand">
+        <h2 class="mdl-card__title-text">Update</h2>
+      </div>
+      <div class="mdl-card__supporting-text">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+        Aenan convallis.
+      </div>
+      <div class="mdl-card__actions mdl-card--border">
+        <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect">
+          View Updates
+        </a>
+      </div>
+    </div>
   </div>
 </template>
 
@@ -59,4 +121,22 @@ export default {
 }
 </script>
 
-<style scoped></style>
+<style scoped>
+.demo-layout-waterfall .mdl-layout__header-row .mdl-navigation__link:last-of-type {
+  padding-right: 0;
+}
+
+.demo-card-square.mdl-card {
+  height: 320px;
+}
+
+.demo-card-square>.mdl-card__title {
+  color: #fff;
+  background-size: contain;
+  /* <------ */
+  background-repeat: no-repeat;
+  background-position: center center;
+  background:
+    url('../assets/toeic.jpg') bottom right 15% no-repeat #46B6AC;
+}
+</style>
