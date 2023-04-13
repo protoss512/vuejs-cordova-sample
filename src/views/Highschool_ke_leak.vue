@@ -28,45 +28,17 @@
           @click="speech(real)"></div>
       <div v-if='isExp' style="margin-left: 20px;display: inline-block;"><img style="" src="../assets/text.svg"
           @click="onEn"></div>
-      <div v-if='isExp' :style="mystyle">
-        <div style="margin: 10px;color: #ccc;">
-          {{ isCorrect ? $t("correct") : $t("fail") + sel }}</div>
-        <hr style="margin-top: 10px;border: 1px groove #666;margin-bottom: 10px;">
-        <div style="margin: 10px;color: #ccc;">{{ exp }}</div>
-      </div>
-      <div v-else v-for="(item, index) in sels" v-bind:key="item" :style="mystyle">
-        <div :style="styles[index]"
-          style="padding: 15px;display: flex;justify-content: center;align-items: center;color: #ccc;"
-          @click="onSel(item, index)">
-          <div style="flex:1;display: flex;justify-content: flex-start;align-items: center;">{{ index == 0 ? 'A. ' : index
-            == 1 ? 'B. ' : index == 2 ? 'C. ' : 'D. ' }}</div>
-          <div style="flex:100;display: flex;justify-content: center;align-items: center;color: #ccc;">{{
-            item }}</div>
-          <div style="flex:1;display: flex;justify-content: flex-end;align-items: center;"></div>
-        </div>
-        <hr style="margin: 10px;border: 1px groove #666;">
-      </div>
     </div>
-    <div>
-      <div v-if='isExp' @click="goNext"
-        style="margin-top: 10px;background-color: #252525;border-radius: 5px;height: 60px;border: 1px groove #777;display: flex;justify-content: center;align-items: center;color: #ccc;">
-        <div>{{ $t("go_next") }}</div>
-      </div>
-      <div v-else-if="selected != ''" @click="anwser"
-        style="margin-top: 10px;background-color: #252525;border-radius: 5px;height: 60px;border: 1px groove #777;display: flex;justify-content: center;align-items: center;color: #ccc;">
-        <div>{{
-          $t("to_answer") }}</div>
-      </div>
-      <div style="height: 10px;"></div>
+    
     </div>
-                                                                      </div-->
+                                                                                                                                                    </div-->
 
   <div style="margin: 10px;">
     <div class="demo-card-square mdl-card mdl-shadow--2dp" style="width:100%;">
-      <div class="mdl-card__supporting-text" :style="mystyle">
+      <div class="mdl-card__supporting-text" :style="mystyle" style="width:100%;">
         {{ isExp ? real : question }}
       </div>
-
+      <hr style="margin: 0;padding: 0;">
       <div v-if='isExp' :style="mystyle">
         <div style="margin: 10px;">
           {{ isCorrect ? $t("correct") : $t("fail") + sel }}</div>
@@ -74,8 +46,9 @@
         <div style="margin: 10px;">{{ exp }}</div>
       </div>
       <div v-else v-for="(item, index) in sels" v-bind:key="index" :style="mystyle">
-        <button class="mdl-button mdl-js-button mdl-js-ripple-effect" @click="onSel(item, index)"
-          style="padding: 15px;display: flex;justify-content: center;align-items: center;width: 100%;">
+        <button class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-card__supporting-text"
+          @click="onSel(item, index)"
+          style="display: flex;justify-content: center;align-items: center;width: 100%;text-transform: none;">
           <div style="flex:1;display: flex;justify-content: flex-start;align-items: center;">{{ index == 0 ? 'A. ' : index
             == 1 ? 'B. ' : index == 2 ? 'C. ' : 'D. ' }}</div>
           <div style="flex:100;display: flex;justify-content: center;align-items: center;">{{
@@ -83,7 +56,25 @@
         </button>
         <hr style="margin: 0;padding: 0;">
       </div>
+      <div class="mdl-card__actions mdl-card--border">
+        <button v-if='isExp' @click="goNext"
+          class="mdl-button mdl-js-button mdl-card__supporting-text mdl-button--primary"
+          style="display: flex;justify-content: center;align-items: center;width: 100%;text-transform: none;">
+          {{ $t("go_next") }}
+        </button>
+        <button v-else-if="selected != ''" @click="anwser"
+          class="mdl-button mdl-js-button mdl-card__supporting-text mdl-button--primary"
+          style="display: flex;justify-content: center;align-items: center;width: 100%;text-transform: none;">
+          {{ $t("to_answer") }}
+        </button>
+        <button v-else class="mdl-button mdl-js-button mdl-card__supporting-text" disabled
+          style="display: flex;justify-content: center;align-items: center;width: 100%;text-transform: none;">
+          {{ $t("to_answer") }}
+        </button>
+      </div>
     </div>
+
+
   </div>
 </template>
 
@@ -119,6 +110,7 @@ export default {
 
     number = Math.floor(Math.random() * q.length)
     this.question = q[number].q
+
     this.sels.push(q[number].s[0])
     this.sels.push(q[number].s[1])
     this.sels.push(q[number].s[2])

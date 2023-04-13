@@ -1,6 +1,5 @@
 import Vue from 'vue'
 import Router from 'vue-router'
-import Home from '@/views/Home'
 import Highschool_ke_leak from '@/views/Highschool_ke_leak'
 import Vocabulary from '@/views/Vocabulary'
 import ReadTest from '@/views/ReadTest'
@@ -13,8 +12,8 @@ export default new Router({
   routes: [
     {
       path: '/',
-      name: 'Home',
-      component: Home
+      name: 'Main',
+      component: Main
     }, {
       path: '/Highschool_ke_leak',
       name: 'Highschool_ke_leak',
@@ -31,11 +30,6 @@ export default new Router({
       path: '/Setting',
       name: 'Setting',
       component: Setting
-    }, {
-      path: '/Main',
-      name: 'Main',
-      component: Main
     }
-
   ]
 })

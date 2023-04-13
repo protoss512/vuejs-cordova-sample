@@ -1,41 +1,15 @@
 <template>
-  <div style="height: 100vh;width: 100vw;margin: 0;padding: 0;max-width: 100%;
-                                                                              overflow-x: hidden;">
-    <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
-      <header class="mdl-layout__header">
-        <div class="mdl-layout__header-row">
-          <!-- Title -->
-          <span class="mdl-layout-title">{{ title }}</span>
-          <!-- Add spacer, to align navigation to the right -->
-          <div class="mdl-layout-spacer"></div>
-          <!-- Navigation. We hide it in small screens. -->
-          <!--nav class="mdl-navigation">
-            <a class="mdl-navigation__link" href="">Link</a>
-          </nav-->
-        </div>
-
-      </header>
-      <div class="mdl-layout__drawer">
-        <span class="mdl-layout-title">Title</span>
-        <nav class="mdl-navigation">
-          <a class="mdl-navigation__link" href="">Link</a>
-          <a class="mdl-navigation__link" href="">Link</a>
-          <a class="mdl-navigation__link" href="">Link</a>
-          <a class="mdl-navigation__link" href="">Link</a>
-        </nav>
-      </div>
-      <main class="mdl-layout__content">
-        <div class="page-content"
-          style="display: flex;justify-content: center;align-items: center;flex-direction:column;">
-          <router-view></router-view>
-        </div>
-      </main>
-    </div>
-  </div>
+  <v-content>
+    <myToolbar />
+    <router-view></router-view>
+  </v-content>
 </template>
 <script>
+import i18n from './i18n';
+import myToolbar from "@/components/MyToolbar"
 export default {
   name: 'app',
+  components: { myToolbar },
   data() {
     return {
       title: 'Home',
@@ -45,11 +19,55 @@ export default {
 
   },
   mounted() {
+    i18n.locale = 'zh'
+    let f = localStorage.getItem('Font_size')
+    if (f == null) {
+      localStorage.setItem('Font_size', i18n.t("small"))
+    }
 
+    let s = localStorage.getItem('Speech_rate')
+    if (s == null) {
+      localStorage.setItem('Speech_rate', i18n.t("low"))
+    }
   },
   updated() {
 
+  },
+  methods: {
+    goHome() {
+      window.location.hash = '/Highschool_ke_leak'
+    },
+    openMenu() {
+      console.log('open')
+    }
   }
 }
-
 </script>
+
+
+
+<style scoped>
+body {
+  display: flex;
+  height: 100vh;
+}
+
+.mdc-drawer-app-content {
+  flex: auto;
+  overflow: auto;
+  position: relative;
+}
+
+.main-content {
+  overflow: auto;
+  height: 100%;
+}
+
+.app-bar {
+  position: absolute;
+}
+
+.mdc-top-app-bar {
+  z-index: 7;
+}
+</style>

@@ -38,16 +38,7 @@ export default {
     }
   },
   mounted() {
-    i18n.locale = 'zh'
-    let f = localStorage.getItem('Font_size')
-    if (f == null) {
-      localStorage.setItem('Font_size', i18n.t("small"))
-    }
-
-    let s = localStorage.getItem('Speech_rate')
-    if (s == null) {
-      localStorage.setItem('Speech_rate', i18n.t("low"))
-    }
+    
   },
   methods: {
     to_main: () => {
