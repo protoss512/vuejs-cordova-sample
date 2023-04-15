@@ -31,50 +31,53 @@
     </div>
     
     </div>
-                                                                                                                                                    </div-->
+                                                                                                                                                                      </div-->
 
-  <div style="margin: 10px;">
-    <div class="demo-card-square mdl-card mdl-shadow--2dp" style="width:100%;">
-      <div class="mdl-card__supporting-text" :style="mystyle" style="width:100%;">
-        {{ isExp ? real : question }}
-      </div>
-      <hr style="margin: 0;padding: 0;">
-      <div v-if='isExp' :style="mystyle">
-        <div style="margin: 10px;">
-          {{ isCorrect ? $t("correct") : $t("fail") + sel }}</div>
-        <hr style="margin-top: 10px;margin-bottom: 10px;">
-        <div style="margin: 10px;">{{ exp }}</div>
-      </div>
-      <div v-else v-for="(item, index) in sels" v-bind:key="index" :style="mystyle">
-        <button class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-card__supporting-text"
-          @click="onSel(item, index)"
-          style="display: flex;justify-content: center;align-items: center;width: 100%;text-transform: none;">
-          <div style="flex:1;display: flex;justify-content: flex-start;align-items: center;">{{ index == 0 ? 'A. ' : index
-            == 1 ? 'B. ' : index == 2 ? 'C. ' : 'D. ' }}</div>
-          <div style="flex:100;display: flex;justify-content: center;align-items: center;">{{
-            item }}</div>
-        </button>
-        <hr style="margin: 0;padding: 0;">
-      </div>
-      <div class="mdl-card__actions mdl-card--border">
-        <button v-if='isExp' @click="goNext"
-          class="mdl-button mdl-js-button mdl-card__supporting-text mdl-button--primary"
-          style="display: flex;justify-content: center;align-items: center;width: 100%;text-transform: none;">
-          {{ $t("go_next") }}
-        </button>
-        <button v-else-if="selected != ''" @click="anwser"
-          class="mdl-button mdl-js-button mdl-card__supporting-text mdl-button--primary"
-          style="display: flex;justify-content: center;align-items: center;width: 100%;text-transform: none;">
-          {{ $t("to_answer") }}
-        </button>
-        <button v-else class="mdl-button mdl-js-button mdl-card__supporting-text" disabled
-          style="display: flex;justify-content: center;align-items: center;width: 100%;text-transform: none;">
-          {{ $t("to_answer") }}
-        </button>
+  <div style="display:flex;flex-direction:column;height: 100vh;">
+    <div style="overflow-y: auto;margin: 10px;">
+      <div class="demo-card-square mdl-card " style="width:100%;background-color: #333;">
+        <div class="mdl-card__supporting-text" :style="mystyle" style="width:100%;">
+          <div v-if="isExp" style="color:#AAA">{{ real }}</div>
+          <div v-else style="color:#CCC">{{ question }}</div>
+        </div>
+        <hr style="margin: 0;padding: 0;border: 1px groove #444;">
+        <div v-if='isExp' :style="mystyle">
+          <div style="margin: 10px;color: #CCC;">
+            {{ isCorrect ? $t("correct") : $t("fail") + sel }}</div>
+          <hr style="margin-top: 10px;margin-bottom: 10px;border: 1px groove #444;">
+          <div style="margin: 10px;color: #CCC;">{{ exp }}</div>
+        </div>
+        <div v-else v-for="(item, index) in sels" v-bind:key="index" :style="mystyle">
+          <button class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-card__supporting-text"
+            @click="onSel(item, index)"
+            style="display: flex;justify-content: center;align-items: center;width: 100%;text-transform: none;">
+            <div style="flex:1;display: flex;justify-content: flex-start;align-items: center;color: #444;">{{ index == 0 ?
+              'A. ' : index
+                == 1 ? 'B. ' : index == 2 ? 'C. ' : 'D. ' }}</div>
+            <div style="flex:100;display: flex;justify-content: center;align-items: center;color: #CCC;">{{
+              item }}</div>
+          </button>
+          <hr style="margin: 0;padding: 0;border: 1px groove #444;">
+        </div>
+        <div class="mdl-card__actions mdl-card--border">
+          <button v-if='isExp' @click="goNext"
+            class="mdl-button mdl-js-button mdl-card__supporting-text mdl-button--primary"
+            style="display: flex;justify-content: center;align-items: center;width: 100%;text-transform: none;color:dodgerblue;font-weight: bold;">
+            {{ $t("go_next") }}
+          </button>
+          <button v-else-if="selected != ''" @click="anwser"
+            class="mdl-button mdl-js-button mdl-card__supporting-text mdl-button--primary"
+            style="display: flex;justify-content: center;align-items: center;width: 100%;text-transform: none;color:dodgerblue;font-weight: bold;">
+            {{ $t("to_answer") }}
+          </button>
+          <button v-else class="mdl-button mdl-js-button mdl-card__supporting-text" disabled
+            style="display: flex;justify-content: center;align-items: center;width: 100%;text-transform: none;color:#444;font-weight: bold;">
+            {{ $t("to_answer") }}
+          </button>
+        </div>
       </div>
     </div>
-
-
+    <div style="height: 60px;"></div>
   </div>
 </template>
 
@@ -259,5 +262,10 @@ export default {
 
 .init_color {
   background-color: #222;
+}
+
+.demo-card-square.mdl-card {
+  border-radius: 8px;
+
 }
 </style>

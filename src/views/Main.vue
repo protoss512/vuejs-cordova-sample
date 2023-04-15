@@ -35,78 +35,99 @@
     </div>
   </div-->
   <!-- Always shows a header, even in smaller screens. -->
-  <div style="margin: 10px;">
 
-    <div class="demo-card-square mdl-card mdl-shadow--2dp" style="width: 100%;margin-bottom: 10px;">
-      <div class="mdl-card__title mdl-card--expand">
-        <h2 class="mdl-card__title-text">Update</h2>
-      </div>
-      <div class="mdl-card__supporting-text">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-        Aenan convallis.
-      </div>
-      <div class="mdl-card__actions mdl-card--border">
-        <div class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect" @click="to_Highschool_ke_leak">
-          View Updates
+
+
+  <div style="display:flex;flex-direction:column;height: 100vh;">
+    <div style="overflow-y: auto;margin: 10px;">
+      <div class="demo-card-square mdl-card"
+        style="background-color: #333;width: 100%;margin-bottom: 10px;border-radius: 8px;box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.2);">
+        <div class="mdl-card__title mdl-card--expand">
+          <h2 class="mdl-card__title-text" style="color: #CCC;">Update</h2>
+        </div>
+        <div class="mdl-card__supporting-text" style="color: #AAA;background-color: #333;width: 100%;">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+          Aenan convallis.
+        </div>
+        <hr style="margin: 0;padding: 0;border: 1px groove #444;">
+        <div class="mdl-card__actions mdl-card--border" style="background-color: #333;">
+          <div class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect" @click="to_Highschool_ke_leak"
+            style="color:dodgerblue;font-weight: bold;">
+            View Updates
+          </div>
         </div>
       </div>
+
+      <div class="demo-card-square mdl-card"
+        style="background-color: #333;width: 100%;margin-bottom: 10px;border-radius: 8px;box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.2);">
+        <div class="mdl-card__title mdl-card--expand">
+          <h2 class="mdl-card__title-text" style="color: #CCC;">Update</h2>
+        </div>
+        <div class="mdl-card__supporting-text" style="color: #AAA;background-color: #333;width: 100%;">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+          Aenan convallis.
+        </div>
+        <hr style="margin: 0;padding: 0;border: 1px groove #444;">
+        <div class="mdl-card__actions mdl-card--border" style="background-color: #333;">
+          <div class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect" @click="to_Highschool_ke_leak"
+            style="color:dodgerblue;font-weight: bold;">
+            View Updates
+          </div>
+        </div>
+      </div>
+
+      <div class="demo-card-square mdl-card"
+        style="background-color: #333;width: 100%;margin-bottom: 10px;border-radius: 8px;box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.2);">
+        <div class="mdl-card__title mdl-card--expand">
+          <h2 class="mdl-card__title-text" style="color: #CCC;">Update</h2>
+        </div>
+        <div class="mdl-card__supporting-text" style="color: #AAA;background-color: #333;width: 100%;">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+          Aenan convallis.
+        </div>
+        <hr style="margin: 0;padding: 0;border: 1px groove #444;">
+        <div class="mdl-card__actions mdl-card--border" style="background-color: #333;">
+          <div class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect" @click="to_Highschool_ke_leak"
+            style="color:dodgerblue;font-weight: bold;">
+            View Updates
+          </div>
+        </div>
+      </div>
+
+      <div class="demo-card-square mdl-card"
+        style="background-color: #333;width: 100%;margin-bottom: 10px;border-radius: 8px;box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.2);">
+        <div class="mdl-card__title mdl-card--expand">
+          <h2 class="mdl-card__title-text" style="color: #CCC;">Update</h2>
+        </div>
+        <div class="mdl-card__supporting-text" style="color: #AAA;background-color: #333;width: 100%;">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+          Aenan convallis.
+        </div>
+        <hr style="margin: 0;padding: 0;border: 1px groove #444;">
+        <div class="mdl-card__actions mdl-card--border" style="background-color: #333;">
+          <div class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect" @click="to_Highschool_ke_leak"
+            style="color:dodgerblue;font-weight: bold;">
+            View Updates
+          </div>
+        </div>
+      </div>
+
+      <div style="height: 60px;"></div>
     </div>
 
-    <div class="demo-card-square mdl-card mdl-shadow--2dp" style="width: 100%;margin-bottom: 10px;">
-      <div class="mdl-card__title mdl-card--expand">
-        <h2 class="mdl-card__title-text">Update</h2>
-      </div>
-      <div class="mdl-card__supporting-text">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-        Aenan convallis.
-      </div>
-      <div class="mdl-card__actions mdl-card--border">
-        <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect">
-          View Updates
-        </a>
-      </div>
-    </div>
-
-    <div class="demo-card-square mdl-card mdl-shadow--2dp" style="width: 100%;margin-bottom: 10px;">
-      <div class="mdl-card__title mdl-card--expand">
-        <h2 class="mdl-card__title-text">Update</h2>
-      </div>
-      <div class="mdl-card__supporting-text">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-        Aenan convallis.
-      </div>
-      <div class="mdl-card__actions mdl-card--border">
-        <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect">
-          View Updates
-        </a>
-      </div>
-    </div>
-
-    <div class="demo-card-square mdl-card mdl-shadow--2dp" style="width: 100%;margin-bottom: 10px;">
-      <div class="mdl-card__title mdl-card--expand">
-        <h2 class="mdl-card__title-text">Update</h2>
-      </div>
-      <div class="mdl-card__supporting-text">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-        Aenan convallis.
-      </div>
-      <div class="mdl-card__actions mdl-card--border">
-        <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect">
-          View Updates
-        </a>
-      </div>
-    </div>
   </div>
 </template>
 
 <script>
+import i18n from '../i18n';
 export default {
   name: 'Main',
   mounted() {
 
   },
   methods: {
-    to_Highschool_ke_leak: () => {
+    to_Highschool_ke_leak() {
+      this.$emit('title', i18n.t("to_Ke_Leak"));
       window.location.hash = '/Highschool_ke_leak';
     },
     to_vocabulary: () => {

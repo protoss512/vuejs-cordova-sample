@@ -1,8 +1,9 @@
 <template>
-  <v-content>
-    <myToolbar />
-    <router-view></router-view>
-  </v-content>
+  <v-main
+    style="height: 100vh;width: 100vw;margin: 0;padding: 0;max-width: 100%;overflow-x: hidden;overflow-y: hidden;background-color: #222;">
+    <myToolbar :title2="title" />
+    <router-view style="overflow-y: auto;" @title="getTitle"></router-view>
+  </v-main>
 </template>
 <script>
 import i18n from './i18n';
@@ -12,7 +13,7 @@ export default {
   components: { myToolbar },
   data() {
     return {
-      title: 'Home',
+      title: i18n.t("home"),
     }
   },
   beforeCreate() {
@@ -31,14 +32,14 @@ export default {
     }
   },
   updated() {
-
   },
   methods: {
     goHome() {
       window.location.hash = '/Highschool_ke_leak'
     },
-    openMenu() {
-      console.log('open')
+    getTitle(text) {
+      this.title = text
+      console.log('App',text)
     }
   }
 }

@@ -1,14 +1,6 @@
 <template>
     <div style="display:flex;flex-direction:column;height: 100vh;width: 100vw;margin:0;padding: 0;">
-        <div style="background-color: #222;margin: 10px;display:flex;">
-            <div style="flex:1;display: flex;justify-content: flex-start;align-items: center;"><img
-                    style="background-color: #222;" src="../assets/arrow_back.svg" @click="goHome"></div>
-            <div style="flex:1;display: flex;justify-content: center;align-items: center;color: #ccc;">{{
-                $t("to_read") }}</div>
-            <div style="flex:1;display: flex;justify-content: flex-end;align-items: center;"></div>
-        </div>
-        <hr style="margin-bottom: 10px;border: 1px groove #666;margin-left: 10px;margin-right: 10px;">
-        <div id="ELEMENT_ID" style="overflow-y: auto;flex:1;display: flex;flex-direction:column;">
+        <div style="overflow-y: auto;flex:1;display: flex;flex-direction:column;">
             <div v-if="!isStep" style="height: 100vh;margin-left: 10px;margin-right: 10px;">
                 <div style="color: #ccc;" :style="mystyle">{{ article }}</div>
                 <div v-if="isExp">
@@ -105,11 +97,6 @@ export default {
         }
     },
     mounted() {
-        var scrollInterval = setInterval(function () {
-            document.getElementById('ELEMENT_ID').scrollIntoView();
-            document.body.scrollTop = 0;
-            console.log('scroll')
-        }, 100);
         number = Math.floor(Math.random() * r.length)
         let rs = r[number]
         this.article = rs.ar
@@ -195,6 +182,10 @@ export default {
 
 
 <style scoped>
+.demo-layout-waterfall .mdl-layout__header-row .mdl-navigation__link:last-of-type {
+    padding-right: 0;
+}
+
 .correct_color {
     background-color: green;
 }
