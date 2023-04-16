@@ -5,7 +5,7 @@
       <div class="demo-card-square mdl-card"
         style="background-color: #333;width: 99%;margin-bottom: 10px;border-radius: 8px;box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.2);">
         <div class="mdl-card__title mdl-card--expand img1">
-          <h2 class="mdl-card__title-text" style="color: #DDD;">{{ $t("to_Ke_Leak") }}</h2>
+          <h2 class="mdl-card__title-text" style="color: #CCC;font-weight: bold;">{{ $t("to_Ke_Leak") }}</h2>
         </div>
         <div class="mdl-card__supporting-text" style="color: #AAA;background-color: #333;width: 100%;">
           閱讀各種文本並回答幾種不同類型的閱讀理解問題，並且在四個選項中，選出正確答案。
@@ -13,7 +13,7 @@
         <hr style="margin: 0;padding: 0;border: 1px groove #444;">
         <div class="mdl-card__actions mdl-card--border" style="background-color: #333;">
           <div class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect" @click="to_Highschool_ke_leak"
-            style="color:dodgerblue;font-weight: bold;">
+            style="color:dodgerblue;font-size: 18px;">
             {{ $t("start_study") }}
           </div>
         </div>
@@ -22,7 +22,7 @@
       <div class="demo-card-square mdl-card"
         style="background-color: #333;width: 99%;margin-bottom: 10px;border-radius: 8px;box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.2);">
         <div class="mdl-card__title mdl-card--expand img2">
-          <h2 class="mdl-card__title-text" style="color: #DDD;">{{ $t("to_read") }}</h2>
+          <h2 class="mdl-card__title-text" style="color: #CCC;font-weight: bold;">{{ $t("to_read") }}</h2>
         </div>
         <div class="mdl-card__supporting-text" style="color: #AAA;background-color: #333;width: 100%;">
           閱讀精選的文本，例如雜誌和報紙文章、電子郵件和即時消息。 每篇課文或每組課文後面都有幾個問題。 為每個問題選擇最佳答案。
@@ -30,7 +30,7 @@
         <hr style="margin: 0;padding: 0;border: 1px groove #444;">
         <div class="mdl-card__actions mdl-card--border" style="background-color: #333;">
           <div class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect" @click="to_read"
-            style="color:dodgerblue;font-weight: bold;">
+            style="color:dodgerblue;font-size: 18px;">
             {{ $t("start_study") }}
           </div>
         </div>

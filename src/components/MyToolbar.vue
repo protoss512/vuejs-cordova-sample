@@ -1,7 +1,7 @@
 <template>
   <div>
     <v-navigation-drawer style="background-color: #333;" v-model="drawer" app floating>
-      <v-toolbar style="background-color: #333;color:#CCC">{{ $t("app_name") }}</v-toolbar>
+      <v-toolbar style="background-color: #333;color:#CCC;font-size: 22px;font-weight: bold;">{{ $t("app_name") }}</v-toolbar>
       <v-list dense>
         <template v-for="(item, i) in items">
           <v-divider v-if="item.divider" :key="i"></v-divider>
@@ -10,7 +10,7 @@
               <v-icon style="color:#CCC">{{ item.icon }}</v-icon>
             </v-list-item-action>
             <v-list-item-content>
-              <v-list-item-title style="color:#CCC;margin-left: 10px;">
+              <v-list-item-title style="color:#CCC;margin-left: 10px;font-size: 22px;padding: 5px;">
                 {{ item.text }}
               </v-list-item-title>
             </v-list-item-content>
@@ -31,7 +31,7 @@
             <v-icon style="color: #CCC;">{{ icon }}</v-icon>
           </v-app-bar-nav-icon></v-app-bar-nav-icon>
       </div>
-      <v-toolbar-title style="color:#CCC;margin-left: 10px;">{{ title }}</v-toolbar-title>
+      <v-toolbar-title style="color:#CCC;margin-left: 10px;font-size: 22px;">{{ title }}</v-toolbar-title>
     </v-app-bar>
   </div>
 </template>
@@ -55,6 +55,7 @@ export default {
         { icon: 'home', text: i18n.t("home") },
         { icon: 'mdi-code-brackets', text: i18n.t("to_Ke_Leak") },
         { icon: 'mdi-newspaper', text: i18n.t("to_read") },
+        { icon: 'mdi-settings', text: i18n.t("setting") }
       ]
     }
   },
@@ -104,6 +105,10 @@ export default {
           break
         case i18n.t("to_read"):
           window.location.hash = '/ReadTest'
+          this.icon = 'mdi-keyboard-backspace'
+          break
+        case i18n.t("setting"):
+          window.location.hash = '/Setting'
           this.icon = 'mdi-keyboard-backspace'
           break
       }
