@@ -15,7 +15,7 @@
               </v-list-item-title>
             </v-list-item-content>
           </v-list-item>
-          <hr style="margin: 0;padding: 0;border: 1px groove #444;">
+          <hr style="margin: 0 10px 0 10px;padding: 0;border: 1px groove #444;">
         </template>
       </v-list>
     </v-navigation-drawer>
@@ -53,8 +53,8 @@ export default {
       icon: 'mdi-menu',
       items: [
         { icon: 'home', text: i18n.t("home") },
-        { icon: 'search', text: i18n.t("to_Ke_Leak") },
-        { icon: 'vibration', text: i18n.t("to_read") },
+        { icon: 'mdi-code-brackets', text: i18n.t("to_Ke_Leak") },
+        { icon: 'mdi-newspaper', text: i18n.t("to_read") },
       ]
     }
   },

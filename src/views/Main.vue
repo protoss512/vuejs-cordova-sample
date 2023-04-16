@@ -3,7 +3,7 @@
     <div style="overflow-y: auto;margin: 10px;">
 
       <div class="demo-card-square mdl-card"
-        style="background-color: #333;width: 100%;margin-bottom: 10px;border-radius: 8px;box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.2);">
+        style="background-color: #333;width: 99%;margin-bottom: 10px;border-radius: 8px;box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.2);">
         <div class="mdl-card__title mdl-card--expand img1">
           <h2 class="mdl-card__title-text" style="color: #DDD;">{{ $t("to_Ke_Leak") }}</h2>
         </div>
@@ -20,7 +20,7 @@
       </div>
 
       <div class="demo-card-square mdl-card"
-        style="background-color: #333;width: 100%;margin-bottom: 10px;border-radius: 8px;box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.2);">
+        style="background-color: #333;width: 99%;margin-bottom: 10px;border-radius: 8px;box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.2);">
         <div class="mdl-card__title mdl-card--expand img2">
           <h2 class="mdl-card__title-text" style="color: #DDD;">{{ $t("to_read") }}</h2>
         </div>

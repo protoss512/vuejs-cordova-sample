@@ -24,40 +24,40 @@
           </div>
         </div>
       </div>
-      <div v-if='isExp' style="margin-left: 20px;display: inline-block;"><img style="" src="../assets/speech.svg"
-          @click="speech(real)"></div>
-      <div v-if='isExp' style="margin-left: 20px;display: inline-block;"><img style="" src="../assets/text.svg"
-          @click="onEn"></div>
     </div>
     
     </div>
-                                                                                                                                                                      </div-->
+                                                                                                                                                                                                  </div-->
 
   <div style="display:flex;flex-direction:column;height: 100vh;">
     <div style="overflow-y: auto;margin: 10px;">
-      <div class="demo-card-square mdl-card " style="width:100%;background-color: #333;">
-        <div class="mdl-card__supporting-text" :style="mystyle" style="width:100%;">
+      <div class="demo-card-square mdl-card "
+        style="width:99%;background-color: #333;box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.2);">
+        <div class="mdl-card__supporting-text" :style="mystyle" style="width:99%;">
           <div v-if="isExp" style="color:#AAA">{{ real }}</div>
           <div v-else style="color:#CCC">{{ question }}</div>
+          <div style="text-align: right;margin-top: 10px;" v-if='isExp'><v-icon
+              style="color:#777;padding: 0 5px 0 5px;margin-right: 10px;" @click="onEn">mdi-translate</v-icon><v-icon
+              style="padding: 0 5px 0 5px;color:#777" @click="speech(real)">mdi-text-to-speech</v-icon></div>
         </div>
-        <hr style="margin: 0;padding: 0;border: 1px groove #444;">
+        <hr style="margin: 0 10px 0 10px;padding: 0;border: 1px groove #444;">
         <div v-if='isExp' :style="mystyle">
           <div style="margin: 10px;color: #CCC;">
             {{ isCorrect ? $t("correct") : $t("fail") + sel }}</div>
-          <hr style="margin-top: 10px;margin-bottom: 10px;border: 1px groove #444;">
+          <hr style="margin: 10px 10px 10px 10px;border: 1px groove #444;">
           <div style="margin: 10px;color: #CCC;">{{ exp }}</div>
         </div>
         <div v-else v-for="(item, index) in sels" v-bind:key="index" :style="mystyle">
-          <button class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-card__supporting-text"
-            @click="onSel(item, index)"
-            style="display: flex;justify-content: center;align-items: center;width: 100%;text-transform: none;">
-            <div style="flex:1;display: flex;justify-content: flex-start;align-items: center;color: #777;">{{ index == 0 ?
+          <button class="mdl-button mdl-js-button mdl-js-ripple-effect " @click="onSel(item, index)"
+            style="text-transform: none;width: 100%;text-align: left;">
+            <div :style="mystyle" style="display: inline;color: #777;margin-right: 5px;padding-left: 10px;">{{ index == 0
+              ?
               'A. ' : index
                 == 1 ? 'B. ' : index == 2 ? 'C. ' : 'D. ' }}</div>
-            <div style="flex:100;display: flex;justify-content: center;align-items: center;color: #CCC;">{{
+            <div :style="mystyle" style="display: inline;color: #CCC;">{{
               item }}</div>
           </button>
-          <hr style="margin: 0;padding: 0;border: 1px groove #444;">
+          <hr style="margin: 0 20px 0 20px;padding: 0;border: 1px groove #444;">
         </div>
         <div class="mdl-card__actions mdl-card--border">
           <button v-if='isExp' @click="goNext"
@@ -78,6 +78,25 @@
       </div>
     </div>
     <div style="height: 60px;"></div>
+    <div v-if="isDetail"
+      style="position: fixed;top:0;left:0;width:99vw;height:100vh;z-index:3;background-color:rgba(0,0,0,0.3);color:black;display:flex">
+      <div
+        style="background-color:#222;flex:1;display:flex;flex-direction:column;margin-top: 24vh;margin-bottom:24vh;margin-left: 2vw;margin-right: 2vw;border-radius: 3vw;"
+        :style="mystyle">
+        <div style="flex:1;background-color: #222;display:flex;">
+          <div style="flex:1;display: flex;justify-content: flex-start;align-items: center;"></div>
+          <div style="flex:5;display: flex;justify-content: center;align-items: center;color: #ccc;font-weight: bold;">
+            <div style="margin-right: 10px;">{{
+              $t("translation") }}</div>
+          </div>
+          <v-icon style="flex:1;display: flex;justify-content: flex-end;align-items: center;color:#777" @click="closeDetail">mdi-window-close</v-icon>
+        </div>
+        <hr style="margin: 0 10px 10px 10px;border: 1px groove #444;">
+        <div style="flex:10;color: #ccc;margin: 10px;">
+          {{ onExp }}
+        </div>
+      </div>
+    </div>
   </div>
 </template>
 

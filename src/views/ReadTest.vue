@@ -1,72 +1,50 @@
 <template>
     <div style="display:flex;flex-direction:column;height: 100%;overflow-y: hidden;">
         <div style="overflow-y: auto;margin: 10px 10px 0px 10px;">
-            <div class="demo-card-square mdl-card"
-                style="width: 100%;background-color: #333;padding-bottom: 10px;padding-top: 10px;border-radius: 8px;box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.2);">
-                <div v-if="!isStep" style="margin-left: 10px;margin-right: 10px;">
-                    <div style="font-weight: bold;color:#777;margin-bottom: 5px;">{{ $t("read_article") }}</div>
-                    <div style="color: #ccc;" :style="mystyle">{{ article }}</div>
-                    <div v-if="isExp">
-                        <hr style="margin-bottom: 10px;margin-top:10px;border: 1px groove #666;">
-                        <div style="color: #ccc;" :style="mystyle">{{ article_zh }}</div>
-                    </div>
+            <div v-if="!isStep" class="demo-card-square mdl-card"
+                style="width: 99%;background-color: #333;padding: 10px;border-radius: 8px;box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.2);">
+                <div style="font-weight: bold;color:#777;margin-bottom: 5px;">{{ $t("read_article") }}</div>
+                <div style="color: #ccc;" :style="mystyle">{{ article }}</div>
+                <div v-if="isExp">
+                    <hr style="margin-bottom: 10px;margin-top:10px;border: 1px groove #444;">
+                    <div style="color: #ccc;" :style="mystyle">{{ article_zh }}</div>
                 </div>
-                <div v-else style="margin-left: 10px;margin-right: 10px;color: #ccc;">
-                    <div style="margin-bottom: 20px;" v-for="(item, index) in question" v-bind:key="index" :style="mystyle">
-                        <div style="font-weight: bold;margin-bottom: 5px;"> {{ 'Q ' + (parseInt(index) +
-                            1).toString() + '. ' + item }}</div>
-                        <hr style="margin-bottom: 5px;border: 1px groove #666;">
-                        <div v-for="(it, x) in sel[index]" v-bind:key="x" @click="onSel(it, index, x)">
-                            <div :style="styles[index][x]" style="padding: 3px;">
-                                <div style="flex:1;display: flex;justify-content: flex-start;align-items: center;">
-                                    <div style="color: #777;padding-right: 10px;">{{ x == 0 ?
-                                        'A. ' : x
-                                            == 1 ? 'B. ' : x == 2 ? 'C. ' : 'D. ' }}</div>
-                                    <div>{{ it }}</div>
-                                </div>
-                            </div>
-                            <hr style="border: 1px groove #444;margin: 5px 5px 5px 5px;padding: 0;">
+                
+            </div>
+            <div v-else>
+                <div v-for="(item, index) in question" v-bind:key="index" :style="mystyle"
+                    style="width: 99%;margin-bottom: 10px;background-color: #333;padding: 10px;border-radius: 8px;box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.2);color:#CCC"
+                    class="demo-card-square mdl-card">
+                    <div style="font-weight: bold;">
+                        <div style="color: #777;display: inline;margin-right: 5px;">
+                            {{ 'Q ' + (parseInt(index) +
+                                1).toString() + '. ' }}
                         </div>
-                        <div style="margin-top: 5px;" v-show="isExp">{{ $t("explanation") + ' : ' + exp[index] }}</div>
+                        <div style="display: inline;">{{ item }}</div>
                     </div>
+                    <hr style="margin-bottom: 5px;margin-top: 8px;border: 1px groove #666;">
+                    <div v-for="(it, x) in sel[index]" v-bind:key="x" @click="onSel(it, index, x)">
+                        <div :style="styles[index][x]" style="padding: 3px;">
+                            <div style="flex:1;justify-content: flex-start;align-items: center;">
+                                <div style="color: #777;padding-right: 5px;display: inline;">{{ x == 0 ?
+                                    'A. ' : x
+                                        == 1 ? 'B. ' : x == 2 ? 'C. ' : 'D. ' }}</div>
+                                <div style="display: inline;">{{ it }}</div>
+                            </div>
+                        </div>
+                        <hr style="border: 1px groove #444;margin: 5px 5px 5px 5px;padding: 0;">
+                    </div>
+                    <div style="margin-top: 5px;" v-show="isExp">{{ $t("explanation") + ' : ' + exp[index] }}</div>
                 </div>
             </div>
-            <div style="height: 100px;"></div>
-            <!--div>
-                <div v-if="!isExp && isAnswer || isNext"
-                    style="display: flex;justify-content: center;margin-left: 10px;margin-right: 10px;">
-                    <div style="flex:1;background-color: #252525;border-radius: 15px;height: 60px;border: 1px groove #777;display: flex;justify-content: center;align-items: center;color: #ccc;"
-                        @click="toStep">
-                        {{ isStep ? $t("look_read") : $t("read_answer") }}
-                    </div>
-                    <div v-if="isNext" @click="goNext"
-                        style="margin-left: 10px;flex:1;background-color: #252525;border-radius: 15px;height: 60px;border: 1px groove #777;display: flex;justify-content: center;align-items: center;color: #ccc;">
-                        {{ $t("go_next") }}
-                    </div>
-                    <div v-if="!isExp && isAnswer" @click="toAnswer"
-                        style="flex:1;margin-left: 10px;background-color: #252525;border-radius: 15px;height: 60px;border: 1px groove #777;display: flex;justify-content: center;align-items: center;color: #ccc;">
-                        {{ $t("to_answer") }}
-                    </div>
-                </div>
-                <div v-else style="display: flex;justify-content: center;margin-left: 10px;margin-right: 10px;">
-                    <div style="flex:1;background-color: #252525;border-radius: 15px;height: 60px;border: 1px groove #777;display: flex;justify-content: center;align-items: center;color: #ccc;"
-                        @click="toStep">
-                        {{ isStep ? $t("look_read") : $t("read_answer") }}
-                    </div>
-                </div>
-            </div-->
+            <div style="height: 80px;"></div>
         </div>
-        <div style="position: sticky;bottom:80px;
-                                                                                    z-index: 10;
-                                                                                	width:100%;
-                                                                                	height:55px;
-                                                                                	right:40px;
-                                                                                	background-color:rgb(0, 0, 0,0);
-                                                                                	color:#FFF;
-                                                                                    padding: 0;
-                                                                                    margin: 0;
-                                                                                	border-radius:50px;
-                                                                                	text-align:center;">
+        <div style="position: sticky;bottom:80px;z-index: 10;width:100%;height:55px;right:40px;background-color:rgb(0, 0, 0,0);
+                                            color:#FFF;
+                                            padding: 0;
+                                            margin: 0;
+                                            border-radius:50px;
+                                            text-align:center;">
             <div v-if="!isExp && isAnswer || isNext"
                 style="display: flex;justify-content: center;margin-left: 10px;margin-right: 10px;">
                 <div style="flex:1;background-color: #252525;border-radius: 15px;height: 60px;border: 1px groove #777;display: flex;justify-content: center;align-items: center;color: #ccc;"
@@ -90,61 +68,6 @@
             </div>
         </div>
     </div>
-    <!--div style="display:flex;flex-direction:column;height: 100vh;width: 100vw;margin:0;padding: 0;">
-        <div style="overflow-y: auto;flex:1;display: flex;flex-direction:column;">
-            <div v-if="!isStep" style="height: 100vh;margin-left: 10px;margin-right: 10px;">
-                <div style="color: #ccc;" :style="mystyle">{{ article }}</div>
-                <div v-if="isExp">
-                    <hr style="margin-bottom: 10px;margin-top:10px;border: 1px groove #666;">
-                    <div style="color: #ccc;" :style="mystyle">{{ article_zh }}</div>
-                </div>
-                <div style="height: 20px;"></div>
-            </div>
-            <div v-else style="height: 100vh;margin-left: 10px;margin-right: 10px;color: #ccc;">
-                <div style="margin-bottom: 20px;" v-for="(item, index) in question" v-bind:key="index" :style="mystyle">
-                    <div style="font-weight: bold;margin-bottom: 5px;"> {{ 'Q ' + (parseInt(index) +
-                        1).toString() + '. ' + item }}</div>
-                    <hr style="margin-bottom: 10px;border: 1px groove #666;">
-                    <div v-for="(it, x) in sel[index]" v-bind:key="x" @click="onSel(it, index, x)">
-                        <div :style="styles[index][x]"
-                            style="margin: 10px;display: flex;justify-content:center;align-items: center;">
-                            <div style="flex:1;display: flex;justify-content: flex-start;align-items: center;">
-                                {{ x == 0 ?
-                                    'A. ' : x
-                                        == 1 ? 'B. ' : x == 2 ? 'C. ' : 'D. ' }}{{ it }}</div>
-                        </div>
-                        <hr style="border: 1px groove #666;margin-left: 10px;margin-right: 10px;">
-                    </div>
-                    <div style="margin-top: 5px;" v-show="isExp">{{ $t("explanation") + ' : ' + exp[index] }}</div>
-                </div>
-                <div style="height: 20px;"></div>
-            </div>
-        </div>
-        <hr style="margin-bottom: 10px;margin-top:10px;border: 1px groove #666;margin-left: 10px;margin-right: 10px;">
-        <div style="margin-bottom: 10px;">
-            <div v-if="!isExp && isAnswer || isNext"
-                style="display: flex;justify-content: center;margin-left: 10px;margin-right: 10px;">
-                <div style="flex:1;background-color: #252525;border-radius: 15px;height: 60px;border: 1px groove #777;display: flex;justify-content: center;align-items: center;color: #ccc;"
-                    @click="toStep">
-                    {{ isStep ? $t("look_read") : $t("read_answer") }}
-                </div>
-                <div v-if="isNext" @click="goNext"
-                    style="margin-left: 10px;flex:1;background-color: #252525;border-radius: 15px;height: 60px;border: 1px groove #777;display: flex;justify-content: center;align-items: center;color: #ccc;">
-                    {{ $t("go_next") }}
-                </div>
-                <div v-if="!isExp && isAnswer" @click="toAnswer"
-                    style="flex:1;margin-left: 10px;background-color: #252525;border-radius: 15px;height: 60px;border: 1px groove #777;display: flex;justify-content: center;align-items: center;color: #ccc;">
-                    {{ $t("to_answer") }}
-                </div>
-            </div>
-            <div v-else style="display: flex;justify-content: center;margin-left: 10px;margin-right: 10px;">
-                <div style="flex:1;background-color: #252525;border-radius: 15px;height: 60px;border: 1px groove #777;display: flex;justify-content: center;align-items: center;color: #ccc;"
-                    @click="toStep">
-                    {{ isStep ? $t("look_read") : $t("read_answer") }}
-                </div>
-            </div>
-        </div>
-    </div-->
 </template>
 
 <script>
@@ -219,11 +142,11 @@ export default {
             this.isNext = true
             this.isStep = true
             for (let i = 0; i < this.sel.length; i++) {
-                this.styles[i][SELECT2[this.answer[i].replace(' ', '')]] = { background: '#090' }
+                this.styles[i][SELECT2[this.answer[i].replace(' ', '')]] = { background: '#080' }
             }
             for (let i = 0; i < this.sel.length; i++) {
                 if (SELECT[this.picked[i]] != this.answer[i].replace(' ', '')) {
-                    this.styles[i][this.picked[i]] = { background: '#900' }
+                    this.styles[i][this.picked[i]] = { background: '#800' }
                 }
             }
 
