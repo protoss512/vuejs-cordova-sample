@@ -39,7 +39,7 @@ export default {
     },
     getTitle(text) {
       this.title = text
-      console.log('App',text)
+      console.log('App', text)
     }
   }
 }

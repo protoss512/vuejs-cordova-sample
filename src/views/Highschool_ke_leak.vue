@@ -51,7 +51,7 @@
           <button class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-card__supporting-text"
             @click="onSel(item, index)"
             style="display: flex;justify-content: center;align-items: center;width: 100%;text-transform: none;">
-            <div style="flex:1;display: flex;justify-content: flex-start;align-items: center;color: #444;">{{ index == 0 ?
+            <div style="flex:1;display: flex;justify-content: flex-start;align-items: center;color: #777;">{{ index == 0 ?
               'A. ' : index
                 == 1 ? 'B. ' : index == 2 ? 'C. ' : 'D. ' }}</div>
             <div style="flex:100;display: flex;justify-content: center;align-items: center;color: #CCC;">{{

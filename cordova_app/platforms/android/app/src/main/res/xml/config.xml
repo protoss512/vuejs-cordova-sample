@@ -38,5 +38,5 @@
     <preference name="BackgroundColor" value="#FFFFFF" />
     <preference name="DisallowOverscroll" value="true" />
     <preference name="ShowSplashScreenSpinner" value="false" />
-    <preference name="StatusBarBackgroundColor" value="#222" />
+    <preference name="StatusBarBackgroundColor" value="#333" />
 </widget>
