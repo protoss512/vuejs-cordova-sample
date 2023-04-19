@@ -1,7 +1,7 @@
 
 <template>
-  <div style="display:flex;flex-direction:column;height: 100vh;">
-    <div style="overflow-y: auto;margin: 10px;">
+  <div style="height: 100vh;">
+    <div style="overflow-y: auto;margin: 10px;display:flex;flex-direction:column;">
       <div class="demo-card-square mdl-card "
         style="width:99%;background-color: #333;box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.2);">
         <div class="mdl-card__supporting-text" :style="mystyle" style="width:99%;">
@@ -18,14 +18,14 @@
           <hr style="margin: 10px 10px 10px 10px;border: 1px groove #444;">
           <div style="margin: 10px;color: #CCC;line-height:1.01">{{ exp }}</div>
         </div>
-        <div v-else v-for="(item, index) in sels" v-bind:key="index" :style="mystyle">
-          <button class="mdl-button mdl-js-button mdl-js-ripple-effect " @click="onSel(item, index)"
-            style="text-transform: none;width: 100%;text-align: left;">
-            <div :style="mystyle" style="display: inline;color: #777;margin-right: 5px;padding-left: 10px;">{{ index == 0
+        <div v-else v-for="(item, index) in sels" v-bind:key="index">
+          <button class="mdl-button mdl-js-button mdl-js-ripple-effect" @click="onSel(item, index)"
+            style="text-transform: none;text-align: left;margin: 5px;padding: 0;width: 97%;">
+            <div style="display: inline;color: #777;margin-right: 5px;padding-left: 10px;font-size: 16px;">{{ index == 0
               ?
               'A. ' : index
                 == 1 ? 'B. ' : index == 2 ? 'C. ' : 'D. ' }}</div>
-            <div :style="mystyle" style="display: inline;color: #CCC;line-height:1.01">{{
+            <div :style="mystyle" style="display: inline;color: #CCC;line-height:1.01;">{{
               item }}</div>
           </button>
           <hr style="margin: 0 20px 0 20px;padding: 0;border: 1px groove #444;">

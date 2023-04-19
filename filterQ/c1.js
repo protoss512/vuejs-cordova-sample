@@ -20,22 +20,152 @@ var strs = []
 
 //重新開始，清除先前對話並使用台灣繁體中文
 //產生1000個英文單字附音標和翻譯與例句附翻譯
+const SELECT = ['(A)', '(B)', '(C)', '(D)', '(E)', '(F)', '(G)', '(H)', '(I)', '(J)', '(K)', '(L)', '(M)', '(N)', '(O)', '(P)',]
+const SELECT2 = {
+    '(A)': 0,
+    '(B)': 1,
+    '(C)': 2,
+    '(D)': 3,
+    '(E)': 4,
+    '(F)': 5,
+    '(G)': 6,
+    '(H)': 7,
+    '(I)': 8,
+    '(J)': 9,
+    '(K)': 10,
+    '(L)': 11,
+    '(M)': 12,
+    '(N)': 13,
+    '(O)': 14,
+    '(P)': 15,
+}
 async function main() {
     fs.readFile('./c1.txt', async (err, s) => {
         if (err) throw err;
         //
         str = String(s)
 
-        let saves = []
-        let ipas = []
-        let forms = []
-        let css = []
-        let exs = []
+        let articles = []
+        let sels = []
+        let exps = []
+        let ans = []
+        let reals = []
+        let cns = []
+        const myArray = str.split("題目：");
 
-        const myArray = str.split("Passage:");
-        const qs = []
 
+        //let exp = myArray[1].split('解析：')[1]
+        //console.log(exp)
+
+        //const article = myArray[1].split("(A)")[0]
+        //console.log(article)
+
+        /*for (let i = 0; i < SELECT.length; i++) {
+            const a = myArray[1].split(SELECT[i])[1].split(SELECT[i + 1])[0]
+            if (a.includes("解析：")) {
+                const b = myArray[1].split(SELECT[i])[1].split('解析：')[0]
+                //console.log(b)
+                ep = myArray[1].split(SELECT[i])[1].split('解析：')[1]
+                break
+            }
+            //console.log(a)
+        }*/
+
+        //console.log(ep)
+        //const article = myArray[1].split("(A)")[0]
         for (let i = 1; i < myArray.length; i++) {
+            let article = myArray[i].split("(A)")[0]
+            //console.log(i, article)
+            let ep = ''
+            let sel = []
+            for (let x = 0; x < SELECT.length; x++) {
+                const a = myArray[i].split(SELECT[x])[1].split(SELECT[x + 1])[0]
+                if (a.includes("解析：")) {
+                    const b = myArray[i].split(SELECT[x])[1].split('解析：')[0]
+                    //console.log(b)
+                    sel.push(b)
+                    ep = myArray[i].split('解析：')[1]
+                    break
+                }
+                //console.log(a)
+                sel.push(a)
+            }
+            //console.log('exp', ep)
+            articles.push(article)
+            sels.push(sel)
+            exps.push(ep)
+            let an = []
+            for (let z = 0; z < SELECT.length; z++) {
+                if (ep.includes(SELECT[z])) {
+                    //console.log(SELECT[z])
+                    an.push(SELECT[z])
+                }
+            }
+            ans.push(an)
+        }
+        for (let i = 0; i < exps.length; i++) {
+            //for (let i = 0; i < 1; i++) {
+            let a = articles[i]
+            for (let x = 0; x < ans[i].length; x++) {
+                a = a.replace('_____', sels[i][SELECT2[ans[i][x]]])
+            }
+            reals.push(a)
+            //console.log(a)
+            let zh = await trans(a)
+            //console.log(zh)
+            cns.push(zh)
+        }
+        for (let i = 0; i < exps.length; i++) {
+            //console.log(i, articles[i], sels[i], exps[i], ans[i], reals[i], cns[i])
+        }
+
+
+        output = 'export const r = ['
+        for (let i = 0; i < articles.length; i++) {
+            /*let q = '['
+            let q_l = '['
+            let q_e = '['
+            let q_a = '['
+            for (let x = 0; x < qs[i].q.length; x++) {
+                q += `"${qs[i].q[x]}",`
+                q_l += `["${qs[i].q_sel[x][0]}","${qs[i].q_sel[x][1]}","${qs[i].q_sel[x][2]}","${qs[i].q_sel[x][3]}"],`
+                q_e += `"${qs[i].q_ex[x]}",`
+                q_a += `"${qs[i].q_a[x]}",`
+            }
+            q += ']'
+            q_l += ']'
+            q_e += ']'
+            q_a += ']'*/
+            let q_a = '['
+            for (let x = 0; x < ans[i].length; x++) {
+                q_a += `"${ans[i][x]}",`
+            }
+            q_a += ']'
+
+            let q = '['
+            for (let x = 0; x < sels[i].length; x++) {
+                q += `"${sels[i][x].replace(/\r\n/g, '')}",`
+            }
+            q += ']'
+            output += `{
+                ars:"${articles[i].replace(/\r\n/g, '')}",
+                reals:"${reals[i].replace(/\r\n/g, '')}",
+                sels:${q},
+                exps:"${exps[i].replace(/\r\n/g, '')}",
+                ans:${q_a},
+                cns:"${cns[i].replace(/\r\n/g, '')}"
+            },`
+            //console.log(x)
+        }
+        output += ']'
+        fs.writeFile('test1.js', output, function (err) {
+            if (err)
+                console.log(err);
+            else
+                console.log('Write operation complete.');
+        });
+
+        /*for (let i = 1; i < myArray.length; i++) {
 
             const index = myArray[i].indexOf('Questions:', 0)
             const [article, t] = [myArray[i].slice(0, index), myArray[i].slice(index)];
@@ -123,7 +253,7 @@ async function main() {
                 console.log(err);
             else
                 console.log('Write operation complete.');
-        });
+        });*/
     })
 }
 

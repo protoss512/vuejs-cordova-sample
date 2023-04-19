@@ -1,7 +1,8 @@
 <template>
   <div>
     <v-navigation-drawer style="background-color: #333;" v-model="drawer" app floating>
-      <v-toolbar style="background-color: #333;color:#CCC;font-size: 22px;font-weight: bold;">{{ $t("app_name") }}</v-toolbar>
+      <v-toolbar style="background-color: #333;color:#CCC;font-size: 22px;font-weight: bold;">{{ $t("app_name")
+      }}</v-toolbar>
       <v-list dense>
         <template v-for="(item, i) in items">
           <v-divider v-if="item.divider" :key="i"></v-divider>
@@ -54,6 +55,7 @@ export default {
       items: [
         { icon: 'home', text: i18n.t("home") },
         { icon: 'mdi-code-brackets', text: i18n.t("to_Ke_Leak") },
+        { icon: 'mdi-relative-scale', text: i18n.t("sctor_space") },
         { icon: 'mdi-newspaper', text: i18n.t("to_read") },
         { icon: 'mdi-settings', text: i18n.t("setting") }
       ]
@@ -61,7 +63,7 @@ export default {
   },
   watch: {
     title2() {
-      console.log(this.title2)
+      //console.log(this.title2)
       if (this.title2 != i18n.t("home")) {
         this.title = this.title2
         this.icon = 'mdi-keyboard-backspace'
@@ -101,6 +103,10 @@ export default {
           break
         case i18n.t("to_Ke_Leak"):
           window.location.hash = '/Highschool_ke_leak'
+          this.icon = 'mdi-keyboard-backspace'
+          break
+        case i18n.t("sctor_space"):
+          window.location.hash = '/SctorSpace'
           this.icon = 'mdi-keyboard-backspace'
           break
         case i18n.t("to_read"):

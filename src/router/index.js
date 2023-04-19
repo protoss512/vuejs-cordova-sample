@@ -5,6 +5,7 @@ import Vocabulary from '@/views/Vocabulary'
 import ReadTest from '@/views/ReadTest'
 import Main from '@/views/Main'
 import Setting from '@/views/Setting'
+import SctorSpace from '@/views/SctorSpace'
 
 Vue.use(Router);
 
@@ -30,6 +31,10 @@ export default new Router({
       path: '/Setting',
       name: 'Setting',
       component: Setting
+    }, {
+      path: '/SctorSpace',
+      name: 'SctorSpace',
+      component: SctorSpace
     }
   ]
 })

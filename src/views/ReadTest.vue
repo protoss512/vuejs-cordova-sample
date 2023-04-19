@@ -1,6 +1,6 @@
 <template>
-    <div style="display:flex;flex-direction:column;height: 100%;overflow-y: hidden;">
-        <div style="overflow-y: auto;margin: 10px 10px 0px 10px;">
+    <div style="height: 100%;">
+        <div style="display:flex;flex-direction:column;overflow-y: auto;margin: 10px 10px 0px 10px;">
             <div v-if="!isStep" class="demo-card-square mdl-card"
                 style="width: 99%;background-color: #333;padding: 10px;border-radius: 8px;box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.2);">
                 <div style="font-weight: bold;color:#777;margin-bottom: 5px;">{{ $t("read_article") }}</div>
@@ -11,21 +11,21 @@
                 </div>
             </div>
             <div v-else>
-                <div v-for="(item, index) in question" v-bind:key="index" :style="mystyle"
+                <div v-for="(item, index) in question" v-bind:key="index"  :style="mystyle"
                     style="width: 99%;margin-bottom: 10px;background-color: #333;padding: 10px;border-radius: 8px;box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.2);color:#CCC"
                     class="demo-card-square mdl-card">
                     <div style="font-weight: bold;">
-                        <div style="color: #777;display: inline;margin-right: 5px;">
-                            {{ 'Q ' + (parseInt(index) +
+                        <div style="color: #777;display: inline;margin-right: 5px;font-size: 16px;">
+                            {{ 'Q' + (parseInt(index) +
                                 1).toString() + '. ' }}
                         </div>
-                        <div style="display: inline;line-height:1.01">{{ item }}</div>
+                        <div  style="display: inline;line-height:1.01">{{ item }}</div>
                     </div>
                     <hr style="margin-bottom: 5px;margin-top: 8px;border: 1px groove #666;">
                     <div v-for="(it, x) in sel[index]" v-bind:key="x" @click="onSel(it, index, x)">
                         <div :style="styles[index][x]" style="padding: 3px;">
                             <div style="flex:1;justify-content: flex-start;align-items: center;">
-                                <div style="color: #777;padding-right: 5px;display: inline;">{{ x == 0 ?
+                                <div style="color: #777;padding-right: 5px;display: inline;font-size: 16px;">{{ x == 0 ?
                                     'A. ' : x
                                         == 1 ? 'B. ' : x == 2 ? 'C. ' : 'D. ' }}</div>
                                 <div style="display: inline;">{{ it }}</div>
@@ -33,17 +33,14 @@
                         </div>
                         <hr style="border: 1px groove #444;margin: 5px 5px 5px 5px;padding: 0;">
                     </div>
-                    <div style="margin-top: 5px;line-height:1.01" v-show="isExp">{{ $t("explanation") + ' : ' + exp[index] }}</div>
+                    <div style="margin-top: 5px;line-height:1.01" v-show="isExp">{{ $t("explanation") + ' : ' + exp[index]
+                    }}</div>
                 </div>
             </div>
-            <div style="height: 80px;"></div>
+            <div style="height: 140px;"></div>
         </div>
-        <div style="position: sticky;bottom:80px;z-index: 10;width:100%;height:55px;right:40px;background-color:rgb(0, 0, 0,0);
-                                            color:#FFF;
-                                            padding: 0;
-                                            margin: 0;
-                                            border-radius:50px;
-                                            text-align:center;">
+        <div
+            style="position: fixed;bottom:10px;z-index: 2;padding: 0;margin: 0;width: 100%;">
             <div v-if="!isExp && isAnswer || isNext"
                 style="display: flex;justify-content: center;margin-left: 10px;margin-right: 10px;">
                 <div style="font-size: 22px;flex:1;background-color: #252525;border-radius: 15px;height: 60px;border: 1px groove #777;display: flex;justify-content: center;align-items: center;color: #ccc;"
