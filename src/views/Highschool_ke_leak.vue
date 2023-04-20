@@ -63,8 +63,9 @@
           <v-icon style="flex:1;display: flex;justify-content: flex-end;align-items: center;padding: 5px;color:#777"
             @click="closeDetail">mdi-window-close</v-icon>
         </div>
-        <hr style="margin: 0 10px 10px 10px;border: 1px groove #444;">
-        <div style="flex:10;color: #ccc;margin: 10px;font-size: 22px;line-height:1.01">
+        <hr style="margin: 0 10px 5px 10px;border: 1px groove #444;">
+        <div style="margin-left: 10px;font-weight: bold;color:#777;margin-bottom: 5px;">{{ $t("trans_not") }}</div>
+        <div style="flex:10;color: #ccc;margin: 0 10px 10px 10px;font-size: 22px;line-height:1.01">
           {{ onExp }}
         </div>
       </div>

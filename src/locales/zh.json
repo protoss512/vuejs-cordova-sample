@@ -35,6 +35,8 @@
   "start_study": "開始練習",
   "app_name": "英文解析",
   "read_article": "請閱讀以下文章",
+  "please_select": "請選擇答案",
+  "trans_not": "翻譯僅供參考",
   "sctor_space": "段落填空",
   "cancel": "取消",
   "drawer": {
