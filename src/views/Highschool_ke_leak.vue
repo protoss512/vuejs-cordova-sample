@@ -99,16 +99,17 @@ export default {
       mystyle: '',
       real: '',
       speech_rate: 0.6,
-      styles: ['background-color: #222;', 'background-color: #222;', 'background-color: #222;', 'background-color: #222;']
     }
   },
   mounted() {
-    this.$emit('title', i18n.t("to_Ke_Leak"));
+    this.$emit('title', i18n.t("to_Ke_Leak") + ' ');
+    setTimeout(() => {
+      this.$emit('title', i18n.t("to_Ke_Leak"));
+    }, 100)
+
     const [s, t] = tool.getLang()
     this.mystyle = s
     this.speech_rate = tool.getSpeechRate()
-
-    //number = Math.floor(Math.random() * q.length)
 
     for (let i = 0; i < q.length; i++) {
       rand.push(i)
@@ -179,8 +180,6 @@ export default {
       if (this.isDetail) this.isDetail = false
     },
     goNext() {
-      this.styles = ['background-color: #222;', 'background-color: #222;', 'background-color: #222;', 'background-color: #222;']
-      //number = Math.floor(Math.random() * q.length)
       if (qs > q.length) qs = 0
       number = rand[qs]
       qs++
@@ -196,17 +195,11 @@ export default {
       this.selected = ''
       this.answer = ''
     },
-    goHome() {
-      //window.location.hash = '/Main'
-
-    },
     onSel(item, index) {
       this.selected = item
       let a = q[number].q
       a = a.replace('_', item)
       this.question = a.replace(/\_/g, '')
-      this.styles = ['background-color: #222;', 'background-color: #222;', 'background-color: #222;', 'background-color: #222;']
-      this.styles[index] = 'background-color: #333;'
     },
     anwser() {
 
@@ -257,24 +250,7 @@ export default {
 </script>
 
 <style scoped>
-.correct_color {
-  background-color: green;
-}
-
-.error_color {
-  background-color: red;
-}
-
-.normal_color {
-  background-color: #444;
-}
-
-.init_color {
-  background-color: #222;
-}
-
 .demo-card-square.mdl-card {
   border-radius: 8px;
-
 }
 </style>

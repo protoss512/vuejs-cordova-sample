@@ -111,8 +111,10 @@ export default {
         }
     },
     mounted() {
-        this.$emit('title', i18n.t("to_read"));
-        //number = Math.floor(Math.random() * r.length)
+        this.$emit('title', i18n.t("to_read") + ' ');
+        setTimeout(() => {
+            this.$emit('title', i18n.t("to_read"));
+        }, 100)
 
         for (let i = 0; i < r.length; i++) {
             rand.push(i)

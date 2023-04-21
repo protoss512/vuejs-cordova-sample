@@ -148,7 +148,11 @@ export default {
         }
     },
     mounted() {
-        this.$emit('title', i18n.t("sctor_space"));
+        this.$emit('title', i18n.t("sctor_space") + ' ');
+        setTimeout(() => {
+            this.$emit('title', i18n.t("sctor_space"));
+        }, 100)
+
         const [m, t] = tool.getLang()
         this.mystyle = m
         this.speech_rate = tool.getSpeechRate()

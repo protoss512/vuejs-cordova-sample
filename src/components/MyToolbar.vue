@@ -28,7 +28,7 @@
           </v-app-bar-nav-icon></v-app-bar-nav-icon>
       </div>
       <div v-else>
-        <v-app-bar-nav-icon href="/" style="color:#CCC"><v-app-bar-nav-icon icon>
+        <v-app-bar-nav-icon @click="goHome" style="color:#CCC"><v-app-bar-nav-icon icon>
             <v-icon style="color: #CCC;">{{ icon }}</v-icon>
           </v-app-bar-nav-icon></v-app-bar-nav-icon>
       </div>
