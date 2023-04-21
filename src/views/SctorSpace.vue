@@ -119,6 +119,8 @@ import i18n from '../i18n';
 var number = 0
 var ss = []
 var indx = 0
+var rand = []
+var qs = 0
 const synth = window.speechSynthesis;
 export default {
     name: 'SctorSpace',
@@ -146,13 +148,22 @@ export default {
         }
     },
     mounted() {
-
-        this.$parent.title = i18n.t("sctor_space")
+        this.$emit('title', i18n.t("sctor_space"));
         const [m, t] = tool.getLang()
         this.mystyle = m
         this.speech_rate = tool.getSpeechRate()
 
-        number = Math.floor(Math.random() * q.length)
+        //number = Math.floor(Math.random() * q.length)
+
+        for (let i = 0; i < q.length; i++) {
+            rand.push(i)
+        }
+        rand = tool.shuffle(rand)
+
+        if (qs > q.length) qs = 0
+        number = rand[qs]
+        qs++
+
         this.arts = q[number].ars.split(" ")
         this.reals = q[number].reals.split(" ")
         this.real = q[number].reals
@@ -246,7 +257,11 @@ export default {
         },
         goNext() {
 
-            number = Math.floor(Math.random() * q.length)
+            //number = Math.floor(Math.random() * q.length)
+            if (qs > q.length) qs = 0
+            number = rand[qs]
+            qs++
+
             this.arts = q[number].ars.split(" ")
             this.reals = q[number].reals.split(" ")
             this.real = q[number].reals

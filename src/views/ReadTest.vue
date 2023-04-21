@@ -11,7 +11,7 @@
                 </div>
             </div>
             <div v-else>
-                <div v-for="(item, index) in question" v-bind:key="index"  :style="mystyle"
+                <div v-for="(item, index) in question" v-bind:key="index" :style="mystyle"
                     style="width: 99%;margin-bottom: 10px;background-color: #333;padding: 10px;border-radius: 8px;box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.2);color:#CCC"
                     class="demo-card-square mdl-card">
                     <div style="font-weight: bold;">
@@ -19,7 +19,7 @@
                             {{ 'Q' + (parseInt(index) +
                                 1).toString() + '. ' }}
                         </div>
-                        <div  style="display: inline;line-height:1.01">{{ item }}</div>
+                        <div style="display: inline;line-height:1.01">{{ item }}</div>
                     </div>
                     <hr style="margin-bottom: 5px;margin-top: 8px;border: 1px groove #666;">
                     <div v-for="(it, x) in sel[index]" v-bind:key="x" @click="onSel(it, index, x)">
@@ -39,8 +39,7 @@
             </div>
             <div style="height: 140px;"></div>
         </div>
-        <div
-            style="position: fixed;bottom:10px;z-index: 2;padding: 0;margin: 0;width: 100%;">
+        <div style="position: fixed;bottom:10px;z-index: 2;padding: 0;margin: 0;width: 100%;">
             <div v-if="!isExp && isAnswer || isNext"
                 style="display: flex;justify-content: center;margin-left: 10px;margin-right: 10px;">
                 <div style="font-size: 22px;flex:1;background-color: #252525;border-radius: 15px;height: 60px;border: 1px groove #777;display: flex;justify-content: center;align-items: center;color: #ccc;"
@@ -67,6 +66,7 @@
 </template>
 
 <script>
+import i18n from '../i18n';
 import * as tool from '../tool';
 import { r } from '../read_question.js'
 const SELECT = ['A', 'B', 'C', 'D']
@@ -77,6 +77,8 @@ const SELECT2 = {
     'D': 3
 }
 var number = 0
+var rand = []
+var qs = 0
 export default {
     name: 'ReadTest',
     data: () => {
@@ -109,8 +111,18 @@ export default {
         }
     },
     mounted() {
+        this.$emit('title', i18n.t("to_read"));
+        //number = Math.floor(Math.random() * r.length)
 
-        number = Math.floor(Math.random() * r.length)
+        for (let i = 0; i < r.length; i++) {
+            rand.push(i)
+        }
+        rand = tool.shuffle(rand)
+
+        if (qs > r.length) qs = 0
+        number = rand[qs]
+        qs++
+
         let rs = r[number]
         this.article = rs.ar
         this.article_zh = rs.zh
@@ -165,11 +177,12 @@ export default {
                 this.question = rs.q
             }
         },
-        goHome() {
-            window.location.hash = '/Main'
-        },
         goNext() {
-            number = Math.floor(Math.random() * r.length)
+            //number = Math.floor(Math.random() * r.length)
+            if (qs > r.length) qs = 0
+            number = rand[qs]
+            qs++
+
             let rs = r[number]
             this.article = rs.ar
             this.article_zh = rs.zh

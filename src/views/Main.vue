@@ -68,21 +68,18 @@ export default {
   },
   methods: {
     to_Highschool_ke_leak() {
-      this.$emit('title', i18n.t("to_Ke_Leak"));
       window.location.hash = '/Highschool_ke_leak';
     },
     to_vocabulary() {
       window.location.hash = '/Vocabulary';
     },
     to_read() {
-      this.$emit('title', i18n.t("to_read"));
       window.location.hash = '/ReadTest';
     },
     to_setting() {
       window.location.hash = '/Setting';
     },
     to_SctorSpace() {
-      this.$emit('title', i18n.t("sctor_space"));
       window.location.hash = '/SctorSpace';
     }
   }

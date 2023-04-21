@@ -78,6 +78,8 @@ import * as tool from '../tool';
 import { q } from '../question.js'
 import i18n from '../i18n';
 var number = 0
+var rand = []
+var qs = 0
 export default {
   name: 'Highschool_ke_leak',
   data: () => {
@@ -101,9 +103,24 @@ export default {
     }
   },
   mounted() {
-    this.$parent.title = i18n.t("to_Ke_Leak")
+    this.$emit('title', i18n.t("to_Ke_Leak"));
+    const [s, t] = tool.getLang()
+    this.mystyle = s
+    this.speech_rate = tool.getSpeechRate()
 
-    number = Math.floor(Math.random() * q.length)
+    //number = Math.floor(Math.random() * q.length)
+
+    for (let i = 0; i < q.length; i++) {
+      rand.push(i)
+    }
+    rand = tool.shuffle(rand)
+
+    if (qs > q.length) qs = 0
+    number = rand[qs]
+    qs++
+
+    let aar = q[number].q
+
     this.question = q[number].q
 
     this.sels.push(q[number].s[0])
@@ -116,10 +133,7 @@ export default {
     this.cor_num = parseInt(localStorage.getItem('Correct_num'))
     this.tot_num = parseInt(localStorage.getItem('Total_num'))
 
-    const [s, t] = tool.getLang()
-    this.mystyle = s
 
-    this.speech_rate = tool.getSpeechRate()
   },
   methods: {
     speech(t) {
@@ -166,7 +180,10 @@ export default {
     },
     goNext() {
       this.styles = ['background-color: #222;', 'background-color: #222;', 'background-color: #222;', 'background-color: #222;']
-      number = Math.floor(Math.random() * q.length)
+      //number = Math.floor(Math.random() * q.length)
+      if (qs > q.length) qs = 0
+      number = rand[qs]
+      qs++
       this.question = q[number].q
       this.sels = []
       this.sels.push(q[number].s[0])

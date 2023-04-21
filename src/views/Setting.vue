@@ -36,6 +36,7 @@ export default {
     }
   },
   mounted() {
+    this.$emit('title', i18n.t("setting"));
     let f = localStorage.getItem('Font_size')
     if (f == i18n.t("small")) {
       this.font_size = i18n.t("small")
