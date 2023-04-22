@@ -1,45 +1,46 @@
 <template>
   <div>
-    <v-navigation-drawer style="background-color: #333;" v-model="drawer" app floating>
-      <v-toolbar style="background-color: #333;color:#CCC;font-size: 22px;font-weight: bold;">{{ $t("app_name")
-      }}</v-toolbar>
+    <v-navigation-drawer v-model="drawer" app floating :class="isDark ? 'dark' : 'light'">
+      <div :class="isDark ? 'dark' : 'light'"
+        style="font-size: 22px;font-weight: bold;height: 50px;text-align: center;line-height: 50px;">{{ $t("app_name")
+        }}</div>
+      <hr style="padding: 0;margin: 0;" :class="isDark ? 'darkBorder' : 'lightBorder'">
       <v-list dense>
-        <template v-for="(item, i) in items">
+        <template v-for="(  item, i  ) in   items  ">
           <v-divider v-if="item.divider" :key="i"></v-divider>
           <v-list-item :to="item.action" :key="i" v-else @click="onSel(item.text)">
             <v-list-item-action>
-              <v-icon style="color:#CCC">{{ item.icon }}</v-icon>
+              <v-icon :class="isDark ? 'dark' : 'light'">{{ item.icon }}</v-icon>
             </v-list-item-action>
             <v-list-item-content>
-              <v-list-item-title style="color:#CCC;margin-left: 10px;font-size: 22px;padding: 5px;">
+              <v-list-item-title :class="isDark ? 'dark' : 'light'"
+                style="margin-left: 10px;font-size: 22px;padding: 5px;">
                 {{ item.text }}
               </v-list-item-title>
             </v-list-item-content>
           </v-list-item>
-          <hr style="margin: 0 10px 0 10px;padding: 0;border: 1px groove #444;">
+          <hr style="padding: 0;margin: 0;" :class="isDark ? 'darkBorder' : 'lightBorder'">
         </template>
       </v-list>
     </v-navigation-drawer>
 
-    <v-app-bar clipped-left style="background-color: #333;">
+    <v-app-bar clipped-left :style="{ background: backColor }">
       <div v-if="icon == 'mdi-menu'">
-        <v-app-bar-nav-icon @click.stop="drawer = !drawer" style="color:#CCC"><v-app-bar-nav-icon icon>
-            <v-icon style="color: #CCC;">{{ icon }}</v-icon>
+        <v-app-bar-nav-icon @click.stop="drawer = !drawer" style="color:#EEE"><v-app-bar-nav-icon icon>
+            <v-icon style="color: #EEE;">{{ icon }}</v-icon>
           </v-app-bar-nav-icon></v-app-bar-nav-icon>
       </div>
       <div v-else>
-        <v-app-bar-nav-icon @click="goHome" style="color:#CCC"><v-app-bar-nav-icon icon>
-            <v-icon style="color: #CCC;">{{ icon }}</v-icon>
+        <v-app-bar-nav-icon @click="goHome" style="color:#EEE"><v-app-bar-nav-icon icon>
+            <v-icon style="color: #EEE;">{{ icon }}</v-icon>
           </v-app-bar-nav-icon></v-app-bar-nav-icon>
       </div>
-      <v-toolbar-title style="color:#CCC;margin-left: 10px;font-size: 22px;">{{ title }}</v-toolbar-title>
+      <v-toolbar-title style="color:#EEE;margin-left: 10px;font-size: 22px;">{{ title }}</v-toolbar-title>
     </v-app-bar>
   </div>
 </template>
 
 <script>
-//mdi-keyboard-backspace
-//mdi-menu
 import i18n from '../i18n';
 export default {
   name: "myToolbar",
@@ -49,7 +50,9 @@ export default {
   ],
   data: function () {
     return {
+      isDark: localStorage.getItem('Dark_mode') == '1' ? true : false,
       drawer: false,
+      backColor: localStorage.getItem('Dark_mode') == '1' ? '#333' : '#33A',
       title: i18n.t("home"),
       icon: 'mdi-menu',
       items: [
@@ -63,7 +66,6 @@ export default {
   },
   watch: {
     title2() {
-      //console.log(this.title2)
       if (this.title2 != i18n.t("home")) {
         this.title = this.title2
         this.icon = 'mdi-keyboard-backspace'
@@ -75,11 +77,9 @@ export default {
     }
   },
   mounted: function () {
-    // Listen for event openDrawer (triggered by other component, like the button in the home)
     document.addEventListener("toggleDrawer", this.toggleDrawer);
   },
   beforeDestroy: function () {
-    // If the component is unmount, unlisten the event.
     document.removeEventListener("toggleDrawer", this.toggleDrawer);
   },
   updated() {
@@ -90,9 +90,14 @@ export default {
       this.drawer = !this.drawer;
     },
     goHome() {
-      this.title = i18n.t("home")
-      this.icon = 'mdi-menu'
-      window.location.hash = '/'
+      if (this.title == i18n.t("setting")) {
+        window.location = '/'
+      }
+      else {
+        this.title = i18n.t("home")
+        this.icon = 'mdi-menu'
+        window.location.hash = '/'
+      }
     },
     onSel(text) {
       this.title = text
@@ -123,4 +128,28 @@ export default {
 }
 </script>
 
-<style scoped></style>
+<style scoped>
+
+.darkBorder {
+  border: 1px groove #444;
+}
+
+.lightBorder {
+  border: 1px groove #CCC;
+}
+
+.dark {
+  background-color: #333;
+  color: #CCC;
+}
+
+.light {
+  background-color: #EEE;
+  color: #222;
+}
+
+.lightTop {
+  background-color: rgba(64, 64, 255, 1);
+  color: #CCC;
+}
+</style>

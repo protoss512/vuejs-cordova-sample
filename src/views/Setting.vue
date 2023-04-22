@@ -21,6 +21,18 @@
         </select>
       </div>
       <hr style="margin: 0;padding: 0;border: 1px groove #444;">
+      <div style="display: flex;align-items: center;color:#CCC;margin: 10px;">
+        <div style="margin-right: 10px;">{{ $t("dark_switch") + ' : ' }}</div>
+        <div style="flex:5"></div>
+        <div style="flex:1;">
+          <label class="mdl-switch mdl-js-switch mdl-js-ripple-effect" for="dark_mode" style="display: inline-block;">
+            <input v-model="dark_mode" @change="onChangeDark($event)" type="checkbox" id="dark_mode"
+              class="mdl-switch__input">
+            <span class="mdl-switch__label"></span>
+          </label>
+        </div>
+      </div>
+      <hr style="margin: 0;padding: 0;border: 1px groove #444;">
     </div>
   </div>
 </template>
@@ -32,11 +44,14 @@ export default {
   data: () => {
     return {
       font_size: '',
-      speech_rate: ''
+      speech_rate: '',
+      dark_mode: localStorage.getItem('Dark_mode') == '1' ? true : false
     }
   },
   mounted() {
     this.$emit('title', i18n.t("setting"));
+
+    componentHandler.upgradeAllRegistered()
     let f = localStorage.getItem('Font_size')
     if (f == i18n.t("small")) {
       this.font_size = i18n.t("small")
@@ -48,9 +63,6 @@ export default {
     this.speech_rate = localStorage.getItem('Speech_rate')
   },
   methods: {
-    goHome() {
-      window.location.hash = '/Main'
-    },
     onChange(event) {
       let f = event.target.value
       if (f == i18n.t("small")) {
@@ -67,6 +79,9 @@ export default {
       let f = event.target.value
       console.log(f)
       localStorage.setItem('Speech_rate', f)
+    }, onChangeDark(event) {
+      if (this.dark_mode) localStorage.setItem('Dark_mode', '1')
+      else localStorage.setItem('Dark_mode', '0')
     },
   }
 }

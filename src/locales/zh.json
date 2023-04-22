@@ -38,7 +38,12 @@
   "please_select": "請選擇答案",
   "trans_not": "翻譯僅供參考",
   "sctor_space": "段落填空",
+  "dark_switch": "夜間模式",
+  "to_Ke_Leak_exp": "閱讀各種文本並回答幾種不同類型的閱讀理解問題，並且在四個選項中，選出正確答案。",
+  "sctor_space_exp": "閱讀每篇文章，找出某些部分缺少一個詞、短語或句子。每個問題有四個答案，請選擇最佳答案來完成文章。",
+  "to_read_exp": "閱讀精選的文本，例如雜誌和報紙文章、電子郵件和即時消息。 每篇課文或每組課文後面都有幾個問題。 為每個問題選擇最佳答案。",
   "cancel": "取消",
+  "close": "關閉",
   "drawer": {
     "home": "Accueil",
     "vibration": "Vibreur",

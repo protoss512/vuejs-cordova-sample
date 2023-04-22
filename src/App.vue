@@ -30,13 +30,15 @@ export default {
     if (s == null) {
       localStorage.setItem('Speech_rate', i18n.t("low"))
     }
+
+    let d = localStorage.getItem('Dark_mode')
+    if (d == null) {
+      localStorage.setItem('Dark_mode', '1')
+    }
   },
   updated() {
   },
   methods: {
-    goHome() {
-      window.location.hash = '/Highschool_ke_leak'
-    },
     getTitle(text) {
       this.title = text
       //console.log('App', text)

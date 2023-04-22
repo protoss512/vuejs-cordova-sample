@@ -55,3 +55,4 @@ export function getLang() {
     }
     return [mystyle, font_size]
 }
+

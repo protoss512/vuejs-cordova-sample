@@ -80,7 +80,7 @@ export const q = [{
   q: "The company's financial ____ showed that they had a net profit of $10 million last year.",
   s: ["statement", "status", "strategy", "stimulation"],
   a: "statement",
-  e: "本題考查詞彙理解和應用能力。句子中說到“公司的財務____顯示他們去年有1000萬美元的淨利潤”，因此需要選出一個與“財務”相關、可以顯示公司利潤的單詞。根據常識可知，表示公司利潤的英文單詞為“statement”，因此選項 A 正確。選項 B 中的“status”表示“狀態”，選項 C 的“strategy”表示“策略”，選項 D 的“stimulation”表示“刺激”，均與句子意思不符，故為錯誤選項。因此，本題答案為 A。 ",
+  e: "本題考查詞彙理解和應用能力。句子中說到“公司的財務顯示他們去年有1000萬美元的淨利潤”，因此需要選出一個與“財務”相關、可以顯示公司利潤的單詞。根據常識可知，表示公司利潤的英文單詞為“statement”，因此選項 A 正確。選項 B 中的“status”表示“狀態”，選項 C 的“strategy”表示“策略”，選項 D 的“stimulation”表示“刺激”，均與句子意思不符，故為錯誤選項。因此，本題答案為 A。 ",
   z: "該公司的財務報表顯示，他們去年的淨利潤為 1000 萬美元。"
 }, {
   q: "Despite being known as a shy person, John was surprisingly ___ at the party last night.",

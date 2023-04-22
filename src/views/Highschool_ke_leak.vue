@@ -1,36 +1,40 @@
 
 <template>
-  <div style="height: 100vh;">
+  <div style="height: 100vh;" :class="isDark ? 'darkdarkBack' : 'light'">
     <div style="overflow-y: auto;margin: 10px;display:flex;flex-direction:column;">
-      <div class="demo-card-square mdl-card "
-        style="width:99%;background-color: #333;box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.2);">
-        <div class="mdl-card__supporting-text" :style="mystyle" style="width:99%;">
-          <div v-if="isExp" style="color:#AAA;line-height:1.01">{{ real }}</div>
-          <div v-else style="color:#CCC;line-height:1.01">{{ question }}</div>
+
+      <div class="demo-card-square mdl-card"
+        style="background-color: #333;width:99%;border-radius: 8px;box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.2);margin-bottom: 60px;">
+        <div :style="mystyle" :class="isDark ? 'dark' : 'light'" class="mdl-card__supporting-text" style="width: 100%;">
+          <div v-if="isExp" style="line-height:1.01">{{ real }}</div>
+          <div v-else style="line-height:1.01">{{ question }}</div>
           <div style="text-align: right;margin-top: 10px;" v-if='isExp'><v-icon
-              style="color:#777;padding: 0 5px 0 5px;margin-right: 10px;" @click="onEn">mdi-translate</v-icon><v-icon
-              style="padding: 0 5px 0 5px;color:#777" @click="speech(real)">mdi-text-to-speech</v-icon></div>
+              style="padding: 0 5px 0 5px;margin-right: 10px;" @click="onEn"
+              :class="isDark ? 'dark' : 'light'">mdi-translate</v-icon><v-icon style="padding: 0 5px 0 5px;"
+              @click="speech(real)" :class="isDark ? 'dark' : 'light'">mdi-text-to-speech</v-icon></div>
         </div>
-        <hr style="margin: 0 10px 0 10px;padding: 0;border: 1px groove #444;">
-        <div v-if='isExp' :style="mystyle">
-          <div style="margin: 10px;color: #CCC;;line-height:1.01">
+        <div v-if='isExp' :style="mystyle" :class="isDark ? 'dark' : 'light'">
+          <div style="margin: 10px;line-height:1.01">
             {{ isCorrect ? $t("correct") : $t("fail") + sel }}</div>
-          <hr style="margin: 10px 10px 10px 10px;border: 1px groove #444;">
-          <div style="margin: 10px;color: #CCC;line-height:1.01">{{ exp }}</div>
+          <hr style="padding: 0;margin: 0;" :class="isDark ? 'darkBorder' : 'lightBorder'">
+          <div style="margin: 10px;line-height:1.01">{{ exp }}</div>
         </div>
-        <div v-else v-for="(item, index) in sels" v-bind:key="index">
+
+        <div v-else v-for="(item, index) in sels" v-bind:key="index" :class="isDark ? 'dark' : 'light'">
           <button class="mdl-button mdl-js-button mdl-js-ripple-effect" @click="onSel(item, index)"
             style="text-transform: none;text-align: left;margin: 5px;padding: 0;width: 97%;">
-            <div style="display: inline;color: #777;margin-right: 5px;padding-left: 10px;font-size: 16px;">{{ index == 0
-              ?
-              'A. ' : index
-                == 1 ? 'B. ' : index == 2 ? 'C. ' : 'D. ' }}</div>
-            <div :style="mystyle" style="display: inline;color: #CCC;line-height:1.01;">{{
-              item }}</div>
+            <div style="display: inline;margin-right: 5px;padding-left: 10px;font-size: 14px;"
+              :class="isDark ? 'darkNoBack' : 'lightNoBack'">{{ index == 0
+                ?
+                'A. ' : index
+                  == 1 ? 'B. ' : index == 2 ? 'C. ' : 'D. ' }}</div>
+            <div :style="mystyle" style="display: inline;line-height:1.01;"
+              :class="isDark ? 'darkNoBack' : 'lightNoBack'">{{
+                item }}</div>
           </button>
-          <hr style="margin: 0 20px 0 20px;padding: 0;border: 1px groove #444;">
+          <hr style="padding: 0;margin: 0;" :class="isDark ? 'darkBorder' : 'lightBorder'">
         </div>
-        <div class="mdl-card__actions mdl-card--border">
+        <div class="mdl-card__actions mdl-card--border" :class="isDark ? 'dark' : 'light'">
           <button v-if='isExp' @click="goNext"
             class="mdl-button mdl-js-button mdl-card__supporting-text mdl-button--primary"
             style="font-size: 22px;display: flex;justify-content: center;align-items: center;width: 100%;text-transform: none;color:dodgerblue;">
@@ -42,35 +46,36 @@
             {{ $t("to_answer") }}
           </button>
           <button v-else class="mdl-button mdl-js-button mdl-card__supporting-text" disabled
-            style="font-size: 22px;display: flex;justify-content: center;align-items: center;width: 100%;text-transform: none;color:#444;">
+            style="font-size: 22px;display: flex;justify-content: center;align-items: center;width: 100%;text-transform: none;color:#888;">
             {{ $t("to_answer") }}
           </button>
         </div>
       </div>
+
     </div>
-    <div style="height: 60px;"></div>
-    <div v-if="isDetail"
-      style="position: fixed;top:0;left:0;width:99vw;height:100vh;z-index:3;background-color:rgba(0,0,0,0.3);color:black;display:flex">
-      <div
-        style="background-color:#2A2A2A;flex:1;display:flex;flex-direction:column;margin-top: 24vh;margin-bottom:24vh;margin-left: 2vw;margin-right: 2vw;border-radius: 3vw;"
-        :style="mystyle">
-        <div style="flex:1;background-color: #2A2A2A;display:flex;">
-          <div style="flex:1;display: flex;justify-content: flex-start;align-items: center;"></div>
-          <div style="flex:5;display: flex;justify-content: center;align-items: center;color: #ccc;font-weight: bold;">
-            <div style="margin-right: 10px;font-size: 22px;">{{
-              $t("translation") }}</div>
-          </div>
-          <v-icon style="flex:1;display: flex;justify-content: flex-end;align-items: center;padding: 5px;color:#777"
-            @click="closeDetail">mdi-window-close</v-icon>
-        </div>
-        <hr style="margin: 0 10px 5px 10px;border: 1px groove #444;">
-        <div style="margin-left: 10px;font-weight: bold;color:#777;margin-bottom: 5px;">{{ $t("trans_not") }}</div>
-        <div style="flex:10;color: #ccc;margin: 0 10px 10px 10px;font-size: 22px;line-height:1.01">
+    <div v-if="isDetail" @click="closeDetail"
+      style="position: fixed;top:0;left:0;width:100vw;height:100vh;z-index:1;background-color:rgba(0,0,0,0.3);">
+    </div>
+    <div v-if="isDetail" class="demo-card-square mdl-card" :class="isDark ? 'dark' : 'light'"
+      style="position: fixed;top:30%;left: 5%;border-radius: 8px;width: 90%;z-index:2;display:flex;flex-direction:column;"
+      :style="mystyle">
+      <div class="mdl-card__supporting-text" style="width: 100%;">
+        <div style="margin-left: 10px;font-weight: bold;margin-bottom: 5px;width: 100%;"
+          :class="isDark ? 'dark' : 'light'">{{
+            $t("trans_not") }}</div>
+        <div style="margin: 0 10px 0 10px;font-size: 22px;line-height:1.01;width: 100%;"
+          :class="isDark ? 'dark' : 'light'">
           {{ onExp }}
         </div>
       </div>
+      <hr style="padding: 0;margin: 0;" :class="isDark ? 'darkBorder' : 'lightBorder'">
+      <div class="mdl-card__actions mdl-card--border">
+        <div class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect" @click="closeDetail"
+          style="padding: 0;font-size: 22px;display: flex;justify-content: center;align-items: center;width: 100%;text-transform: none;color:dodgerblue;"">
+            {{ $t(" close") }} </div>
+        </div>
+      </div>
     </div>
-  </div>
 </template>
 
 <script>
@@ -85,6 +90,7 @@ export default {
   data: () => {
     return {
       sels: [],
+      isDark: localStorage.getItem('Dark_mode') == '1' ? true : false,
       question: '',
       selected: '',
       isCorrect: false,
@@ -250,7 +256,33 @@ export default {
 </script>
 
 <style scoped>
-.demo-card-square.mdl-card {
-  border-radius: 8px;
+.darkBack {
+  background-color: #222;
+}
+
+.dark {
+  background-color: #333;
+  color: #CCC;
+}
+
+.darkNoBack {
+  color: #CCC;
+}
+
+.darkBorder {
+  border: 1px groove #444;
+}
+
+.lightBorder {
+  border: 1px groove #DDD;
+}
+
+.light {
+  background-color: #EEE;
+  color: #222;
+}
+
+.lightNoBack {
+  color: #222;
 }
 </style>
