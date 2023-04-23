@@ -3,7 +3,8 @@
     <div style="display:flex;flex-direction:column;overflow-y: auto;margin: 10px;">
 
       <div class="demo-card-square mdl-card"
-        style="background-color: #333;width: 99%;margin-bottom: 10px;border-radius: 8px;box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.2);">
+        style="width: 99%;margin-bottom: 10px;border-radius: 8px;box-shadow: 1px 0 6px 0 rgba(0, 0, 0, 0.3);"
+        :class="isDark ? 'darkBorder' : 'lightBorder'">
         <div class="mdl-card__title mdl-card--expand img1">
           <h2 class="mdl-card__title-text" style="color: #DDD;font-weight: bold;">{{ $t("to_Ke_Leak") }}</h2>
         </div>
@@ -18,9 +19,9 @@
           </div>
         </div>
       </div>
-
       <div class="demo-card-square mdl-card"
-        style="background-color: #333;width: 99%;margin-bottom: 10px;border-radius: 8px;box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.2);">
+        style="width: 99%;margin-bottom: 10px;border-radius: 8px;box-shadow: 1px 0 6px 0 rgba(0, 0, 0, 0.3);"
+        :class="isDark ? 'darkBorder' : 'lightBorder'">
         <div class="mdl-card__title mdl-card--expand img3">
           <h2 class="mdl-card__title-text" style="color: #DDD;font-weight: bold;">{{ $t("sctor_space") }}</h2>
         </div>
@@ -37,7 +38,8 @@
       </div>
 
       <div class="demo-card-square mdl-card"
-        style="background-color: #333;width: 99%;margin-bottom: 10px;border-radius: 8px;box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.2);">
+        style="width: 99%;margin-bottom: 10px;border-radius: 8px;box-shadow: 1px 0 6px 0 rgba(0, 0, 0, 0.3);"
+        :class="isDark ? 'darkBorder' : 'lightBorder'">
         <div class="mdl-card__title mdl-card--expand img2">
           <h2 class="mdl-card__title-text" style="color: #DDD;font-weight: bold;">{{ $t("to_read") }}</h2>
         </div>
@@ -109,11 +111,13 @@ export default {
 }
 
 .darkBorder {
-  border: 1px groove #444;
+  border: 1px groove #404040;
+  background-color: #404040;
 }
 
 .lightBorder {
-  border: 1px groove #DDD;
+  border: 1px groove #CCC;
+  background-color: #CCC;
 }
 
 .demo-layout-waterfall .mdl-layout__header-row .mdl-navigation__link:last-of-type {

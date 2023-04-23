@@ -1,12 +1,15 @@
 
 <template>
-  <div style="height: 100vh;" :class="isDark ? 'darkdarkBack' : 'light'">
+  <div style="height: 100vh;" :class="isDark ? 'darkBack' : 'light'">
     <div style="overflow-y: auto;margin: 10px;display:flex;flex-direction:column;">
 
       <div class="demo-card-square mdl-card"
-        style="background-color: #333;width:99%;border-radius: 8px;box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.2);margin-bottom: 60px;">
+        style="width:99%;border-radius: 8px;box-shadow: 1px 0 6px 0 rgba(0, 0, 0, 0.3);margin-bottom: 60px;"
+        :class="isDark ? 'darkBorder' : 'lightBorder'">
+
         <div :style="mystyle" :class="isDark ? 'dark' : 'light'" class="mdl-card__supporting-text" style="width: 100%;">
-          <div v-if="isExp" style="line-height:1.01">{{ real }}</div>
+          <div :class="isDark ? 'darkGray' : 'lightGray'" style="margin-bottom: 5px;font-size: 14px;">Q{{ num }}.</div>
+          <div v-if="isExp" style="line-height:1.01" :class="isDark ? 'darkGray' : 'lightGray'">{{ real }}</div>
           <div v-else style="line-height:1.01">{{ question }}</div>
           <div style="text-align: right;margin-top: 10px;" v-if='isExp'><v-icon
               style="padding: 0 5px 0 5px;margin-right: 10px;" @click="onEn"
@@ -24,7 +27,7 @@
           <button class="mdl-button mdl-js-button mdl-js-ripple-effect" @click="onSel(item, index)"
             style="text-transform: none;text-align: left;margin: 5px;padding: 0;width: 97%;">
             <div style="display: inline;margin-right: 5px;padding-left: 10px;font-size: 14px;"
-              :class="isDark ? 'darkNoBack' : 'lightNoBack'">{{ index == 0
+              :class="isDark ? 'darkGray' : 'lightGray'">{{ index == 0
                 ?
                 'A. ' : index
                   == 1 ? 'B. ' : index == 2 ? 'C. ' : 'D. ' }}</div>
@@ -60,11 +63,9 @@
       style="position: fixed;top:30%;left: 5%;border-radius: 8px;width: 90%;z-index:2;display:flex;flex-direction:column;"
       :style="mystyle">
       <div class="mdl-card__supporting-text" style="width: 100%;">
-        <div style="margin-left: 10px;font-weight: bold;margin-bottom: 5px;width: 100%;"
-          :class="isDark ? 'dark' : 'light'">{{
-            $t("trans_not") }}</div>
-        <div style="margin: 0 10px 0 10px;font-size: 22px;line-height:1.01;width: 100%;"
-          :class="isDark ? 'dark' : 'light'">
+        <div style="margin-bottom: 5px;width: 100%;font-size: 12px;" :class="isDark ? 'darkGray' : 'lightGray'">{{
+          $t("trans_not") }}</div>
+        <div style="font-size: 20px;line-height:1.01;width: 100%;" :class="isDark ? 'dark' : 'light'">
           {{ onExp }}
         </div>
       </div>
@@ -72,7 +73,7 @@
       <div class="mdl-card__actions mdl-card--border">
         <div class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect" @click="closeDetail"
           style="padding: 0;font-size: 22px;display: flex;justify-content: center;align-items: center;width: 100%;text-transform: none;color:dodgerblue;"">
-            {{ $t(" close") }} </div>
+                            {{ $t(" close") }} </div>
         </div>
       </div>
     </div>
@@ -89,6 +90,7 @@ export default {
   name: 'Highschool_ke_leak',
   data: () => {
     return {
+      num: 1,
       sels: [],
       isDark: localStorage.getItem('Dark_mode') == '1' ? true : false,
       question: '',
@@ -186,6 +188,7 @@ export default {
       if (this.isDetail) this.isDetail = false
     },
     goNext() {
+      this.num = this.num + 1
       if (qs > q.length) qs = 0
       number = rand[qs]
       qs++
@@ -256,6 +259,14 @@ export default {
 </script>
 
 <style scoped>
+.darkGray {
+  color: #999;
+}
+
+.lightGray {
+  color: #777;
+}
+
 .darkBack {
   background-color: #222;
 }
