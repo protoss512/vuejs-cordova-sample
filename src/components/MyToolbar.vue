@@ -52,7 +52,7 @@ export default {
     return {
       isDark: localStorage.getItem('Dark_mode') == '1' ? true : false,
       drawer: false,
-      backColor: localStorage.getItem('Dark_mode') == '1' ? '#333' : '#33A',
+      backColor: localStorage.getItem('Dark_mode') == '1' ? '#333' : '#333',
       title: i18n.t("home"),
       icon: 'mdi-menu',
       items: [

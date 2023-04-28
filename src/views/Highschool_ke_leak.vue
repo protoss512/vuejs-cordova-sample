@@ -1,6 +1,6 @@
 
 <template>
-  <div style="height: 100vh;" :class="isDark ? 'darkBack' : 'light'">
+  <div style="height: 100vh;" :class="isDark ? 'darkBack' : 'lightBack'">
     <div style="overflow-y: auto;margin: 10px;display:flex;flex-direction:column;">
 
       <div class="demo-card-square mdl-card"
@@ -296,4 +296,9 @@ export default {
 .lightNoBack {
   color: #222;
 }
+
+.lightBack {
+  background-color: #DDD;
+}
+
 </style>

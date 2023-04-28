@@ -33,7 +33,7 @@ export default {
 
     let d = localStorage.getItem('Dark_mode')
     if (d == null) {
-      localStorage.setItem('Dark_mode', '1')
+      localStorage.setItem('Dark_mode', '0')
     }
   },
   updated() {

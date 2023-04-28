@@ -1,5 +1,5 @@
 <template>
-  <div style="height: 100vh;" :class="isDark ? 'darkBack' : 'light'">
+  <div style="height: 100vh;" :class="isDark ? 'darkBack' : 'lightBack'">
     <div style="display:flex;flex-direction:column;overflow-y: auto;margin: 10px;">
 
       <div class="demo-card-square mdl-card"
@@ -108,6 +108,10 @@ export default {
 
 .darkBack {
   background-color: #222;
+}
+
+.lightBack {
+  background-color: #DDD;
 }
 
 .darkBorder {

@@ -1,62 +1,75 @@
 <template>
-    <div style="height: 100%;">
+    <div style="height: 100%;" :class="isDark ? 'darkBack' : 'lightBack'">
         <div style="display:flex;flex-direction:column;overflow-y: auto;margin: 10px 10px 0px 10px;">
+
             <div v-if="!isStep" class="demo-card-square mdl-card"
-                style="width: 99%;background-color: #333;padding: 10px;border-radius: 8px;box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.2);">
-                <div style="font-weight: bold;color:#777;margin-bottom: 5px;">{{ $t("read_article") }}</div>
-                <div style="color: #ccc;line-height:1.01" :style="mystyle">{{ article }}</div>
-                <div v-if="isExp">
-                    <hr style="margin-bottom: 10px;margin-top:10px;border: 1px groove #444;">
-                    <div style="color: #ccc;line-height:1.01" :style="mystyle">{{ article_zh }}</div>
+                style="width: 99%;border-radius: 8px;box-shadow: 1px 0 6px 0 rgba(0, 0, 0, 0.3);"
+                :class="isDark ? 'darkBorder1' : 'lightBorder1'">
+                <div class="mdl-card__supporting-text" style="width:100%;" :class="isDark ? 'dark' : 'light'">
+                    <div :class="isDark ? 'darkGray' : 'lightGray'" style="margin-bottom: 5px;font-size: 14px;">R{{ num +
+                        '\t' + $t("read_article") }}.</div>
+                    <div style="line-height:1.01" :style="mystyle">{{ article }}</div>
+                    <div v-if="isExp">
+                        <hr style="padding: 0;margin: 5px;" :class="isDark ? 'darkBorder' : 'lightBorder'">
+                        <div style="line-height:1.01" :style="mystyle">{{ article_zh }}</div>
+                    </div>
                 </div>
             </div>
             <div v-else>
                 <div v-for="(item, index) in question" v-bind:key="index" :style="mystyle"
-                    style="width: 99%;margin-bottom: 10px;background-color: #333;padding: 10px;border-radius: 8px;box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.2);color:#CCC"
+                    :class="isDark ? 'darkBorder1' : 'lightBorder1'"
+                    style="width: 99%;margin-bottom: 10px;padding: 10px;border-radius: 8px;box-shadow: 1px 0 6px 0 rgba(0, 0, 0, 0.3);"
                     class="demo-card-square mdl-card">
-                    <div style="font-weight: bold;">
-                        <div style="color: #777;display: inline;margin-right: 5px;font-size: 16px;">
-                            {{ 'Q' + (parseInt(index) +
-                                1).toString() + '. ' }}
-                        </div>
-                        <div style="display: inline;line-height:1.01">{{ item }}</div>
-                    </div>
-                    <hr style="margin-bottom: 5px;margin-top: 8px;border: 1px groove #666;">
-                    <div v-for="(it, x) in sel[index]" v-bind:key="x" @click="onSel(it, index, x)">
-                        <div :style="styles[index][x]" style="padding: 3px;">
-                            <div style="flex:1;justify-content: flex-start;align-items: center;">
-                                <div style="color: #777;padding-right: 5px;display: inline;font-size: 16px;">{{ x == 0 ?
-                                    'A. ' : x
-                                        == 1 ? 'B. ' : x == 2 ? 'C. ' : 'D. ' }}</div>
-                                <div style="display: inline;">{{ it }}</div>
+                    <div>
+                        <div style="font-weight: bold;">
+                            <div style="display: inline;margin-right: 5px;font-size: 14px;"
+                                :class="isDark ? 'darkGray' : 'lightGray'">
+                                {{ 'Q' + (parseInt(index) +
+                                    1).toString() + '. ' }}
+                            </div>
+                            <div style="display: inline;line-height:1.01" :class="isDark ? 'dark' : 'light'">{{ item }}
                             </div>
                         </div>
-                        <hr style="border: 1px groove #444;margin: 5px 5px 5px 5px;padding: 0;">
+                        <hr style="padding: 0;margin: 0;" :class="isDark ? 'darkBorder' : 'lightBorder'">
+                        <div v-for="(it, x) in sel[index]" v-bind:key="x" @click="onSel(it, index, x)">
+                            <div :style="styles[index][x]" style="padding: 3px;">
+                                <div style="flex:1;justify-content: flex-start;align-items: center;">
+                                    <div style="padding-right: 5px;display: inline;font-size: 14px;">{{ x == 0 ?
+                                        'A. ' : x
+                                            == 1 ? 'B. ' : x == 2 ? 'C. ' : 'D. ' }}</div>
+                                    <div style="display: inline;">{{ it }}</div>
+                                </div>
+                            </div>
+                            <hr style="padding: 0;margin: 0;" :class="isDark ? 'darkBorder' : 'lightBorder'">
+                        </div>
+                        <div style="margin-top: 5px;line-height:1.01" v-show="isExp"  :class="isDark ? 'dark' : 'light'">{{ $t("explanation") + ' : ' +
+                            exp[index]
+                        }}</div>
                     </div>
-                    <div style="margin-top: 5px;line-height:1.01" v-show="isExp">{{ $t("explanation") + ' : ' + exp[index]
-                    }}</div>
                 </div>
             </div>
-            <div style="height: 140px;"></div>
+            <div style="height: 130px;"></div>
         </div>
         <div style="position: fixed;bottom:10px;z-index: 2;padding: 0;margin: 0;width: 100%;">
             <div v-if="!isExp && isAnswer || isNext"
                 style="display: flex;justify-content: center;margin-left: 10px;margin-right: 10px;">
-                <div style="font-size: 22px;flex:1;background-color: #252525;border-radius: 15px;height: 60px;border: 1px groove #777;display: flex;justify-content: center;align-items: center;color: #ccc;"
+                <div :class="isDark ? 'dark' : 'light'"
+                    style="font-size: 22px;flex:1;border-radius: 15px;height: 60px;border: 1px groove #777;display: flex;justify-content: center;align-items: center;"
                     @click="toStep">
                     {{ isStep ? $t("look_read") : $t("read_answer") }}
                 </div>
-                <div v-if="isNext" @click="goNext"
-                    style="font-size: 22px;margin-left: 10px;flex:1;background-color: #252525;border-radius: 15px;height: 60px;border: 1px groove #777;display: flex;justify-content: center;align-items: center;color: #ccc;">
+                <div :class="isDark ? 'dark' : 'light'" v-if="isNext" @click="goNext"
+                    style="font-size: 22px;margin-left: 10px;flex:1;border-radius: 15px;height: 60px;border: 1px groove #777;display: flex;justify-content: center;align-items: center;">
                     {{ $t("go_next") }}
                 </div>
-                <div v-if="!isExp && isAnswer" @click="toAnswer"
-                    style="font-size: 22px;flex:1;margin-left: 10px;background-color: #252525;border-radius: 15px;height: 60px;border: 1px groove #777;display: flex;justify-content: center;align-items: center;color: #ccc;">
+                <div :class="isDark ? 'dark' : 'light'" v-if="!isExp && isAnswer" @click="toAnswer"
+                    style="font-size: 22px;flex:1;margin-left: 10px;border-radius: 15px;height: 60px;border: 1px groove #777;display: flex;justify-content: center;align-items: center;">
                     {{ $t("to_answer") }}
                 </div>
             </div>
             <div v-else style="display: flex;justify-content: center;margin-left: 10px;margin-right: 10px;">
-                <div style="font-size: 22px;flex:1;background-color: #252525;border-radius: 15px;height: 60px;border: 1px groove #777;display: flex;justify-content: center;align-items: center;color: #ccc;"
+                <div :class="isDark ? 'dark' : 'light'"
+                    style="font-size: 22px;flex:1;border-radius: 15px;height: 60px;border: 1px groove #777;display: flex;justify-content: center;align-items: center;"
                     @click="toStep">
                     {{ isStep ? $t("look_read") : $t("read_answer") }}
                 </div>
@@ -83,6 +96,8 @@ export default {
     name: 'ReadTest',
     data: () => {
         return {
+            num: 1,
+            isDark: localStorage.getItem('Dark_mode') == '1' ? true : false,
             dialog: false,
             article: '',
             question: [],
@@ -136,7 +151,8 @@ export default {
         this.mystyle = s
         for (let i = 0; i < this.question.length; i++) {
             this.picked.push(null)
-            this.styles.push([{ background: '#333' }, { background: '#333' }, { background: '#333' }, { background: '#333' }])
+            if (this.isDark) this.styles.push([{ background: '#333', color: '#CCC' }, { background: '#333', color: '#CCC' }, { background: '#333', color: '#CCC' }, { background: '#333', color: '#CCC' }])
+            else this.styles.push([{ background: '#EEE', color: '#222' }, { background: '#EEE', color: '#222' }, { background: '#EEE', color: '#222' }, { background: '#EEE', color: '#222' }])
         }
     },
     methods: {
@@ -151,12 +167,14 @@ export default {
             this.isExp = true
             this.isNext = true
             this.isStep = true
-            for (let i = 0; i < this.sel.length; i++) {
-                this.styles[i][SELECT2[this.answer[i].replace(' ', '')]] = { background: '#080' }
+            for (let i = 0; i < this.sel.length; i++) { //currect
+                if (this.isDark) this.styles[i][SELECT2[this.answer[i].replace(' ', '')]] = { background: '#060', color: '#CCC' }
+                else this.styles[i][SELECT2[this.answer[i].replace(' ', '')]] = { background: '#5F5', color: '#222' }
             }
-            for (let i = 0; i < this.sel.length; i++) {
+            for (let i = 0; i < this.sel.length; i++) { //sel
                 if (SELECT[this.picked[i]] != this.answer[i].replace(' ', '')) {
-                    this.styles[i][this.picked[i]] = { background: '#800' }
+                    if (this.isDark) this.styles[i][this.picked[i]] = { background: '#B00', color: '#CCC' }
+                    else this.styles[i][this.picked[i]] = { background: '#F55', color: '#222' }
                 }
             }
 
@@ -168,8 +186,11 @@ export default {
             if (!this.isExp) {
                 for (let i = 0; i < this.sel.length; i++) {
                     if (i == index) {
-                        this.styles[i] = [{ background: '#333' }, { background: '#333' }, { background: '#333' }, { background: '#333' }]
-                        this.styles[i][x] = { background: '#444' }
+                        if (this.isDark) this.styles[i] = [{ background: '#333', color: '#CCC' }, { background: '#333', color: '#CCC' }, { background: '#333', color: '#CCC' }, { background: '#333', color: '#CCC' }]
+                        else this.styles[i] = [{ background: '#EEE', color: '#222' }, { background: '#EEE', color: '#222' }, { background: '#EEE', color: '#222' }, { background: '#EEE', color: '#222' }]
+
+                        if (this.isDark) this.styles[i][x] = { background: '#444', color: '#CCC' }
+                        else this.styles[i][x] = { background: '#DDD', color: '#222' }
                         this.picked[i] = x
                         break
                     }
@@ -180,6 +201,7 @@ export default {
             }
         },
         goNext() {
+            this.num = this.num + 1
             //number = Math.floor(Math.random() * r.length)
             if (qs > r.length) qs = 0
             number = rand[qs]
@@ -198,7 +220,8 @@ export default {
             this.styles = []
             this.picked = []
             for (let i = 0; i < this.sel.length; i++) {
-                this.styles.push([{ background: '#333' }, { background: '#333' }, { background: '#333' }, { background: '#333' }])
+                if (this.isDark) this.styles.push([{ background: '#333', color: '#CCC' }, { background: '#333', color: '#CCC' }, { background: '#333', color: '#CCC' }, { background: '#333', color: '#CCC' }])
+                else this.styles.push([{ background: '#EEE', color: '#222' }, { background: '#EEE', color: '#222' }, { background: '#EEE', color: '#222' }, { background: '#EEE', color: '#222' }])
             }
             for (let i = 0; i < this.question.length; i++) {
                 this.picked.push(null)
@@ -212,40 +235,6 @@ export default {
 
 
 <style scoped>
-.demo-layout-waterfall .mdl-layout__header-row .mdl-navigation__link:last-of-type {
-    padding-right: 0;
-}
-
-.correct_color {
-    background-color: green;
-}
-
-.error_color {
-    background-color: red;
-}
-
-.normal_color {
-    background-color: #444;
-}
-
-.init_color {
-    background-color: #222;
-}
-
-.v-select__selection,
-.v-select__selection--comma,
-.v-select.v-text-field input {
-    color: #666 !important;
-}
-
-v-label {
-    color: blue !important;
-}
-
-.v-icon {
-    color: blue !important;
-}
-
 .float {
     position: fixed;
     width: 60px;
@@ -253,13 +242,60 @@ v-label {
     bottom: 40px;
     right: 40px;
     background-color: #0C9;
-    color: #FFF;
     border-radius: 50px;
     text-align: center;
     box-shadow: 2px 2px 3px #999;
 }
 
-.my-float {
-    margin-top: 22px;
+.darkGray {
+    color: #999;
+}
+
+.lightGray {
+    color: #777;
+}
+
+.darkBack {
+    background-color: #222;
+}
+
+.dark {
+    background-color: #333;
+    color: #CCC;
+}
+
+.darkNoBack {
+    color: #CCC;
+}
+
+.darkBorder {
+    border: 1px groove #444;
+}
+
+.lightBorder {
+    border: 1px groove #DDD;
+}
+
+.lightBorder1 {
+    border: 1px groove #DDD;
+    background-color: #EEE;
+}
+
+.darkBorder1 {
+    border: 1px groove #444;
+    background-color: #333;
+}
+
+.light {
+    background-color: #EEE;
+    color: #222;
+}
+
+.lightBack {
+    background-color: #DDD;
+}
+
+.lightNoBack {
+    color: #222;
 }
 </style>
