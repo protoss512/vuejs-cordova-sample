@@ -1,24 +1,24 @@
 
 <template>
     <div style="height: 100vh;" :class="isDark ? 'darkBack' : 'lightBack'">
-        <div style="overflow-y: auto;margin: 10px;display:flex;flex-direction:column;">
+        <div style="overflow-y: auto;padding: 10px;display:flex;flex-direction:column;">
 
             <div class="demo-card-square mdl-card"
-                style="border-radius: 8px;width:99%;box-shadow: 1px 0 6px 0 rgba(0, 0, 0, 0.3);margin-bottom: 60px;"
-                :class="isDark ? 'darkBorder' : 'lightBorder'">
+                style="border-radius: 8px;width:100%;box-shadow: 1px 1px 2px 1px rgba(0, 0, 0, 0.3);margin-bottom: 60px;"
+                :class="isDark ? 'dark' : 'light'">
 
                 <dialog class="mdl-dialog" style="width: 100%;margin: 80px 20px 0 20px;border-radius: 8px;"
                     :class="isDark ? 'dark' : 'light'">
-                    <div class="mdl-dialog__content">
-                        <div style="font-weight: bold;margin-bottom: 5px;" :class="isDark ? 'darkGray' : 'lightGray'">{{
+                    <div class="mdl-dialog__content" style="padding: 15px 15px 5px 15px;margin: 0;">
+                        <div style="margin: 5px 0 5px 0;font-size: 14px;" :class="isDark ? 'darkGray' : 'lightGray'">{{
                             $t("please_select") }}</div>
                         <div v-for="(item, index) in sels" v-bind:key="index">
                             <button @click="onSel(item, index, position, SELC[index + position])"
-                                style="text-transform: none;text-align: left;margin: 5px;padding: 0;width: 97%;padding: 5px;">
-                                <div style="display: inline;margin-right: 10px;padding-left: 10px;font-size: 14px;"
+                                style="text-transform: none;text-align: left;margin: 5px 0 5px 0;padding: 0;width: 100%;padding: 5px 0 5px 0;">
+                                <div style="display: inline;margin-right: 10px;font-size: 14px;"
                                     :class="isDark ? 'darkGray' : 'lightGray'">
                                     {{ SELC[index + position] }}</div>
-                                <div :style="mystyle" style="display: inline;line-height:1.01;"
+                                <div :style="mystyle" style="display: inline;line-height:1.2;"
                                     :class="isDark ? 'dark' : 'light'">{{
                                         item }}</div>
                             </button>
@@ -31,12 +31,12 @@
                                 $t("cancel") }}</button>
                     </div>
                 </dialog>
-                <div class="mdl-card__supporting-text" style="width:100%;" :class="isDark ? 'dark' : 'light'">
+                <div style="width:100%;padding: 10px;" :class="isDark ? 'dark' : 'light'">
                     <div style="margin-bottom: 5px;font-size: 14px;" :class="isDark ? 'darkGray' : 'lightGray'">{{ 'Q' + num
                         + '.' +
                         $t("read_article") }}</div>
                     <div v-if="isExp">
-                        <div :style="mystyle" style="line-height:1.01;display: inline-block;" v-for="(item, i) in reals"
+                        <div :style="mystyle" style="line-height:1.2;display: inline-block;" v-for="(item, i) in reals"
                             :key="i">
                             <div style="margin-right: 5px;padding: 2px;" v-if="an.includes(i)"
                                 :class="isDark ? 'lightBorder' : 'darkBorder'">
@@ -47,7 +47,7 @@
                             </div>
                         </div>
                     </div>
-                    <div v-else :style="mystyle" style="line-height:1.01;display: inline-block;"
+                    <div v-else :style="mystyle" style="line-height:1.2;display: inline-block;"
                         v-for="(item, index) in arts" :key="index">
                         <button type="button" class="show-modal" style="margin-right: 5px;padding: 2px;"
                             v-if="an.includes(index)" :class="isDark ? 'lightBorder' : 'darkBorder'" @click="open(index)">
@@ -64,23 +64,21 @@
                 </div>
                 <hr style="padding: 0;margin: 0;" :class="isDark ? 'darkBorder' : 'lightBorder'">
                 <div v-if='isExp' :style="mystyle" :class="isDark ? 'dark' : 'light'">
-                    <div style="margin: 10px;line-height:1.01">
+                    <div style="margin: 10px;line-height:1.2">
                         {{ isCorrect ? $t("correct") : $t("fail") + sel }}</div>
                     <hr style="padding: 0;margin: 0;" :class="isDark ? 'darkBorder' : 'lightBorder'">
-                    <div style="margin: 10px;line-height:1.01">{{ exp }}</div>
+                    <div style="margin: 10px;line-height:1.2">{{ exp }}</div>
                 </div>
                 <div class="mdl-card__actions mdl-card--border" :class="isDark ? 'dark' : 'light'">
-                    <button v-if='isExp' @click="goNext"
-                        class="mdl-button mdl-js-button mdl-card__supporting-text mdl-button--primary"
+                    <button v-if='isExp' @click="goNext" class="mdl-button mdl-js-button  mdl-button--primary"
                         style="font-size: 22px;display: flex;justify-content: center;align-items: center;width: 100%;text-transform: none;color:dodgerblue;">
                         {{ $t("go_next") }}
                     </button>
-                    <button v-else-if="selected != ''" @click="anwser"
-                        class="mdl-button mdl-js-button mdl-card__supporting-text mdl-button--primary"
+                    <button v-else-if="selected != ''" @click="anwser" class="mdl-button mdl-js-button mdl-button--primary"
                         style="font-size: 22px;display: flex;justify-content: center;align-items: center;width: 100%;text-transform: none;color:dodgerblue;">
                         {{ $t("to_answer") }}
                     </button>
-                    <button v-else class="mdl-button mdl-js-button mdl-card__supporting-text" disabled
+                    <button v-else class="mdl-button mdl-js-button" disabled
                         style="font-size: 22px;display: flex;justify-content: center;align-items: center;width: 100%;text-transform: none;color:#444;">
                         {{ $t("to_answer") }}
                     </button>
@@ -91,24 +89,24 @@
         <div v-if="isDetail" @click="closeDetail"
             style="position: fixed;top:0;left:0;width:100vw;height:100vh;z-index:1;background-color:rgba(0,0,0,0.3);">
         </div>
-        <div v-if="isDetail" class="demo-card-square mdl-card" :class="isDark ? 'dark' : 'light'"
-            style="position: fixed;top:30%;left: 5%;border-radius: 8px;width: 90%;z-index:2;display:flex;flex-direction:column;"
+        <div v-if="isDetail" class="demo-card-square" :class="isDark ? 'dark' : 'light'"
+            style="position: fixed;top:20%;left: 5%;border-radius: 8px;width: 90%;z-index:2;display:flex;flex-direction:column;"
             :style="mystyle">
-            <div class="mdl-card__supporting-text" style="width: 100%;">
+            <div style="width: 100%;padding: 10px;">
                 <div style="margin-bottom: 5px;width: 100%;font-size: 12px;" :class="isDark ? 'darkGray' : 'lightGray'">{{
                     $t("trans_not") }}</div>
-                <div style="font-size: 20px;line-height:1.01;width: 100%;" :class="isDark ? 'dark' : 'light'">
+                <div style="font-size: 20px;line-height:1.2;width: 100%;" :class="isDark ? 'dark' : 'light'">
                     {{ onExp }}
                 </div>
             </div>
             <hr style="padding: 0;margin: 0;" :class="isDark ? 'darkBorder' : 'lightBorder'">
             <div class="mdl-card__actions mdl-card--border">
                 <div class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect" @click="closeDetail"
-                    style="padding: 0;font-size: 22px;display: flex;justify-content: center;align-items: center;width: 100%;text-transform: none;color:dodgerblue;"">
-                                                                                  {{ $t(" close") }} </div>
-                </div>
+                    style="padding: 0;font-size: 22px;display: flex;justify-content: center;align-items: center;width: 100%;text-transform: none;color:dodgerblue;">
+                    {{ $t(" close") }} </div>
             </div>
         </div>
+    </div>
 </template>
   
 <script>
@@ -214,7 +212,7 @@ export default {
                 i--
             }
         }
-        console.log(arr)
+        //console.log(arr)
         ss = arr
     },
     methods: {
@@ -226,7 +224,7 @@ export default {
                     this.position = i * 4
                 }
             }
-            console.log(this.sels, ss, this.an, this.position, idx)
+            //console.log(this.sels, ss, this.an, this.position, idx)
             let dialog = document.querySelector('dialog');
             dialog.showModal();
         },
@@ -262,9 +260,9 @@ export default {
                         locale: 'en-US',//en-US en-GB
                         rate: this.speech_rate
                     }).then(function () {
-                        //alert('success');
+                        alert('success');
                     }, function (reason) {
-                        //alert(reason);
+                        alert(reason);
                     });
             }
         },
@@ -322,7 +320,7 @@ export default {
                     i--
                 }
             }
-            console.log(arr)
+            //console.log(arr)
             ss = arr
 
             indx = 0
@@ -406,6 +404,6 @@ export default {
 }
 
 .lightBack {
-  background-color: #DDD;
+    background-color: #DDD;
 }
 </style>

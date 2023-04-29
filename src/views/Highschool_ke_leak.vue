@@ -1,54 +1,52 @@
 
 <template>
   <div style="height: 100vh;" :class="isDark ? 'darkBack' : 'lightBack'">
-    <div style="overflow-y: auto;margin: 10px;display:flex;flex-direction:column;">
+    <div style="overflow-y: auto;padding: 10px;display:flex;flex-direction:column;">
 
       <div class="demo-card-square mdl-card"
-        style="width:99%;border-radius: 8px;box-shadow: 1px 0 6px 0 rgba(0, 0, 0, 0.3);margin-bottom: 60px;"
-        :class="isDark ? 'darkBorder' : 'lightBorder'">
+        style="width:100%;border-radius: 8px;box-shadow: 1px 1px 2px 1px rgba(0, 0, 0, 0.3);margin-bottom: 60px;"
+        :class="isDark ? 'dark' : 'light'">
 
-        <div :style="mystyle" :class="isDark ? 'dark' : 'light'" class="mdl-card__supporting-text" style="width: 100%;">
+        <div :style="mystyle" :class="isDark ? 'dark' : 'light'" style="width: 100%;padding: 10px;">
           <div :class="isDark ? 'darkGray' : 'lightGray'" style="margin-bottom: 5px;font-size: 14px;">Q{{ num }}.</div>
-          <div v-if="isExp" style="line-height:1.01" :class="isDark ? 'darkGray' : 'lightGray'">{{ real }}</div>
-          <div v-else style="line-height:1.01">{{ question }}</div>
+          <div v-if="isExp" style="line-height:1.2" :class="isDark ? 'darkGray' : 'lightGray'">{{ real }}</div>
+          <div v-else style="line-height:1.2">{{ question }}</div>
           <div style="text-align: right;margin-top: 10px;" v-if='isExp'><v-icon
               style="padding: 0 5px 0 5px;margin-right: 10px;" @click="onEn"
               :class="isDark ? 'dark' : 'light'">mdi-translate</v-icon><v-icon style="padding: 0 5px 0 5px;"
               @click="speech(real)" :class="isDark ? 'dark' : 'light'">mdi-text-to-speech</v-icon></div>
         </div>
         <div v-if='isExp' :style="mystyle" :class="isDark ? 'dark' : 'light'">
-          <div style="margin: 10px;line-height:1.01">
+          <div style="margin: 10px;line-height:1.2">
             {{ isCorrect ? $t("correct") : $t("fail") + sel }}</div>
           <hr style="padding: 0;margin: 0;" :class="isDark ? 'darkBorder' : 'lightBorder'">
-          <div style="margin: 10px;line-height:1.01">{{ exp }}</div>
+          <div style="margin: 10px;line-height:1.2">{{ exp }}</div>
         </div>
 
         <div v-else v-for="(item, index) in sels" v-bind:key="index" :class="isDark ? 'dark' : 'light'">
           <button class="mdl-button mdl-js-button mdl-js-ripple-effect" @click="onSel(item, index)"
-            style="text-transform: none;text-align: left;margin: 5px;padding: 0;width: 97%;">
+            style="text-transform: none;text-align: left;margin: 5px;padding: 5px 0 10px 0;width: 97%;">
             <div style="display: inline;margin-right: 5px;padding-left: 10px;font-size: 14px;"
               :class="isDark ? 'darkGray' : 'lightGray'">{{ index == 0
                 ?
                 'A. ' : index
                   == 1 ? 'B. ' : index == 2 ? 'C. ' : 'D. ' }}</div>
-            <div :style="mystyle" style="display: inline;line-height:1.01;"
-              :class="isDark ? 'darkNoBack' : 'lightNoBack'">{{
+            <div :style="mystyle" style="display: inline;line-height:1.2;" :class="isDark ? 'darkNoBack' : 'lightNoBack'">
+              {{
                 item }}</div>
           </button>
           <hr style="padding: 0;margin: 0;" :class="isDark ? 'darkBorder' : 'lightBorder'">
         </div>
         <div class="mdl-card__actions mdl-card--border" :class="isDark ? 'dark' : 'light'">
-          <button v-if='isExp' @click="goNext"
-            class="mdl-button mdl-js-button mdl-card__supporting-text mdl-button--primary"
+          <button v-if='isExp' @click="goNext" class="mdl-button mdl-js-button mdl-button--primary"
             style="font-size: 22px;display: flex;justify-content: center;align-items: center;width: 100%;text-transform: none;color:dodgerblue;">
             {{ $t("go_next") }}
           </button>
-          <button v-else-if="selected != ''" @click="anwser"
-            class="mdl-button mdl-js-button mdl-card__supporting-text mdl-button--primary"
+          <button v-else-if="selected != ''" @click="anwser" class="mdl-button mdl-js-button mdl-button--primary"
             style="font-size: 22px;display: flex;justify-content: center;align-items: center;width: 100%;text-transform: none;color:dodgerblue;">
             {{ $t("to_answer") }}
           </button>
-          <button v-else class="mdl-button mdl-js-button mdl-card__supporting-text" disabled
+          <button v-else class="mdl-button mdl-js-button" disabled
             style="font-size: 22px;display: flex;justify-content: center;align-items: center;width: 100%;text-transform: none;color:#888;">
             {{ $t("to_answer") }}
           </button>
@@ -59,24 +57,24 @@
     <div v-if="isDetail" @click="closeDetail"
       style="position: fixed;top:0;left:0;width:100vw;height:100vh;z-index:1;background-color:rgba(0,0,0,0.3);">
     </div>
-    <div v-if="isDetail" class="demo-card-square mdl-card" :class="isDark ? 'dark' : 'light'"
+    <div v-if="isDetail" class="demo-card-square" :class="isDark ? 'dark' : 'light'"
       style="position: fixed;top:30%;left: 5%;border-radius: 8px;width: 90%;z-index:2;display:flex;flex-direction:column;"
       :style="mystyle">
-      <div class="mdl-card__supporting-text" style="width: 100%;">
+      <div style="width: 100%;padding: 10px;">
         <div style="margin-bottom: 5px;width: 100%;font-size: 12px;" :class="isDark ? 'darkGray' : 'lightGray'">{{
           $t("trans_not") }}</div>
-        <div style="font-size: 20px;line-height:1.01;width: 100%;" :class="isDark ? 'dark' : 'light'">
+        <div style="font-size: 20px;line-height:1.2;width: 100%;" :class="isDark ? 'dark' : 'light'">
           {{ onExp }}
         </div>
       </div>
       <hr style="padding: 0;margin: 0;" :class="isDark ? 'darkBorder' : 'lightBorder'">
       <div class="mdl-card__actions mdl-card--border">
         <div class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect" @click="closeDetail"
-          style="padding: 0;font-size: 22px;display: flex;justify-content: center;align-items: center;width: 100%;text-transform: none;color:dodgerblue;"">
-                            {{ $t(" close") }} </div>
-        </div>
+          style="padding: 0;font-size: 22px;display: flex;justify-content: center;align-items: center;width: 100%;text-transform: none;color:dodgerblue;">
+          {{ $t(" close") }} </div>
       </div>
     </div>
+  </div>
 </template>
 
 <script>
@@ -127,8 +125,6 @@ export default {
     if (qs > q.length) qs = 0
     number = rand[qs]
     qs++
-
-    let aar = q[number].q
 
     this.question = q[number].q
 
@@ -300,5 +296,4 @@ export default {
 .lightBack {
   background-color: #DDD;
 }
-
 </style>

@@ -22,6 +22,7 @@
           <hr style="padding: 0;margin: 0;" :class="isDark ? 'darkBorder' : 'lightBorder'">
         </template>
       </v-list>
+      <div style="padding-left:20px ;">v1.1.5</div>
     </v-navigation-drawer>
 
     <v-app-bar clipped-left :style="{ background: backColor }">
@@ -60,7 +61,8 @@ export default {
         { icon: 'mdi-code-brackets', text: i18n.t("to_Ke_Leak") },
         { icon: 'mdi-relative-scale', text: i18n.t("sctor_space") },
         { icon: 'mdi-newspaper', text: i18n.t("to_read") },
-        { icon: 'mdi-settings', text: i18n.t("setting") }
+        { icon: 'mdi-settings', text: i18n.t("setting") },
+        { icon: 'mdi-contacts', text: i18n.t("contact") }
       ]
     }
   },
@@ -100,27 +102,37 @@ export default {
       }
     },
     onSel(text) {
-      this.title = text
+
       switch (text) {
         case i18n.t("home"):
           window.location.hash = '/'
           this.icon = 'mdi-menu'
+          this.title = text
+          this.drawer = !this.drawer;
           break
         case i18n.t("to_Ke_Leak"):
           window.location.hash = '/Highschool_ke_leak'
           this.icon = 'mdi-keyboard-backspace'
+          this.title = text
           break
         case i18n.t("sctor_space"):
           window.location.hash = '/SctorSpace'
           this.icon = 'mdi-keyboard-backspace'
+          this.title = text
           break
         case i18n.t("to_read"):
           window.location.hash = '/ReadTest'
           this.icon = 'mdi-keyboard-backspace'
+          this.title = text
           break
         case i18n.t("setting"):
           window.location.hash = '/Setting'
           this.icon = 'mdi-keyboard-backspace'
+          this.title = text
+          break
+        case i18n.t("contact"):
+          window.open('https://forms.gle/ujaeV2Cgv7CvJ5Av8');
+          this.drawer = !this.drawer;
           break
       }
     }
@@ -129,7 +141,6 @@ export default {
 </script>
 
 <style scoped>
-
 .darkBorder {
   border: 1px groove #444;
 }

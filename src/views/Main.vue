@@ -1,12 +1,12 @@
 <template>
   <div style="height: 100vh;" :class="isDark ? 'darkBack' : 'lightBack'">
-    <div style="display:flex;flex-direction:column;overflow-y: auto;margin: 10px;">
+    <div style="display:flex;flex-direction:column;overflow-y: auto;padding: 10px;">
 
       <div class="demo-card-square mdl-card"
-        style="width: 99%;margin-bottom: 10px;border-radius: 8px;box-shadow: 1px 0 6px 0 rgba(0, 0, 0, 0.3);"
-        :class="isDark ? 'darkBorder' : 'lightBorder'">
+        style="width: 100%;margin-bottom: 10px;border-radius: 8px;box-shadow: 1px 1px 2px 1px rgba(0, 0, 0, 0.3);"
+        :class="isDark ? 'dark' : 'light'">
         <div class="mdl-card__title mdl-card--expand img1">
-          <h2 class="mdl-card__title-text" style="color: #DDD;font-weight: bold;">{{ $t("to_Ke_Leak") }}</h2>
+          <h2 class="mdl-card__title-text" style="color: #DDD;">{{ $t("to_Ke_Leak") }}</h2>
         </div>
         <div :class="isDark ? 'dark' : 'light'" class="mdl-card__supporting-text" style="width: 100%;">
           {{ $t("to_Ke_Leak_exp") }}
@@ -20,10 +20,10 @@
         </div>
       </div>
       <div class="demo-card-square mdl-card"
-        style="width: 99%;margin-bottom: 10px;border-radius: 8px;box-shadow: 1px 0 6px 0 rgba(0, 0, 0, 0.3);"
-        :class="isDark ? 'darkBorder' : 'lightBorder'">
+        style="width: 100%;margin-bottom: 10px;border-radius: 8px;box-shadow: 1px 1px 2px 1px rgba(0, 0, 0, 0.3);"
+        :class="isDark ? 'dark' : 'light'">
         <div class="mdl-card__title mdl-card--expand img3">
-          <h2 class="mdl-card__title-text" style="color: #DDD;font-weight: bold;">{{ $t("sctor_space") }}</h2>
+          <h2 class="mdl-card__title-text" style="color: #DDD;">{{ $t("sctor_space") }}</h2>
         </div>
         <div :class="isDark ? 'dark' : 'light'" class="mdl-card__supporting-text" style="width: 100%;">
           {{ $t("sctor_space_exp") }}
@@ -38,10 +38,10 @@
       </div>
 
       <div class="demo-card-square mdl-card"
-        style="width: 99%;margin-bottom: 10px;border-radius: 8px;box-shadow: 1px 0 6px 0 rgba(0, 0, 0, 0.3);"
-        :class="isDark ? 'darkBorder' : 'lightBorder'">
+        style="width: 100%;margin-bottom: 10px;border-radius: 8px;box-shadow: 1px 1px 2px 1px rgba(0, 0, 0, 0.3);"
+        :class="isDark ? 'dark' : 'light'">
         <div class="mdl-card__title mdl-card--expand img2">
-          <h2 class="mdl-card__title-text" style="color: #DDD;font-weight: bold;">{{ $t("to_read") }}</h2>
+          <h2 class="mdl-card__title-text" style="color: #DDD;">{{ $t("to_read") }}</h2>
         </div>
         <div :class="isDark ? 'dark' : 'light'" class="mdl-card__supporting-text" style="width: 100%;">
           {{ $t("to_read_exp") }}
@@ -62,7 +62,6 @@
 </template>
 
 <script>
-import i18n from '../i18n';
 export default {
   name: 'Main',
   components: {},
@@ -124,10 +123,6 @@ export default {
   background-color: #CCC;
 }
 
-.demo-layout-waterfall .mdl-layout__header-row .mdl-navigation__link:last-of-type {
-  padding-right: 0;
-}
-
 .demo-card-square.mdl-card {
   height: 320px;
 }
@@ -154,5 +149,4 @@ export default {
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
-}
-</style>
+}</style>

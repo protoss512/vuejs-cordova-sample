@@ -1,38 +1,38 @@
 <template>
     <div style="height: 100%;" :class="isDark ? 'darkBack' : 'lightBack'">
-        <div style="display:flex;flex-direction:column;overflow-y: auto;margin: 10px 10px 0px 10px;">
+        <div style="display:flex;flex-direction:column;overflow-y: auto;padding: 10px;">
 
             <div v-if="!isStep" class="demo-card-square mdl-card"
-                style="width: 99%;border-radius: 8px;box-shadow: 1px 0 6px 0 rgba(0, 0, 0, 0.3);"
-                :class="isDark ? 'darkBorder1' : 'lightBorder1'">
-                <div class="mdl-card__supporting-text" style="width:100%;" :class="isDark ? 'dark' : 'light'">
+                style="width: 100%;border-radius: 8px;box-shadow: 1px 1px 2px 1px rgba(0, 0, 0, 0.3);"
+                :class="isDark ? 'dark' : 'light'">
+                <div style="width:100%;padding: 10px;" :class="isDark ? 'dark' : 'light'">
                     <div :class="isDark ? 'darkGray' : 'lightGray'" style="margin-bottom: 5px;font-size: 14px;">R{{ num +
                         '\t' + $t("read_article") }}.</div>
-                    <div style="line-height:1.01" :style="mystyle">{{ article }}</div>
+                    <div style="line-height:1.2" :style="mystyle">{{ article }}</div>
                     <div v-if="isExp">
                         <hr style="padding: 0;margin: 5px;" :class="isDark ? 'darkBorder' : 'lightBorder'">
-                        <div style="line-height:1.01" :style="mystyle">{{ article_zh }}</div>
+                        <div style="line-height:1.2" :style="mystyle">{{ article_zh }}</div>
                     </div>
                 </div>
             </div>
             <div v-else>
                 <div v-for="(item, index) in question" v-bind:key="index" :style="mystyle"
-                    :class="isDark ? 'darkBorder1' : 'lightBorder1'"
-                    style="width: 99%;margin-bottom: 10px;padding: 10px;border-radius: 8px;box-shadow: 1px 0 6px 0 rgba(0, 0, 0, 0.3);"
-                    class="demo-card-square mdl-card">
+                    :class="isDark ? 'dark' : 'light'"
+                    style="width: 100%;margin-bottom: 10px;padding: 10px;border-radius: 8px;box-shadow: 1px 1px 2px 1px rgba(0, 0, 0, 0.3);"
+                    class="demo-card-square">
                     <div>
-                        <div style="font-weight: bold;">
+                        <div style="font-weight: bold;padding: 5px 0 10px 0;">
                             <div style="display: inline;margin-right: 5px;font-size: 14px;"
                                 :class="isDark ? 'darkGray' : 'lightGray'">
                                 {{ 'Q' + (parseInt(index) +
                                     1).toString() + '. ' }}
                             </div>
-                            <div style="display: inline;line-height:1.01" :class="isDark ? 'dark' : 'light'">{{ item }}
+                            <div style="display: inline;line-height:1.2" :class="isDark ? 'dark' : 'light'">{{ item }}
                             </div>
                         </div>
                         <hr style="padding: 0;margin: 0;" :class="isDark ? 'darkBorder' : 'lightBorder'">
                         <div v-for="(it, x) in sel[index]" v-bind:key="x" @click="onSel(it, index, x)">
-                            <div :style="styles[index][x]" style="padding: 3px;">
+                            <div :style="styles[index][x]" style="padding: 7px;">
                                 <div style="flex:1;justify-content: flex-start;align-items: center;">
                                     <div style="padding-right: 5px;display: inline;font-size: 14px;">{{ x == 0 ?
                                         'A. ' : x
@@ -42,7 +42,8 @@
                             </div>
                             <hr style="padding: 0;margin: 0;" :class="isDark ? 'darkBorder' : 'lightBorder'">
                         </div>
-                        <div style="margin-top: 5px;line-height:1.01" v-show="isExp"  :class="isDark ? 'dark' : 'light'">{{ $t("explanation") + ' : ' +
+                        <div style="margin-top: 5px;line-height:1.2" v-show="isExp" :class="isDark ? 'dark' : 'light'">{{
+                            $t("explanation") + ' : ' +
                             exp[index]
                         }}</div>
                     </div>
@@ -177,9 +178,6 @@ export default {
                     else this.styles[i][this.picked[i]] = { background: '#F55', color: '#222' }
                 }
             }
-
-        },
-        onEn(item) {
 
         },
         onSel(item, index, x) {
