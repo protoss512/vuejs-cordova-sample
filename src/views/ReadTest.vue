@@ -21,13 +21,13 @@
                     style="width: 100%;margin-bottom: 10px;padding: 10px;border-radius: 8px;box-shadow: 1px 1px 2px 1px rgba(0, 0, 0, 0.3);"
                     class="demo-card-square">
                     <div>
-                        <div style="font-weight: bold;padding: 5px 0 10px 0;">
+                        <div style="padding: 5px 0 10px 0;">
                             <div style="display: inline;margin-right: 5px;font-size: 14px;"
                                 :class="isDark ? 'darkGray' : 'lightGray'">
                                 {{ 'Q' + (parseInt(index) +
                                     1).toString() + '. ' }}
                             </div>
-                            <div style="display: inline;line-height:1.2" :class="isDark ? 'dark' : 'light'">{{ item }}
+                            <div style="display: inline;line-height:1.2;font-weight: 300;" :class="isDark ? 'dark' : 'light'">{{ item }}
                             </div>
                         </div>
                         <hr style="padding: 0;margin: 0;" :class="isDark ? 'darkBorder' : 'lightBorder'">

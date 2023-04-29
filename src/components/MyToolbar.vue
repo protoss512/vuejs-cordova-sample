@@ -22,7 +22,7 @@
           <hr style="padding: 0;margin: 0;" :class="isDark ? 'darkBorder' : 'lightBorder'">
         </template>
       </v-list>
-      <div style="padding-left:20px ;">v1.1.5</div>
+      <div style="padding-left:20px ;">v1.1.6</div>
     </v-navigation-drawer>
 
     <v-app-bar clipped-left :style="{ background: backColor }">
