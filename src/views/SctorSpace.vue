@@ -149,8 +149,10 @@ export default {
             speech_rate: 0.6,
         }
     },
+    beforeDestroy() {
+        this.$emit('title', 'exit');
+    },
     mounted() {
-
 
         this.$emit('title', i18n.t("sctor_space") + ' ');
         setTimeout(() => {
@@ -216,6 +218,10 @@ export default {
         ss = arr
     },
     methods: {
+        backHandler() {
+            let dialog = document.querySelector('dialog');
+            dialog.showModal();
+        },
         open(idx) {
             indx = idx
             for (let i = 0; i < this.an.length; i++) {

@@ -22,7 +22,7 @@
           <hr style="padding: 0;margin: 0;" :class="isDark ? 'darkBorder' : 'lightBorder'">
         </template>
       </v-list>
-      <div style="padding-left:20px ;">v1.1.6</div>
+      <div style="padding-left:20px ;">v1.1.7</div>
     </v-navigation-drawer>
 
     <v-app-bar clipped-left :style="{ background: backColor }">
@@ -68,7 +68,11 @@ export default {
   },
   watch: {
     title2() {
-      if (this.title2 != i18n.t("home")) {
+      if (this.title2 == 'exit') {
+        this.title = i18n.t("home")
+        this.icon = 'mdi-menu'
+      }
+      else if (this.title2 != i18n.t("home")) {
         this.title = this.title2
         this.icon = 'mdi-keyboard-backspace'
       }

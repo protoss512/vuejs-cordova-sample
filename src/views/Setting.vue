@@ -56,6 +56,9 @@ export default {
       dark_mode: localStorage.getItem('Dark_mode') == '1' ? true : false
     }
   },
+  beforeDestroy() {
+    this.$emit('title', 'exit');
+  },
   mounted() {
     this.$emit('title', i18n.t("setting"));
 

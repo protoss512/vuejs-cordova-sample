@@ -27,7 +27,8 @@
                                 {{ 'Q' + (parseInt(index) +
                                     1).toString() + '. ' }}
                             </div>
-                            <div style="display: inline;line-height:1.2;font-weight: 300;" :class="isDark ? 'dark' : 'light'">{{ item }}
+                            <div style="display: inline;line-height:1.2;font-weight: 300;"
+                                :class="isDark ? 'dark' : 'light'">{{ item }}
                             </div>
                         </div>
                         <hr style="padding: 0;margin: 0;" :class="isDark ? 'darkBorder' : 'lightBorder'">
@@ -125,6 +126,9 @@ export default {
             }
             return h == this.question.length
         }
+    },
+    beforeDestroy() {
+        this.$emit('title', 'exit');
     },
     mounted() {
         this.$emit('title', i18n.t("to_read") + ' ');

@@ -107,7 +107,13 @@ export default {
       speech_rate: 0.6,
     }
   },
+  beforeDestroy() {
+    this.$emit('title', 'exit');
+  },
   mounted() {
+
+    console.log(q.length)
+
     this.$emit('title', i18n.t("to_Ke_Leak") + ' ');
     setTimeout(() => {
       this.$emit('title', i18n.t("to_Ke_Leak"));
