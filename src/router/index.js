@@ -6,6 +6,7 @@ import ReadTest from '@/views/ReadTest'
 import Main from '@/views/Main'
 import Setting from '@/views/Setting'
 import SctorSpace from '@/views/SctorSpace'
+import Statistics from '@/views/Statistics'
 
 Vue.use(Router);
 
@@ -35,6 +36,10 @@ export default new Router({
       path: '/SctorSpace',
       name: 'SctorSpace',
       component: SctorSpace
+    }, {
+      path: '/Statistics',
+      name: 'Statistics',
+      component: Statistics
     }
   ]
 })

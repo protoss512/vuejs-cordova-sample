@@ -351,10 +351,16 @@ export default {
         },
         anwser() {
             let isCorrect = true
+            let cur = 0
+            let tnum = parseInt(localStorage.getItem('Total_num6'))
+            tnum += this.ans.length
+            localStorage.setItem('Total_num6', tnum.toString())
 
             for (let i = 0; i < this.ans.length; i++) {
                 if (this.ans[i] != this.symbols[i]) {
                     isCorrect = false
+                } else {
+                    cur++
                 }
             }
             if (isCorrect) {
@@ -363,6 +369,10 @@ export default {
                 this.sel = this.ans.join(', ')
                 this.isCorrect = false
             }
+
+            let cnum = parseInt(localStorage.getItem('Correct_num6'))
+            cnum += cur
+            localStorage.setItem('Correct_num6', cnum.toString())
 
             this.isExp = true
         }

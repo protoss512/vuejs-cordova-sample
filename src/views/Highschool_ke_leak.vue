@@ -98,8 +98,6 @@ export default {
       isExp: false,
       answer: '',
       sel: '',
-      cor_num: 1,
-      tot_num: 1,
       isDetail: false,
       onExp: '',
       mystyle: '',
@@ -139,11 +137,6 @@ export default {
     this.sels.push(q[number].s[2])
     this.sels.push(q[number].s[3])
     this.exp = q[number].e
-    if (localStorage.getItem('Total_num') == 'NaN') localStorage.setItem('Total_num', '1')
-    if (localStorage.getItem('Correct_num') == 'NaN') localStorage.setItem('Correct_num', '1')
-    this.cor_num = parseInt(localStorage.getItem('Correct_num'))
-    this.tot_num = parseInt(localStorage.getItem('Total_num'))
-
 
   },
   methods: {
@@ -218,17 +211,15 @@ export default {
       a = a.replace('_', q[number].a)
       this.real = a.replace(/\_/g, '')
 
-      let tnum = parseInt(localStorage.getItem('Total_num'))
+      let tnum = parseInt(localStorage.getItem('Total_num5'))
       tnum += 1
-      this.tot_num = tnum
-      localStorage.setItem('Total_num', tnum.toString())
+      localStorage.setItem('Total_num5', tnum.toString())
 
       if (this.selected.toLowerCase() == q[number].a.toLowerCase()) {
         this.isCorrect = true
-        let cnum = parseInt(localStorage.getItem('Correct_num'))
+        let cnum = parseInt(localStorage.getItem('Correct_num5'))
         cnum += 1
-        this.cor_num = cnum
-        localStorage.setItem('Correct_num', cnum.toString())
+        localStorage.setItem('Correct_num5', cnum.toString())
       } else {
         this.isCorrect = false
       }
@@ -254,7 +245,6 @@ export default {
       }
 
       this.isExp = true
-      //console.log(localStorage.getItem('Correct_num'), localStorage.getItem('Total_num'))
     }
   }
 }

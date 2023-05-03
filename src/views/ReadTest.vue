@@ -165,6 +165,11 @@ export default {
             this.isStep ^= true
         },
         toAnswer() {
+
+            let tnum = parseInt(localStorage.getItem('Total_num7'))
+            tnum += this.sel.length
+            localStorage.setItem('Total_num7', tnum.toString())
+
             let rs = r[number]
             this.sel = rs.q_sel
             this.answer = rs.q_a
@@ -176,13 +181,19 @@ export default {
                 if (this.isDark) this.styles[i][SELECT2[this.answer[i].replace(' ', '')]] = { background: '#060', color: '#CCC' }
                 else this.styles[i][SELECT2[this.answer[i].replace(' ', '')]] = { background: '#5F5', color: '#222' }
             }
+            let cur = 0
             for (let i = 0; i < this.sel.length; i++) { //sel
                 if (SELECT[this.picked[i]] != this.answer[i].replace(' ', '')) {
                     if (this.isDark) this.styles[i][this.picked[i]] = { background: '#B00', color: '#CCC' }
                     else this.styles[i][this.picked[i]] = { background: '#F55', color: '#222' }
+                } else {
+                    cur++
                 }
             }
 
+            let cnum = parseInt(localStorage.getItem('Correct_num7'))
+            cnum += cur
+            localStorage.setItem('Correct_num7', cnum.toString())
         },
         onSel(item, index, x) {
             if (!this.isExp) {

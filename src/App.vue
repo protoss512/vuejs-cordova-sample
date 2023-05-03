@@ -8,6 +8,7 @@
 <script>
 import i18n from './i18n';
 import myToolbar from "@/components/MyToolbar"
+
 export default {
   name: 'app',
   components: { myToolbar },
@@ -16,10 +17,22 @@ export default {
       title: i18n.t("home"),
     }
   },
+  beforeDestroy() {
+
+  },
   beforeCreate() {
 
   },
   mounted() {
+    if (localStorage.getItem('Use_time') == null) localStorage.setItem('Use_time', '1')
+
+    setInterval(() => {
+      let f = localStorage.getItem('Use_time')
+      f = parseInt(f)
+      f += 1
+      localStorage.setItem('Use_time', f.toString())
+    }, 60000)
+
     i18n.locale = 'zh'
     let f = localStorage.getItem('Font_size')
     if (f == null) {
@@ -35,6 +48,13 @@ export default {
     if (d == null) {
       localStorage.setItem('Dark_mode', '0')
     }
+
+    if (localStorage.getItem('Total_num5') == null) localStorage.setItem('Total_num5', '0')
+    if (localStorage.getItem('Correct_num5') == null) localStorage.setItem('Correct_num5', '0')
+    if (localStorage.getItem('Total_num6') == null) localStorage.setItem('Total_num6', '0')
+    if (localStorage.getItem('Correct_num6') == null) localStorage.setItem('Correct_num6', '0')
+    if (localStorage.getItem('Total_num7') == null) localStorage.setItem('Total_num7', '0')
+    if (localStorage.getItem('Correct_num7') == null) localStorage.setItem('Correct_num7', '0')
   },
   updated() {
   },

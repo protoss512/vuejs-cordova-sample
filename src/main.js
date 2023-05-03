@@ -17,12 +17,11 @@ const init = () => {
   }).$mount('#app')
 
 };
-
+var date1 = 0
 // Wait for the deviceready event to start the render
 document.addEventListener("deviceready", () => {
   // eslint-disable-next-line
   console.log("Ready, Render the App");
-
   init();
 });
 

@@ -1003,8 +1003,8 @@ export const q = [{
 }, {
   q: "The new office building has many modern features, _______ a rooftop garden, state-of-the-art technology, and eco-friendly design.",
   s: ["including", "contained", "containing", "contain",],
-  a: "contained",
-  e: "解析:句子的意思是：「這座新辦公大樓有許多現代化的設施，包括屋頂花園、先進的技術和環保設計。」根據句子的內容，適當的選項應該填入表示「包括」的詞，所以選項 A. including 是正確答案。B. contained 是過去式，與現在時態不符，不適合填入。C. containing 是現在分詞，這裡需要一個動詞，所以也不適合填入。",
+  a: "including",
+  e: "解析:句子的意思是：「這座新辦公大樓有許多現代化的設施，包括屋頂花園、先進的技術和環保設計。」根據句子的內容，適當的選項應該填入表示「包括」的詞，所以選項 A. including 是正確答案。B. contained 是過去式，與現在時態不符，不適合填入。C. containing 是現在分詞，這裡需要一個動詞，所以也不適合填入。D. contain 是動詞原形，缺少助動詞，也不符合文意。正確答案：A. including",
   z: "新辦公樓具有許多現代特色，包括屋頂花園、最先進的技術和環保設計。"
 }, {
   q: "In order to maintain _____ in the workplace, it's important to communicate clearly and respectfully with your colleagues.",
@@ -1799,7 +1799,7 @@ export const q = [{
   e: "解析：此題考查補完句子的單字，根據句意可知，公司花費多年的時間開發和測試，最終推出了一個新的產品，選項中只有 D. product 能夠與句子搭配成完整的句子，因此正確答案為 D. product。",
   z: "經過多年的開發和測試，該公司終於推出了新的產品"
 }, {
-  q: "A: With our new software, you can easily ___ the files and share them with others.",
+  q: "With our new software, you can easily ___ the files and share them with others.",
   s: ["compress", "contain", "contradict", "correspond",],
   a: "compress",
   e: "解析：本題是一個克漏字題目，考察詞彙的運用。句子前半部分提到“our new software”，故可以猜測後半部分應該是在介紹這個新軟體的功能。在四個選項中，只有 A. compress符合語境。compress一詞的意思是“壓縮”，符合將檔案壓縮後分享的功能。因此，答案為A. compress。選項 B. contain 的意思是“包含”，並不符合語境。選項 C. contradict 的意思是“與...矛盾”，也不符合語境。選項 D. correspond 的意思是“對應”，也不符合語境。",
@@ -1853,11 +1853,11 @@ export const q = [{
   e: "解析：這道題目是考驗同義詞的辨識，也是相當常見的一種題型。首先，根據句意可以知道，說話者要表達的意思是  我不同意你的提議 ，所以我們要找一個和  不同意  意思相同的詞，來填入空格中。A. deny：否認、拒絕承認，與題目所要表達的意思不符。B. decline：下降、婉拒，與題目所要表達的意思不符。C. refuse：拒絕、不願意，與題目所要表達的意思相符。D. reject：拒絕、不接受，與題目所要表達的意思相符。因此，選擇 C. 或 D. 都是正確答案，不過根據題目中的語境，reject 的語氣比較強烈，所以答案應選擇 D. reject。",
   z: "對不起，但我不得不拒絕，我不同意你的提議。"
 }, {
-  q: "A: Many people believe that a ______ degree is essential for a successful career in today's competitive job market. However, others argue that practical skills and experience are more important than academic credentials. There are pros and cons to both perspectives, and ultimately, the best approach may depend on the individual's career goals and interests.",
+  q: "Many people believe that a ______ degree is essential for a successful career in today's competitive job market. However, others argue that practical skills and experience are more important than academic credentials. There are pros and cons to both perspectives, and ultimately, the best approach may depend on the individual's career goals and interests.",
   s: ["Master's", "Bachelor's", "PhD", "Associate's",],
   a: "Bachelor's",
   e: "解析：這個題目是在探討學歷對於在競爭激烈的職場中是否重要的議題。句子中已經提到「Many people believe that a _____ degree is essential」，代表著學位是非常重要的，所以我們需要選擇一個能夠填補這個空白的學位名稱。選項中，A、C 兩個選項是高階學位，不太可能是在探討普遍性的學歷問題，排除。D 選項為二年制學位，比起 Bachelor's 學士學位來說，可能會被視為沒有 Bachelor's 學士學位重要，所以也排除。B 選項為學士學位，符合我們之前提到的 Many people believe that a _____ degree is essential，所以答案應為 B. Bachelor's。因此，正確答案為 B. Bachelor's。",
-  z: "答：許多人認為，學士學位對於在當今競爭激烈的就業市場上取得成功的職業生涯至關重要。然而，其他人認為實踐技能和經驗比學歷更重要。兩種觀點各有利弊，最終，最好的方法可能取決於個人的職業目標和興趣。"
+  z: "許多人認為，學士學位對於在當今競爭激烈的就業市場上取得成功的職業生涯至關重要。然而，其他人認為實踐技能和經驗比學歷更重要。兩種觀點各有利弊，最終，最好的方法可能取決於個人的職業目標和興趣。"
 }, {
   q: "According to the __________, the company will be profitable by the end of the year.",
   s: ["forecast", "questionnaire", "resignation", "commodity",],
@@ -2159,11 +2159,11 @@ export const q = [{
   e: "解析：題目中，提到公司將推出新產品，所以需要進行市場調查，以便瞭解消費者對產品的需求與期望，因此應選擇與此意思相符的選項。其中，A. promote 表示推廣，與題意不符，B. develop 表示開發，也不符合題意，C. launch 表示推出、上市，符合題意，D. investigate 表示調查，與題意相符度較高，但不如選C. launch 正確。因此，答案為 C. launch。D",
   z: "為了推出公司的新產品，我們將在接下來的幾個月內進行一系列的市場調查研究。"
 }, {
-  q: "Q: The new accounting software has greatly __________ the company's efficiency and productivity.",
+  q: "The new accounting software has greatly __________ the company's efficiency and productivity.",
   s: ["increased", "decreased", "improved", "maintained",],
   a: "improved",
-  e: "A: C. improved解析：本題考察的是動詞與形容詞的用法。句中主詞為“The new accounting software”，接著是一個動詞，需要選擇一個能夠修飾該動詞的形容詞，並且能夠使得整個句子意義通順的選項作為答案。根據句意，應該是新的會計軟體提高了公司的效率和生產力，因此正確答案為C. improved，表示“提高，改善”。選項A. increased表示“增加”，B. decreased表示“減少”，D. maintained表示“維持”，都與句意不符，故不是正確答案。",
-  z: "問：新的會計軟件極大地提高了公司的效率和生產力。"
+  e: "C. improved解析：本題考察的是動詞與形容詞的用法。句中主詞為“The new accounting software”，接著是一個動詞，需要選擇一個能夠修飾該動詞的形容詞，並且能夠使得整個句子意義通順的選項作為答案。根據句意，應該是新的會計軟體提高了公司的效率和生產力，因此正確答案為C. improved，表示“提高，改善”。選項A. increased表示“增加”，B. decreased表示“減少”，D. maintained表示“維持”，都與句意不符，故不是正確答案。",
+  z: "新的會計軟件極大地提高了公司的效率和生產力。"
 }, {
   q: "When it comes to investing, it is important to ___________ your risks and do your research.",
   s: ["diversify", "speculate", "allocate", "elevate",],
@@ -2203,7 +2203,7 @@ export const q = [{
 }, {
   q: "The new regulations require that all employees __________ safety training before they can start working in the factory.",
   s: ["have", "had", "will have", "having",],
-  a: "uhave",
+  a: "have",
   e: "解析：這道題是一道克漏字題，問題是要求填入一個動詞，讓這個句子變得正確。正確的答案是 A. have。根據句子結構， require  後面應該接一個動詞不定式，表示這個動作是未來要發生的。選項 B.  had  是過去完成式，表示過去某一時間已經完成的動作，不符合句子的要求；選項 C.  will have  是未來完成式，表示將來某一時間會完成的動作，也不符合句子的要求；選項 D.  having  是現在分詞，表示同時正在進行的動作，也不符合句子的要求。因此，選項 A.  have  是正確的答案，表示所有員工在開始在工廠工作之前都必須接受安全培訓。",
   z: "新規定要求所有員工在進入工廠工作前必須接受安全培訓。"
 }, {

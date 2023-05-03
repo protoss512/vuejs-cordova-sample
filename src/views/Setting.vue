@@ -2,6 +2,25 @@
   <div style="height: 100%;" :class="dark_mode ? 'darkBack' : 'lightBack'">
     <div style="display:flex;flex-direction:column;overflow-y: auto;padding: 10px;">
 
+      <dialog class="mdl-dialog" style="width: 100%;margin: 40vh 20px 0 20px;border-radius: 8px;"
+        :class="dark_mode ? 'dark' : 'light'">
+        <div class="mdl-dialog__content" style="padding: 15px 15px 5px 15px;margin: 0;">
+          <div style="margin: 5px 0 5px 0;font-size: 14px;" :class="dark_mode ? 'darkGray' : 'lightGray'">{{
+            $t("is_check") }}</div>
+        </div>
+        <div class="mdl-dialog__actions mdl-dialog__actions--full-width">
+          <button type="button" class="mdl-button mdl-js-button mdl-js-ripple-effect" style="font-size: 18px;"
+            @click="check" :class="dark_mode ? 'darkGray' : 'lightGray'">{{
+              $t("check") }}</button>
+        </div>
+        <hr style="padding: 0;margin: 0;" :class="dark_mode ? 'darkBorder' : 'lightBorder'">
+        <div class="mdl-dialog__actions mdl-dialog__actions--full-width">
+          <button type="button" class="mdl-button mdl-js-button mdl-js-ripple-effect"
+            style="color:dodgerblue;font-size: 18px;" @click="close">{{
+              $t("cancel") }}</button>
+        </div>
+      </dialog>
+
       <div class="demo-card-square"
         style="width:100%;border-radius: 8px;box-shadow: 1px 1px 2px 1px rgba(0, 0, 0, 0.3);font-size: 22px;"
         :class="dark_mode ? 'dark' : 'light'">
@@ -39,6 +58,11 @@
             </label>
           </div>
         </div>
+        <hr style="padding: 0;margin: 0;" :class="dark_mode ? 'darkBorder' : 'lightBorder'">
+        <div @click="open"
+          style="display: flex;justify-content: flex-start;align-items: center;margin: 14px 10px 14px 10px;">
+          <div style="margin-right: 10px;color: red;">{{ $t("delete_data") }}</div>
+        </div>
       </div>
 
     </div>
@@ -74,6 +98,25 @@ export default {
     this.speech_rate = localStorage.getItem('Speech_rate')
   },
   methods: {
+    open() {
+      let dialog = document.querySelector('dialog');
+      dialog.showModal();
+    },
+    close() {
+      let dialog = document.querySelector('dialog');
+      dialog.close();
+    },
+    check() {
+      let dialog = document.querySelector('dialog');
+      dialog.close();
+      localStorage.setItem('Total_num5', '0')
+      localStorage.setItem('Correct_num5', '0')
+      localStorage.setItem('Total_num6', '0')
+      localStorage.setItem('Correct_num6', '0')
+      localStorage.setItem('Total_num7', '0')
+      localStorage.setItem('Correct_num7', '0')
+      localStorage.setItem('Use_time', '1')
+    },
     onChange(event) {
       let f = event.target.value
       if (f == i18n.t("small")) {
