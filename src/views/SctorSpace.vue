@@ -153,7 +153,7 @@ export default {
         this.$emit('title', 'exit');
     },
     mounted() {
-
+        console.log(q.length)
         this.$emit('title', i18n.t("sctor_space") + ' ');
         setTimeout(() => {
             this.$emit('title', i18n.t("sctor_space"));

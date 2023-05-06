@@ -4,13 +4,13 @@
 
             <div style="flex:1;display:flex;flex-direction:column;overflow-y: auto;padding-right: 10px;padding-left: 1px;">
 
-                <div style="width: 100%;margin-bottom: 10px;border-radius: 8px;box-shadow: 1px 1px 2px 1px rgba(0, 0, 0, 0.3);"
+                <div style="width: 100%;margin-bottom: 10px;border-radius: 8px;box-shadow: 1px 1px 2px 1px rgba(0, 0, 0, 0.3);padding-bottom: 10px;"
                     :class="isDark ? 'dark' : 'light'">
                     <div style="margin: 10px;" :class="isDark ? 'darkGray' : 'lightGray'">{{ $t("use_time") }}</div>
                     <div style="margin: 10px;font-size: 18px;">{{ (use_time / 60).toFixed(2) }} HR</div>
                 </div>
 
-                <div style="width: 100%;margin-bottom: 10px;border-radius: 8px;box-shadow: 1px 1px 2px 1px rgba(0, 0, 0, 0.3);"
+                <div style="width: 100%;margin-bottom: 10px;border-radius: 8px;box-shadow: 1px 1px 2px 1px rgba(0, 0, 0, 0.3);padding-bottom: 10px;"
                     :class="isDark ? 'dark' : 'light'">
                     <div style="margin: 10px;" :class="isDark ? 'darkGray' : 'lightGray'">{{ $t("sctor_space") }} - {{
                         $t("anwser_num") }}</div>
@@ -28,7 +28,7 @@
             </div>
 
             <div style="flex:1;display:flex;flex-direction:column;overflow-y: auto;padding-right: 2px;padding-left: 1px;">
-                <div style="width: 100%;margin-bottom: 10px;border-radius: 8px;box-shadow: 1px 1px 2px 1px rgba(0, 0, 0, 0.3);"
+                <div style="width: 100%;margin-bottom: 10px;border-radius: 8px;box-shadow: 1px 1px 2px 1px rgba(0, 0, 0, 0.3);padding-bottom: 10px;"
                     :class="isDark ? 'dark' : 'light'">
                     <div style="margin: 10px;" :class="isDark ? 'darkGray' : 'lightGray'">{{ $t("to_Ke_Leak") }} - {{
                         $t("anwser_num") }}</div>
@@ -43,7 +43,7 @@
                         <div style="flex:1"></div>
                     </div>
                 </div>
-                <div style="width: 100%;margin-bottom: 10px;border-radius: 8px;box-shadow: 1px 1px 2px 1px rgba(0, 0, 0, 0.3);"
+                <div style="width: 100%;margin-bottom: 10px;border-radius: 8px;box-shadow: 1px 1px 2px 1px rgba(0, 0, 0, 0.3);padding-bottom: 10px;"
                     :class="isDark ? 'dark' : 'light'">
                     <div style="margin: 10px;" :class="isDark ? 'darkGray' : 'lightGray'">{{ $t("to_read") }} - {{
                         $t("anwser_num") }}</div>

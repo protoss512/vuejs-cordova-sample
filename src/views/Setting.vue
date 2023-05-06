@@ -25,14 +25,23 @@
         style="width:100%;border-radius: 8px;box-shadow: 1px 1px 2px 1px rgba(0, 0, 0, 0.3);font-size: 22px;"
         :class="dark_mode ? 'dark' : 'light'">
         <div style="display: flex;justify-content: flex-start;align-items: center;margin: 10px;">
+          <div style="margin-right: 10px;">{{ $t("language") + ' : ' }}</div>
+          <div style="flex:1"></div>
+          <select @change="onChangeLang($event)" style="padding: 5px;border: 1px groove #666;" v-model="language"
+            :class="dark_mode ? 'dark' : 'light'">
+            <option v-for="(  item, i ) in items" :key="i">{{ item.n }} ( {{ item.text }} ) </option>
+          </select>
+        </div>
+        <hr style="padding: 0;margin: 0;" :class="dark_mode ? 'darkBorder' : 'lightBorder'">
+        <div style="display: flex;justify-content: flex-start;align-items: center;margin: 10px;">
           <div style="margin-right: 10px;">{{ $t("font_rate") + ' : ' }}</div>
           <div style="flex:1"></div>
-          <select @change="onChange($event)"
+          <select @change="onChangeFont($event)"
             style="padding: 5px;border: 1px groove #666;display: inline;text-align: right;" v-model="font_size"
             :class="dark_mode ? 'dark' : 'light'">
-            <option selected>{{ $t("small") }}</option>
-            <option>{{ $t("middle") }}</option>
-            <option>{{ $t("large") }}</option>
+            <option selected>{{ small }}</option>
+            <option>{{ middle }}</option>
+            <option>{{ large }}</option>
           </select>
         </div>
         <hr style="padding: 0;margin: 0;" :class="dark_mode ? 'darkBorder' : 'lightBorder'">
@@ -41,9 +50,9 @@
           <div style="flex:1"></div>
           <select @change="onChangeSpeech($event)" style="padding: 5px;border: 1px groove #666;" v-model="speech_rate"
             :class="dark_mode ? 'dark' : 'light'">
-            <option selected>{{ $t("low") }}</option>
-            <option>{{ $t("normal") }}</option>
-            <option>{{ $t("high") }}</option>
+            <option selected>{{ low }}</option>
+            <option>{{ normal }}</option>
+            <option>{{ high }}</option>
           </select>
         </div>
         <hr style="padding: 0;margin: 0;" :class="dark_mode ? 'darkBorder' : 'lightBorder'">
@@ -75,9 +84,73 @@ export default {
   name: 'Vocabulary',
   data: () => {
     return {
-      font_size: '',
-      speech_rate: '',
-      dark_mode: localStorage.getItem('Dark_mode') == '1' ? true : false
+      language: localStorage.getItem('language2'),
+      dark_mode: localStorage.getItem('Dark_mode') == '1' ? true : false,
+      items: [
+        { n: '繁體中文', text: "zh" },
+        { n: '简体中文', text: "cn" },
+        { n: 'Indonesia', text: "id" },
+        { n: 'Deutschland', text: "de" },
+        { n: '日本', text: "ja" },
+        { n: 'France', text: "fr" },
+        { n: 'ประเทศไทย', text: "th" },
+        { n: 'Italia', text: "it" },
+        { n: 'Portugal', text: "pt" },
+        { n: 'España', text: "es" },
+        { n: 'Việt Nam', text: "vi" },
+        { n: 'United States', text: "en" },
+        { n: 'Россия', text: "ru" },
+        { n: '대한민국', text: "ko" },
+      ]
+    }
+  },
+  computed: {
+    small() {
+      return i18n.t("small")
+    },
+    middle() {
+      return i18n.t("middle")
+    },
+    large() {
+      return i18n.t("large")
+    },
+    low() {
+      return i18n.t("low")
+    },
+    normal() {
+      return i18n.t("normal")
+    },
+    high() {
+      return i18n.t("high")
+    },
+    speech_rate: {
+      get() {
+        if (localStorage.getItem('Speech_rate1') == 0) {
+          return i18n.t("low")
+        } else if (localStorage.getItem('Speech_rate1') == 1) {
+          return i18n.t("normal")
+        } else if (localStorage.getItem('Speech_rate1') == 2) {
+          return i18n.t("high")
+        }
+      },
+      set(v) {
+
+      }
+    },
+    font_size: {
+      get() {
+        let f = localStorage.getItem('Font_size1')
+        if (f == '0') {
+          return i18n.t("small")
+        } else if (f == '1') {
+          return i18n.t("middle")
+        } else if (f == '2') {
+          return i18n.t("large")
+        }
+      },
+      set(v) {
+
+      }
     }
   },
   beforeDestroy() {
@@ -85,17 +158,7 @@ export default {
   },
   mounted() {
     this.$emit('title', i18n.t("setting"));
-
     componentHandler.upgradeAllRegistered()
-    let f = localStorage.getItem('Font_size')
-    if (f == i18n.t("small")) {
-      this.font_size = i18n.t("small")
-    } else if (f == i18n.t("middle")) {
-      this.font_size = i18n.t("middle")
-    } else if (f == i18n.t("large")) {
-      this.font_size = i18n.t("large")
-    }
-    this.speech_rate = localStorage.getItem('Speech_rate')
   },
   methods: {
     open() {
@@ -117,26 +180,41 @@ export default {
       localStorage.setItem('Correct_num7', '0')
       localStorage.setItem('Use_time', '1')
     },
-    onChange(event) {
+    onChangeFont(event) {
       let f = event.target.value
-      if (f == i18n.t("small")) {
-        this.font_size = i18n.t("small")
-        localStorage.setItem('Font_size', i18n.t("small"))
-      } else if (f == i18n.t("middle")) {
-        this.font_size = i18n.t("middle")
-        localStorage.setItem('Font_size', i18n.t("middle"))
-      } else if (f == i18n.t("large")) {
-        this.font_size = i18n.t("large")
-        localStorage.setItem('Font_size', i18n.t("large"))
+      let id = 0
+      for (let i = 0; i < event.target._vOptions.length; i++) {
+        if (event.target._vOptions[i] == f) {
+          id = i
+          break
+        }
+      }
+      if (id == 0) {
+        localStorage.setItem('Font_size1', '0')
+      } else if (id == 1) {
+        localStorage.setItem('Font_size1', '1')
+      } else if (id == 2) {
+        localStorage.setItem('Font_size1', '2')
       }
     }, onChangeSpeech(event) {
       let f = event.target.value
-      console.log(f)
-      localStorage.setItem('Speech_rate', f)
+      for (let i = 0; i < event.target._vOptions.length; i++) {
+        if (event.target._vOptions[i] == f) {
+          localStorage.setItem('Speech_rate1', i)
+          break
+        }
+      }
     }, onChangeDark(event) {
       if (this.dark_mode) localStorage.setItem('Dark_mode', '1')
       else localStorage.setItem('Dark_mode', '0')
-    },
+    }, onChangeLang(event) {
+      let f = event.target.value
+      f = f.split(" ( ")[1].replace(' )', '')
+      //console.log(f)
+      i18n.locale = f
+      localStorage.setItem('language2', event.target.value)
+      localStorage.setItem('language', f)
+    }
   }
 }
 

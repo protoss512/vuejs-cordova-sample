@@ -131,6 +131,8 @@ export default {
         this.$emit('title', 'exit');
     },
     mounted() {
+        console.log(r.length)
+
         this.$emit('title', i18n.t("to_read") + ' ');
         setTimeout(() => {
             this.$emit('title', i18n.t("to_read"));

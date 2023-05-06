@@ -2,8 +2,7 @@
   <div>
     <v-navigation-drawer v-model="drawer" app floating :class="isDark ? 'dark' : 'light'">
       <div :class="isDark ? 'dark' : 'light'"
-        style="font-size: 22px;font-weight: bold;height: 50px;text-align: center;line-height: 50px;">{{ $t("app_name")
-        }}</div>
+        style="font-size: 22px;font-weight: bold;height: 50px;text-align: center;line-height: 50px;">Toeic+</div>
       <hr style="padding: 0;margin: 0;" :class="isDark ? 'darkBorder' : 'lightBorder'">
       <v-list dense>
         <template v-for="(  item, i  ) in   items  ">
@@ -56,13 +55,26 @@ export default {
   ],
   data: function () {
     return {
-      version: '1.1.8',
+      version: '1.1.9',
       isDark: localStorage.getItem('Dark_mode') == '1' ? true : false,
       drawer: false,
       backColor: localStorage.getItem('Dark_mode') == '1' ? '#333' : '#333',
       title: i18n.t("home"),
       icon: 'mdi-menu',
-      items: [
+      /*items: [
+        { icon: 'home', text: i18n.t("home") },
+        { icon: 'mdi-code-brackets', text: i18n.t("to_Ke_Leak") },
+        { icon: 'mdi-relative-scale', text: i18n.t("sctor_space") },
+        { icon: 'mdi-newspaper', text: i18n.t("to_read") },
+        { icon: 'mdi-settings', text: i18n.t("setting") },
+        { icon: 'mdi-contacts', text: i18n.t("contact") },
+        { icon: 'mdi-google-analytics', text: i18n.t("statistics") }
+      ]*/
+    }
+  },
+  computed: {
+    items() {
+      return [
         { icon: 'home', text: i18n.t("home") },
         { icon: 'mdi-code-brackets', text: i18n.t("to_Ke_Leak") },
         { icon: 'mdi-relative-scale', text: i18n.t("sctor_space") },
@@ -71,7 +83,7 @@ export default {
         { icon: 'mdi-contacts', text: i18n.t("contact") },
         { icon: 'mdi-google-analytics', text: i18n.t("statistics") }
       ]
-    }
+    },
   },
   watch: {
     title2() {
@@ -91,6 +103,8 @@ export default {
   },
   mounted: function () {
     document.addEventListener("toggleDrawer", this.toggleDrawer);
+    i18n.locale = localStorage.getItem('language')
+    this.title = i18n.t("home")
   },
   beforeDestroy: function () {
     document.removeEventListener("toggleDrawer", this.toggleDrawer);
@@ -113,7 +127,7 @@ export default {
       }
     },
     onSel(text) {
-
+      console.log(text)
       switch (text) {
         case i18n.t("home"):
           window.location.hash = '/'

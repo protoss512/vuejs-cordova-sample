@@ -3299,3 +3299,11 @@ export const q = [{
   e: "解析：這道題考察的是適當的動詞形式。由句子主語  we  可知，需要選用動詞原形  finish ，故選擇 A. finish 為正確答案。選項 B. 是現在分詞形式，不合適；選項 C. 是過去分詞形式，不符合句意；選項 D. 則是帶有不必要的不定詞符號  to ，也不合適。因此，答案為 A. finish。",
   z: "由於截止日期臨近，我們需要盡快完成該項目。"
 },]
+/*
+import { cn } from '../question_space.js'
+
+export function getQ(id) {
+  if(id=='cn') {
+
+  }
+}*/

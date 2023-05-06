@@ -33,15 +33,16 @@ export default {
       localStorage.setItem('Use_time', f.toString())
     }, 60000)
 
-    i18n.locale = 'zh'
-    let f = localStorage.getItem('Font_size')
+    i18n.locale = localStorage.getItem('language')
+
+    let f = localStorage.getItem('Font_size1')
     if (f == null) {
-      localStorage.setItem('Font_size', i18n.t("small"))
+      localStorage.setItem('Font_size1', 0)
     }
 
-    let s = localStorage.getItem('Speech_rate')
+    let s = localStorage.getItem('Speech_rate1')
     if (s == null) {
-      localStorage.setItem('Speech_rate', i18n.t("low"))
+      localStorage.setItem('Speech_rate1', '0')
     }
 
     let d = localStorage.getItem('Dark_mode')
@@ -61,7 +62,6 @@ export default {
   methods: {
     getTitle(text) {
       this.title = text
-      //console.log('App', text)
     }
   }
 }
