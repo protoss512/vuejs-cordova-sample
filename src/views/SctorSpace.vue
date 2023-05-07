@@ -114,13 +114,14 @@
 
 
 import * as tool from '../tool';
-import { q } from '../question_space.js'
+import * as question from '../question6.js'
 import i18n from '../i18n';
 var number = 0
 var ss = []
 var indx = 0
 var rand = []
 var qs = 0
+var q = ''
 const synth = window.speechSynthesis;
 export default {
     name: 'SctorSpace',
@@ -153,6 +154,7 @@ export default {
         this.$emit('title', 'exit');
     },
     mounted() {
+        q = question.getQ(localStorage.getItem('language'))
         console.log(q.length)
         this.$emit('title', i18n.t("sctor_space") + ' ');
         setTimeout(() => {

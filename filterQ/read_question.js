@@ -1,4 +1,4 @@
-export const r = [{
+const a = [{
     ar: "For years, scientists have been working to find a cure for Alzheimer's disease, a progressive brain disorder that affects millions of people worldwide. The disease is caused by the buildup of abnormal proteins in the brain that damage and kill brain cells, leading to memory loss and other cognitive problems. Although there is currently no cure for Alzheimer's disease, there are medications that can help manage symptoms and improve quality of life for patients.Recently, researchers at the University of Texas at Dallas may have made a breakthrough in the search for a cure. In a study published in the journal Science Advances, the team showed that they were able to clear out the abnormal proteins that cause Alzheimer's disease from the brains of mice. They did this by using ultrasound waves to stimulate microglial cells in the brain, which are responsible for removing waste and other harmful substances. The researchers found that the ultrasound waves caused the microglial cells to consume the abnormal proteins, reducing their buildup in the brain.The study is still in its early stages, and more research is needed to determine whether the same approach could be effective in humans. However, the results are promising, and could pave the way for a future cure for Alzheimer's disease.",
     q: ["What is Alzheimer's disease?", "What causes Alzheimer's disease?", "Is there currently a cure for Alzheimer's disease?", "What did researchers at the University of Texas at Dallas do to clear out the abnormal proteins that cause Alzheimer's disease from the brains of mice?", "Is the study mentioned in the passage likely to lead to a cure for Alzheimer's disease in humans?",],
     q_sel: [[" A type of cancer", " A progressive brain disorder", " A genetic disorder", " A disorder caused by a virus"], [" The buildup of abnormal proteins in the brain", " A virus", " Genetics", " Smoking"], [" Yes, there is a cure.", " No, there is no cure.", " There is a cure, but it is not effective.", " There used to be a cure, but it is no longer available."], [" They used chemotherapy.", " They used ultrasound waves to stimulate microglial cells.", " They removed the affected parts of the brain.", " They gave the mice a new medication."], [" Yes, a cure is now available for humans.", " No, the study is unlikely to lead to a cure for humans.", " It is too early to tell.", " The study has already led to a cure for humans."],],
@@ -188,3 +188,7 @@ export const r = [{
     q_a: [" B", " B", " D", " C",],
     zh: "氣候變化是當今地球面臨的最大挑戰之一。煤炭和石油等化石燃料的燃燒會向大氣中釋放二氧化碳和其他溫室氣體，吸收熱量並導致全球氣溫上升。氣候變化的後果包括海平面上升、更頻繁和更惡劣的天氣事件以及植物和動物物種的滅絕。為了解決這個緊迫的問題，我們必須減少溫室氣體排放，並轉向風能、太陽能和水力發電等可再生能源。"
 },]
+
+exports.getQS = function (r) {
+    return a
+};

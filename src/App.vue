@@ -33,7 +33,13 @@ export default {
       localStorage.setItem('Use_time', f.toString())
     }, 60000)
 
+    if (localStorage.getItem('language') == null) {
+      localStorage.setItem('language', 'zh')
+    }
     i18n.locale = localStorage.getItem('language')
+    if (localStorage.getItem('language2') == null) {
+      localStorage.setItem('language2', '繁體中文 ( zh )')
+    }
 
     let f = localStorage.getItem('Font_size1')
     if (f == null) {

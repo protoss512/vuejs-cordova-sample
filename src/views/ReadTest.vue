@@ -83,7 +83,7 @@
 <script>
 import i18n from '../i18n';
 import * as tool from '../tool';
-import { r } from '../read_question.js'
+import * as question from '../question7.js'
 const SELECT = ['A', 'B', 'C', 'D']
 const SELECT2 = {
     'A': 0,
@@ -94,6 +94,7 @@ const SELECT2 = {
 var number = 0
 var rand = []
 var qs = 0
+var r = []
 export default {
     name: 'ReadTest',
     data: () => {
@@ -131,6 +132,7 @@ export default {
         this.$emit('title', 'exit');
     },
     mounted() {
+        r = question.getQ(localStorage.getItem('language'))
         console.log(r.length)
 
         this.$emit('title', i18n.t("to_read") + ' ');

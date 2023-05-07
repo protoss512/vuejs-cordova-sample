@@ -1,4 +1,4 @@
-const q = [{
+export const fr = [{
             q: "The __________ of DNA molecules determines the genetic traits of an organism.",
             s: ["structure","function","color","temperature",],
             a: "structure",

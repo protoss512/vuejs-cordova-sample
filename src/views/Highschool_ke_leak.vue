@@ -79,11 +79,12 @@
 
 <script>
 import * as tool from '../tool';
-import { q } from '../question.js'
+import * as question from '../question5.js'
 import i18n from '../i18n';
 var number = 0
 var rand = []
 var qs = 0
+var q = ''
 export default {
   name: 'Highschool_ke_leak',
   data: () => {
@@ -109,7 +110,7 @@ export default {
     this.$emit('title', 'exit');
   },
   mounted() {
-
+    q = question.getQ(localStorage.getItem('language'))
     console.log(q.length)
 
     this.$emit('title', i18n.t("to_Ke_Leak") + ' ');
