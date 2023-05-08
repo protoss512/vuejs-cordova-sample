@@ -214,6 +214,7 @@ export default {
       i18n.locale = f
       localStorage.setItem('language2', event.target.value)
       localStorage.setItem('language', f)
+      this.$emit('title', i18n.t("setting"));
     }
   }
 }

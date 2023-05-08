@@ -55,21 +55,12 @@ export default {
   ],
   data: function () {
     return {
-      version: '1.1.9',
+      version: '1.2.0',
       isDark: localStorage.getItem('Dark_mode') == '1' ? true : false,
       drawer: false,
       backColor: localStorage.getItem('Dark_mode') == '1' ? '#333' : '#333',
       title: i18n.t("home"),
       icon: 'mdi-menu',
-      /*items: [
-        { icon: 'home', text: i18n.t("home") },
-        { icon: 'mdi-code-brackets', text: i18n.t("to_Ke_Leak") },
-        { icon: 'mdi-relative-scale', text: i18n.t("sctor_space") },
-        { icon: 'mdi-newspaper', text: i18n.t("to_read") },
-        { icon: 'mdi-settings', text: i18n.t("setting") },
-        { icon: 'mdi-contacts', text: i18n.t("contact") },
-        { icon: 'mdi-google-analytics', text: i18n.t("statistics") }
-      ]*/
     }
   },
   computed: {
@@ -81,7 +72,8 @@ export default {
         { icon: 'mdi-newspaper', text: i18n.t("to_read") },
         { icon: 'mdi-settings', text: i18n.t("setting") },
         { icon: 'mdi-contacts', text: i18n.t("contact") },
-        { icon: 'mdi-google-analytics', text: i18n.t("statistics") }
+        { icon: 'mdi-google-analytics', text: i18n.t("statistics") },
+        { icon: 'mdi-star', text: i18n.t("star") }
       ]
     },
   },
@@ -163,6 +155,11 @@ export default {
           window.location.hash = '/Statistics'
           this.icon = 'mdi-keyboard-backspace'
           this.title = text
+          break
+        case i18n.t("star"):
+          window.open('market://details?id=com.tony.english_app', '_system');
+          //window.open('market://details?id=com.google.android.apps.translate', '_system');
+          this.drawer = !this.drawer;
           break
       }
     }
