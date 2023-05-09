@@ -73,7 +73,7 @@ export default {
         { icon: 'mdi-settings', text: i18n.t("setting") },
         { icon: 'mdi-contacts', text: i18n.t("contact") },
         { icon: 'mdi-google-analytics', text: i18n.t("statistics") },
-        { icon: 'mdi-star', text: i18n.t("star") }
+        //{ icon: 'mdi-star', text: i18n.t("star") }
       ]
     },
   },

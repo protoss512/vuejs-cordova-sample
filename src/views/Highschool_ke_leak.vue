@@ -3,13 +3,31 @@
   <div style="height: 100vh;" :class="isDark ? 'darkBack' : 'lightBack'">
     <div style="overflow-y: auto;padding: 10px;display:flex;flex-direction:column;">
 
+      <dialog class="mdl-dialog" style="width: 100%;height: 80vh;margin: 10vh 10px 0 16px;border-radius: 8px;"
+        :class="isDark ? 'dark' : 'light'">
+        <iframe :src="web" title="google" style="height: 90%;width: 100%;" sandbox="allow-scripts allow-same-origin">
+        </iframe>
+        <hr style="padding: 0;margin: 0;" :class="isDark ? 'darkBorder' : 'lightBorder'">
+        <div class="mdl-dialog__actions mdl-dialog__actions--full-width">
+          <div class="mdl-card__actions mdl-card--border">
+            <div class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect" @click="close"
+              style="color:dodgerblue;padding: 0;font-size: 22px;display: flex;justify-content: center;align-items: center;width: 100%;text-transform: none;color:dodgerblue;">
+              {{ $t("close") }} </div>
+          </div>
+        </div>
+      </dialog>
+
       <div class="demo-card-square mdl-card"
         style="width:100%;border-radius: 8px;box-shadow: 1px 1px 2px 1px rgba(0, 0, 0, 0.3);margin-bottom: 60px;"
         :class="isDark ? 'dark' : 'light'">
 
         <div :style="mystyle" :class="isDark ? 'dark' : 'light'" style="width: 100%;padding: 10px;">
           <div :class="isDark ? 'darkGray' : 'lightGray'" style="margin-bottom: 5px;font-size: 14px;">Q{{ num }}.</div>
-          <div v-if="isExp" style="line-height:1.2" :class="isDark ? 'darkGray' : 'lightGray'">{{ real }}</div>
+          <div v-if="isExp" style="line-height:1.2" :class="isDark ? 'darkGray' : 'lightGray'">
+            <div v-for="(item, index) in real_arr" v-bind:key="index" style="display: inline-block;margin-right: 5px;" @click="open(item)"
+              :class="isDark ? 'darkBorder' : 'lightBorder'">{{ item
+              }}</div>
+          </div>
           <div v-else style="line-height:1.2">{{ question }}</div>
           <div style="text-align: right;margin-top: 10px;" v-if='isExp'><v-icon
               style="padding: 0 5px 0 5px;margin-right: 10px;" @click="onEn"
@@ -71,7 +89,7 @@
       <div class="mdl-card__actions mdl-card--border">
         <div class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect" @click="closeDetail"
           style="padding: 0;font-size: 22px;display: flex;justify-content: center;align-items: center;width: 100%;text-transform: none;color:dodgerblue;">
-          {{ $t(" close") }} </div>
+          {{ $t("close") }} </div>
       </div>
     </div>
   </div>
@@ -90,6 +108,7 @@ export default {
   data: () => {
     return {
       num: 1,
+      web: '',
       sels: [],
       isDark: localStorage.getItem('Dark_mode') == '1' ? true : false,
       question: '',
@@ -103,6 +122,7 @@ export default {
       onExp: '',
       mystyle: '',
       real: '',
+      real_arr: [],
       speech_rate: 0.6,
     }
   },
@@ -141,6 +161,15 @@ export default {
 
   },
   methods: {
+    open(item) {
+      this.web = 'https://dictionary.cambridge.org/zht/%E8%A9%9E%E5%85%B8/%E8%8B%B1%E8%AA%9E-%E6%BC%A2%E8%AA%9E-%E7%B9%81%E9%AB%94/' + item
+      let dialog = document.querySelector('dialog');
+      dialog.showModal();
+    },
+    close() {
+      let dialog = document.querySelector('dialog');
+      dialog.close();
+    },
     speech(t) {
       if (tool.checkVersion() == 'web') {
         const synth = window.speechSynthesis;
@@ -210,7 +239,9 @@ export default {
 
       let a = q[number].q
       a = a.replace('_', q[number].a)
+
       this.real = a.replace(/\_/g, '')
+      this.real_arr = this.real.split(' ');
 
       let tnum = parseInt(localStorage.getItem('Total_num5'))
       tnum += 1
