@@ -174,6 +174,7 @@ export default {
       dialog.close();
       localStorage.setItem('Total_num5', '0')
       localStorage.setItem('Correct_num5', '0')
+      localStorage.setItem('Error5', '[]')
       localStorage.setItem('Total_num6', '0')
       localStorage.setItem('Correct_num6', '0')
       localStorage.setItem('Total_num7', '0')

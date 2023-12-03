@@ -17,6 +17,10 @@
             style="color:dodgerblue;font-size: 18px;">
             {{ $t("start_study") }}
           </div>
+          <div class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect" @click="to_Highschool_ke_leak_retest"
+            style="color:dodgerblue;font-size: 18px;">
+            {{ $t("re_test") }}
+          </div>
         </div>
       </div>
       <div class="demo-card-square mdl-card"
@@ -77,6 +81,9 @@ export default {
   methods: {
     to_Highschool_ke_leak() {
       window.location.hash = '/Highschool_ke_leak';
+    },
+    to_Highschool_ke_leak_retest() {
+      window.location.hash = '/Highschool_ke_leak_retest';
     },
     to_vocabulary() {
       window.location.hash = '/Vocabulary';
@@ -149,4 +156,5 @@ export default {
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
-}</style>
+}
+</style>

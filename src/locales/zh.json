@@ -54,5 +54,7 @@
   "currect_rate": "正確率",
   "use_time": "使用時間",
   "language": "語言",
-  "star": "評價"
+  "star": "評價",
+  "re_test": "錯誤複習",
+  "no_error": "沒有錯誤題目"
 }

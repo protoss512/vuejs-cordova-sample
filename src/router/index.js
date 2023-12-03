@@ -1,6 +1,7 @@
 import Vue from 'vue'
 import Router from 'vue-router'
 import Highschool_ke_leak from '@/views/Highschool_ke_leak'
+import Highschool_ke_leak_retest from '@/views/Highschool_ke_leak_retest'
 import Vocabulary from '@/views/Vocabulary'
 import ReadTest from '@/views/ReadTest'
 import Main from '@/views/Main'
@@ -20,6 +21,10 @@ export default new Router({
       path: '/Highschool_ke_leak',
       name: 'Highschool_ke_leak',
       component: Highschool_ke_leak
+    }, {
+      path: '/Highschool_ke_leak_retest',
+      name: 'Highschool_ke_leak_retest',
+      component: Highschool_ke_leak_retest
     }, {
       path: '/Vocabulary',
       name: 'Vocabulary',

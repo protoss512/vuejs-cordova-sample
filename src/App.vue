@@ -58,6 +58,7 @@ export default {
 
     if (localStorage.getItem('Total_num5') == null) localStorage.setItem('Total_num5', '0')
     if (localStorage.getItem('Correct_num5') == null) localStorage.setItem('Correct_num5', '0')
+    if (localStorage.getItem('Error5') == null) localStorage.setItem('Error5', '[]')
     if (localStorage.getItem('Total_num6') == null) localStorage.setItem('Total_num6', '0')
     if (localStorage.getItem('Correct_num6') == null) localStorage.setItem('Correct_num6', '0')
     if (localStorage.getItem('Total_num7') == null) localStorage.setItem('Total_num7', '0')

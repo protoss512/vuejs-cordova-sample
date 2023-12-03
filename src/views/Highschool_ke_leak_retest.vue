@@ -1,6 +1,9 @@
 
 <template>
-  <div style="height: 100vh;" :class="isDark ? 'darkBack' : 'lightBack'">
+  <div v-if="isNoError" style="display: flex;justify-content: center;align-items: center;height: 80vh;font-size: 25px;"
+    :class="isDark ? 'darkNoBack' : 'lightNoBack'">{{
+      $t("no_error") }}</div>
+  <div v-else style="height: 100vh;" :class="isDark ? 'darkBack' : 'lightBack'">
     <div style="overflow-y: auto;padding: 10px;display:flex;flex-direction:column;">
 
       <dialog class="mdl-dialog" style="width: 100%;height: 80vh;margin: 10vh 10px 0 16px;border-radius: 8px;"
@@ -103,8 +106,9 @@ var number = 0
 var rand = []
 var qs = 0
 var q = ''
+var arr = []
 export default {
-  name: 'Highschool_ke_leak',
+  name: 'Highschool_ke_leak_retest',
   data: () => {
     return {
       num: 1,
@@ -124,30 +128,35 @@ export default {
       real: '',
       real_arr: [],
       speech_rate: 0.6,
+      isNoError: false
     }
   },
   beforeDestroy() {
     this.$emit('title', 'exit');
   },
   mounted() {
+    arr = JSON.parse(localStorage.getItem('Error5'))
+    console.log(arr)
+    if (arr.length == 0) this.isNoError = true
+
     q = question.getQ(localStorage.getItem('language'))
     console.log(q.length)
 
-    this.$emit('title', i18n.t("to_Ke_Leak") + ' ');
+    this.$emit('title', i18n.t("to_Ke_Leak") + ' - ' + i18n.t("re_test") + ' ');
     setTimeout(() => {
-      this.$emit('title', i18n.t("to_Ke_Leak"));
+      this.$emit('title', i18n.t("to_Ke_Leak") + ' - ' + i18n.t("re_test"));
     }, 100)
 
     const [s, t] = tool.getLang()
     this.mystyle = s
     this.speech_rate = tool.getSpeechRate()
 
-    for (let i = 0; i < q.length; i++) {
-      rand.push(i)
+    for (let i = 0; i < arr.length; i++) {
+      rand.push(arr[i])
     }
     rand = tool.shuffle(rand)
 
-    if (qs > q.length) qs = 0
+    if (qs >= arr.length) qs = 0
     number = rand[qs]
     qs++
 
@@ -215,7 +224,7 @@ export default {
     },
     goNext() {
       this.num = this.num + 1
-      if (qs > q.length) qs = 0
+      if (qs >= arr.length) qs = 0
       number = rand[qs]
       qs++
       this.question = q[number].q
@@ -255,10 +264,6 @@ export default {
         localStorage.setItem('Correct_num5', cnum.toString())
       } else {
         this.isCorrect = false
-        let arr = JSON.parse(localStorage.getItem('Error5'))
-        arr.push(number)
-        console.log(arr)
-        localStorage.setItem('Error5', JSON.stringify(arr))
       }
       this.answer = q[number].a
       for (let i = 0; i < this.sels.length; i++) {
