@@ -55,7 +55,7 @@ export default {
   ],
   data: function () {
     return {
-      version: '1.2.0',
+      version: '1.2.1',
       isDark: localStorage.getItem('Dark_mode') == '1' ? true : false,
       drawer: false,
       backColor: localStorage.getItem('Dark_mode') == '1' ? '#333' : '#333',

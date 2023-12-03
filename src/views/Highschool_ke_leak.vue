@@ -24,8 +24,8 @@
         <div :style="mystyle" :class="isDark ? 'dark' : 'light'" style="width: 100%;padding: 10px;">
           <div :class="isDark ? 'darkGray' : 'lightGray'" style="margin-bottom: 5px;font-size: 14px;">Q{{ num }}.</div>
           <div v-if="isExp" style="line-height:1.2" :class="isDark ? 'darkGray' : 'lightGray'">
-            <div v-for="(item, index) in real_arr" v-bind:key="index" style="display: inline-block;margin-right: 5px;" @click="open(item)"
-              :class="isDark ? 'darkBorder' : 'lightBorder'">{{ item
+            <div v-for="(item, index) in real_arr" v-bind:key="index" style="display: inline-block;margin-right: 5px;"
+              @click="open(item)" :class="isDark ? 'darkBorder' : 'lightBorder'">{{ item
               }}</div>
           </div>
           <div v-else style="line-height:1.2">{{ question }}</div>
@@ -162,7 +162,8 @@ export default {
   },
   methods: {
     open(item) {
-      this.web = 'https://dictionary.cambridge.org/zht/%E8%A9%9E%E5%85%B8/%E8%8B%B1%E8%AA%9E-%E6%BC%A2%E8%AA%9E-%E7%B9%81%E9%AB%94/' + item
+      //this.web = 'https://dictionary.cambridge.org/zht/%E8%A9%9E%E5%85%B8/%E8%8B%B1%E8%AA%9E-%E6%BC%A2%E8%AA%9E-%E7%B9%81%E9%AB%94/' + item
+      this.web = 'https://context.reverso.net/%E7%BF%BB%E8%AF%91/%E8%8B%B1%E8%AF%AD-%E4%B8%AD%E6%96%87/' + item
       let dialog = document.querySelector('dialog');
       dialog.showModal();
     },
